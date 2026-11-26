@@ -1,0 +1,4090 @@
+{
+  "format": "compact-source-checkpoint-v1",
+  "gitRevision": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "edition": "grh-compact",
+  "cutoffUtc": "2026-11-26T06:00:14.431+00:00",
+  "expectedModules": 794,
+  "completedModules": 200,
+  "sourceMainBuilt": false,
+  "rawExportAlreadyMatched": "challenge only",
+  "compilerRelease": {
+    "url": "https://github.com/leanprover/lean4/releases/download/v4.35.0/lean-4.35.0-windows.zip",
+    "archiveBytes": 902262322,
+    "sha256": "5fc033e93e1a7bc59c5ebf311103d2c9cd18d4b3eddda4ffa3414e8adb0ef79e",
+    "files": 17934,
+    "versions": {
+      "lean": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+      "lake": "Lake version 5.0.0-src+eb6cafb (Lean version 4.35.0)",
+      "leantar": "leantar 0.1.20"
+    }
+  },
+  "dependencyPins": [
+    {
+      "name": "mathlib",
+      "commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "verifiedLeanAndConfigBlobs": 9222
+    },
+    {
+      "name": "plausible",
+      "commit": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+      "url": "https://github.com/leanprover-community/plausible",
+      "verifiedLeanAndConfigBlobs": 31
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "verifiedLeanAndConfigBlobs": 11
+    },
+    {
+      "name": "importGraph",
+      "commit": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "verifiedLeanAndConfigBlobs": 89
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "verifiedLeanAndConfigBlobs": 48
+    },
+    {
+      "name": "aesop",
+      "commit": "4a174c490d8707121c4a9290800489f105d85e07",
+      "url": "https://github.com/leanprover-community/aesop",
+      "verifiedLeanAndConfigBlobs": 253
+    },
+    {
+      "name": "Qq",
+      "commit": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+      "url": "https://github.com/leanprover-community/quote4",
+      "verifiedLeanAndConfigBlobs": 31
+    },
+    {
+      "name": "batteries",
+      "commit": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+      "url": "https://github.com/leanprover-community/batteries",
+      "verifiedLeanAndConfigBlobs": 274
+    },
+    {
+      "name": "Cli",
+      "commit": "c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "verifiedLeanAndConfigBlobs": 8
+    }
+  ],
+  "sourceImportPlanSha256": "8faa5bd2bd4d934362117b483a81dfbb7cd34687fd69144531b00dda82f829e2",
+  "publishedCacheIdenticalCount": 167,
+  "pathMarkerFilesByArtifactSuffix": {
+    ".olean": {
+      "drive-absolute-path": 68,
+      "local-account-component": 33,
+      "Windows-user-root": 33,
+      "workspace-component": 33
+    }
+  },
+  "binaryPayloadIncluded": false,
+  "modules": [
+    {
+      "module": "Statements",
+      "source": "compact/src/Statements.lean",
+      "sourceSha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf",
+      "setupSha256": "3fb0d3cb783ab0acc02830a238661bdafba96ad1342ae51a633513b5088a49e3",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Statements.ilean",
+          "bytes": 2970,
+          "sha256": "add0ea551637371b20830655132c204805554c7518435cea4986ec230c5222a8"
+        },
+        ".olean": {
+          "path": "verified-lib/Statements.olean",
+          "bytes": 20576,
+          "sha256": "276862513aa705db19a1ecf2f694d37ddc2eb3a4c6c5d25fb6a625ea6ca0f414"
+        }
+      },
+      "publicCacheOleanSha256": "276862513aa705db19a1ecf2f694d37ddc2eb3a4c6c5d25fb6a625ea6ca0f414",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.Base",
+      "source": "compact/src/Lib/General/LinearAlgebra/Base.lean",
+      "sourceSha256": "088ce908d2db1b76eb757d39cd377002e1c9659897281f7bd7fe7ee1690bfac0",
+      "setupSha256": "779bf7eca5514fc49445945eb08d8daa7885ef43e9c59b7603c08e7f9ba4f623",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/Base.ilean",
+          "bytes": 50363,
+          "sha256": "beda06d7ee6abd7717579502558986279b1a801af6f5c7a5e41dc7c5a0bc6a5a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/Base.olean",
+          "bytes": 826952,
+          "sha256": "3500f0737e9e84945cf10945a8bb6e3a8463fe49595be456bf374e4dd4f07812"
+        }
+      },
+      "publicCacheOleanSha256": "3500f0737e9e84945cf10945a8bb6e3a8463fe49595be456bf374e4dd4f07812",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Analysis.ZpowSum",
+      "source": "compact/src/Lib/General/Analysis/ZpowSum.lean",
+      "sourceSha256": "274eb047f6235bee9ea6a93f6ad954e386f6567bb89426db16ada49a4b45f9c0",
+      "setupSha256": "c19e73a657ee342a8b66f8021b362704be7681ac11ce516d4d6ef35cebd0f39e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Analysis/ZpowSum.ilean",
+          "bytes": 21954,
+          "sha256": "72d5720b92bfbf7fdb9687999375ef965a66eb6d50ef3de875ee8bdeafaae0d8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Analysis/ZpowSum.olean",
+          "bytes": 1155752,
+          "sha256": "e3da50c4b4d68d5c49c1eb71364c533c392f758a4c3f48c483f391a579ce428f"
+        }
+      },
+      "publicCacheOleanSha256": "e3da50c4b4d68d5c49c1eb71364c533c392f758a4c3f48c483f391a579ce428f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.CoprimeValuation",
+      "source": "compact/src/Lib/Adelic/Adeles/CoprimeValuation.lean",
+      "sourceSha256": "a76a861eb0cfe6607c6c7fc7e4ca2643c237f93a0a8ee4ed41213075d966f82c",
+      "setupSha256": "62e3aa0c8724d3f2f289fdbdf19e078177753c84e6c525f166e543fe1eb3cf9d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/CoprimeValuation.ilean",
+          "bytes": 45323,
+          "sha256": "79678ebf7ea95d2f86546dd69e69af60e544807606874ef81a35e8b32a8eb534"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/CoprimeValuation.olean",
+          "bytes": 1400752,
+          "sha256": "eb27d210c3055d634f0e5cabfbd76209693bb3ea51b933f083234c1b46345747"
+        }
+      },
+      "publicCacheOleanSha256": "eb27d210c3055d634f0e5cabfbd76209693bb3ea51b933f083234c1b46345747",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.Embeddings",
+      "source": "compact/src/Lib/General/NumberTheory/Embeddings.lean",
+      "sourceSha256": "0945e883ed33775d845c489f2d2837df6d52aeb1b5efc411d27636a544694831",
+      "setupSha256": "2af3d0cc8c6028bce012698d476487a1dab60d5a602737da950e555195de912e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/Embeddings.ilean",
+          "bytes": 4629,
+          "sha256": "93f98596ef89421bd6b93ec646766fba57a70842e2758b40f416fa9a79012eec"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/Embeddings.olean",
+          "bytes": 89800,
+          "sha256": "4ee66c88d23f0e2bc51ce360e5823a4e0f0f3e16a30c16571a379759a8e53a04"
+        }
+      },
+      "publicCacheOleanSha256": "4ee66c88d23f0e2bc51ce360e5823a4e0f0f3e16a30c16571a379759a8e53a04",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.QuadField",
+      "source": "compact/src/Lib/General/NumberTheory/QuadField.lean",
+      "sourceSha256": "887033d385afdfdcc1a7bfd5d554289f97cae230d1398ddbd991b544cf29f34a",
+      "setupSha256": "8ecfb4ee9473919bb056922af724e6d4795a8f6509867582a09a7183e87ea341",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/QuadField.ilean",
+          "bytes": 31311,
+          "sha256": "08c9bf70e9c241e4e01a9a8f1ac942df29342379e37c157377864de66541fa44"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/QuadField.olean",
+          "bytes": 674144,
+          "sha256": "99fa6d4987b1fc3ef258d7374e2e38464933f86ec7f114faaa16e040d4f1209a"
+        }
+      },
+      "publicCacheOleanSha256": "99fa6d4987b1fc3ef258d7374e2e38464933f86ec7f114faaa16e040d4f1209a",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.QuadFieldSplitting",
+      "source": "compact/src/Lib/General/NumberTheory/QuadFieldSplitting.lean",
+      "sourceSha256": "5064ce6c01c23ff8fa34edbfff0b2d7a575d207572cd24bd1f974dd0551806f8",
+      "setupSha256": "fe71749a4d9a0476d1c196357f0c5e1e9a8ef3bcdccf16be112e926a1e4b8a0e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/QuadFieldSplitting.ilean",
+          "bytes": 24250,
+          "sha256": "37e88c1755a535d1d354b93831707a2110b1ae37209dc5e5d19a6de6e63bf45d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/QuadFieldSplitting.olean",
+          "bytes": 1148648,
+          "sha256": "c10aee3e925883eebf6faab7e004112952912e98cffabfaa1ecf96f3dacd53fe"
+        }
+      },
+      "publicCacheOleanSha256": "c10aee3e925883eebf6faab7e004112952912e98cffabfaa1ecf96f3dacd53fe",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Analytic.Landau.PolarLandau",
+      "source": "compact/src/Lib/Analytic/Landau/PolarLandau.lean",
+      "sourceSha256": "e35bde1b697d2574c802a39830eef54e6bddc34d44ecd644aebc0cc99d83107e",
+      "setupSha256": "8a24508f990056066d5ce0dbe81524949c8d56080d2b63132a62020034954f29",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Analytic/Landau/PolarLandau.ilean",
+          "bytes": 40055,
+          "sha256": "405d836b8a1d6ce90475f510040d7765b0ec88827455629d64c5a98060c16e76"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Analytic/Landau/PolarLandau.olean",
+          "bytes": 1465240,
+          "sha256": "b103d6ccf033427d9217976437246342c3dab141b75eb4df1d4c3f1b04d468de"
+        }
+      },
+      "publicCacheOleanSha256": "b103d6ccf033427d9217976437246342c3dab141b75eb4df1d4c3f1b04d468de",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Endgame.PrimeError",
+      "source": "compact/src/New/Endgame/PrimeError.lean",
+      "sourceSha256": "2c82bf09ecc6ab9810f456a8e6ab15c79460c19d31c33abec2612d8667240ec5",
+      "setupSha256": "ed34ad914b712572ca3859bb446960d154e80f11f9d14c55758c5a5c0381c41a",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Endgame/PrimeError.ilean",
+          "bytes": 23233,
+          "sha256": "cab0f2433abf5628366755241bff5b1def0992ae2e0aea47519543a70b0dcde1"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Endgame/PrimeError.olean",
+          "bytes": 2353544,
+          "sha256": "d1743d8b9b548afafa03b16a0a9cc40fd49f663be512a9b13f2b58d36c81cd64"
+        }
+      },
+      "publicCacheOleanSha256": "d1743d8b9b548afafa03b16a0a9cc40fd49f663be512a9b13f2b58d36c81cd64",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Analysis.OstrowskiTaussky",
+      "source": "compact/src/Lib/General/Analysis/OstrowskiTaussky.lean",
+      "sourceSha256": "60c2f52a8e35a50d7e9aa83c3a18c7b01e311c421d6ac9d1a09a74d872ad5bc0",
+      "setupSha256": "63d81008de05b48fe2191b7688efa75dd707320517dc853af8abc6c7b58411aa",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Analysis/OstrowskiTaussky.ilean",
+          "bytes": 25999,
+          "sha256": "674544c43578134affad3e6ea9eb6a5360d617226c31929e405c84fa484da9b9"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Analysis/OstrowskiTaussky.olean",
+          "bytes": 1220736,
+          "sha256": "cc6d8f22e8cf1c0a35090c9ef7a64565689ab119de50a1e872fa326565fed3b6"
+        }
+      },
+      "publicCacheOleanSha256": "cc6d8f22e8cf1c0a35090c9ef7a64565689ab119de50a1e872fa326565fed3b6",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.ProcyclicImage",
+      "source": "compact/src/Lib/General/NumberTheory/ProcyclicImage.lean",
+      "sourceSha256": "869e2411ce30555bbdbfe9d99363917349442197f162cfba713677e9e6215272",
+      "setupSha256": "29210849bca68ae95cce1fc727b3aec923e029e7f45f56df470a6e65240ef21c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ProcyclicImage.ilean",
+          "bytes": 11293,
+          "sha256": "5f2c56e45ba416bc9c42500e4be79884886e0c2b06b496b28e4ed215e6f31c19"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ProcyclicImage.olean",
+          "bytes": 358888,
+          "sha256": "7564d367b4151a6deb984d798b8ecb9348a459e9a93d4ee6c3bf5458d1b76554"
+        }
+      },
+      "publicCacheOleanSha256": "7564d367b4151a6deb984d798b8ecb9348a459e9a93d4ee6c3bf5458d1b76554",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.ClassNumberBound",
+      "source": "compact/src/Lib/General/NumberTheory/ClassNumberBound.lean",
+      "sourceSha256": "8a2d6810be2617a980cbf0f0ef28367c208ac3051aa374ddebc364655424ea9d",
+      "setupSha256": "d48a0da95b9f2b7624322f8cd30a2e8de73c56b837fdb2c0ab2245e2657c9232",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ClassNumberBound.ilean",
+          "bytes": 6271,
+          "sha256": "d5d58984ae67298e8759970e9d70233f42ffcaa3dd843e7c31ccb5194fe1224f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ClassNumberBound.olean",
+          "bytes": 673728,
+          "sha256": "1af84a86184af5bf8d8470ecbc486255752b721108020c077fc5039bd282582a"
+        }
+      },
+      "publicCacheOleanSha256": "1af84a86184af5bf8d8470ecbc486255752b721108020c077fc5039bd282582a",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.ValuationPair",
+      "source": "compact/src/Lib/General/Groups/ValuationPair.lean",
+      "sourceSha256": "22c95428b903e84f75ac1edae98f5622576047bb052f5061e83d6b181db8dbe2",
+      "setupSha256": "39c65363ceb4c198b617cf5dad77d108dea9a6344402303e3088ae63a7d899e8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/ValuationPair.ilean",
+          "bytes": 64025,
+          "sha256": "7958242af43eea70373b34807f509cdfdf5a72bcaa1b0627ce3972f4322fd9fd"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/ValuationPair.olean",
+          "bytes": 2393888,
+          "sha256": "718051b52238e1d3b0eea73bb76d36d9623b5c71a2c63c168601d33958c38aec"
+        }
+      },
+      "publicCacheOleanSha256": "718051b52238e1d3b0eea73bb76d36d9623b5c71a2c63c168601d33958c38aec",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.SumOverUnits",
+      "source": "compact/src/Lib/General/Algebra/SumOverUnits.lean",
+      "sourceSha256": "0e87abc8f3ea7c2882381845dfd5aef6fcaa8b96d36ee11a524845a2b9be606b",
+      "setupSha256": "54677751c44104a24c72fa677f7cbf0b60fca2072f50ce1eac26fa4cdee16dfe",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/SumOverUnits.ilean",
+          "bytes": 1487,
+          "sha256": "c1a3931aa61d162fd5aca2ea75065ee92e7d42d7547b2252caa062f9a2a113ee"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/SumOverUnits.olean",
+          "bytes": 42104,
+          "sha256": "709d25ef700e6b00bb67f92b85e2e1af2c406446e9730a745b7964e86caa5ab9"
+        }
+      },
+      "publicCacheOleanSha256": "709d25ef700e6b00bb67f92b85e2e1af2c406446e9730a745b7964e86caa5ab9",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ValuedMatrix",
+      "source": "compact/src/Lib/General/LinearAlgebra/ValuedMatrix.lean",
+      "sourceSha256": "d1c39373337ca27b8e9e096e0e1bd1ef0ef41f1f380b2ef5f5714d16ad4e463d",
+      "setupSha256": "03d465976d59ca6bd539308043671ebc78aece78ec0a21810517446f787a8d45",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ValuedMatrix.ilean",
+          "bytes": 21783,
+          "sha256": "465025f7f7cb8f8a7c2d70e6be960e27ea5f15fb158f602c02b9e2aa31d3b9c8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ValuedMatrix.olean",
+          "bytes": 805760,
+          "sha256": "695fd0f418fbb25c6ca5260510ad120d6d3f4fa1e8e2436dc5a9718c6e9e5374"
+        }
+      },
+      "publicCacheOleanSha256": "38f53728b28bb8c761099037b7be8b9d870df4f43e0594604b8ca11a33c4402a",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.General.NumberTheory.ZeroSymmetry",
+      "source": "compact/src/Lib/General/NumberTheory/ZeroSymmetry.lean",
+      "sourceSha256": "d7bacd5f82387d50694a9b34eba97b444cc89cf7c394acb8c2c92add3fb65fb7",
+      "setupSha256": "81ccf66c33543a4563e6740b64488e4ae853a16015ab147133f5692acb0f6357",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ZeroSymmetry.ilean",
+          "bytes": 6379,
+          "sha256": "c26f80c895afaf91bae49be97f5496ae6988f262c719e43289c1db0a3a384efb"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/ZeroSymmetry.olean",
+          "bytes": 258648,
+          "sha256": "6f21b0f2c1ca59cae6eae51d9f6db6d2c29797686660b2f28bf2aecacf508880"
+        }
+      },
+      "publicCacheOleanSha256": "6f21b0f2c1ca59cae6eae51d9f6db6d2c29797686660b2f28bf2aecacf508880",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleTopology",
+      "source": "compact/src/Lib/Adelic/Adeles/AdeleTopology.lean",
+      "sourceSha256": "26442c0cbebc8739ee887c09b7f1b4fba559c0408388bc83eddf82700109025c",
+      "setupSha256": "c8f4da41c2e3313bcbcac0b45302c05e7d3f7d992c498c7a7fd20c23ce2d88ab",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleTopology.ilean",
+          "bytes": 41714,
+          "sha256": "05bbd1787152286fe2a8b4236da97f84a937bd90acd612905b7978ca94796122"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleTopology.olean",
+          "bytes": 855520,
+          "sha256": "14b63bd31e68287811ccd2f159345b7b573c71c4615832d40c3d77752c47f492"
+        }
+      },
+      "publicCacheOleanSha256": "5a5e56763763399bcce2d5800fd25c65cd11362057d895480ee1f9b9f1e4dfa9",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Analytic.PolyaVinogradov.PolyaVinogradov",
+      "source": "compact/src/Lib/Analytic/PolyaVinogradov/PolyaVinogradov.lean",
+      "sourceSha256": "f09dcb4b767a77cc4dc4a0aeb0ac67d114b0b74651dea8f39eeb94b1da4c6f4d",
+      "setupSha256": "df5f58aa3dc5cfa460cc188e304e7f7a142598564017eb96bfacabb95da8a3e2",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Analytic/PolyaVinogradov/PolyaVinogradov.ilean",
+          "bytes": 16940,
+          "sha256": "96cae4adc38178bf39b18c7cc364b8b5f15ddb3c18a0f991e9657d6c2d85c62c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Analytic/PolyaVinogradov/PolyaVinogradov.olean",
+          "bytes": 851760,
+          "sha256": "88bd4c5041ae70c39acf8b796bbb0e7ddbf3712dee59240bf09a66bf63f51f76"
+        }
+      },
+      "publicCacheOleanSha256": "88bd4c5041ae70c39acf8b796bbb0e7ddbf3712dee59240bf09a66bf63f51f76",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleIdempotent",
+      "source": "compact/src/Lib/Adelic/Adeles/AdeleIdempotent.lean",
+      "sourceSha256": "d937a1fee37f33b7c01c7c17fda0090b08196cd3a7218897f374465092345259",
+      "setupSha256": "b1a0bfa66bd886e54b517ce245e772b35aa5050d30a913275587b73351498c94",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleIdempotent.ilean",
+          "bytes": 13557,
+          "sha256": "53455c33eb763ef83baf22a29b8f1ee4a62a86c3ed97af62c670d50f203db5ce"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleIdempotent.olean",
+          "bytes": 469720,
+          "sha256": "52a82dd23e8d3a6b733b06ee039497beade69a6532dac4765f9f1c07ec028d6e"
+        }
+      },
+      "publicCacheOleanSha256": "52a82dd23e8d3a6b733b06ee039497beade69a6532dac4765f9f1c07ec028d6e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Analytic.DirichletTheta.MellinTheta",
+      "source": "compact/src/Lib/Analytic/DirichletTheta/MellinTheta.lean",
+      "sourceSha256": "76028215fc90cc79b7f830cfc3a887ba9a836d3f03f13a4b243c4ef6160dc648",
+      "setupSha256": "f0d3b7fadb3c14005785042332de85f8439bfa924d9d5d23a789fb0179ba22ab",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Analytic/DirichletTheta/MellinTheta.ilean",
+          "bytes": 41903,
+          "sha256": "b5a9a3c3da0380763f8ff367ee7e04732040607d1336531fef562556902402e3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Analytic/DirichletTheta/MellinTheta.olean",
+          "bytes": 1678152,
+          "sha256": "4cc89bf1fe3670398eb65f691f3b64b123c61004b9aa3a4e2aad25bb17fadf74"
+        }
+      },
+      "publicCacheOleanSha256": "4cc89bf1fe3670398eb65f691f3b64b123c61004b9aa3a4e2aad25bb17fadf74",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GaloisRep.Hilbert90.TameDescent",
+      "source": "compact/src/Lib/GaloisRep/Hilbert90/TameDescent.lean",
+      "sourceSha256": "51eef55dbabc7558f6c96ef61823ead7256c34e0db0cbbf079e6d599c85b6a8b",
+      "setupSha256": "ed9b695c229af3eb4909ad53da557793006b9e8af5491cb1b894fee5f87298a8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GaloisRep/Hilbert90/TameDescent.ilean",
+          "bytes": 43526,
+          "sha256": "c8fc3aef5a7b03a80ac840f4b06042de1118b66a969641a815ed4b0e0db624f9"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GaloisRep/Hilbert90/TameDescent.olean",
+          "bytes": 3504792,
+          "sha256": "e7b8aad6e47a543a3adb0f2e2d6d1e471108cf34e3dd0d1173509e0416640465"
+        }
+      },
+      "publicCacheOleanSha256": "e7b8aad6e47a543a3adb0f2e2d6d1e471108cf34e3dd0d1173509e0416640465",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Analytic.Primes.AuxiliaryPrimes",
+      "source": "compact/src/Lib/Analytic/Primes/AuxiliaryPrimes.lean",
+      "sourceSha256": "1fcab6011bad8451e0e196550619c173e7de1f68cdad481dd98aaec64467cb5a",
+      "setupSha256": "6ba86fc3c53f3b2fd4069212fb96e001f303e5e9c904526f3c1582c3a96d99d3",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Analytic/Primes/AuxiliaryPrimes.ilean",
+          "bytes": 34332,
+          "sha256": "160ff8e4b0cabae0c9403393a7a9c137138fcd799754b5138607118252ceefc8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Analytic/Primes/AuxiliaryPrimes.olean",
+          "bytes": 2950656,
+          "sha256": "9a18ec16fc8a20c2461c4dea294b3a99b2d7d0188ac35d13024a0ba509a84853"
+        }
+      },
+      "publicCacheOleanSha256": "9a18ec16fc8a20c2461c4dea294b3a99b2d7d0188ac35d13024a0ba509a84853",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Analytic.QuadraticTwist.ZeroFreeTwist",
+      "source": "compact/src/Lib/Analytic/QuadraticTwist/ZeroFreeTwist.lean",
+      "sourceSha256": "6813c98ba4f2072b5fe66a0e6dc206f040cd091ea8932707aa9eed1ce2dff91b",
+      "setupSha256": "6e91ace4329e920fd11e3966267574a87949e78915cbb9ba1fa2b52a1cc1f3c7",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Analytic/QuadraticTwist/ZeroFreeTwist.ilean",
+          "bytes": 57604,
+          "sha256": "dd2ee256195c3f1c9ade6578dccc3195ca3007224358c84f9916c8784085683c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Analytic/QuadraticTwist/ZeroFreeTwist.olean",
+          "bytes": 2678632,
+          "sha256": "44061548df511e9b8612b136edb1630821bd7f8864ecde5f6ce06c03311fc68b"
+        }
+      },
+      "publicCacheOleanSha256": "537c572dea20402453de8651faf29f27859cb795eeaaa0361172d0baa130f61e",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.GaloisRep.Hilbert90.UnitaryHilbert90",
+      "source": "compact/src/Lib/GaloisRep/Hilbert90/UnitaryHilbert90.lean",
+      "sourceSha256": "734ba96a8572f7b0d1d3362bcbf8a7ac9b614012f4164d1b36873ce4c33d3d49",
+      "setupSha256": "d91fb53c0fb4e750e3bd213072e709aca252145e11311a295e4390a7b097a986",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GaloisRep/Hilbert90/UnitaryHilbert90.ilean",
+          "bytes": 19178,
+          "sha256": "68b46e5d63ac37cfa8dd3e68bd5b537d2d26b4e458db8bd7aee4c54685f9bef5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GaloisRep/Hilbert90/UnitaryHilbert90.olean",
+          "bytes": 1803752,
+          "sha256": "dde80753077d98099d92c4848dcda15aca2f3aa38c387e6da7f06d018e8f7aaf"
+        }
+      },
+      "publicCacheOleanSha256": "dde80753077d98099d92c4848dcda15aca2f3aa38c387e6da7f06d018e8f7aaf",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Endgame.OneSidedCriterion",
+      "source": "compact/src/New/Endgame/OneSidedCriterion.lean",
+      "sourceSha256": "a36c9c112b0455f6e4d16a3b2c115cd33e2860b9bba5543082b91c0364ccb502",
+      "setupSha256": "e9c1817313dbed0bf1a38fe44d10a18c8c5234f491a2f5cc10df522415d37b07",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Endgame/OneSidedCriterion.ilean",
+          "bytes": 23627,
+          "sha256": "f8489d3ee0c1c07853f9b41cfa45bf7d1fed88241caa2562971573eddbb5f173"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Endgame/OneSidedCriterion.olean",
+          "bytes": 1885704,
+          "sha256": "c3393bab8aa7f1d0d463ec9b9376c15846004651045887659f0a81048ba053ec"
+        }
+      },
+      "publicCacheOleanSha256": "c3393bab8aa7f1d0d463ec9b9376c15846004651045887659f0a81048ba053ec",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ExtendColumns",
+      "source": "compact/src/Lib/General/LinearAlgebra/ExtendColumns.lean",
+      "sourceSha256": "736ca00c12bfca33f370bf1e788138bc76557dd253620fc2a5c96d4af0d57b4a",
+      "setupSha256": "0dae1ac4dca8d952e148c1733e28e1dfff2af9f0c11a800ebf4145cbd79a84f5",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ExtendColumns.ilean",
+          "bytes": 24952,
+          "sha256": "baf49cf0f59991124d8e83b6123d4a6b5af4fc1bfadbfdc2ad758e362be81259"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ExtendColumns.olean",
+          "bytes": 955792,
+          "sha256": "1fd8cf5066248b891f6dadda7b03312f5bc5f7663710ae9ff615261ba78330c2"
+        }
+      },
+      "publicCacheOleanSha256": "1fd8cf5066248b891f6dadda7b03312f5bc5f7663710ae9ff615261ba78330c2",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.AdelicRingDefs",
+      "source": "compact/src/Lib/General/LinearAlgebra/AdelicRingDefs.lean",
+      "sourceSha256": "97b8db9d90dc31a00ccdcd11314d30bffb871b01bc49155d2d41f25ea807f917",
+      "setupSha256": "0228db003ea8d0c2172870a24de276d91d7fbb5d5888465f036786eddeacc138",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/AdelicRingDefs.ilean",
+          "bytes": 17632,
+          "sha256": "c9bf74e093bd12f1f5f702b34b3b7cf1db6d5a212cb52b2d515848713e65ae20"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/AdelicRingDefs.olean",
+          "bytes": 1019928,
+          "sha256": "1685abb34ebc01c31d0ade8b785c887f9fd0ed2e033790c07963d30643e34bb0"
+        }
+      },
+      "publicCacheOleanSha256": "1685abb34ebc01c31d0ade8b785c887f9fd0ed2e033790c07963d30643e34bb0",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.PartialDerivComm",
+      "source": "compact/src/Lib/General/LinearAlgebra/PartialDerivComm.lean",
+      "sourceSha256": "effa5bc48125912ca488f2924b1575e2ec940dba8182a3b3b58a61db86935828",
+      "setupSha256": "063f9f4ba752fa474cbf9b16fe1f9f5a2eb5a66b8ac34f9cf9b2919a6a748266",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/PartialDerivComm.ilean",
+          "bytes": 34752,
+          "sha256": "99c890ccdd9a1662addce426d4fd910b4b9598b251683fb3691c42524ef863cc"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/PartialDerivComm.olean",
+          "bytes": 2354920,
+          "sha256": "a02c318071b3427c4c10f832777d5fc48a4179216827ab8bb65a0ae52912ff1c"
+        }
+      },
+      "publicCacheOleanSha256": "a02c318071b3427c4c10f832777d5fc48a4179216827ab8bb65a0ae52912ff1c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Hecke.HeckeBasic",
+      "source": "compact/src/Lib/Adelic/Hecke/HeckeBasic.lean",
+      "sourceSha256": "e4e8e953c1b04bddfa148506b51860c454490cb2f86f343c09b6ecfd04d3b44e",
+      "setupSha256": "3a40c9bb95b7f9143a575a5ddc4f41bd7f28a7dcffa5231e780292a8610d946b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Hecke/HeckeBasic.ilean",
+          "bytes": 11808,
+          "sha256": "4a5e15a989360dac4306280a790dcc44056d28a82dcfb4c3c3b0522116a6e243"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Hecke/HeckeBasic.olean",
+          "bytes": 819272,
+          "sha256": "94ae1d83ce158374f5533855fa3aa9a4071479599f7cedf74ae19f6f42e61527"
+        }
+      },
+      "publicCacheOleanSha256": "68f37b76f3170cb173d2e207047232726410a2d5748471f97d8bbf87abf75e29",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.ContinuousCocycles",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/ContinuousCocycles.lean",
+      "sourceSha256": "bbcdf16020e70d05e78283d68ac2306e23ab9d11bd1b123f5ca3e4984fbbc829",
+      "setupSha256": "c660ebcefce8150eb4396a2aedf53b4c348143a5298ae98da15a1629eb978269",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/ContinuousCocycles.ilean",
+          "bytes": 5858,
+          "sha256": "7ed76180d966acc8a7ceee6ec53559fbfced1c547836c2259b0c2469727082db"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/ContinuousCocycles.olean",
+          "bytes": 3003664,
+          "sha256": "25c879fee37ca2f994c411768d9964436bd5ab87cb04ea6e82bb84579d8613ce"
+        }
+      },
+      "publicCacheOleanSha256": "25c879fee37ca2f994c411768d9964436bd5ab87cb04ea6e82bb84579d8613ce",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ColumnLattices",
+      "source": "compact/src/Lib/General/LinearAlgebra/ColumnLattices.lean",
+      "sourceSha256": "d9bf1ce5f40dab9458eb97de29243227e27e80de41318626d9ffd68184a29db9",
+      "setupSha256": "f644890011d0be9d9714b578cbcb5742282a167a7d43be7af2d77448a56cbf6d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ColumnLattices.ilean",
+          "bytes": 31704,
+          "sha256": "15856eee54b3ccf1f6a7476658a15a3fab67588511c773c1d648615201e595c6"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ColumnLattices.olean",
+          "bytes": 3086904,
+          "sha256": "e24f451bf9ba532c64093791066d16e4f8265399a2d36388fea9d03d9cddc16a"
+        }
+      },
+      "publicCacheOleanSha256": "a8b36139e37d8b0e02cc2923e5052f68c2ad6360629d0e2e625e5434223694a1",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.Places.GaloisDefs",
+      "source": "compact/src/Lib/ClassField/Places/GaloisDefs.lean",
+      "sourceSha256": "f53cc1570f814b99eae324570e180d0b19ef5210b83421b1388e2f09c9707f1c",
+      "setupSha256": "f457c3112b68bafe218f5ca3a495042f287e01ddb5e405e1e0fbabeee95126b1",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/GaloisDefs.ilean",
+          "bytes": 18846,
+          "sha256": "dca43cc9d105e53c1d76dd082bdc78b129009c468c3b4e7dab70a23beadacc19"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/GaloisDefs.olean",
+          "bytes": 657960,
+          "sha256": "cdc7991b93d3c80f1fe136b29388657f5a2e12d3ddb41c2adeec9efae0060f63"
+        }
+      },
+      "publicCacheOleanSha256": "cdc7991b93d3c80f1fe136b29388657f5a2e12d3ddb41c2adeec9efae0060f63",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Witt.FrameAction",
+      "source": "compact/src/Lib/Adelic/Witt/FrameAction.lean",
+      "sourceSha256": "ba41d42e4bc620fa71a716b022146989c7e50d598bddfb1c2a3fc9b4e692a9b4",
+      "setupSha256": "fdae130f4da0c2ad833ac719ec7f4afb483c4bd6bc8c54f290daf5c589b5e37e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Witt/FrameAction.ilean",
+          "bytes": 35651,
+          "sha256": "f5f3c2d37e45f000b08ce7fcf4c5025229b28b087353cedf1917d0394d79f696"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Witt/FrameAction.olean",
+          "bytes": 5770392,
+          "sha256": "1a6c87e154dfc34f8ea62b0485e77df76096ccc019cefd46b9d8aa6ef0e61521"
+        }
+      },
+      "publicCacheOleanSha256": "d81a3033907bbaa22a000d873cb34da2d696a6673874dba1b41f9dd32df3810c",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bruhat.EichlerMaps",
+      "source": "compact/src/Lib/DiscreteSeries/Bruhat/EichlerMaps.lean",
+      "sourceSha256": "c410f4dacc5f6cdc78aed601578ad8fb26ab063f480e51999eda578a3b94e49d",
+      "setupSha256": "bf9e9cd84bf5b734ca43d62f3c83beeff9cad862f128c61ed2b0aab00722f231",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Bruhat/EichlerMaps.ilean",
+          "bytes": 10079,
+          "sha256": "e89cd2ee4f527691ca39b4216f61309a9a7801a6381b5424b8cd5757bc726efe"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Bruhat/EichlerMaps.olean",
+          "bytes": 783584,
+          "sha256": "c11085c9d89016e23b3a9a6b971ac0142727077d6c7c1970ab6eb4c23899da3f"
+        }
+      },
+      "publicCacheOleanSha256": "c11085c9d89016e23b3a9a6b971ac0142727077d6c7c1970ab6eb4c23899da3f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CyclicClass",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/CyclicClass.lean",
+      "sourceSha256": "bee05fbf8fe2df61a985446bbdf51baabd3ce3958901351bebd3bc633da3e61f",
+      "setupSha256": "dcc260fcfc14e46a574c989c684e3a08e4d6a9fdd268f716f0398809ee618f1f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CyclicClass.ilean",
+          "bytes": 7250,
+          "sha256": "26c234bf0a1fa6145ee3c419dad25b416fec8263f403686b753b5b86c4a4c90a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CyclicClass.olean",
+          "bytes": 1536408,
+          "sha256": "b9cf882de4c1bc66551206fda534229d086cc9f9aaf9857926060f970eb4b872"
+        }
+      },
+      "publicCacheOleanSha256": "b9cf882de4c1bc66551206fda534229d086cc9f9aaf9857926060f970eb4b872",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.NonUnitalUnits",
+      "source": "compact/src/Lib/PadicHodge/Crystalline/NonUnitalUnits.lean",
+      "sourceSha256": "0e499c6e0565a23ba998efabb5a827f9823c82c95749753033c8f05d48a08b6d",
+      "setupSha256": "25609d5a151a41a1cef1a62d1a80f241503a280e01e682fd7dc0270fa1b8d38c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/Crystalline/NonUnitalUnits.ilean",
+          "bytes": 10758,
+          "sha256": "e80a077cebc13d770ae39e9cc9be8e25ec731b55262a3286cf5ef7114ce0d182"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/Crystalline/NonUnitalUnits.olean",
+          "bytes": 504416,
+          "sha256": "284d5b0134c4de1b81686dc412eaa737617cc6ccafd96f9ca9661e0ceb4cb494"
+        }
+      },
+      "publicCacheOleanSha256": "284d5b0134c4de1b81686dc412eaa737617cc6ccafd96f9ca9661e0ceb4cb494",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.EulerProduct",
+      "source": "compact/src/Lib/ClassField/HeckeL/EulerProduct.lean",
+      "sourceSha256": "c96e72c730f8fb959eeba2bffb77fbeb7ed46c3851db5a995909bf806de82ff5",
+      "setupSha256": "db6ff18278454f97d43af83393ed564d4feda9bb5424033f71f7f85dc7835152",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/EulerProduct.ilean",
+          "bytes": 69499,
+          "sha256": "b30ee760fd3053ed6f892c2fede525cbd03868c70fd9028773a706c4bc4bfc31"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/EulerProduct.olean",
+          "bytes": 2666544,
+          "sha256": "c8632a2f0dd5b5af109903bf62d53f63b355fd2c655fd8a2ac07156e4f4ced5c"
+        }
+      },
+      "publicCacheOleanSha256": "66bf6dbb16187dbbc27e434e9e591ba84ce36594b47fea84e005c5b4e08e50ee",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.General.Measure.SubgroupIntegral",
+      "source": "compact/src/Lib/General/Measure/SubgroupIntegral.lean",
+      "sourceSha256": "50192e04dc47ec43885e5a56717730ed37b76a27aa68cb1e6afe3190e50285bf",
+      "setupSha256": "2226f874d0a1ea219e28ac781027f9ac760db518a452f7655713a2bb3be60dc7",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Measure/SubgroupIntegral.ilean",
+          "bytes": 12768,
+          "sha256": "5585acae82ccd7f0eed7a7f0b0f6396aab5316ba6ef0eb2a74b508cc9d8902d8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Measure/SubgroupIntegral.olean",
+          "bytes": 297416,
+          "sha256": "6429b03263a560ef8adfd34890b9ddaca822ccbe7971d8494e155dc9530c0183"
+        }
+      },
+      "publicCacheOleanSha256": "6429b03263a560ef8adfd34890b9ddaca822ccbe7971d8494e155dc9530c0183",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicAbs",
+      "source": "compact/src/Lib/Adelic/Adeles/AdelicAbs.lean",
+      "sourceSha256": "ab2f5f3ce518d1b68b1e898b2a1e9e665386b905853a582ab3821c8670fb1153",
+      "setupSha256": "e0d4c0f1708461b96f6258b0d87c2373faf287119872e5cb64fea449a9842b17",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdelicAbs.ilean",
+          "bytes": 9643,
+          "sha256": "a6b175d7c9b57baac7acd37e14696bf9bd8ee236d00ad24db01f11644ee10b2e"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdelicAbs.olean",
+          "bytes": 405096,
+          "sha256": "0f9ddb711e1d9899329ea609e8015690f28eea5d6472e9cb2566d44dc4c94945"
+        }
+      },
+      "publicCacheOleanSha256": "0f9ddb711e1d9899329ea609e8015690f28eea5d6472e9cb2566d44dc4c94945",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdditiveCharDefs",
+      "source": "compact/src/Lib/Adelic/Adeles/AdditiveCharDefs.lean",
+      "sourceSha256": "f062ef5481e25895a32a8c07bbba1d33469ff4e5c9f001aa2036601e956c8739",
+      "setupSha256": "d4c3f2927e90ac17e0eec1988c617f7d772eb71843903797e19c6f9cda718f30",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdditiveCharDefs.ilean",
+          "bytes": 15318,
+          "sha256": "3b17bdb4af293388ac4c5c86bc3d158044929180e3b602c3108d75c769bbf9f8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdditiveCharDefs.olean",
+          "bytes": 367560,
+          "sha256": "ad04b66f9e2394482b04c9bf983872b7fabdd731fdd129c73817d4c87289548d"
+        }
+      },
+      "publicCacheOleanSha256": "ad04b66f9e2394482b04c9bf983872b7fabdd731fdd129c73817d4c87289548d",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceDefs",
+      "source": "compact/src/Lib/Adelic/Unitary/SpaceDefs.lean",
+      "sourceSha256": "5ff03523c26d8a195f3cd3e0f63a2205612e39848d8de67842ad119bbdf772f9",
+      "setupSha256": "8421ea53f3dd9e2c46738f6c9c19991c1bdc4b39351e9ba492c568db4320ea1e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceDefs.ilean",
+          "bytes": 46937,
+          "sha256": "21beaec713c8aebb3c443f4065bc57158d50af3692c560e7d8c1f7ce9ecbc861"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceDefs.olean",
+          "bytes": 2136160,
+          "sha256": "455dd220e3c97fdbb295de03fdb01cf52fbb113dd4baefc19e01a477d7cbbaed"
+        }
+      },
+      "publicCacheOleanSha256": "455dd220e3c97fdbb295de03fdb01cf52fbb113dd4baefc19e01a477d7cbbaed",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.SubmoduleNormedSpace",
+      "source": "compact/src/Lib/Weil/Construction/SubmoduleNormedSpace.lean",
+      "sourceSha256": "d86234b290e2d5b4cfb0e3f2cb123e2ad2300144a87d7cd38a57192c9b1c5e4b",
+      "setupSha256": "79ebf4839fe005b8d8a6c4c39d37653916ef3ba03cf97ce9e07dd15cb36e8f6d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/SubmoduleNormedSpace.ilean",
+          "bytes": 10953,
+          "sha256": "ea80ed7f197d2b9dcac17f611271ff667086522513ab3b7573297d9bafc8e872"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/SubmoduleNormedSpace.olean",
+          "bytes": 326384,
+          "sha256": "e1ef5a2fb8a08733a720d910562f658768bbda82ad009ccbad9611df0042c091"
+        }
+      },
+      "publicCacheOleanSha256": "e1ef5a2fb8a08733a720d910562f658768bbda82ad009ccbad9611df0042c091",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.CuspKernel.CircleMean",
+      "source": "compact/src/Lib/DiscreteSeries/CuspKernel/CircleMean.lean",
+      "sourceSha256": "4166b285a82e484a4e677b1ebfbae4c73f275be25dae40a16a3561e7d1f51894",
+      "setupSha256": "bb361626c9d75b9ff957a62812acb7e5afa77f276be453987c521b16506d9ca8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/CuspKernel/CircleMean.ilean",
+          "bytes": 37530,
+          "sha256": "6a1e54dc695b8669381f0e90484821543eb16126be38f7c0cdf4e54f5906ce0a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/CuspKernel/CircleMean.olean",
+          "bytes": 3370496,
+          "sha256": "50394f587e3028cd453d09401a59004d6c7143144cb80b9eb12434bd77ebc6d4"
+        }
+      },
+      "publicCacheOleanSha256": "50394f587e3028cd453d09401a59004d6c7143144cb80b9eb12434bd77ebc6d4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.PeriodicMean",
+      "source": "compact/src/Lib/Adelic/QuotientMeasure/PeriodicMean.lean",
+      "sourceSha256": "0c781771cba2152407cd9060aac2eca2ef434699436db8c34941d997c0114623",
+      "setupSha256": "445ae422ac557e1641a264f45eaf9477c98d901dee5370aa5d0bd3ab5dcd0823",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/PeriodicMean.ilean",
+          "bytes": 12853,
+          "sha256": "bdec837f97bf7722ffa80433729d4a8807bfd81a4bc776163affeb726593b82b"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/PeriodicMean.olean",
+          "bytes": 322336,
+          "sha256": "75ea7c699e71aa044e16ef2256395059ab855f36bb0e3d6837fecee4c985c4d8"
+        }
+      },
+      "publicCacheOleanSha256": "75ea7c699e71aa044e16ef2256395059ab855f36bb0e3d6837fecee4c985c4d8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Packing",
+      "source": "compact/src/Lib/Adelic/QuotientMeasure/Packing.lean",
+      "sourceSha256": "cdfaa465242a389591c7df80c1590197f0207d236fe644133dcddc9cc6f5eb3f",
+      "setupSha256": "2a7b08241b868642a52c3f85cafde63fdf241b6dd9f259a0f77f7f9e004773dd",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/Packing.ilean",
+          "bytes": 30552,
+          "sha256": "906841d384f98ea85ad1b9ac53a07b95ea469d9cba7c70426fcbdb23e86fe4e3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/Packing.olean",
+          "bytes": 1198888,
+          "sha256": "6a71fbcadc415153e6e89b3679c149ec813d216cc3dc0a2a8269bf3e81a8ecac"
+        }
+      },
+      "publicCacheOleanSha256": "56d9236f60b094595c6734c5baf7dbd7e0c69acb1e4a7a808c65cdfcad9578d1",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Unimodular",
+      "source": "compact/src/Lib/Adelic/QuotientMeasure/Unimodular.lean",
+      "sourceSha256": "127de79128c2ebcc4ea46595fdab3c44a49d90375d21451173e520376d1522df",
+      "setupSha256": "7bb57c5b9058ebec3930111808217865621b854e4b960386815724e8b0786272",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/Unimodular.ilean",
+          "bytes": 45886,
+          "sha256": "d32953a4d3296e5645efdbcf54e274dad92ac2dc5bce5bba7d514b6231ed385c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/Unimodular.olean",
+          "bytes": 1579904,
+          "sha256": "d45cac08df5511e7da012d21fb016a6cdaa300fbc35b0b20af30ec88a8a0765f"
+        }
+      },
+      "publicCacheOleanSha256": "d45cac08df5511e7da012d21fb016a6cdaa300fbc35b0b20af30ec88a8a0765f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Analysis.FundamentalDomain",
+      "source": "compact/src/Lib/General/Analysis/FundamentalDomain.lean",
+      "sourceSha256": "a073b04f9445347ee7c9945d9b4d35f3d6980d848251f2c044b512883415bc7a",
+      "setupSha256": "8d735a0736177b0c8a0ad71310b1d224b449eb2d654f071447d4846d1ffa82cc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Analysis/FundamentalDomain.ilean",
+          "bytes": 33643,
+          "sha256": "faa87fd55a3bba8f4db25180217fdd49d3a696d9c0cb25d93e3baa126dc847d9"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Analysis/FundamentalDomain.olean",
+          "bytes": 1878800,
+          "sha256": "3fb2de4fe842ec6d32a664851ab55975108664b0747d09278952ed0973e85839"
+        }
+      },
+      "publicCacheOleanSha256": "3fb2de4fe842ec6d32a664851ab55975108664b0747d09278952ed0973e85839",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.RationalPoints",
+      "source": "compact/src/Lib/Adelic/Adeles/RationalPoints.lean",
+      "sourceSha256": "43cf26fe830b5ea3a16e626630109967ffe55f9052f18414bf1ebb1d095d9002",
+      "setupSha256": "31c75cb851c10774f95e4ba33639800ea353d0cd7d1ed249e8e51784b742e341",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/RationalPoints.ilean",
+          "bytes": 48612,
+          "sha256": "8bf88e5fae3b348c9dff7acc4316b12a482fcdb8e2d09acc6873a6581e496676"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/RationalPoints.olean",
+          "bytes": 1900168,
+          "sha256": "3f987fcea8e69a8b3e7b8f8d265f3678d705d54fffe1eade037504a36e05b93b"
+        }
+      },
+      "publicCacheOleanSha256": "3f987fcea8e69a8b3e7b8f8d265f3678d705d54fffe1eade037504a36e05b93b",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Measure.HaarModulus",
+      "source": "compact/src/Lib/General/Measure/HaarModulus.lean",
+      "sourceSha256": "7a8f166f6f369becdb52b7bd4a42e531edf8949d77dcb2aa663a00b00df716bd",
+      "setupSha256": "b8312d055bfe1ba8d7602c8fcfc6924189f479b45e5c830b12d3eaf2eb5e137b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Measure/HaarModulus.ilean",
+          "bytes": 25345,
+          "sha256": "98bcb5d9967be81793211ead4693917b0132cc4b5b103e3982cba08253529aa8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Measure/HaarModulus.olean",
+          "bytes": 933440,
+          "sha256": "29a53515cf88e0e5ab09ee6c77f2838dbccb22e0b76e7939bfaa8024399de31e"
+        }
+      },
+      "publicCacheOleanSha256": "29a53515cf88e0e5ab09ee6c77f2838dbccb22e0b76e7939bfaa8024399de31e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.GeneralisedIndex",
+      "source": "compact/src/Lib/General/Algebra/GeneralisedIndex.lean",
+      "sourceSha256": "40c56751a9d708bfbe4363a19b842297284dc8ecdba3318fbb135f364e652e46",
+      "setupSha256": "8aba5f3e4c91c1cb57cbc4aa5fc26d677be06ced66ec9f67b2e6afc5bc3b694d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/GeneralisedIndex.ilean",
+          "bytes": 9413,
+          "sha256": "33d5b151dd20e85e0ac332e7c46e6693e8cfd30f98465949d69c1295080a91e3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/GeneralisedIndex.olean",
+          "bytes": 402416,
+          "sha256": "fb4e5bb71cf31700d6cc3971ea51f21af15f2de063cbb65541ce35eae4f76e0d"
+        }
+      },
+      "publicCacheOleanSha256": "fb4e5bb71cf31700d6cc3971ea51f21af15f2de063cbb65541ce35eae4f76e0d",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.DualPair.Kronecker",
+      "source": "compact/src/Lib/Weil/DualPair/Kronecker.lean",
+      "sourceSha256": "281e2dd5be2ab5768f08b7b9f49f70b3caac62786fdb0130e4e97043811a5cb6",
+      "setupSha256": "e4f9c9f04ad49d68a0f190a3c3ebf4508ac293ccfc1cec0db1a366b87771e9a8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/DualPair/Kronecker.ilean",
+          "bytes": 4053,
+          "sha256": "099c7b122a015628e62ef270f1f7e9068567468f7c68a25d664e3ebe1fd7f6fb"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/DualPair/Kronecker.olean",
+          "bytes": 734280,
+          "sha256": "3f9aef4f10674f05262dc31b86aa44adef157a29f7874030c186ee68dfa24ee8"
+        }
+      },
+      "publicCacheOleanSha256": "3f9aef4f10674f05262dc31b86aa44adef157a29f7874030c186ee68dfa24ee8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.GaussSum.LocalHomUnit",
+      "source": "compact/src/Lib/Weil/GaussSum/LocalHomUnit.lean",
+      "sourceSha256": "2301602e1fc66d3d804739de4c7c7ec2a6ffb866bdc901b3842033c9867407ca",
+      "setupSha256": "e583d3b904534d95ee4930f152ae8fba7d3afde8e3607f4fc117d664296195af",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/GaussSum/LocalHomUnit.ilean",
+          "bytes": 26438,
+          "sha256": "f13f0f2013af0810b754fdd0a4cc6c1dd60b8685da1176ddbe4a2b1b5706e101"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/GaussSum/LocalHomUnit.olean",
+          "bytes": 1052368,
+          "sha256": "45ba91377abdd9d4bcf523c17f542c02af41048afd31ad7632dc06845b15bde6"
+        }
+      },
+      "publicCacheOleanSha256": "45ba91377abdd9d4bcf523c17f542c02af41048afd31ad7632dc06845b15bde6",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceGram",
+      "source": "compact/src/Lib/Adelic/Unitary/SpaceGram.lean",
+      "sourceSha256": "c333547d403bd391b42bbb09907d36bf454c8111e34dc4a97b80083fffcc4155",
+      "setupSha256": "3caac85655d6f171998e3a3d08ffbab75859a734541645a26a6fc2dba7a65adc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceGram.ilean",
+          "bytes": 7599,
+          "sha256": "586e8365d4dea784b5f1199d572f63bf9cc86a8e5011f47e35a3c7b6e16001dd"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceGram.olean",
+          "bytes": 203368,
+          "sha256": "7bc065e16d604d0c0309ecf9dc52e1a8115e10a4da20211a97c36d675f0ad6c8"
+        }
+      },
+      "publicCacheOleanSha256": "7bc065e16d604d0c0309ecf9dc52e1a8115e10a4da20211a97c36d675f0ad6c8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.GaussSumSign",
+      "source": "compact/src/Lib/Weil/Construction/GaussSumSign.lean",
+      "sourceSha256": "cc90188cc673610da26d2e7f58ddfff1eb7cd339b5a2abf3151ec6a2c4f67d5c",
+      "setupSha256": "17d7f5a3576fc952df6d62218a945739f560323e591188287ddb249483f474ab",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/GaussSumSign.ilean",
+          "bytes": 5168,
+          "sha256": "ac2237cc60ff23c4661543d0457f29814bded3d219ed263e3152ca48305e4c47"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/GaussSumSign.olean",
+          "bytes": 909760,
+          "sha256": "55cda5ac71c473f7a163b0af3ca1fb6fd337f09f7197ad97d46a210093fe765d"
+        }
+      },
+      "publicCacheOleanSha256": "55cda5ac71c473f7a163b0af3ca1fb6fd337f09f7197ad97d46a210093fe765d",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.InertResidue",
+      "source": "compact/src/Lib/General/Algebra/InertResidue.lean",
+      "sourceSha256": "12dbd6e5365560a7709238da371731012fe09986105fc4e159fc15a049820804",
+      "setupSha256": "fd4cd33ab44a6e8e67b794d0d137fbc07f434eefe1f1cc8e521b0c29786f9502",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/InertResidue.ilean",
+          "bytes": 7484,
+          "sha256": "0673341c83c61b0d5b903d2965afc4bfdf98d2a50fbd54a9f1148e74a3abd6e3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/InertResidue.olean",
+          "bytes": 796464,
+          "sha256": "c8be04b3de62f115cff5fa16535df5635104d5c455a020e9f9c291f642f8ecf5"
+        }
+      },
+      "publicCacheOleanSha256": "c8be04b3de62f115cff5fa16535df5635104d5c455a020e9f9c291f642f8ecf5",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicModulus",
+      "source": "compact/src/Lib/Adelic/Adeles/AdelicModulus.lean",
+      "sourceSha256": "8b18ab07440d5ea882c5a69c282474791d85442cf9d28a3d5fb657dc693f1a90",
+      "setupSha256": "063ccec40fa6e56e429815c3011fcc028ed1ed32d741663a1a89792fec24bc16",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdelicModulus.ilean",
+          "bytes": 27737,
+          "sha256": "0f04cc35e1921aa6e14006694aca9c9efea3700536ad268ef49bd6a6869bde29"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdelicModulus.olean",
+          "bytes": 950136,
+          "sha256": "6ceafcd3d58cccc31bdaff19b1fdac9c427664cbbf9e8b6b5be46975b80519a9"
+        }
+      },
+      "publicCacheOleanSha256": "805dafa6bfa501db0800b14c6c3b708c3b7916a7e1f3cea5031e13472c6c7d09",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Witt.SpaceOperations",
+      "source": "compact/src/Lib/Adelic/Witt/SpaceOperations.lean",
+      "sourceSha256": "02653ee4ad5e610a40f35f11fa8829347f1bd6c4bc004cb938cf08f6a9b223da",
+      "setupSha256": "88d9a56c9ad521e57ebb3a43514ac70707a45d64de4b7389155c1f61e0960063",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Witt/SpaceOperations.ilean",
+          "bytes": 37226,
+          "sha256": "69361179dd5fc40d7c53402c4f9adb9485abea8a516da605cab9bd8efa55ab03"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Witt/SpaceOperations.olean",
+          "bytes": 3784064,
+          "sha256": "dad0ef5a2729d5bc267306872cf201df50191131ebc724c062ae52e085692aab"
+        }
+      },
+      "publicCacheOleanSha256": "dad0ef5a2729d5bc267306872cf201df50191131ebc724c062ae52e085692aab",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Combinatorics.Average",
+      "source": "compact/src/Lib/General/Combinatorics/Average.lean",
+      "sourceSha256": "d583fc86c8a6da707eb7cfe85c84013d5449b2f2f24bfc17dbe4699b86d47003",
+      "setupSha256": "6256a088fa4ccda9e31772d15d2fa6e317214ad36111cfe05caa8544bc4e268d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Combinatorics/Average.ilean",
+          "bytes": 31090,
+          "sha256": "4f8090def463213325892116c6286154cfdf6204c32389484aeb1dd68e1c4462"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Combinatorics/Average.olean",
+          "bytes": 1029184,
+          "sha256": "b5dc0d77e043dafb793659c20ecefb2ec494f3ef60eb14e7abf741966cc9bc91"
+        }
+      },
+      "publicCacheOleanSha256": "b5dc0d77e043dafb793659c20ecefb2ec494f3ef60eb14e7abf741966cc9bc91",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.ZerosCostDegree",
+      "source": "compact/src/Lib/General/Algebra/ZerosCostDegree.lean",
+      "sourceSha256": "7b1da2a0e936a1afa3e1fc6f766c814861e3afb4d65510d0dc2e091fc37c5435",
+      "setupSha256": "1c5e3169b007bfa10420f4aea603bf819857536afe2558bc212d1f0ce2d3aa4e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/ZerosCostDegree.ilean",
+          "bytes": 43399,
+          "sha256": "66ca9f67e4050d68033dd02fc9cd57a284d3f87e6ea216af09dc0a79070b91a1"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/ZerosCostDegree.olean",
+          "bytes": 1872992,
+          "sha256": "77849c748a27f136d9640415138c370e750150b1e8000fb61609874fcf65847e"
+        }
+      },
+      "publicCacheOleanSha256": "77849c748a27f136d9640415138c370e750150b1e8000fb61609874fcf65847e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.VirtualCharacters",
+      "source": "compact/src/Lib/General/Groups/VirtualCharacters.lean",
+      "sourceSha256": "98589b41a505d075cf11b98c8a4774f6b1fc73cfae5d1fd6c18f7c31bb7ec1cd",
+      "setupSha256": "5740b126c834dd4193cf12656970f6715454478c21e03b9b21c004881b8b76d2",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/VirtualCharacters.ilean",
+          "bytes": 15657,
+          "sha256": "84e6bae38396ce86f882d3a574dbb5ef843632678fae79033c10053c4af01855"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/VirtualCharacters.olean",
+          "bytes": 621744,
+          "sha256": "3016c2e22f1736c44f3bfe3144216854c1cfde21c45c195c25a16d6b815d5bf4"
+        }
+      },
+      "publicCacheOleanSha256": "3016c2e22f1736c44f3bfe3144216854c1cfde21c45c195c25a16d6b815d5bf4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Analysis.HolomorphicIntegral",
+      "source": "compact/src/Lib/General/Analysis/HolomorphicIntegral.lean",
+      "sourceSha256": "993f648fa6d0db7f6a3f987f033cb131a4cdc89045a3c7e6d03073c5e9bd80cd",
+      "setupSha256": "bf83d06fe7caf5f1abbba461804f35ea1ddde517662b92ef9687cc89856927a2",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Analysis/HolomorphicIntegral.ilean",
+          "bytes": 35595,
+          "sha256": "4cf432ba3092f47a1a863848f68ecaf518e5ed7fc8d24cca2c7a35a646aeb8fe"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Analysis/HolomorphicIntegral.olean",
+          "bytes": 1320568,
+          "sha256": "9ad618f587e512268bf3686f62dab802979a4b04c2f00810589ef12402da2dc9"
+        }
+      },
+      "publicCacheOleanSha256": "9ad618f587e512268bf3686f62dab802979a4b04c2f00810589ef12402da2dc9",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.CentralProjections",
+      "source": "compact/src/Lib/General/Groups/CentralProjections.lean",
+      "sourceSha256": "b285e1cc29b2e81058e19629ab14100b8d66bfdf79bfc21dc05be3f71515ef51",
+      "setupSha256": "e1e3096c1a1f22dce6b10ec36dd77d013600e2adcdfc337d7872a1f6e88a5d7e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/CentralProjections.ilean",
+          "bytes": 9798,
+          "sha256": "9636ffdc3b942eb9681b26d90ac037eaecf41255c25b82ddda26d6799f451cb0"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/CentralProjections.olean",
+          "bytes": 472136,
+          "sha256": "3380c95e4e6fcf1dc37afd113e9ebb8476d2fedee48b8a91d86f25ba6018fb35"
+        }
+      },
+      "publicCacheOleanSha256": "3380c95e4e6fcf1dc37afd113e9ebb8476d2fedee48b8a91d86f25ba6018fb35",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.LieExponential",
+      "source": "compact/src/Lib/Shimura/Uniformisation/LieExponential.lean",
+      "sourceSha256": "ff9069d68b5db748943d106e463e4bcddccf8677baf63b6aee0e653ccc2f5549",
+      "setupSha256": "ad4f20c1478772e9a6236588fa3955c2788761fa504f38ee5a4a00e03c36283e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/LieExponential.ilean",
+          "bytes": 56420,
+          "sha256": "4c83656bcdd8d1bb7da627aceaeea283058a96e5c6854d8941e48ddb151fc2e8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/LieExponential.olean",
+          "bytes": 5246248,
+          "sha256": "eed1c2dc6a86c5be708c448906e4ce4fcfa144341662057c49ffc104a74a571e"
+        }
+      },
+      "publicCacheOleanSha256": "eed1c2dc6a86c5be708c448906e4ce4fcfa144341662057c49ffc104a74a571e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.IrreducibleCharacters",
+      "source": "compact/src/Lib/General/Groups/IrreducibleCharacters.lean",
+      "sourceSha256": "99da2f14958b11981ab272ad080812f9d19cc42c64b178d2d76465efda5d68c0",
+      "setupSha256": "31042677dd7389cf754f4e77adc3a61d48649c496d582d7b50931539e6d28b55",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/IrreducibleCharacters.ilean",
+          "bytes": 20293,
+          "sha256": "34ac606c998af8d55af53bb2a2498b7969c01b1fa139ad3a1b8c4b581181924c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/IrreducibleCharacters.olean",
+          "bytes": 1722640,
+          "sha256": "0056267e48aeec6996e9b62cb2157c4f12d76eea24a47f79900587f62e58fdd8"
+        }
+      },
+      "publicCacheOleanSha256": "0056267e48aeec6996e9b62cb2157c4f12d76eea24a47f79900587f62e58fdd8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.ComplexTheta.CanonicalMultiplier",
+      "source": "compact/src/Lib/Shimura/ComplexTheta/CanonicalMultiplier.lean",
+      "sourceSha256": "7e821103085e1c051428a07399fa37cf2e73768468cb983f2463f051a866ef00",
+      "setupSha256": "5692c9b38262b6f1b20c7464aced0aa109242b25b3a9356a9a6984a86c953fe9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/ComplexTheta/CanonicalMultiplier.ilean",
+          "bytes": 7580,
+          "sha256": "272b2a282e0134702421d498582d199d06e586d48524f713c54a4588260f5d1e"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/ComplexTheta/CanonicalMultiplier.olean",
+          "bytes": 668448,
+          "sha256": "9813a4d0535254252de7b919eb4fa5ba7e73efd5a987f68c326ce196659cde2f"
+        }
+      },
+      "publicCacheOleanSha256": "9813a4d0535254252de7b919eb4fa5ba7e73efd5a987f68c326ce196659cde2f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.MackeyFormula",
+      "source": "compact/src/Lib/LocalGL/Green/MackeyFormula.lean",
+      "sourceSha256": "f87352e5fcf4800a4287d333bb7bcc7d1b4438c92a05bb73766a484f30d84b2c",
+      "setupSha256": "e94ee006f5464e6e901d792227cea84b979f1bf370e2b8783d99dfb25cd49e7a",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/MackeyFormula.ilean",
+          "bytes": 56734,
+          "sha256": "637d325e676dc16d5ed7e541573f19d9a988140aab4ed935a29986f86387a386"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/MackeyFormula.olean",
+          "bytes": 7486240,
+          "sha256": "882f73f01430d9511b66211713f3ceb88f7c202b1138465462655c6421b8ff50"
+        }
+      },
+      "publicCacheOleanSha256": "882f73f01430d9511b66211713f3ceb88f7c202b1138465462655c6421b8ff50",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.ComplexTheta.ThetaDimension",
+      "source": "compact/src/Lib/Shimura/ComplexTheta/ThetaDimension.lean",
+      "sourceSha256": "7162af9c374d1c7bcccea2f8e4429618c66bc2bbbaf87b376e1320c73090d1f0",
+      "setupSha256": "99bab887e49724493c2329a00259c2016683a4bcadf2cab0a289fb080ab1b5f7",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/ComplexTheta/ThetaDimension.ilean",
+          "bytes": 59941,
+          "sha256": "37566065c80d30f5b13d250f741455f44ace0e3d3980c1cbfa7c781b2d0640d5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/ComplexTheta/ThetaDimension.olean",
+          "bytes": 4886168,
+          "sha256": "d7f07cdd0a30efba5210dcf05502c268d98cc2692a82316d239f9c32c4cc3d01"
+        }
+      },
+      "publicCacheOleanSha256": "d7f07cdd0a30efba5210dcf05502c268d98cc2692a82316d239f9c32c4cc3d01",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.InductionMean",
+      "source": "compact/src/Lib/LocalGL/Green/InductionMean.lean",
+      "sourceSha256": "74f3b3d0eef09cb64eb6dd28d34226a1a11d16eddaac6161e2b2f77df128155b",
+      "setupSha256": "66cb38bc9a0b93a5d1fdae628be917d3cebf779bcff04ccc6a6530d5197f8098",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/InductionMean.ilean",
+          "bytes": 19191,
+          "sha256": "40b9a7e40256d72013dbd1d52198f4ab2f87a1f1fc2571b10609f5d5ce37f160"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/InductionMean.olean",
+          "bytes": 2271496,
+          "sha256": "139a9e586467bd6e575d4f92ce09ddb9972bc5eab77c9add5cc6aa9a1724c05d"
+        }
+      },
+      "publicCacheOleanSha256": "139a9e586467bd6e575d4f92ce09ddb9972bc5eab77c9add5cc6aa9a1724c05d",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalFunction",
+      "source": "compact/src/Lib/LocalGL/Green/CuspidalFunction.lean",
+      "sourceSha256": "8ff35bc7d68bdbdbb18fa717d14fbcc1bba450af0bcf5a4a74da3ac4a1744ef4",
+      "setupSha256": "dd7e8bf9f4270e1cd0301c075829b2ef79fc10e90b8c3e1e0f490ecedf680b30",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalFunction.ilean",
+          "bytes": 23864,
+          "sha256": "8a56ba61a92957cd891def13029497648ed2302d9f765448eda011497f25478f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalFunction.olean",
+          "bytes": 1748792,
+          "sha256": "a94aff897797c86bd486151cc460acb18c2e1d7e5441715a7f73027cd99026ab"
+        }
+      },
+      "publicCacheOleanSha256": "a94aff897797c86bd486151cc460acb18c2e1d7e5441715a7f73027cd99026ab",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.FrobeniusOrbits",
+      "source": "compact/src/Lib/LocalGL/Green/FrobeniusOrbits.lean",
+      "sourceSha256": "fa7b978b23fb4c559f1955e3cd1e3ca3240d06f0347506851aee5ae13ff59d5b",
+      "setupSha256": "656210cdaa6a404fa63756deafb366ba1c63f10ea0381442eb37c4213564d455",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/FrobeniusOrbits.ilean",
+          "bytes": 16060,
+          "sha256": "cf38e6e662a5b3a9fc736e9ae029626f182873f5d2230b1175190cf6e9f84fde"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/FrobeniusOrbits.olean",
+          "bytes": 522240,
+          "sha256": "64cb8a0c4c5be31d13ca3f2470870a948b9d38101c0073c1887b6addb9e3c52d"
+        }
+      },
+      "publicCacheOleanSha256": "64cb8a0c4c5be31d13ca3f2470870a948b9d38101c0073c1887b6addb9e3c52d",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalSupport",
+      "source": "compact/src/Lib/LocalGL/Green/CuspidalSupport.lean",
+      "sourceSha256": "5d04a6d04220b11282df3e3e633a7129b45cb313863b4c2affcaa6422c00c2eb",
+      "setupSha256": "a824aa873b04217fd246fcc14d2db24de9ec1acda9ae085a3b549ab2feae93f1",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalSupport.ilean",
+          "bytes": 18435,
+          "sha256": "617cd62ed27e7c411adf71a9e98a37416b3183af69d0cd9bd736e44e82ff1783"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalSupport.olean",
+          "bytes": 1134888,
+          "sha256": "000c010c5cfe4dc94208626bca827465a5b35c1cb5d49d25fdb8d5acea88ac6c"
+        }
+      },
+      "publicCacheOleanSha256": "000c010c5cfe4dc94208626bca827465a5b35c1cb5d49d25fdb8d5acea88ac6c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalAtScalars",
+      "source": "compact/src/Lib/LocalGL/Green/CuspidalAtScalars.lean",
+      "sourceSha256": "3c8bcfaa718d45c7dc9878817ed2db7f73914d43d38c4ff5f646a48e6d80c23b",
+      "setupSha256": "3e9a39d56c031fb7c2d901d1acc24e2e6f3a489778eb35a0d288925324aeb45e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalAtScalars.ilean",
+          "bytes": 25509,
+          "sha256": "2dc1617023c9935efe43cbd81b0a99e399ed61d7b84015caad158cac1fc39611"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalAtScalars.olean",
+          "bytes": 989672,
+          "sha256": "edf4ba31d2a694547e95ecb42e88daa6e1372f510f9faddd88d88507f8d2862b"
+        }
+      },
+      "publicCacheOleanSha256": "edf4ba31d2a694547e95ecb42e88daa6e1372f510f9faddd88d88507f8d2862b",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalInnerProduct",
+      "source": "compact/src/Lib/LocalGL/Green/CuspidalInnerProduct.lean",
+      "sourceSha256": "1e287cafa89bce8d58485b6affb4da26329e47a67cabd35aefda75d41202f718",
+      "setupSha256": "e55a516485fbc7b313519639ce938384dfaf7c6834dc0690b1d66c40a7228fc9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalInnerProduct.ilean",
+          "bytes": 28456,
+          "sha256": "4fcec5df6d24d6e17c622f153d4d17d32d5395702a737bdbdb3d56c1e981a1f1"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/CuspidalInnerProduct.olean",
+          "bytes": 1862896,
+          "sha256": "563e77bcfd75ba07d334f73799f441f3af6800e10157f1f6e0ce0b9b85c83618"
+        }
+      },
+      "publicCacheOleanSha256": "563e77bcfd75ba07d334f73799f441f3af6800e10157f1f6e0ce0b9b85c83618",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.GreenTau",
+      "source": "compact/src/Lib/LocalGL/Green/GreenTau.lean",
+      "sourceSha256": "2d585de4c77bea8d1359c4bc0b5eb84ccbfcbb66acfc31f2d75fdc1eda7369b4",
+      "setupSha256": "5ef2b8b75507ce3a2ef6d9885793ad7b088f92e9558ff6953de9e516df286ea6",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/GreenTau.ilean",
+          "bytes": 23303,
+          "sha256": "fd916f735d17a2eec44b9ab5bae50e2b8be608034e2c34c0568b1ab45fc867b0"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/GreenTau.olean",
+          "bytes": 1139640,
+          "sha256": "7feb7b789e240c18b5a4ba5e3cdd5be502bf6443df790dce4cdaf3f2041d03f1"
+        }
+      },
+      "publicCacheOleanSha256": "7feb7b789e240c18b5a4ba5e3cdd5be502bf6443df790dce4cdaf3f2041d03f1",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.FaithfulChar",
+      "source": "compact/src/Lib/General/Algebra/FaithfulChar.lean",
+      "sourceSha256": "017bdd657e2f348e3a0a4b784f864fd8b515a0e666599cadc4166b3999fdf4c5",
+      "setupSha256": "ea091b302aed7fe5bcef611fc6bb264895792ae5ef316961cd4f487fca666338",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/FaithfulChar.ilean",
+          "bytes": 5937,
+          "sha256": "88b4451f967dee31193817aa7fa78bfb8854a8b31d1b492718c0155277e2683c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/FaithfulChar.olean",
+          "bytes": 253568,
+          "sha256": "2f191090463f2e1a1c92e44cdf323f022f61f755487cf732bd7ff9c879edb805"
+        }
+      },
+      "publicCacheOleanSha256": "2f191090463f2e1a1c92e44cdf323f022f61f755487cf732bd7ff9c879edb805",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Green.LabelDegree",
+      "source": "compact/src/Lib/LocalGL/Green/LabelDegree.lean",
+      "sourceSha256": "bd76d36fcf0638580f058f415212e67bf65728f17b1a3b863284bea4dab3e394",
+      "setupSha256": "b51815fd8326f7dbd388268fbb253d1b6a72152e4dd80322c31e931507628315",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/LabelDegree.ilean",
+          "bytes": 16100,
+          "sha256": "fd8107522d4cda7d72d240e090c4e0788aa34d3e916395f303d8db447abc624a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/LabelDegree.olean",
+          "bytes": 1498832,
+          "sha256": "978543b734e9f29fb8f90ea833fa5feefeac0274eb5d1b8aa51792b2fb0c239c"
+        }
+      },
+      "publicCacheOleanSha256": "978543b734e9f29fb8f90ea833fa5feefeac0274eb5d1b8aa51792b2fb0c239c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.LocalGL.Shintani.LabelCharacters",
+      "source": "compact/src/Lib/LocalGL/Shintani/LabelCharacters.lean",
+      "sourceSha256": "2a043e37414f0d9044478f06367def09b5505f4de8dc936882a9fa77f6759cd4",
+      "setupSha256": "30d0a0d932f1ae4b4f0398c8c4e35e620498d8837626719aeb8c0ee48c3aad34",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Shintani/LabelCharacters.ilean",
+          "bytes": 97733,
+          "sha256": "3df499bacd3a8a068dcab0373740db4b10d225af6000543468439d17c79ec949"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Shintani/LabelCharacters.olean",
+          "bytes": 12032152,
+          "sha256": "06bf17698202cae1ec58b9b2b0894d79c4255babe315ac0332658a0f4a89c617"
+        }
+      },
+      "publicCacheOleanSha256": "962e0f6fc9e1d965ef5c7661a7f7f026ea3a5ba4aa7306f0b54b379771bcc605",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.LocalGL.Green.LabelIdempotents",
+      "source": "compact/src/Lib/LocalGL/Green/LabelIdempotents.lean",
+      "sourceSha256": "184c331b6f0ec1c679a6a9e72f2d9827bdb585ee4b5d13ec5eb46cb5b614d3a3",
+      "setupSha256": "fc03170d936980440b587739def2c0e3b5581fe9558490ef1927c9077ecba375",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/LocalGL/Green/LabelIdempotents.ilean",
+          "bytes": 32207,
+          "sha256": "87a443ebc9c78c73ab257453c69bb44753a1026509a7cfd2844290c7f5051677"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/LocalGL/Green/LabelIdempotents.olean",
+          "bytes": 2826464,
+          "sha256": "df7def15e393d29b36ba12aef289896e308a8336334288ae42679513e1d9b232"
+        }
+      },
+      "publicCacheOleanSha256": "df7def15e393d29b36ba12aef289896e308a8336334288ae42679513e1d9b232",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.CentralConvolution",
+      "source": "compact/src/Lib/General/Groups/CentralConvolution.lean",
+      "sourceSha256": "3bc801a4a432ba4d64d6eb82cda96ca007a6c4b005754a7d3fb3a192b33ce6e8",
+      "setupSha256": "ded268f17b3e642a2e200479221c7d821ffe3d8d420692dbdaa3607ac943461f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/CentralConvolution.ilean",
+          "bytes": 5929,
+          "sha256": "d63be45d1481ce7430a70059ead3f14e6701d1954eefafd8c43f93c9e1c2ad5f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/CentralConvolution.olean",
+          "bytes": 332144,
+          "sha256": "8cb14b18bc929008728ef708a079de2949f7b42929fbfa2afbdb5762cfcde14b"
+        }
+      },
+      "publicCacheOleanSha256": "8cb14b18bc929008728ef708a079de2949f7b42929fbfa2afbdb5762cfcde14b",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Trace.BadShare",
+      "source": "compact/src/New/Trace/BadShare.lean",
+      "sourceSha256": "ad3d8e9ae6d0904baabb18a0542f8ad5a1ef9d8b407f6f4690a44d43f03bea1f",
+      "setupSha256": "95c6858b085785a6b3803954bc73a274a99a57df5f11fc0e86ed666b3ace4308",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Trace/BadShare.ilean",
+          "bytes": 33097,
+          "sha256": "ae842da54621b75a5d675230c1d16120736a9a3d529f2dbd5c4b33d1e2512ea4"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Trace/BadShare.olean",
+          "bytes": 2685720,
+          "sha256": "471157ea6308a5d2933e0e2253f121d3cf7b537045e13b918847802d0a64983f"
+        }
+      },
+      "publicCacheOleanSha256": "471157ea6308a5d2933e0e2253f121d3cf7b537045e13b918847802d0a64983f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HaarUnique",
+      "source": "compact/src/Lib/General/LinearAlgebra/HaarUnique.lean",
+      "sourceSha256": "affd1f487d630aac0dd74faf56e3260bcc0775f1316401e885b528715b747c6b",
+      "setupSha256": "4bdd761b414e4970fc4a6091f2fc9f183fbc5c9fe89da997061d22b6ae346e24",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/HaarUnique.ilean",
+          "bytes": 29934,
+          "sha256": "8f71d046dee01db3e4d116aa55e086a4dfacb45108a0b88af76c135f0896e4ed"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/HaarUnique.olean",
+          "bytes": 1118640,
+          "sha256": "5fc5758043f3a309512edf7fbced2266d3610e685d357f14f4dda5891ccbf4da"
+        }
+      },
+      "publicCacheOleanSha256": "6897ec35ce64c9f51125bcd6af977cf844d827878f5a700290529394887f0217",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HuaIntegral",
+      "source": "compact/src/Lib/General/LinearAlgebra/HuaIntegral.lean",
+      "sourceSha256": "f8cafa22d25ddd7c36adfff0aaac075a57a305d905199ba30c3924c4127b1faf",
+      "setupSha256": "da36404e12a0004a90bdca86da6a772437f5e05fc9004b040a2e733df89c9e56",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/HuaIntegral.ilean",
+          "bytes": 38569,
+          "sha256": "63894ca7f3781992eaf07cd678e425cf49f7e6f7c8830737bacc02493c1ea066"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/HuaIntegral.olean",
+          "bytes": 1759360,
+          "sha256": "18cbb3a94199fc8072f06db47eb18cc58990a409ef7af9f77c973aed94cefaab"
+        }
+      },
+      "publicCacheOleanSha256": "83fb551e0abc131388c92c59dac9e1be98aaaa3542882e392d6ef0d451b4ec46",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.CM.Sigma.SigmaFunction",
+      "source": "compact/src/Lib/CM/Sigma/SigmaFunction.lean",
+      "sourceSha256": "40893ba4cc49a85bf77e76383e8b32bec494b5e0dd505f1879a276583f836549",
+      "setupSha256": "033849d52451f86ed38ee00fe2561f6c79ec904319605e68a703e6b9f139c893",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/Sigma/SigmaFunction.ilean",
+          "bytes": 39154,
+          "sha256": "7ed8c4223c60f1c97033777bf1b63e1d84f90b9a39120bdc72f71e79a0f01d1f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/Sigma/SigmaFunction.olean",
+          "bytes": 2563400,
+          "sha256": "a02c0da5ec8aac1c2e760c7379b983b789be147d61731ebdc8b8cccd6c25555f"
+        }
+      },
+      "publicCacheOleanSha256": "eb79bcd2bf2241506c6c96e4626afead14487882da0f5766adf61785a0eac58d",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.CM.Sigma.CurveTheta",
+      "source": "compact/src/Lib/CM/Sigma/CurveTheta.lean",
+      "sourceSha256": "13d07e5b621c1ed48d311fce218aae5fc68120e4229f14fbfa39e914cac4ef8e",
+      "setupSha256": "bd8225dec637c6cd1e824b981b906d6dfdc7e6a400a1291e108f5379092c5a42",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/Sigma/CurveTheta.ilean",
+          "bytes": 82681,
+          "sha256": "b33f1ec03bf51944baea552567cde32158dc0ca9ce824866ca2cbe749f78c509"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/Sigma/CurveTheta.olean",
+          "bytes": 9169000,
+          "sha256": "7c89201c34b952752b1d072104ac1c1816a9fa9c1d4d900f0a97ea97278ca4af"
+        }
+      },
+      "publicCacheOleanSha256": "2c24db234a365badbd9e1227f40784b779c57ec83d2ef94ea9a5b0af1eaadc6a",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.General.Algebra.AdicRingHomExt",
+      "source": "compact/src/Lib/General/Algebra/AdicRingHomExt.lean",
+      "sourceSha256": "20f4cfe385cb2c9bc5133f4af47be62995a545e8ea634a1c691e8604735e2b8f",
+      "setupSha256": "975683b5a99e370aeb063b74b59919d8688eb766e5190395bda37b7adc3faae7",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/AdicRingHomExt.ilean",
+          "bytes": 26885,
+          "sha256": "7a632e4719e8466bd0f6539fc149b1bbbda4a46e1666a6786ddbc65dbd26105b"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/AdicRingHomExt.olean",
+          "bytes": 969376,
+          "sha256": "2929de9183ddd9176d5d9047d0db83c1c994bae62eca573a4279e3d956b5a82b"
+        }
+      },
+      "publicCacheOleanSha256": "a55080fbacc92b9e3dd193248f32e599aa9881723c30ed2bcaec770159a730c5",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.CM.Sigma.PadicSeriesDefs",
+      "source": "compact/src/Lib/CM/Sigma/PadicSeriesDefs.lean",
+      "sourceSha256": "ba0cec3813e7f88f2fa77c36ee196a49616c7becb19b647cc9a5c770282808a2",
+      "setupSha256": "d11ae8b0e95b88d0bfeb1e382c79d0ac3585027dee4fa9b6a2e560c0f044d09e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/Sigma/PadicSeriesDefs.ilean",
+          "bytes": 28335,
+          "sha256": "5e463e5f824c95b0d12d42de166123370caff66f0b5a20ec2c17c59fc2982c6a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/Sigma/PadicSeriesDefs.olean",
+          "bytes": 1676080,
+          "sha256": "c91a6be754f0f2d6f239a6b947f056c954157f532aca1be54fb8b724b8b2c286"
+        }
+      },
+      "publicCacheOleanSha256": "c91a6be754f0f2d6f239a6b947f056c954157f532aca1be54fb8b724b8b2c286",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.SubmersionZero",
+      "source": "compact/src/Lib/General/LinearAlgebra/SubmersionZero.lean",
+      "sourceSha256": "56d9a5eacc82f7d85593a9374ca895a3592ab1477556ca2a28ef4dff4ba06362",
+      "setupSha256": "fdc3283d1f2643d034a2c4ac8340678ff100258eaf1b4fd9becb1273bf81665b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/SubmersionZero.ilean",
+          "bytes": 7483,
+          "sha256": "0bc4def252453853d20277ec5575743a64983118ea69724c33853a9e300abc8d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/SubmersionZero.olean",
+          "bytes": 331432,
+          "sha256": "48770f61792efbc01d8af29f5e8108b1842055f6e1ca9e6782a4f91716965c76"
+        }
+      },
+      "publicCacheOleanSha256": "48770f61792efbc01d8af29f5e8108b1842055f6e1ca9e6782a4f91716965c76",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.JetChainRule",
+      "source": "compact/src/Lib/General/Algebra/JetChainRule.lean",
+      "sourceSha256": "e96bf447368fa10681de7a2c940d9c264034318e0d197bd1dcf01256fb27adb8",
+      "setupSha256": "abab859808496bd35a0c6b38a46f50f892af7090e883ac0a8b4493232822d04f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/JetChainRule.ilean",
+          "bytes": 9211,
+          "sha256": "ed4c19bd41ef2238dd46a06be3c743fb696d78974fd134a2f7a5777e414e2e64"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/JetChainRule.olean",
+          "bytes": 599376,
+          "sha256": "d8765e97a28c208eb2f58249500020b37b4bed8691370c98ff18a67fc2a83dad"
+        }
+      },
+      "publicCacheOleanSha256": "d8765e97a28c208eb2f58249500020b37b4bed8691370c98ff18a67fc2a83dad",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.CommonEigenvectors",
+      "source": "compact/src/Lib/General/LinearAlgebra/CommonEigenvectors.lean",
+      "sourceSha256": "853500f39eb3ea52825e9631397c415be3b41224c71bf3d473ad27ddb9c9b019",
+      "setupSha256": "b2b52c732defc1a64fa91d62a6142a88f5998e359c9fb4101699b1dd5542b7a5",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/CommonEigenvectors.ilean",
+          "bytes": 28618,
+          "sha256": "eab608f8e401e78145a199d3a89b5591eca3a0a6b126d65e71e62b3e57a33a13"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/CommonEigenvectors.olean",
+          "bytes": 1746744,
+          "sha256": "487a22b4e825798f86a6dab65e2bea929115f96fcfd0ab649087f5fb0c94770c"
+        }
+      },
+      "publicCacheOleanSha256": "487a22b4e825798f86a6dab65e2bea929115f96fcfd0ab649087f5fb0c94770c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.DepthBounds",
+      "source": "compact/src/Lib/General/Algebra/DepthBounds.lean",
+      "sourceSha256": "ae64389702c81ce4f54246d05d017fcc67072288a5262ebda637a08385f50b59",
+      "setupSha256": "6563804b923eaebd176b2bf9cbe433db60c1d90e680bc8bb965b2f9932e01701",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/DepthBounds.ilean",
+          "bytes": 12885,
+          "sha256": "ddbc3acc4e8ef4ba79d7d579ee73df9166f11c210dca4fc50b22ceec49268df8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/DepthBounds.olean",
+          "bytes": 782600,
+          "sha256": "17cd8adf8a8644c8501054c153220809b47803583df403cde197dddca17824af"
+        }
+      },
+      "publicCacheOleanSha256": "17cd8adf8a8644c8501054c153220809b47803583df403cde197dddca17824af",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.RingActions",
+      "source": "compact/src/Lib/General/Algebra/RingActions.lean",
+      "sourceSha256": "8777e71d155b9a9c0fe08584818e3aac2cfb313c6a6edd7cf95a84780306f181",
+      "setupSha256": "a8a3962d099548b3636f0625405ff3f8fd0227cf1931b9b1cc3d720105079c9c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/RingActions.ilean",
+          "bytes": 13354,
+          "sha256": "c31af38b8ee7b93dace58c297d7e5d7fe69a3d44222d196090c284fb4936b1cf"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/RingActions.olean",
+          "bytes": 679840,
+          "sha256": "ee265f44adaf6ccbd46964f15035557f57ce3eb49fc18ad2ab8cab202f620d35"
+        }
+      },
+      "publicCacheOleanSha256": "ee265f44adaf6ccbd46964f15035557f57ce3eb49fc18ad2ab8cab202f620d35",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalDefs",
+      "source": "compact/src/Lib/ClassField/Places/LocalDefs.lean",
+      "sourceSha256": "dbf83d0db0fefb3a69e391ccb1d911c9caf3a69b2a9e5a5363c60b4f58bb2c05",
+      "setupSha256": "715d04d0669953f4f468105e6c9b9090b6d94a92191f3dd9de9a53eea157a2dd",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalDefs.ilean",
+          "bytes": 13300,
+          "sha256": "377ef9f5f2aadee75f32e60ef4d4847dc464af0ececce5792a511843aa6221e4"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalDefs.olean",
+          "bytes": 238120,
+          "sha256": "7195441985265a998b1403d1cb1c0a041b40d9af7d63293ec9e61a39d82fd8f5"
+        }
+      },
+      "publicCacheOleanSha256": "7195441985265a998b1403d1cb1c0a041b40d9af7d63293ec9e61a39d82fd8f5",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Algebra.SuccessiveApprox",
+      "source": "compact/src/Lib/General/Algebra/SuccessiveApprox.lean",
+      "sourceSha256": "0f9c7d24e2180f32f0e08aae11a08e2fa155ee5115afea534caede47e0a43d29",
+      "setupSha256": "05de9fbea56bde17e4f8e4a3b09904e3505c4f3ab9bb8d442545d75896fda3cd",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Algebra/SuccessiveApprox.ilean",
+          "bytes": 9478,
+          "sha256": "eefc321d65bd6fce36b409a4975c2373dcba73bb994c8d4a9a8f3cf7585ccaa4"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Algebra/SuccessiveApprox.olean",
+          "bytes": 316136,
+          "sha256": "09599b7a63aa20c7c9ab7cca8b386bc40fc9947fe1be9270b758c37381633fbb"
+        }
+      },
+      "publicCacheOleanSha256": "09599b7a63aa20c7c9ab7cca8b386bc40fc9947fe1be9270b758c37381633fbb",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.ProfiniteGalois",
+      "source": "compact/src/Lib/ClassField/Places/ProfiniteGalois.lean",
+      "sourceSha256": "310121091d9142271a41b71905dfe43e93cb9c303441b6101dd5fe5c6f543512",
+      "setupSha256": "9516030af98f1d8b8a3fe25ff587c6618b04b169f736ec207ddd8325bf6d2cbb",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/ProfiniteGalois.ilean",
+          "bytes": 27023,
+          "sha256": "b73985380a9c742bceaa038812fc07c55367e466b10ecfd3da09d47ae7ca76d3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/ProfiniteGalois.olean",
+          "bytes": 613496,
+          "sha256": "ce5fc4a77500e0c00f26b7344bca150d98f808da5bd4bd430eca3ede103a459a"
+        }
+      },
+      "publicCacheOleanSha256": "ce5fc4a77500e0c00f26b7344bca150d98f808da5bd4bd430eca3ede103a459a",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.RatModInt",
+      "source": "compact/src/Lib/General/Groups/RatModInt.lean",
+      "sourceSha256": "cac46706cc82aa278a4f2792314c635459ade59d2d989670efb542e4d2c11de9",
+      "setupSha256": "d5e9a4f4e3bd7d19c5158df5ec73d9a17ed009edc8a6ff56be5ef7463dcf340d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/RatModInt.ilean",
+          "bytes": 16391,
+          "sha256": "f29d40ebb54ff938a7f7c2bed983a92e75b80eefbd682bdece07c7bf11d12082"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/RatModInt.olean",
+          "bytes": 297728,
+          "sha256": "5bb65fa325b2b36bf8acbe0a6ba2dfb876c160a80baba0947b3bbfaa9c464be8"
+        }
+      },
+      "publicCacheOleanSha256": "5bb65fa325b2b36bf8acbe0a6ba2dfb876c160a80baba0947b3bbfaa9c464be8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.CpIntegers",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/CpIntegers.lean",
+      "sourceSha256": "6abe17561e8f3ebfba9081d9d1e0f815271c782f6ac7e90107f4ab3bc4d35e68",
+      "setupSha256": "00c2b0312eeb4be2825b0dde5acd1b0584cf1f32bdeb5b0d254d8ac3658bd879",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/CpIntegers.ilean",
+          "bytes": 30744,
+          "sha256": "164994b228720aa299a6c0ef91c4f9f340fa50541d3b13e9bffbadd2205ac3a8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/CpIntegers.olean",
+          "bytes": 907152,
+          "sha256": "d915f7b0f904bfa4e73678247802d06dca9ff515fc8bdb98396fc8274362aae1"
+        }
+      },
+      "publicCacheOleanSha256": "d915f7b0f904bfa4e73678247802d06dca9ff515fc8bdb98396fc8274362aae1",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.ArtinDefs",
+      "source": "compact/src/Lib/General/Groups/ArtinDefs.lean",
+      "sourceSha256": "4cb8a808a851c11caadf63f2009e3595f7b9ae43c6b29e58c94f913ea7364b9b",
+      "setupSha256": "763d72f63efb5c026fc285715f2f45adfa3d34b0f1cfdc375e892f65c88dd499",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/ArtinDefs.ilean",
+          "bytes": 27265,
+          "sha256": "9d0d690a8b633e99c3707d39299e73586af28b6f4a21eac7165240a2cb2be4d5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/ArtinDefs.olean",
+          "bytes": 850400,
+          "sha256": "7f80ab5ccf81abf7e06ba7d9b1238ad52a33fe85151ff7d67de32f53759bc039"
+        }
+      },
+      "publicCacheOleanSha256": "7f80ab5ccf81abf7e06ba7d9b1238ad52a33fe85151ff7d67de32f53759bc039",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.CyclotomicCharacter",
+      "source": "compact/src/Lib/ClassField/Places/CyclotomicCharacter.lean",
+      "sourceSha256": "0a4c46b37868d88898c88e00beeec6fbe57958009ab7c77c1d26650270141193",
+      "setupSha256": "c0e0eb9d6c317f626e34dd57752c47ed1a5c630d955a51a88b95ade3d4283869",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/CyclotomicCharacter.ilean",
+          "bytes": 32791,
+          "sha256": "2c74b0d7f90b6e1fadd5f1f1dee76d5bd02c3895b354d28989aaf3cc6fc774e0"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/CyclotomicCharacter.olean",
+          "bytes": 1126680,
+          "sha256": "3d0eadf70e887d2dbd4005d285e0488225e8cb4371edf1f65d9e5bca77aca1d4"
+        }
+      },
+      "publicCacheOleanSha256": "3d0eadf70e887d2dbd4005d285e0488225e8cb4371edf1f65d9e5bca77aca1d4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.Ainf",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/Ainf.lean",
+      "sourceSha256": "b9c0cd1508c84d3bbfea09ec034861dfcf2c06e06cf035d511476d22c5039a16",
+      "setupSha256": "bceaf77b958f68a8a39a52deb43f1ac2ad8e64594e98bd20711a6c1de126bcd8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/Ainf.ilean",
+          "bytes": 38275,
+          "sha256": "591dda99baea4b7b71a7de9fe3e486a11bb17f85f35b4ba329cb820f25dd081e"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/Ainf.olean",
+          "bytes": 1181536,
+          "sha256": "feb160df0ba43795ca4df98cfe3c2e8a1baf455db06ea2133040fe18ef2d90be"
+        }
+      },
+      "publicCacheOleanSha256": "feb160df0ba43795ca4df98cfe3c2e8a1baf455db06ea2133040fe18ef2d90be",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.Places",
+      "source": "compact/src/Lib/ClassField/Places/Places.lean",
+      "sourceSha256": "4eb3c93d72f83ec7a2ac45488c7c047e30ccb7d1383404941b46711a0b1d5e3f",
+      "setupSha256": "d8e2d2f2259e8513bf088a84bd598d2552d7283daa0308355d155065b7914404",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/Places.ilean",
+          "bytes": 34375,
+          "sha256": "bc9302a64d3a335d563a0ecb0587235d7ea9abe21d338bcaa5b6463eb56594ba"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/Places.olean",
+          "bytes": 847880,
+          "sha256": "02e4ba9a54b920c876f340a137d1f60fd500646d78c39aeb899ddc19218d6654"
+        }
+      },
+      "publicCacheOleanSha256": "02e4ba9a54b920c876f340a137d1f60fd500646d78c39aeb899ddc19218d6654",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.ThetaKernel",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/ThetaKernel.lean",
+      "sourceSha256": "729f4f16ee1cdf06e0129cf23cd53cd95e9bcf2e7ececc8a2b366c11ada409e6",
+      "setupSha256": "903a722fd0592863b5cf36b64456d0ac17a119c66ec1e9a5afa923eb9852d0bf",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/ThetaKernel.ilean",
+          "bytes": 54723,
+          "sha256": "89bf9af94c47e2b779ba086cd5b8690f0d9e344573310b69fc2208bb8018b9be"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/ThetaKernel.olean",
+          "bytes": 1747880,
+          "sha256": "61e8d6f5184021a83444ca9235b4e5c1d938dadf509000afcc2e7886a92a63be"
+        }
+      },
+      "publicCacheOleanSha256": "61e8d6f5184021a83444ca9235b4e5c1d938dadf509000afcc2e7886a92a63be",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalFrobenius",
+      "source": "compact/src/Lib/ClassField/Places/LocalFrobenius.lean",
+      "sourceSha256": "0df8fcce5bdef6791804fcbc64c323eaa5b7b0a20c861a085618e4d162b8ff6a",
+      "setupSha256": "93a0212e33c58136c9d1d999bc4bc275b92d19f9b2f86e97ca36f1173d2b0190",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalFrobenius.ilean",
+          "bytes": 28738,
+          "sha256": "3d9dacefb64c17f29e273859e6451418aaed75604ba09acf90be88600401d8bc"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalFrobenius.olean",
+          "bytes": 1929264,
+          "sha256": "ac973e35508cf4a3f6cb980efd0d808519258751b4d2ba8a695dd8734264b891"
+        }
+      },
+      "publicCacheOleanSha256": "ac973e35508cf4a3f6cb980efd0d808519258751b4d2ba8a695dd8734264b891",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.AmaxStructure",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/AmaxStructure.lean",
+      "sourceSha256": "c00ffe73f254eecccf8414c4ff56a2aa7334d6669eec8a234c07f7c5c3a0e855",
+      "setupSha256": "35029cf9d8c3847a5f7384b8fd493135b2556acc39fc6d561ee7daa2ba0f4f3c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/AmaxStructure.ilean",
+          "bytes": 70280,
+          "sha256": "45aeb666e75c9ff1e9e98419c9928b77ecb75107502c0008f9df375be39e7db8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/AmaxStructure.olean",
+          "bytes": 3952184,
+          "sha256": "42c92577bbbf27143f3130fe15f2c8dfe6e37939470e7021087fb838fd03f367"
+        }
+      },
+      "publicCacheOleanSha256": "42c92577bbbf27143f3130fe15f2c8dfe6e37939470e7021087fb838fd03f367",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalExtension",
+      "source": "compact/src/Lib/ClassField/Places/LocalExtension.lean",
+      "sourceSha256": "025448c43511c9f708869f57abcca1b2e8dd386a332fd05c96ddaf08427be45b",
+      "setupSha256": "66590d79ff2e96d235097929527eff586f820610cde6d8d4965dbe5a7fb7225f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalExtension.ilean",
+          "bytes": 18063,
+          "sha256": "e9dd66902db056e96f85a0d83f7cbca2cc95a22c8409037d77dd0b5d0041f71f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/LocalExtension.olean",
+          "bytes": 1037616,
+          "sha256": "5592a123308bb8b5b16c976124bfa031932080419202721b607e3a64c0e86bd2"
+        }
+      },
+      "publicCacheOleanSha256": "5592a123308bb8b5b16c976124bfa031932080419202721b607e3a64c0e86bd2",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.BdRPlus",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/BdRPlus.lean",
+      "sourceSha256": "edf85c9b43a2fd45542b6ea32f9630414eb453899122bbcfcb8a55d8290151fd",
+      "setupSha256": "0012887f946cf05d4069925e9abfb3cece1424ea1b3c2eab9ef2423f16876a0c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/BdRPlus.ilean",
+          "bytes": 32598,
+          "sha256": "40b9447fe5e51b4d21cb46c6c11d7e1b0d2c9601e860f2c2a43f63dd5231888e"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/BdRPlus.olean",
+          "bytes": 1233840,
+          "sha256": "f62b18d0eff4f8fb5643c24ee30a1ef466f7624286cabe27a39c577ddcb9ba83"
+        }
+      },
+      "publicCacheOleanSha256": "f62b18d0eff4f8fb5643c24ee30a1ef466f7624286cabe27a39c577ddcb9ba83",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.UnramifiedCharacters",
+      "source": "compact/src/Lib/ClassField/Places/UnramifiedCharacters.lean",
+      "sourceSha256": "b8e55562be22fa2641622bf963a57b784ca10ed79ef1a5f0cd2e748652bec900",
+      "setupSha256": "5cbda707db5a1e7410aeed2115a0e64db78b7a081e856ab33ce018a1ce8667b5",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/UnramifiedCharacters.ilean",
+          "bytes": 33569,
+          "sha256": "0f849be00df54d7db717e33c6377aea4c6fbd6a588ed9143105884b6181ca3e5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/UnramifiedCharacters.olean",
+          "bytes": 957592,
+          "sha256": "a6750a483ffc94e66fd96407e47971f1a472be280e6fb854ad6f9725c9930943"
+        }
+      },
+      "publicCacheOleanSha256": "a6750a483ffc94e66fd96407e47971f1a472be280e6fb854ad6f9725c9930943",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.BdR",
+      "source": "compact/src/Lib/PadicHodge/PeriodRings/BdR.lean",
+      "sourceSha256": "123685b6fe4abd81560b30149063f03101f605c8a924fe96e8fcdc92d3799c83",
+      "setupSha256": "c931ab6dc6aa68cb3acfaf2592bf97d1cd21c3bb74cd0ea6c5a86245424f6f04",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/BdR.ilean",
+          "bytes": 56255,
+          "sha256": "4b9af255e0fe68d7aa628cf6d46860375629541d56ef350aea4c497d27c828cc"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/PeriodRings/BdR.olean",
+          "bytes": 3222096,
+          "sha256": "bf8960e1732a7203e5238eaf19d65b2086192fae59b4260f73bfe509d395bee7"
+        }
+      },
+      "publicCacheOleanSha256": "dd240f9ddc0a0fc52a0b739a63f9540988bb1e6a674c29068d3202a14ea06b97",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.Places.PadicDecomposition",
+      "source": "compact/src/Lib/ClassField/Places/PadicDecomposition.lean",
+      "sourceSha256": "e524930294bf62ca3e4ef42c51f580ae08bf1cfac628e28ee2404f82050e5dcd",
+      "setupSha256": "fe7705c14a0547ff437194b61d40ee0053c661d1206fa0eebfdbcb3fbef7be5c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/PadicDecomposition.ilean",
+          "bytes": 42739,
+          "sha256": "aa96cea45a5a383f5cde6eb815d637939237b7c8bbd7fb5136d7c18ef733241a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/PadicDecomposition.olean",
+          "bytes": 1693608,
+          "sha256": "435d610be1ea03668530eb22540987cac170cf27c7772674509e3137916fc582"
+        }
+      },
+      "publicCacheOleanSha256": "435d610be1ea03668530eb22540987cac170cf27c7772674509e3137916fc582",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.Defs",
+      "source": "compact/src/Lib/PadicHodge/Crystalline/Defs.lean",
+      "sourceSha256": "600802a0fd9d8dd5d69f80f1f193d563d04c3bd6a3e116a1721c929e60bcee45",
+      "setupSha256": "53c13e838a5515b60e9cacddc7e117a779323ab27fd28dbb17e54ad5290b655f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/PadicHodge/Crystalline/Defs.ilean",
+          "bytes": 15144,
+          "sha256": "09260dcf8485b1329580bd60666b27e42e50ed414fec9e7eb81a7696493098d2"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/PadicHodge/Crystalline/Defs.olean",
+          "bytes": 1231784,
+          "sha256": "4fd4666085623089be78def8f30588a1aa1a4c8cc0870f9ebcf6986ec78bce68"
+        }
+      },
+      "publicCacheOleanSha256": "4fd4666085623089be78def8f30588a1aa1a4c8cc0870f9ebcf6986ec78bce68",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Hecke.ClassMean",
+      "source": "compact/src/Lib/Adelic/Hecke/ClassMean.lean",
+      "sourceSha256": "bb2743f55506fc616cad65c42d32c30105c6e81bbed080fcf13a1076c2a093d0",
+      "setupSha256": "78e0091c06f14f6be331cc82d5af71c0f020e6c2b77c5e5b177fa5a6b09c9c50",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Hecke/ClassMean.ilean",
+          "bytes": 28080,
+          "sha256": "31501546055b677c3977f52c1d6770e0803f3bdb80640a2e5846c8440aed6148"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Hecke/ClassMean.olean",
+          "bytes": 1526136,
+          "sha256": "dabeb6cb0a83bad7220f0e6be6973b0fb8dbde211f572cf88404b428e0dd8724"
+        }
+      },
+      "publicCacheOleanSha256": "6dc96748d9c1970651dc637b305a2ecc2a0b0db7e06e954b51218b3c0f56a7c7",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Adeles.LocalComponents",
+      "source": "compact/src/Lib/Adelic/Adeles/LocalComponents.lean",
+      "sourceSha256": "87495110e5f65ce3dfe6027e77215a92c96ceaab018b58f2a2d27b245738f6f1",
+      "setupSha256": "d1b9f2a037ebdaae1ffa02d5cc0bcc1ad384b07be6dddc5cd8e39f566596bd05",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/LocalComponents.ilean",
+          "bytes": 26387,
+          "sha256": "ca17e3885076d1ce667168d126f6640c60bdc4d277030677e13d3963e6bdb245"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/LocalComponents.olean",
+          "bytes": 2366576,
+          "sha256": "9186a3402189a37464951642c040b54c81bbe3d20b0295b0cc91f7254ff53e55"
+        }
+      },
+      "publicCacheOleanSha256": "9186a3402189a37464951642c040b54c81bbe3d20b0295b0cc91f7254ff53e55",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.Groups.CompactMean",
+      "source": "compact/src/Lib/General/Groups/CompactMean.lean",
+      "sourceSha256": "d0e26213e533f130aa8d8043d85acd736c416efb41be87ac3dd2064a4be493c9",
+      "setupSha256": "9ed2f97974c6033c25e99dba3b332af399a737d67756ee738a5adf4d7ab3430d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/Groups/CompactMean.ilean",
+          "bytes": 11728,
+          "sha256": "870db1a146de981e7f1a79fc1b190d0f389babf9fa56cd4c10a590aec712ebbc"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/Groups/CompactMean.olean",
+          "bytes": 531600,
+          "sha256": "c90317c301522035e5d4f008efb91ea30654f31c5603d9db585a2a65cafed4aa"
+        }
+      },
+      "publicCacheOleanSha256": "c90317c301522035e5d4f008efb91ea30654f31c5603d9db585a2a65cafed4aa",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IntegralParameter",
+      "source": "compact/src/Lib/CM/LocalHeight/IntegralParameter.lean",
+      "sourceSha256": "8cee4e42232d40ab299d6b9181201fd412ea71b7e3aa0e68c40946b5aa7d0cb1",
+      "setupSha256": "ff5f0aaf837c14cd66ce59422f9704b4e931a4dd358169e0f3518caf9da1c496",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/LocalHeight/IntegralParameter.ilean",
+          "bytes": 65565,
+          "sha256": "dbb34e40872f2dbb5f061844b61c74b4b08bc123b2cdf555bf60dec01c6466b7"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/LocalHeight/IntegralParameter.olean",
+          "bytes": 6003968,
+          "sha256": "ad25450657605de888e107393ccef6f5dd3bd1d0e5042703bf905f6bda79c879"
+        }
+      },
+      "publicCacheOleanSha256": "a172fa7e27235434d466e6afc13fc776b4a07db64426237da78a3457ee213011",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Unitary.CongruenceLevel",
+      "source": "compact/src/Lib/Adelic/Unitary/CongruenceLevel.lean",
+      "sourceSha256": "a7f33e3355ec55ae89a3ab93818c10206c4c5aa97397763bb4127e5f720d9dea",
+      "setupSha256": "cf6a7c6d07f3ccccc4e7c0b7fc7f118267db97b44887dea80980a5e6459e62a8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/CongruenceLevel.ilean",
+          "bytes": 77569,
+          "sha256": "0e63397f9f263a54a785d893aa54e858c1a8de1276fed5104949f76d9d9a878c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/CongruenceLevel.olean",
+          "bytes": 4835832,
+          "sha256": "c00f3473a6f733331753bd6b8132d5bfb77220270694731e8ca62c4c8c709552"
+        }
+      },
+      "publicCacheOleanSha256": "1056d985aeafe304121b572da511a1ddeacb3efe1a5bec3b4cf7fd01fa77fce2",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IsogenyIntegrality",
+      "source": "compact/src/Lib/CM/LocalHeight/IsogenyIntegrality.lean",
+      "sourceSha256": "d719756796124ae8c0b9afc734339e85d517e539243bb366199b043acbf7c7c6",
+      "setupSha256": "bde83bfec8936223b117d04214ebfa67702de9333a77608c8fc7ae57d6a57059",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/LocalHeight/IsogenyIntegrality.ilean",
+          "bytes": 45050,
+          "sha256": "7e433f58e3b68ad52cacc2c059f305447859108bf28b35b0e28de2009fa2b6e7"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/LocalHeight/IsogenyIntegrality.olean",
+          "bytes": 3000992,
+          "sha256": "3955689a980bc9b515ff061c94d72f26a1b69b7934e7a2d9189df061bbacf206"
+        }
+      },
+      "publicCacheOleanSha256": "f3ff4aadd2411aba5cb1dff2fbee5d3a86b4a10ef438bba4fe62cbf26e78262c",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Weil.Unramified.HeckeGL",
+      "source": "compact/src/Lib/Weil/Unramified/HeckeGL.lean",
+      "sourceSha256": "b0ca397465b8f1ea1b0729e453d96fbf726c5de0e29c28f641ec8b0234b5e60c",
+      "setupSha256": "23ed90d4d72e52b7ad7eb60f1373daaeac6e0b6a046d6a5fce4129b5caf7b9b5",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Unramified/HeckeGL.ilean",
+          "bytes": 42849,
+          "sha256": "5ca5cfe39d5775b465c14e9b693726fd6ee516cb6d2df3eda5a6e67351023d46"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Unramified/HeckeGL.olean",
+          "bytes": 2566456,
+          "sha256": "cbc6fd0375bc90a00b6aaf6ce05f40ae7d4867bbdf7bfc9d4b370cf81451eb62"
+        }
+      },
+      "publicCacheOleanSha256": "cbc6fd0375bc90a00b6aaf6ce05f40ae7d4867bbdf7bfc9d4b370cf81451eb62",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.CM.MainTheorem.ConjugateCurve",
+      "source": "compact/src/Lib/CM/MainTheorem/ConjugateCurve.lean",
+      "sourceSha256": "dffab810a709a4239e0690f44ea0ce20a89fc983b97f7eb30fcb288768ac932a",
+      "setupSha256": "4a722866de22c1d866357588c035ec9868622e4363d8392d7549ff28965757f5",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/MainTheorem/ConjugateCurve.ilean",
+          "bytes": 24612,
+          "sha256": "55fd02d662dfd9f6b8b011af2796635133ccc5e7f1efc7d91bdcb1f14877c43a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/MainTheorem/ConjugateCurve.olean",
+          "bytes": 2157368,
+          "sha256": "b6fdd433039d2f4fe452dad130404ac26914000d3b330baa50ae2760b5b3e3d4"
+        }
+      },
+      "publicCacheOleanSha256": "b6fdd433039d2f4fe452dad130404ac26914000d3b330baa50ae2760b5b3e3d4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Unramified.SphericalHecke",
+      "source": "compact/src/Lib/Weil/Unramified/SphericalHecke.lean",
+      "sourceSha256": "91a6858fe5ef41632dae343607447773fdfd355b57296e71ec0ed1ccb81746b4",
+      "setupSha256": "43eb09ebe7f012d03ef30b6b226754ce613dcc5fcb0336490173ea6566599ff8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Unramified/SphericalHecke.ilean",
+          "bytes": 40286,
+          "sha256": "b18ec25092a795938d52c08bf7bd541f9ef0f83ba898ee7e47182df7b8f0bbf5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Unramified/SphericalHecke.olean",
+          "bytes": 2882984,
+          "sha256": "ef504636be84d9d7f64bcb91c17e6bad5839ec872753162f6471497afa8d2e50"
+        }
+      },
+      "publicCacheOleanSha256": "ef504636be84d9d7f64bcb91c17e6bad5839ec872753162f6471497afa8d2e50",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.CM.KroneckerLimit.LogTheta",
+      "source": "compact/src/Lib/CM/KroneckerLimit/LogTheta.lean",
+      "sourceSha256": "dec722d275d9f214833fba6581c890917eca643b0ca962b8e76d23b0f43792db",
+      "setupSha256": "c38be75c5b5ec54a89f12b421cdfa6094e83d2f217d853b366b967ab79f5d2e9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/KroneckerLimit/LogTheta.ilean",
+          "bytes": 57770,
+          "sha256": "b5b8754b04c6ceeabd9e615ba6e6cd3a76f3a019d2e4f0deae7e3e1759ba992f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/KroneckerLimit/LogTheta.olean",
+          "bytes": 4425008,
+          "sha256": "00a046617b1acf9f4e81bd17d0481deb8018c3eea141e36ac068f0e50703dd9b"
+        }
+      },
+      "publicCacheOleanSha256": "3fe765fda8cc07dec1db7c4951f173562d7c2d3d04a8f3a5bb53de6df43d4ff4",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.GaloisRep.Main.LocalEmbedding",
+      "source": "compact/src/Lib/GaloisRep/Main/LocalEmbedding.lean",
+      "sourceSha256": "a29734aa4db88961d0ddb22eb5fd246f530077bebda2917829456d603df16c0a",
+      "setupSha256": "6a41e76a33bb059fb9f68f7706eb3d85276b4e66bb740382d4710efd02044ac9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GaloisRep/Main/LocalEmbedding.ilean",
+          "bytes": 13626,
+          "sha256": "33c03e7015c43afe1a7531bcf50e2ed9c64f0911a5fab3db43b7eba8e237ac05"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GaloisRep/Main/LocalEmbedding.olean",
+          "bytes": 437832,
+          "sha256": "81cca569302c0eae26b3284c42bf028e24e32d0df7671ee28eaf11bfbad82fc6"
+        }
+      },
+      "publicCacheOleanSha256": "81cca569302c0eae26b3284c42bf028e24e32d0df7671ee28eaf11bfbad82fc6",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Data.Different",
+      "source": "compact/src/New/Data/Different.lean",
+      "sourceSha256": "0c42bf4cf5ddb40bffdd0831519a0334a7c9ac1926abfeb446774cebb4179480",
+      "setupSha256": "2ef244c2525f601e74a411e3ad23f6ebd2b882ff6b62048c8a731018a782945e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Data/Different.ilean",
+          "bytes": 78572,
+          "sha256": "dbb26c1d2892e33b03537b1d5259011cfb8ecd9fafe5016206e4119e2b85bf92"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Data/Different.olean",
+          "bytes": 2360952,
+          "sha256": "d68e906bb78012a29c94855c6056fb7055d54c7a1de4d7da705b18acc6bbf1ad"
+        }
+      },
+      "publicCacheOleanSha256": "78b06a2365be3ce9e0d6bba3ee610d670fbb88ba349932102837427e447c8e8a",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.CM.Genus.QuadraticZeta",
+      "source": "compact/src/Lib/CM/Genus/QuadraticZeta.lean",
+      "sourceSha256": "f2eafaf8b973f83bece511840e623745b9560dd991840931e28a4051de605478",
+      "setupSha256": "6c3a85c2f6bfb09d1bf584db107d0a649ad193b11e3ef15f339618b9d80f0002",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/Genus/QuadraticZeta.ilean",
+          "bytes": 22032,
+          "sha256": "29bf4c5bde3d382dbc677218e734f0d01757e3dc26d74d5ba1ecf0ae13c8163d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/Genus/QuadraticZeta.olean",
+          "bytes": 1443200,
+          "sha256": "d58533824c743eeec34e1e3f4c1ec6a47d3d875fb392ea6d1114cd65c67d8366"
+        }
+      },
+      "publicCacheOleanSha256": "d58533824c743eeec34e1e3f4c1ec6a47d3d875fb392ea6d1114cd65c67d8366",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterDefs",
+      "source": "compact/src/Lib/ClassField/HeckeCharacter/CharacterDefs.lean",
+      "sourceSha256": "7f53dc7f655fbe625662f42b156a6585b781b99e323fd1a70de98a6ea87f84c7",
+      "setupSha256": "cce2a80d445ea6814f5eedbdea60e1880f6d82e7a2e7a47be073247bc46e57ac",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterDefs.ilean",
+          "bytes": 8998,
+          "sha256": "78c3701e118a9f3177746bfed9363988208f6770704d087d760700fc08637ef8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterDefs.olean",
+          "bytes": 521928,
+          "sha256": "d2dfb07d698edad74d672bb1d0e69f2113ea034e674c578b4a6d7a488be19875"
+        }
+      },
+      "publicCacheOleanSha256": "d2dfb07d698edad74d672bb1d0e69f2113ea034e674c578b4a6d7a488be19875",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.CM.FormalGroup.FormalHeight",
+      "source": "compact/src/Lib/CM/FormalGroup/FormalHeight.lean",
+      "sourceSha256": "f503a05248222528b6565644414e6298e8f2c9be6193e9baa7fc1dfca4ee3c04",
+      "setupSha256": "0bd71318df55387953eb346fe37927f3bdc5fddebad36af75249d4ca6301798b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/CM/FormalGroup/FormalHeight.ilean",
+          "bytes": 65805,
+          "sha256": "b2017e6762167d551594224298c1d84ee8eae1886dca595479d4d0b02d68f684"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/CM/FormalGroup/FormalHeight.olean",
+          "bytes": 4058168,
+          "sha256": "45ad5e4e7298e12a761792678e2f57880e8f34efadd63de944f4352c64d44e69"
+        }
+      },
+      "publicCacheOleanSha256": "45ad5e4e7298e12a761792678e2f57880e8f34efadd63de944f4352c64d44e69",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.NumberTheory.UpsilonValues",
+      "source": "compact/src/Lib/General/NumberTheory/UpsilonValues.lean",
+      "sourceSha256": "bf7e1f8e131ce7c7d7ddfc11beb6b60db6eb1352e63efe81aaab5ef3726d8d95",
+      "setupSha256": "ac3ff75e259f8e0e48299907a35e31f57bee81e5bddf6c11c9427348e7de8b73",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/NumberTheory/UpsilonValues.ilean",
+          "bytes": 22055,
+          "sha256": "44dfaa10965c145bb362ca93e017bea531ee5219ff5c765dd03b74dbd3b84ab6"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/NumberTheory/UpsilonValues.olean",
+          "bytes": 1183344,
+          "sha256": "a7fcc7a68ff0111cabdc81c847996ea2a76a111e26abb1cc7bd2c930c5cdabcd"
+        }
+      },
+      "publicCacheOleanSha256": "a7fcc7a68ff0111cabdc81c847996ea2a76a111e26abb1cc7bd2c930c5cdabcd",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Curve.FormalParameter",
+      "source": "compact/src/New/Curve/FormalParameter.lean",
+      "sourceSha256": "93aaff31b57f46425ec88f59f5a9cff0f6b59cdf33ed2ec00978128d27c706f2",
+      "setupSha256": "24f30e29bf176b1d0cc9e90da9a9371e16e0c7d7d05abbbf4e357cc1fb8a6832",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Curve/FormalParameter.ilean",
+          "bytes": 60266,
+          "sha256": "6b22cd0496f9035d084d4ba1992c7827756b63d5fbd86f7b9dbea8a41e6e65f1"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Curve/FormalParameter.olean",
+          "bytes": 10490248,
+          "sha256": "222594547c35ffb3199fca6975769d1983db3172209f3edc1b8eadd450665eab"
+        }
+      },
+      "publicCacheOleanSha256": "222594547c35ffb3199fca6975769d1983db3172209f3edc1b8eadd450665eab",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GaloisRep.BaseChange.OrbitClassSum",
+      "source": "compact/src/Lib/GaloisRep/BaseChange/OrbitClassSum.lean",
+      "sourceSha256": "107fe2f107bcc862c55ecaecfde253614fb17a0b8eb5b1711d4f587647694e2e",
+      "setupSha256": "af9eff0587deedd15868ceaf455363a537419f9b22bbaf70e8f49d45bd672ebc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GaloisRep/BaseChange/OrbitClassSum.ilean",
+          "bytes": 31284,
+          "sha256": "3fc3745e1b9568a6ca7f3d720168931bcfc0926a1c00e474de11e502b38409b5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GaloisRep/BaseChange/OrbitClassSum.olean",
+          "bytes": 3495712,
+          "sha256": "280d268f93c565d93c2da3d54daa274bd31a90fb52bd89fb352187743e3b4975"
+        }
+      },
+      "publicCacheOleanSha256": "280d268f93c565d93c2da3d54daa274bd31a90fb52bd89fb352187743e3b4975",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Reduction.MinkowskiSecond",
+      "source": "compact/src/Lib/Adelic/Reduction/MinkowskiSecond.lean",
+      "sourceSha256": "a60fcd39e5b15a779402e2614a11a6a0d9258e57519c61613ff9027e03f059a4",
+      "setupSha256": "57ce268547fc7d2358d5f63a520c23292e998ef97d52d44fb7430caa5ed3f336",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Reduction/MinkowskiSecond.ilean",
+          "bytes": 50420,
+          "sha256": "5e633f220317d8f3c5748f8686e7d006a50c5304155049f09a57d5f96a644bf3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Reduction/MinkowskiSecond.olean",
+          "bytes": 2539256,
+          "sha256": "d0cbe49957fe66bf084b202d241de37817ce2b0f220e7753634c6d2e3f958e65"
+        }
+      },
+      "publicCacheOleanSha256": "d0cbe49957fe66bf084b202d241de37817ce2b0f220e7753634c6d2e3f958e65",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.IdeleHilbert90",
+      "source": "compact/src/Lib/Adelic/Adeles/IdeleHilbert90.lean",
+      "sourceSha256": "717b9af80cde3c76b93a3f97cc1736879d86afdb8f2b3278f619254632e7dd81",
+      "setupSha256": "2572801ae6885daac7f9fc3a703cd0502dc7ad674aa99bbaf0e0fa9ab2c517a7",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/IdeleHilbert90.ilean",
+          "bytes": 43467,
+          "sha256": "9ab3e4e6daf80712c297765cab2e5f37db1dd4aa6edf5d874cf6d95944a03f51"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/IdeleHilbert90.olean",
+          "bytes": 2748080,
+          "sha256": "6de9a65598cca22dc754221c1a7fd2768a50a2485cac92adfd727de97ae7a1d3"
+        }
+      },
+      "publicCacheOleanSha256": "bb2e64f5986579803d4d7c646162969b72295bfdbd23cef82254b18c9980f603",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceBasic",
+      "source": "compact/src/Lib/Adelic/Unitary/SpaceBasic.lean",
+      "sourceSha256": "d742d5ac099f9603cc08b717b5aa19cb7e2316ae9b5fa6b1ee7599ca3aeda3bf",
+      "setupSha256": "28ed65172726a20e5ad39e6135335de98fb70578eb69563541859fbb89c0a885",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceBasic.ilean",
+          "bytes": 18286,
+          "sha256": "948fdafd2ae8a415799b4baf4e2f4a5ecaf09d7ba803e2f0f5c2e4903d3e7a71"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Unitary/SpaceBasic.olean",
+          "bytes": 2385936,
+          "sha256": "b200b66734a490f133bfad326e23219f3347ee8f02a2bb7b4237e5facddef77e"
+        }
+      },
+      "publicCacheOleanSha256": "b200b66734a490f133bfad326e23219f3347ee8f02a2bb7b4237e5facddef77e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.AdeleNorm",
+      "source": "compact/src/Lib/ClassField/Places/AdeleNorm.lean",
+      "sourceSha256": "dd9d668f01647e908686690c684d2cefe39a04618ed5a894f8a78cb59c97f656",
+      "setupSha256": "37732a9e59e958ad7d8109b4b970c1c048c84b379856bcd2ba00660b0881e65f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/AdeleNorm.ilean",
+          "bytes": 46759,
+          "sha256": "e3b669a6d962739bccf8617d58256cb3237e9a7425a0ca1388789efd75212d43"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/AdeleNorm.olean",
+          "bytes": 1777688,
+          "sha256": "5585237cf01f4e3a61261b46c3d0a359d28c8dec4aca0d33ece4bf112c325399"
+        }
+      },
+      "publicCacheOleanSha256": "9735d9c81950137b4f97d8b8784644fae9bdc9fd8efd33c7bd38b826da5543cc",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Reduction.FirstMinimum",
+      "source": "compact/src/Lib/Adelic/Reduction/FirstMinimum.lean",
+      "sourceSha256": "f1e0eb9668aee6f23f7ed115d132371257d5ddd1858d9ee93d3a812db29ce877",
+      "setupSha256": "8fe07c1734e9b9b86dcb40212698fc0d8507fb855cc39ad3233a39c2be7c3051",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Reduction/FirstMinimum.ilean",
+          "bytes": 19524,
+          "sha256": "f94006bd8035b008435e819789c8fd05e0e432244e2041a3f820c3e0084fe0cf"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Reduction/FirstMinimum.olean",
+          "bytes": 1297952,
+          "sha256": "625d5a20f6c9aa133673ed737be05266d86b8eace6f1c6df6cc2e30938c208f1"
+        }
+      },
+      "publicCacheOleanSha256": "0a8f8f3c5538b2e4c9eb62f665b29a27b0c01a79b8459fa327cb66658f3cec75",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Adelic.Adeles.NormAbsValue",
+      "source": "compact/src/Lib/Adelic/Adeles/NormAbsValue.lean",
+      "sourceSha256": "99448f5bbbadd97c92297b64105aecf8d60014e8c9564a59dafd29fff8a6ff9d",
+      "setupSha256": "f150ec6ec8f42d3a078475223c7fc0bb448faa23ae226b5d5060fa40bbcb9d1d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/NormAbsValue.ilean",
+          "bytes": 6842,
+          "sha256": "06bd16b93963516e66447062ec6b944579d14054c482a282ce123c073cc9fd81"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/NormAbsValue.olean",
+          "bytes": 437288,
+          "sha256": "44405528bbc3fc8e32489c77aa02b3dbee035a321951d25a7704d6ca9464f75c"
+        }
+      },
+      "publicCacheOleanSha256": "44405528bbc3fc8e32489c77aa02b3dbee035a321951d25a7704d6ca9464f75c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.IdelicThetaSum",
+      "source": "compact/src/Lib/ClassField/HeckeL/IdelicThetaSum.lean",
+      "sourceSha256": "87843f06b72abf77508da434093ca104eba58bfbf1fe94700333cf8dcde37f8c",
+      "setupSha256": "fd50f79ef2daeeb79ac8623b66603e2ba15c12936144292dbbbde99f550a6013",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/IdelicThetaSum.ilean",
+          "bytes": 33807,
+          "sha256": "f29fd5af1099d4116d8838dafb70478655b1a2b904bee8437ce6867c5ae9ac4b"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/IdelicThetaSum.olean",
+          "bytes": 2530632,
+          "sha256": "9ead9e02486521620c603ab39753b2144d7ca9de6f2418189e9579050c215cf1"
+        }
+      },
+      "publicCacheOleanSha256": "9ead9e02486521620c603ab39753b2144d7ca9de6f2418189e9579050c215cf1",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdditiveCharBasic",
+      "source": "compact/src/Lib/Adelic/Adeles/AdditiveCharBasic.lean",
+      "sourceSha256": "caa94f0b547ca5e84f4b05f8684ed8a1618954bdc7e3e2f46661fb74e63d3506",
+      "setupSha256": "dcfb9ba26b0aab67c4e61a6b08f060ebc0aff3a677b7082820c0943a49b14343",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdditiveCharBasic.ilean",
+          "bytes": 21512,
+          "sha256": "c90a3715a0d221f74cd0cb82156d55b3c915e8184ad0799838f201c1d4145221"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdditiveCharBasic.olean",
+          "bytes": 869712,
+          "sha256": "87476794fe41e6b559085b07c839714425535940718eb57ab71d0e8c2edd9ce5"
+        }
+      },
+      "publicCacheOleanSha256": "87476794fe41e6b559085b07c839714425535940718eb57ab71d0e8c2edd9ce5",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleSelfDual",
+      "source": "compact/src/Lib/Adelic/Adeles/AdeleSelfDual.lean",
+      "sourceSha256": "6a7b62b45e8609636a73a72534007fec451ccca5798e6a6c47c0292c3b5096a0",
+      "setupSha256": "ba5b73904840533903d1a6a2ae1311d010bc299d1c508ecc76f62b083c013c7c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleSelfDual.ilean",
+          "bytes": 7302,
+          "sha256": "e32b8220cecf8fcfee3d75af6334e9436c4039ebc53a7e6a8243fb7c196b1780"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/AdeleSelfDual.olean",
+          "bytes": 430768,
+          "sha256": "63b4d38f0705a2cc46712796441c75a18a9d7c5c8d7afaf94dc02db6dea8fd31"
+        }
+      },
+      "publicCacheOleanSha256": "63b4d38f0705a2cc46712796441c75a18a9d7c5c8d7afaf94dc02db6dea8fd31",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.DiscreteUnits",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/DiscreteUnits.lean",
+      "sourceSha256": "6cc5b3cfd9f5039890b6145c92409171ea1d33848ceaa2e0143bfc9a92656b79",
+      "setupSha256": "7018ca9229cfaf144056c9e2d578412af3e72bdefc56184feccdd0ca5999f461",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/DiscreteUnits.ilean",
+          "bytes": 50507,
+          "sha256": "bcbbcc32de73a7490cd80318234828b7c37652493741e0e69993a53a301efed5"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/DiscreteUnits.olean",
+          "bytes": 3357648,
+          "sha256": "6cf9369876fe43bb05239b5d7fc1b0fc786fb54e479b3f2d6d8a9761c2ac183c"
+        }
+      },
+      "publicCacheOleanSha256": "6cf9369876fe43bb05239b5d7fc1b0fc786fb54e479b3f2d6d8a9761c2ac183c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Adeles.MatrixApprox",
+      "source": "compact/src/Lib/Adelic/Adeles/MatrixApprox.lean",
+      "sourceSha256": "4c186c05466887a8cda93fc0d3a090055f8e337b9164398904a66cd02d8585ee",
+      "setupSha256": "a9d2c3054fdedc3a7899d9635630dee8b41e7d2bd982a7037d70d6a112ef152b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/MatrixApprox.ilean",
+          "bytes": 11561,
+          "sha256": "b3f69c1523c983d433bdcbdb6084af52bbc327da779e39dcdc32081a387eca88"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Adeles/MatrixApprox.olean",
+          "bytes": 618640,
+          "sha256": "440dcad37abb52bb2782807aed58076e7d56b90055f463a544f302e22448f362"
+        }
+      },
+      "publicCacheOleanSha256": "440dcad37abb52bb2782807aed58076e7d56b90055f463a544f302e22448f362",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.Cartan.ProjectiveModules",
+      "source": "compact/src/Lib/Adelic/Cartan/ProjectiveModules.lean",
+      "sourceSha256": "c4096db00be269f80f9826dd6423a25ed02ddb406f4b61af8a212e353c34942b",
+      "setupSha256": "4f7be30a6eb41496b246c510d90aab6614cc46a0f98827bd1381be63a614b0ce",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/Cartan/ProjectiveModules.ilean",
+          "bytes": 49079,
+          "sha256": "8881775c844a12bc0e7c71e4650ac767802265a139e04d654734f26366d7fae1"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/Cartan/ProjectiveModules.olean",
+          "bytes": 2910424,
+          "sha256": "7530fe2c284a64c199b91cbd9a0da5bc34e12ff2455d6ecee80cfaf11b0810f1"
+        }
+      },
+      "publicCacheOleanSha256": "1e832616ba6c81b40f294fd49ca85ff416c1732c70e1e44cdcd5a46dbe8a0cf6",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.HeckeContinuation",
+      "source": "compact/src/Lib/ClassField/HeckeL/HeckeContinuation.lean",
+      "sourceSha256": "43fe559e90288e938493af0a0ff7c98f642f87196d94f8c8e6490c7bc88cb4dd",
+      "setupSha256": "0816e5ee0b39ba90e034694ed6d954f34cb0d9b45f240a54874abfcd52c9b95b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/HeckeContinuation.ilean",
+          "bytes": 63892,
+          "sha256": "592ec484632f83b2130d514ef1ab5afc2a6ae80e866c5aaf5e8f70ccaabb7c92"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/HeckeContinuation.olean",
+          "bytes": 3983616,
+          "sha256": "c89779176f289504de5b45089082a8263d735061d194620351d1e484ca6f1ed0"
+        }
+      },
+      "publicCacheOleanSha256": "c89779176f289504de5b45089082a8263d735061d194620351d1e484ca6f1ed0",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CupProduct",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/CupProduct.lean",
+      "sourceSha256": "25424eff9f1c7571fd7036e93d8e0fb9c44e9a9b30e1a80bf3abccb7bc834e5c",
+      "setupSha256": "f4ae24506044bc5aa002138afac9e8edd3e2e7f7f5a202b42ec726f43f777aa9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CupProduct.ilean",
+          "bytes": 16453,
+          "sha256": "01362af89b001bb63b9cf43343acecc54036d9296f529b518b29867b0c782cf3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CupProduct.olean",
+          "bytes": 1785040,
+          "sha256": "874e84404c0598dc1e70ed551725affda128e1d388e103efdc2532c5c6931ed9"
+        }
+      },
+      "publicCacheOleanSha256": "874e84404c0598dc1e70ed551725affda128e1d388e103efdc2532c5c6931ed9",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GreenbergWiles.ExtendCharacter",
+      "source": "compact/src/Lib/ClassField/GreenbergWiles/ExtendCharacter.lean",
+      "sourceSha256": "1207b3a864daaa4062bb0fb3187f8ec53235d2b225eb4a0caabe4b702d8b3f92",
+      "setupSha256": "e4a59ea46535903a10ef934a268b3817d2e2df0326e63b05d2ca0eada6600ecc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GreenbergWiles/ExtendCharacter.ilean",
+          "bytes": 41282,
+          "sha256": "de44f376cb944392c02c39ca9d56db53bff3fe702caf4cad3808ba1a978e61e8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GreenbergWiles/ExtendCharacter.olean",
+          "bytes": 2935296,
+          "sha256": "4d97285c803731a41529d97c79624e133f5ee66b47f04fc1ee7f8f7f3bd924e1"
+        }
+      },
+      "publicCacheOleanSha256": "4d97285c803731a41529d97c79624e133f5ee66b47f04fc1ee7f8f7f3bd924e1",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.SylowReduction",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/SylowReduction.lean",
+      "sourceSha256": "afdabcd6f5d577eb533a1d5c52ad79f2a0740a4fcbbad4f1e2175a67e88f6909",
+      "setupSha256": "a6bf23b0503624969f9adab0b5f1543f64e5a93ff5fb37efee8e4d8a3f168037",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/SylowReduction.ilean",
+          "bytes": 40922,
+          "sha256": "32cff01ea9632afe8e3045142688992286e8aaafe519178e17c2deb00dad3613"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/SylowReduction.olean",
+          "bytes": 3644872,
+          "sha256": "83083dbf5e42f8c3fe4e9fc6691c52cadb87fed4dcee24cb9b7176d7a8589756"
+        }
+      },
+      "publicCacheOleanSha256": "83083dbf5e42f8c3fe4e9fc6691c52cadb87fed4dcee24cb9b7176d7a8589756",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CyclicNorm",
+      "source": "compact/src/Lib/ClassField/GaloisCohomology/CyclicNorm.lean",
+      "sourceSha256": "a808490bca899fb10dc0e09a71cf418fe748690db22e92fcbd0ec148f9d9ef48",
+      "setupSha256": "e8dff91ed9fa38d0956d85e204ccc3801949725c32422b5bf0ed05737faf4168",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CyclicNorm.ilean",
+          "bytes": 51652,
+          "sha256": "07044c008124f69d4a36ca5eb9bb555776d222482cf72fe491e9d8c6871e6f5a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/GaloisCohomology/CyclicNorm.olean",
+          "bytes": 5744264,
+          "sha256": "13576a7dae7e9d798958920a5f3dee7e4eaaca11409d76011fb7fddb805362b0"
+        }
+      },
+      "publicCacheOleanSha256": "13576a7dae7e9d798958920a5f3dee7e4eaaca11409d76011fb7fddb805362b0",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.TameInertia",
+      "source": "compact/src/Lib/ClassField/Places/TameInertia.lean",
+      "sourceSha256": "b8e49136c2210240fb9ddf3096cec0678fd69c4576f5469deb854e5bd5e37f96",
+      "setupSha256": "e49b2157426e64efd215a123181318a25e55638fe30293b8ddc35ef01990da65",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/TameInertia.ilean",
+          "bytes": 22479,
+          "sha256": "c4f5d377f4500ab912595f059c090dac26b497fc60cb56256db1e27c1f9295e3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/TameInertia.olean",
+          "bytes": 1491328,
+          "sha256": "ea8ac349a99382fdb673de706c60ae931f1d6b8adc2b86a105a9085d88b1fbd6"
+        }
+      },
+      "publicCacheOleanSha256": "ea8ac349a99382fdb673de706c60ae931f1d6b8adc2b86a105a9085d88b1fbd6",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterLevels",
+      "source": "compact/src/Lib/ClassField/HeckeCharacter/CharacterLevels.lean",
+      "sourceSha256": "34a501ac4e75620b3b08050745bd453501ff4ec7c72a0a1f3354fe23d131952d",
+      "setupSha256": "eaba2d44dff28f566874cc9228d3529c0ec61faa971cc46a893b900df315a030",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterLevels.ilean",
+          "bytes": 14557,
+          "sha256": "ad1a40ea38ca3e0112f85e946fb306ac6777dec42ee98f99ff5661b7d795fa5d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterLevels.olean",
+          "bytes": 598000,
+          "sha256": "00c4c7e0bec4c5ff69725cd43334dd43fdb09d3349d48271ca853a5660aa4490"
+        }
+      },
+      "publicCacheOleanSha256": "00c4c7e0bec4c5ff69725cd43334dd43fdb09d3349d48271ca853a5660aa4490",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.FrobeniusOnRoots",
+      "source": "compact/src/Lib/ClassField/Places/FrobeniusOnRoots.lean",
+      "sourceSha256": "273af2dd784f5577ee20ea15b3830e5609afd363b9d160a866e82c17a824480e",
+      "setupSha256": "6f010ef4ebcec55e5118f8536d4ea6a27e0b0d8de71d6336bfd5925a6a64180c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/FrobeniusOnRoots.ilean",
+          "bytes": 5234,
+          "sha256": "dbb55e8c3e42ce4fc292b8576096f50250b114de97660e68d32307fa35e1112f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/FrobeniusOnRoots.olean",
+          "bytes": 225888,
+          "sha256": "ca62f10bc086d0291b3f64ceae058f089203eb9389587659c4880bfb27781767"
+        }
+      },
+      "publicCacheOleanSha256": "ca62f10bc086d0291b3f64ceae058f089203eb9389587659c4880bfb27781767",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Places.DecompositionLocal",
+      "source": "compact/src/Lib/ClassField/Places/DecompositionLocal.lean",
+      "sourceSha256": "338ea2cc1f24b32f133607153b438901f3d79ca335768d05b43982a13eaa4801",
+      "setupSha256": "476c2bcd20aacaf4c06833dfd941e963b9d25ff3c946060a93b0213b3e14b1bf",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Places/DecompositionLocal.ilean",
+          "bytes": 46865,
+          "sha256": "e0c421ee8a365f460eb782801d496101086cc72df5c4300224c6e98a758ff069"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Places/DecompositionLocal.olean",
+          "bytes": 3084904,
+          "sha256": "6fb2af0317370d0225cce7af08df28cf7a0d67fd18e211e42bd12ee9fc9843aa"
+        }
+      },
+      "publicCacheOleanSha256": "6fb2af0317370d0225cce7af08df28cf7a0d67fd18e211e42bd12ee9fc9843aa",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.LocalDuality.RealPlaceSymbols",
+      "source": "compact/src/Lib/ClassField/LocalDuality/RealPlaceSymbols.lean",
+      "sourceSha256": "c9dcc1285fb29fee202a18ade51525b1e9728dc77d70726d14d514cb442caca5",
+      "setupSha256": "766f77f3a0ca95dd86c195f10812254867ee5c37bc6b55bf2354c1e8fc0da6d4",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/LocalDuality/RealPlaceSymbols.ilean",
+          "bytes": 83263,
+          "sha256": "62315823e734f5b024f9d68050475c4962600b07c5a1b8f25fc0db45f324cee6"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/LocalDuality/RealPlaceSymbols.olean",
+          "bytes": 9372584,
+          "sha256": "939430a3e9d37940c55ebcc1d174693195225ceff8dd7d5e3e903d4627ea5e5e"
+        }
+      },
+      "publicCacheOleanSha256": "939430a3e9d37940c55ebcc1d174693195225ceff8dd7d5e3e903d4627ea5e5e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Local.ArtinMapAtPlace",
+      "source": "compact/src/Lib/ClassField/Local/ArtinMapAtPlace.lean",
+      "sourceSha256": "24ebccd8e39f668a7147c8b0bd4f1c554f4690b79e3d50e9e346ce1041cab764",
+      "setupSha256": "054361ff4a6e908f48cfe17a90a37bed4e27afe01cafc0baa969e22cd975e3a2",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Local/ArtinMapAtPlace.ilean",
+          "bytes": 78177,
+          "sha256": "ea9e8573f4be253f36d4a9883c303daff07f278fe86fcb64916395bc1785ff6f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Local/ArtinMapAtPlace.olean",
+          "bytes": 6011864,
+          "sha256": "f24d3a39480f6463c18f76b5be6729292dc02b4d726d32e1485a601544153a51"
+        }
+      },
+      "publicCacheOleanSha256": "a9f5e5b91343f8cd558c1c4f6fb9ac74419ffd3f3c2de56288c68dd090e9b985",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.Global.AlbertBrauerHasseNoether",
+      "source": "compact/src/Lib/ClassField/Global/AlbertBrauerHasseNoether.lean",
+      "sourceSha256": "f052acecfd9e7bd98569781871baab25d049f6c0621605caed37583b509257b8",
+      "setupSha256": "6873e58df21ea348102b0baa30e04646f9aa41b0098878e0d87aa2e99019c9cc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Global/AlbertBrauerHasseNoether.ilean",
+          "bytes": 84219,
+          "sha256": "1c9d9c9a131023d74f6ef062c00399aee03e6a1959af31ab694f8643a6825b70"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Global/AlbertBrauerHasseNoether.olean",
+          "bytes": 4945920,
+          "sha256": "3ed48b394cee640115a06b8e7a9aa6be60c83530ee2445e23bda12ce07aeda57"
+        }
+      },
+      "publicCacheOleanSha256": "3ed48b394cee640115a06b8e7a9aa6be60c83530ee2445e23bda12ce07aeda57",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Global.ArtinReciprocity",
+      "source": "compact/src/Lib/ClassField/Global/ArtinReciprocity.lean",
+      "sourceSha256": "1a214d3be9ff953bfe3f99027703c6c037487bcfb98cc80762d7fa19147ce180",
+      "setupSha256": "0299f86692ff799843fee259234cc9fc5dd147497e84827d5d7056d2ced90d27",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Global/ArtinReciprocity.ilean",
+          "bytes": 48957,
+          "sha256": "b43e18712215eacca61f5e0fd633f2a1016b84057fe85b78fcd88f0c4a0e534d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Global/ArtinReciprocity.olean",
+          "bytes": 1942576,
+          "sha256": "7e96bed196250f631b132c38ac94861fb903347621dd369d44deecfe0942cd9f"
+        }
+      },
+      "publicCacheOleanSha256": "7e96bed196250f631b132c38ac94861fb903347621dd369d44deecfe0942cd9f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Global.NormTheorems",
+      "source": "compact/src/Lib/ClassField/Global/NormTheorems.lean",
+      "sourceSha256": "9a7bdc64d5e3d321703deff721d888320472acba690029aa385e5603905a3749",
+      "setupSha256": "d725d29683c8b49bed1a5d88d7764183671da19e7a9e2efdc679b497bdc3f562",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Global/NormTheorems.ilean",
+          "bytes": 22228,
+          "sha256": "18fd9ff0f6536b22c8f1f67416cf878fda8dd9dde3c259ba0d29c1b8eed65f30"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Global/NormTheorems.olean",
+          "bytes": 952976,
+          "sha256": "7aa09b92da69900045fd1a8ca864db58b529a111f2f5bb622fce8523beb99c2e"
+        }
+      },
+      "publicCacheOleanSha256": "7aa09b92da69900045fd1a8ca864db58b529a111f2f5bb622fce8523beb99c2e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.Global.CMNorms",
+      "source": "compact/src/Lib/ClassField/Global/CMNorms.lean",
+      "sourceSha256": "12e7372bbbb4a5b5e5ad7a2eb07d5e8ee8186236b4799b5e9ba7da0c472ff5b2",
+      "setupSha256": "f30d4f1d75622dcda081df3342bb860680557560254dfd96e24448e0e1718feb",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/Global/CMNorms.ilean",
+          "bytes": 24938,
+          "sha256": "3e14bcebfe195f032d807759fd2439721b77fd4ce298aed97633e1cef1a70b67"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/Global/CMNorms.olean",
+          "bytes": 1325168,
+          "sha256": "0a9300bc8db6f843b5bc794426c3939ba47b22563537b504d427a6fba3b946eb"
+        }
+      },
+      "publicCacheOleanSha256": "14840855317b24df1488a71abc21d4397ce701237310ceb81433ec43bf1a0815",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.SplittingCharExists",
+      "source": "compact/src/Lib/ClassField/HeckeCharacter/SplittingCharExists.lean",
+      "sourceSha256": "50cfa3689b27e2bb02c1c3ac8652046647c043ce804d4a0962103987f28d8c5e",
+      "setupSha256": "5c3dc2054699f029fe6c4f18c18c04562b7b8b60a4b28773653ac4bc1c804d59",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/SplittingCharExists.ilean",
+          "bytes": 14285,
+          "sha256": "8bb049b5471065a49ffa4e383b284ee438e3b2f7f57f404e3371393876141b29"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/SplittingCharExists.olean",
+          "bytes": 1087952,
+          "sha256": "1149a97ab8e7a03db195c14f7bd3bbd34a1d8957196212e7fe405eb562097755"
+        }
+      },
+      "publicCacheOleanSha256": "1149a97ab8e7a03db195c14f7bd3bbd34a1d8957196212e7fe405eb562097755",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "New.Data.WeilDataOfE",
+      "source": "compact/src/New/Data/WeilDataOfE.lean",
+      "sourceSha256": "acf2e73fbc547069829ef28638a31c195f8c9e0edd7adf239456a733511a7d9d",
+      "setupSha256": "aa8eed79aae8a9908488132458b7d73e27704092c16e0b978fa9df6b37f88820",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/New/Data/WeilDataOfE.ilean",
+          "bytes": 54494,
+          "sha256": "689f2bee9fc308cb66e68aa500fa86458c59406062ba174ac3462aaaa5255982"
+        },
+        ".olean": {
+          "path": "verified-lib/New/Data/WeilDataOfE.olean",
+          "bytes": 2170736,
+          "sha256": "90d3a3d0ed5000f24e6b08eb910de00d64b7503975296abd02449dbd7e3cadda"
+        }
+      },
+      "publicCacheOleanSha256": "90d3a3d0ed5000f24e6b08eb910de00d64b7503975296abd02449dbd7e3cadda",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterConjugates",
+      "source": "compact/src/Lib/ClassField/HeckeCharacter/CharacterConjugates.lean",
+      "sourceSha256": "334f7e4bcdd98eea93f49753a9561b852118612fc4a2a842a2a9671eae4fb1b2",
+      "setupSha256": "c60ad20e071b46309c28fa7e7e0bef03ee8b7514fe66f578243fdf4082d56ed8",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterConjugates.ilean",
+          "bytes": 35884,
+          "sha256": "959e201b083f262efb8b28cb9d9c6dbd77c52292f3f206a98ee3f5170edb167f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/CharacterConjugates.olean",
+          "bytes": 2975208,
+          "sha256": "380e43b4b190b90487b5f9d34423ed740770690b019680bbb5c84c1343eb623a"
+        }
+      },
+      "publicCacheOleanSha256": "380e43b4b190b90487b5f9d34423ed740770690b019680bbb5c84c1343eb623a",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.UnitaryNorm",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/UnitaryNorm.lean",
+      "sourceSha256": "37f6f7862951c329a45ab3d3b660bd7b1fbde308cbd54905585842f68b479039",
+      "setupSha256": "9e37ed0dc222b940b93f82b94c3e9a1dfd41e6a1970dc03c4e0823f0816b49dd",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/UnitaryNorm.ilean",
+          "bytes": 8315,
+          "sha256": "6794d225e20fe8d17bd7353629108dfb46dd42b526f166e8db820741cf260cba"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/UnitaryNorm.olean",
+          "bytes": 234928,
+          "sha256": "d98f42af1c1e0e74664f9c2231878e50c8c5b2711011874b2c0246dc0e4967e8"
+        }
+      },
+      "publicCacheOleanSha256": "d98f42af1c1e0e74664f9c2231878e50c8c5b2711011874b2c0246dc0e4967e8",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.SkewCoordinates",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/SkewCoordinates.lean",
+      "sourceSha256": "4ac7bd96d0c8008179c223310509a1eb842203114d7ead10339f0a79b0419036",
+      "setupSha256": "5eaaed304454f96ab7ac786f7a9cb572ef6dcc6a15814f9afb831f2702fce192",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/SkewCoordinates.ilean",
+          "bytes": 7646,
+          "sha256": "764e6de060c5028730bfa39459fab9d2363c4bb35dbc503451c20e8c6cfd8608"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/SkewCoordinates.olean",
+          "bytes": 488824,
+          "sha256": "9569803981d9f96163b4ca52482be42d1a78c222e795065243bfdb9afa63d530"
+        }
+      },
+      "publicCacheOleanSha256": "9569803981d9f96163b4ca52482be42d1a78c222e795065243bfdb9afa63d530",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.LogDerivative",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/LogDerivative.lean",
+      "sourceSha256": "1d6dc5a30b7e0709076145d04c4f249fa9a21c1fe57635eb4b46df0086bc4671",
+      "setupSha256": "f05c469d3f610c49de0b9ec7c7c498885b42e87041cc705c383fc0842edadbad",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/LogDerivative.ilean",
+          "bytes": 21108,
+          "sha256": "fc53925d6e6172bfad8e37421321ed0b566b2886783be8ddbd652c0d349b0fbd"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/LogDerivative.olean",
+          "bytes": 1181440,
+          "sha256": "283987e0802f1bb5f5923f1e956c35f59960e4bb15b997264c012c8eefab207c"
+        }
+      },
+      "publicCacheOleanSha256": "283987e0802f1bb5f5923f1e956c35f59960e4bb15b997264c012c8eefab207c",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.CompactDualMeasure",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/CompactDualMeasure.lean",
+      "sourceSha256": "f0149a7f00e6278244e6bd8ca6f91ca2e3f8fe6e986397cf5055da14411823ef",
+      "setupSha256": "364709a9a320926a4ad124ccb0a434eea98a9c58fb63044e2bad37cd30f6a356",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/CompactDualMeasure.ilean",
+          "bytes": 43916,
+          "sha256": "abbfff393dd2df8dd155ceb9c850973590a2d5b1df9bf00959d81256ff45fc50"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/CompactDualMeasure.olean",
+          "bytes": 2119224,
+          "sha256": "45fe0b061f6350e9a9c01b769627a09347b48abec6632ccf4b922134c5814658"
+        }
+      },
+      "publicCacheOleanSha256": "45fe0b061f6350e9a9c01b769627a09347b48abec6632ccf4b922134c5814658",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.RepresentationDefs",
+      "source": "compact/src/Lib/DiscreteSeries/FlenstedJensen/RepresentationDefs.lean",
+      "sourceSha256": "bc4bf60f77624f2586a3022314159e5ed83bc5a110a97fb9fa0502a3ac19bd8c",
+      "setupSha256": "6cfbef29d6458b96200726247f9607f62e25f871066460dad771d9d62b98a3cf",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/FlenstedJensen/RepresentationDefs.ilean",
+          "bytes": 28241,
+          "sha256": "9f77ec1a0d025bbc3c700fe71d6d482983584d71a1f0ccc25df228b9085fb7ea"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/FlenstedJensen/RepresentationDefs.olean",
+          "bytes": 919736,
+          "sha256": "f82c2edb1945ce38fa0a8d223c8e1504fd4c7dd3289c398d6272b47af8a497a7"
+        }
+      },
+      "publicCacheOleanSha256": "f82c2edb1945ce38fa0a8d223c8e1504fd4c7dd3289c398d6272b47af8a497a7",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.OscillatorDefs",
+      "source": "compact/src/Lib/DiscreteSeries/Theta/OscillatorDefs.lean",
+      "sourceSha256": "c59ad46fd9e4a20e36badc644ab1216cac0c236028b70c4679c5667c3eab645b",
+      "setupSha256": "2d51a71dac1730d995c186d8c9000673e98e372dc71967568198f89503558749",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Theta/OscillatorDefs.ilean",
+          "bytes": 16862,
+          "sha256": "4b7e875ebce64ff90e8e9c2decb4a6de85eb0da2cdaa2b9a95721655cb499bfc"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Theta/OscillatorDefs.olean",
+          "bytes": 1643160,
+          "sha256": "13e482607bd10598f1345d9e807bc8a05c7cd5d180cb7352ca3f6a03fbb9e845"
+        }
+      },
+      "publicCacheOleanSha256": "13e482607bd10598f1345d9e807bc8a05c7cd5d180cb7352ca3f6a03fbb9e845",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ElementOfMatrix",
+      "source": "compact/src/Lib/General/LinearAlgebra/ElementOfMatrix.lean",
+      "sourceSha256": "baa5b765dbf4f76c11da0827757c5f3f614b1db0e8d64bb98228ce29b017f9fb",
+      "setupSha256": "97c8b9695ce1e408f3e28de3f936f1ba8d5c4ab4d10dd824c0504bb66905948d",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ElementOfMatrix.ilean",
+          "bytes": 1898,
+          "sha256": "acc63dc6716d3acc80a3b5f15cd83aa794cdf679bc0ab187e76905f31ea6bf84"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/General/LinearAlgebra/ElementOfMatrix.olean",
+          "bytes": 48624,
+          "sha256": "df0405ddef1736849962f51e6c799df4d08fd1b3680f1c68caf1d31ad547fa28"
+        }
+      },
+      "publicCacheOleanSha256": "df0405ddef1736849962f51e6c799df4d08fd1b3680f1c68caf1d31ad547fa28",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.AdelicHeisenberg",
+      "source": "compact/src/Lib/Weil/Construction/AdelicHeisenberg.lean",
+      "sourceSha256": "4af219a9392d0eab9d73debb00a5e9aa2bb6de0e3abefc86528515be2f4a0d80",
+      "setupSha256": "9a8c7645489252b2db8257e9291a2937c74fb64bf0d00422a682f66a845152ce",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/AdelicHeisenberg.ilean",
+          "bytes": 5205,
+          "sha256": "81a74be14a6c7926f4eac472f3d914d1329dd3de1bf0affa1a4e408e7d7ef20c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/AdelicHeisenberg.olean",
+          "bytes": 185104,
+          "sha256": "77275e4dcd5a67f9fa26d452629850df58a314d2b4ef97fff616cc01ba7fae40"
+        }
+      },
+      "publicCacheOleanSha256": "77275e4dcd5a67f9fa26d452629850df58a314d2b4ef97fff616cc01ba7fae40",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteHeisenberg",
+      "source": "compact/src/Lib/Weil/Construction/FiniteHeisenberg.lean",
+      "sourceSha256": "17e43924a24aa8e4bdf302c0f5ae7b5897a2e8e658e407ea8545938051aae6df",
+      "setupSha256": "51395e5ab8b0cb20555679e05675b6dad810c53cfb9f6a94bd957f10ecc6c2bc",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteHeisenberg.ilean",
+          "bytes": 14577,
+          "sha256": "843b6514585048bd32d7103885e9b26626da70393fc641ef175f3f1d1b29f021"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteHeisenberg.olean",
+          "bytes": 616704,
+          "sha256": "f5ecb19036fcce68e9c85cc77d3153e1c9f2500a6163af943a6736adbf4e21f4"
+        }
+      },
+      "publicCacheOleanSha256": "f5ecb19036fcce68e9c85cc77d3153e1c9f2500a6163af943a6736adbf4e21f4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteVacuum",
+      "source": "compact/src/Lib/Weil/Construction/FiniteVacuum.lean",
+      "sourceSha256": "63a20fe8d685c02dbbde7f90797807f15927dc5849cd997c4b1b4fb182eaf6eb",
+      "setupSha256": "1c2c333833dfafb74250d4b1b65c1227d31db53fddf5be12775faec12dd0d773",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteVacuum.ilean",
+          "bytes": 17291,
+          "sha256": "f444fe6d02ad67692c2db4d9656e85ae7932c460041a257c2dc0e3bc3a4236d2"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteVacuum.olean",
+          "bytes": 793992,
+          "sha256": "92eb7e4959e704d3161d781d714fe6c99c9db84d03ce67d270d509a2095d6f66"
+        }
+      },
+      "publicCacheOleanSha256": "92eb7e4959e704d3161d781d714fe6c99c9db84d03ce67d270d509a2095d6f66",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteMultiplier",
+      "source": "compact/src/Lib/Weil/Construction/FiniteMultiplier.lean",
+      "sourceSha256": "fa414c7871bf74ab5233d90d64cfe54e0b56ce7524e74ed2059afffc64e9e5c5",
+      "setupSha256": "fe7f1063e62b29e3512ccc4528216563e3ed2bf1dbfd991668ef63c3234638f1",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteMultiplier.ilean",
+          "bytes": 36926,
+          "sha256": "b806c5d6c8523fe361b9de973ea6ac49650d2b5d4f978cfee11392fc852f8d1d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/FiniteMultiplier.olean",
+          "bytes": 1904160,
+          "sha256": "cb6fafbf47aacae992e9ee2649ea8c7f17b05dd95b6258cc139e62027a2232f1"
+        }
+      },
+      "publicCacheOleanSha256": "601ea4241797441c19fb676edf91481a66536a84d049603f7f33241165a803de",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Weil.Construction.Model",
+      "source": "compact/src/Lib/Weil/Construction/Model.lean",
+      "sourceSha256": "f7da4641ca1fca57e81a4f0937f441a013266024fdd66262d36753a321311035",
+      "setupSha256": "be01dfe3fe159f69c697ae480f4b2b84eea304dfcf6cd831e8fe5568d0c945a6",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/Model.ilean",
+          "bytes": 46272,
+          "sha256": "45c3877b66bfede26746ff749a55a63f1c2a32563c2cfca91ff55f314fea10ef"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/Model.olean",
+          "bytes": 3250552,
+          "sha256": "ae07b88f30aa86e5c802a776a31aa025a1262a31de87af400305c4ffc633420e"
+        }
+      },
+      "publicCacheOleanSha256": "ae07b88f30aa86e5c802a776a31aa025a1262a31de87af400305c4ffc633420e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.FockVacuum",
+      "source": "compact/src/Lib/Weil/Fock/FockVacuum.lean",
+      "sourceSha256": "80439f7ce84cb6cee9f5e27d29fc08db4fd9bb483b92744c99e991ab51579aae",
+      "setupSha256": "c9ca46d749d14864bbba5bd8d87e3e0c2efe547553564c1a6b5a7c62d1755311",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockVacuum.ilean",
+          "bytes": 14314,
+          "sha256": "9998dd59308380e4d2a4dc4558e3cb77d0c0040372d32a31da8d35c9d273c039"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockVacuum.olean",
+          "bytes": 781480,
+          "sha256": "de6ed28bdd6f39ed09142cc3822ecca12401b40f89a42c41b906e10524a97edd"
+        }
+      },
+      "publicCacheOleanSha256": "de6ed28bdd6f39ed09142cc3822ecca12401b40f89a42c41b906e10524a97edd",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.WeilOperators",
+      "source": "compact/src/Lib/Weil/Construction/WeilOperators.lean",
+      "sourceSha256": "a4853fc19e1521a80535c957684dc3b0f07c6818fa6e6e5c3ab3b933f60ad702",
+      "setupSha256": "d4fccb89efc8b433e9ffba14c516b1a3a1a2e0b2d0bb94d614fc729a73229ff6",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/WeilOperators.ilean",
+          "bytes": 20428,
+          "sha256": "55e0f57c776ec424b83c9ee54b9bda9b82df3b36681788c9faf11ea51df975c8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/WeilOperators.olean",
+          "bytes": 1594320,
+          "sha256": "e49dc64c5411c8cbf429bb7b3a839ef8493d1a9fe97d445667413c4e269ae571"
+        }
+      },
+      "publicCacheOleanSha256": "e49dc64c5411c8cbf429bb7b3a839ef8493d1a9fe97d445667413c4e269ae571",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.GoodReduction.ThetaOrthogonality",
+      "source": "compact/src/Lib/Shimura/GoodReduction/ThetaOrthogonality.lean",
+      "sourceSha256": "7274234164f763d7e90a374f8fc3fb03386789a771e2aa25cb6e39b851bc4acf",
+      "setupSha256": "8e9c7db479465a60ec8e61749fa06da0e4e3380b2cc150215e0fa379df52168c",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/GoodReduction/ThetaOrthogonality.ilean",
+          "bytes": 57743,
+          "sha256": "60996f26dd9c99d82a02426284337cd2cf5d468ccfa7db96caa642bd6a392aa3"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/GoodReduction/ThetaOrthogonality.olean",
+          "bytes": 3283760,
+          "sha256": "6927077c8b9e06ebb52f5c898c97e089225094dd24f83078afd01d3bd2132c8b"
+        }
+      },
+      "publicCacheOleanSha256": "6927077c8b9e06ebb52f5c898c97e089225094dd24f83078afd01d3bd2132c8b",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.OrthogonalSum",
+      "source": "compact/src/Lib/Weil/Construction/OrthogonalSum.lean",
+      "sourceSha256": "8b15158627f0c9d80e9e6ddcebce42ebaf96678e110d7cb692b31fb61e886b6d",
+      "setupSha256": "3dcebfd5d3ce1d12e94d6ea9b6f4ceb9b94cfac408014e293d3343b8df2bbc91",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/OrthogonalSum.ilean",
+          "bytes": 30838,
+          "sha256": "7cd6612c9119b7dd3de6c742674186e49a4b4aaf2190200413d92b10cf418984"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/OrthogonalSum.olean",
+          "bytes": 2091352,
+          "sha256": "fbaf180f5be08ab5ad86c577dd49ea85a507d9154b6b42809dc037e791625f7f"
+        }
+      },
+      "publicCacheOleanSha256": "fbaf180f5be08ab5ad86c577dd49ea85a507d9154b6b42809dc037e791625f7f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.Frames",
+      "source": "compact/src/Lib/Shimura/Uniformisation/Frames.lean",
+      "sourceSha256": "f6d561b6a89562534f0fd67ab535e18c65a3e97109acb32b9999e215556c3f4f",
+      "setupSha256": "66484f1b5048234c70017f3368f1ba0e93aca7602dfccad55740254003e3a2c1",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/Frames.ilean",
+          "bytes": 14868,
+          "sha256": "ad9f6245b5af64d7715ad33f682a4b265995e16c8e3a96902c0ffae41a670e80"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/Frames.olean",
+          "bytes": 671656,
+          "sha256": "8d5e2c0577f48117f707fad58f9328dd023a1b8acc656960f2c7f9582312631f"
+        }
+      },
+      "publicCacheOleanSha256": "8d5e2c0577f48117f707fad58f9328dd023a1b8acc656960f2c7f9582312631f",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.FockAction",
+      "source": "compact/src/Lib/Weil/Fock/FockAction.lean",
+      "sourceSha256": "2a65b2cc7b11db5c48e3a66fea352d36ab19a9da31d8a3c8fc271482724f387c",
+      "setupSha256": "2394d0e3a10d9e15b8bc03fc4acb6ab50f9e595651cabcdb6ca34a664cd8da8e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockAction.ilean",
+          "bytes": 11033,
+          "sha256": "03ce8dc7ec62cea1c4738055517836d176cc7a246aa3f2ca6561809014e6e10f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockAction.olean",
+          "bytes": 1594712,
+          "sha256": "750c1019a4a46475f9af73e4e3cb61c99c228125c73728227de2eea7907a0b1e"
+        }
+      },
+      "publicCacheOleanSha256": "750c1019a4a46475f9af73e4e3cb61c99c228125c73728227de2eea7907a0b1e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.ModuliPoint",
+      "source": "compact/src/Lib/Shimura/Uniformisation/ModuliPoint.lean",
+      "sourceSha256": "b1566cba6d06b6d0d3526625926a4f141d18b14c08de78da82a07d3b547ec664",
+      "setupSha256": "c4b7901b0018c4fffba2ada18087adba3fc272ec5e74791e1970291a6120fcc6",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/ModuliPoint.ilean",
+          "bytes": 16579,
+          "sha256": "a4391d2720ffd9908b0a20ae8d752ba7769aa343edbd064d786051a0ff11437a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/ModuliPoint.olean",
+          "bytes": 515792,
+          "sha256": "df95e84e7d0dea3e27a580afabf71cdd990fabd39a21064e63ad213e75c337e4"
+        }
+      },
+      "publicCacheOleanSha256": "df95e84e7d0dea3e27a580afabf71cdd990fabd39a21064e63ad213e75c337e4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.FockTensor",
+      "source": "compact/src/Lib/Weil/Fock/FockTensor.lean",
+      "sourceSha256": "22f11f332f22db293b9643d8a42a910456d95d5967a290b088856b3d45bea226",
+      "setupSha256": "43979be20401822da7f1b37fe7e649c9b42b31295850b87741442432cfb3976f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockTensor.ilean",
+          "bytes": 41844,
+          "sha256": "7acab222ca25b16c93a1d31b3c9b4e25c0c17763fbe3192c85e4a5c541e7c470"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockTensor.olean",
+          "bytes": 3303384,
+          "sha256": "fcbd8583ece3f1e685b701938b8e606e7834062da381edaac08437c1d00f8f2a"
+        }
+      },
+      "publicCacheOleanSha256": "fcbd8583ece3f1e685b701938b8e606e7834062da381edaac08437c1d00f8f2a",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.PeriodLattice",
+      "source": "compact/src/Lib/Shimura/Uniformisation/PeriodLattice.lean",
+      "sourceSha256": "855d75f665eeb36ae3090e506f494829320df12f89035d8047f6ae96e7836267",
+      "setupSha256": "d2d088ef29914ab8a96384752fcdbba3879a3bdde9891a9a819f1be6c3519487",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/PeriodLattice.ilean",
+          "bytes": 18732,
+          "sha256": "48d1cfaa58063107b9e45aac92048ba6b7cef875cb87bf0f39705b5d2d36da71"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Shimura/Uniformisation/PeriodLattice.olean",
+          "bytes": 711952,
+          "sha256": "a59f000699156d1e5affc90a7dcdc3f3dc047bd15b83222e09b49efe68e34b24"
+        }
+      },
+      "publicCacheOleanSha256": "a59f000699156d1e5affc90a7dcdc3f3dc047bd15b83222e09b49efe68e34b24",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.MixedModel.AdelicSum",
+      "source": "compact/src/Lib/Weil/MixedModel/AdelicSum.lean",
+      "sourceSha256": "8b791de852fd29823158b3454336b65973eec9b068acf776b5859ea3716ab1a6",
+      "setupSha256": "f9c968c83b8a4a253fbe40a63edb63792121c86229fd27276434e57aecdf8e4e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/MixedModel/AdelicSum.ilean",
+          "bytes": 52958,
+          "sha256": "70f2508c1e0bf1ef8b12f222cc46fd0e202d07e7c34353e0aa788c1f20d57be2"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/MixedModel/AdelicSum.olean",
+          "bytes": 3491008,
+          "sha256": "24af67c9117e4caa1663c4634d346885565b6702c89bae52af4b06d96f5a2b2e"
+        }
+      },
+      "publicCacheOleanSha256": "24af67c9117e4caa1663c4634d346885565b6702c89bae52af4b06d96f5a2b2e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Nabla",
+      "source": "compact/src/Lib/GLn/SchurModule/Nabla.lean",
+      "sourceSha256": "ac4f290219fc31ae443ba70793b59fc3431855dd1d3bf6187ec0e08c98950be4",
+      "setupSha256": "de6b499d28a4abf77103ddec5920ef6382349d0f2d03dc486f86d9d0f52ab9d4",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Nabla.ilean",
+          "bytes": 17871,
+          "sha256": "68c39d994d8cd6ad221d25a29ae388bdad8b48eb89076d1716d6b487747508dd"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Nabla.olean",
+          "bytes": 1581472,
+          "sha256": "8fb5bb61182aa4309279abecd08387690d001261f3314ef53b015bb3c3438a38"
+        }
+      },
+      "publicCacheOleanSha256": "8fb5bb61182aa4309279abecd08387690d001261f3314ef53b015bb3c3438a38",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.ThetaFunctional",
+      "source": "compact/src/Lib/Weil/Construction/ThetaFunctional.lean",
+      "sourceSha256": "151f2d1e91e837b6f948dcaa8e3085087f34416b0e2dbf78931a4dcea8c681e2",
+      "setupSha256": "7862c6ea27639cbdde12ef6a592315e1c2148bf50fed534d4994e77b7e079c3a",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/ThetaFunctional.ilean",
+          "bytes": 72549,
+          "sha256": "33bd4526106464dcd094d5b8173cfc7e2d98b05f940f2dba7f14938cca9d537c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/ThetaFunctional.olean",
+          "bytes": 4566472,
+          "sha256": "df92e21991f1e3d65725c16593db93e86caeea8824cfcd927f37f226f41b309e"
+        }
+      },
+      "publicCacheOleanSha256": "df92e21991f1e3d65725c16593db93e86caeea8824cfcd927f37f226f41b309e",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.MixedFockModel",
+      "source": "compact/src/Lib/Weil/Fock/MixedFockModel.lean",
+      "sourceSha256": "60c1840cfbbbe5e75e85fef1f91fe11cfa50cfd28f3944c4c7a11f94b28221ce",
+      "setupSha256": "64bc567b906925b0412d51b59af0b5aa5d329546a0e80635f83283b278596e39",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/MixedFockModel.ilean",
+          "bytes": 33614,
+          "sha256": "d727392a0aa88fc19c98e6de89eb3926be1649828e8247e7252d8a5961999377"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/MixedFockModel.olean",
+          "bytes": 2075736,
+          "sha256": "381062e1d717376ded7493204559c90d4e64fbd3df66db935b377e1ad8b977f9"
+        }
+      },
+      "publicCacheOleanSha256": "381062e1d717376ded7493204559c90d4e64fbd3df66db935b377e1ad8b977f9",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.PairDefs",
+      "source": "compact/src/Lib/Weil/Construction/PairDefs.lean",
+      "sourceSha256": "1ed64744e780cc29fcf8fa447d26e7d5e3711caac250441464c871e95d2bd5d7",
+      "setupSha256": "b06f37acfffb544a04f5fc1c5c330f0822952de0e4f5a249d85d7d9ef0ae892b",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/PairDefs.ilean",
+          "bytes": 48382,
+          "sha256": "c1d1ea13e950794aaf44b173d6ccddf009cc94b60636fd17d09c0bb0bd4874dd"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/PairDefs.olean",
+          "bytes": 2706168,
+          "sha256": "adfe40b60e63ece985b6b1b9c83720edcbb3b23014e3da4586496e73d18aa8d4"
+        }
+      },
+      "publicCacheOleanSha256": "adfe40b60e63ece985b6b1b9c83720edcbb3b23014e3da4586496e73d18aa8d4",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.FockHarmonicCoeff",
+      "source": "compact/src/Lib/Weil/Fock/FockHarmonicCoeff.lean",
+      "sourceSha256": "e1cf27539b1ebc4fbef2704d78894e8a5ff392b370e2cd237081ef5fc503e183",
+      "setupSha256": "1c91b0f28a98209720b6f209d34f57e8a07dc73dfd6b23c856da3d271d6de823",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockHarmonicCoeff.ilean",
+          "bytes": 31189,
+          "sha256": "c962863d89c5f92335d4537ad6d3e6d36d0cdcf1c5622dd84848f48a6989641d"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/FockHarmonicCoeff.olean",
+          "bytes": 4012640,
+          "sha256": "3b598dce7ee88d06820d653301d54f36fb6a9266731123c95f15c1c3543cb9a7"
+        }
+      },
+      "publicCacheOleanSha256": "3b598dce7ee88d06820d653301d54f36fb6a9266731123c95f15c1c3543cb9a7",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.SplittingCharOnU1",
+      "source": "compact/src/Lib/ClassField/HeckeCharacter/SplittingCharOnU1.lean",
+      "sourceSha256": "ad1f8c68934da4520159ca8d69a4a93312ea3d639081e5531fdea59414699d22",
+      "setupSha256": "a0af970fc287331afa598e0d3272aa7d24e6533de435083b6d160d7d8937eae9",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/SplittingCharOnU1.ilean",
+          "bytes": 20089,
+          "sha256": "5f415e8aa89b9fed143e149672b5c7a5db0a22149627fa64473e823d7f5a16d7"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeCharacter/SplittingCharOnU1.olean",
+          "bytes": 1132464,
+          "sha256": "3554914d50eae4847e1c1309f6e66842a4f896012680afb1dabdcd5dfd9f9535"
+        }
+      },
+      "publicCacheOleanSha256": "3554914d50eae4847e1c1309f6e66842a4f896012680afb1dabdcd5dfd9f9535",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Construction.Projections",
+      "source": "compact/src/Lib/Weil/Construction/Projections.lean",
+      "sourceSha256": "13567f52ca623253f4b2ab2009f3a25bbe7df50ebd0696677519ae5393c7d45f",
+      "setupSha256": "7619a0f088a4a3e94290557c9efd3968734edb6a165e329f5dee7deb37a75de6",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/Projections.ilean",
+          "bytes": 45586,
+          "sha256": "8a698c51dfb5622ef24520e872e245ae2234d233a0945e7b4d7fbc847316198c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/Projections.olean",
+          "bytes": 2789792,
+          "sha256": "9f3f815c5d61717ba1acef1654181b084deefb954a8a4fe394eb23aa5d6ba904"
+        }
+      },
+      "publicCacheOleanSha256": "9f3f815c5d61717ba1acef1654181b084deefb954a8a4fe394eb23aa5d6ba904",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.AutCharLFunction",
+      "source": "compact/src/Lib/ClassField/HeckeL/AutCharLFunction.lean",
+      "sourceSha256": "6761a20f7e408e8e4aa2dba6fe862d5816bcec6d479f5cdaa478a6511760f4e6",
+      "setupSha256": "157810d4874e1d617d4f52db20ab47e0e937b9ab549ef381a332eb3bf777da3f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/AutCharLFunction.ilean",
+          "bytes": 21827,
+          "sha256": "9a9d790bc268cfa874380dc13cf2a22fdd2f5cfcdfa2bd6bd9c1f1780b93544c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/ClassField/HeckeL/AutCharLFunction.olean",
+          "bytes": 1095080,
+          "sha256": "40ac2d0ff0e71aec0156fa5f61a297bc6272d5966e34f7229e22b569d287c9dd"
+        }
+      },
+      "publicCacheOleanSha256": "40ac2d0ff0e71aec0156fa5f61a297bc6272d5966e34f7229e22b569d287c9dd",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.MixedModel.Names",
+      "source": "compact/src/Lib/Weil/MixedModel/Names.lean",
+      "sourceSha256": "e8a2b0b235841df48d48bf76ba194dd014e8587ac0bc85e14d6b46766386e83d",
+      "setupSha256": "49475c841514b2c229cda53297d612ca1f372b2404f8471ce3f89e2a7f021036",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/MixedModel/Names.ilean",
+          "bytes": 21498,
+          "sha256": "50c2f99cf5bcd39430e97a5f0f52783556fa2db87bda73a1aae5c2ac68ab9092"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/MixedModel/Names.olean",
+          "bytes": 2066312,
+          "sha256": "1d261e620695b881201ce0e3f3f938cad4e306719c428580f47bfdcfc513dfd6"
+        }
+      },
+      "publicCacheOleanSha256": "1d261e620695b881201ce0e3f3f938cad4e306719c428580f47bfdcfc513dfd6",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Weil.Fock.RealData",
+      "source": "compact/src/Lib/Weil/Fock/RealData.lean",
+      "sourceSha256": "625cf840e6b927acc045c6c6633a64878399d813fccda472fe6df6d345af85d4",
+      "setupSha256": "95a73b86bddb3d22a28407a4ffffbe956568adcc0c4c645a2b4e8e728a3d7353",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Fock/RealData.ilean",
+          "bytes": 3665,
+          "sha256": "5a1323145290ebf05d739ef79562b4b3fbaef63f0df2c231d60fe18b6549297f"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Fock/RealData.olean",
+          "bytes": 253344,
+          "sha256": "97ff7a2687c65ad7907c30d0516c654466671d7c53a296da029767aa7142ef18"
+        }
+      },
+      "publicCacheOleanSha256": "97ff7a2687c65ad7907c30d0516c654466671d7c53a296da029767aa7142ef18",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Bordering",
+      "source": "compact/src/Lib/GLn/SchurModule/Bordering.lean",
+      "sourceSha256": "60bcf2a96774d57e2446789d74a8aec4753e5bf6d058dcb9d0272e2501d6fdf6",
+      "setupSha256": "a3031be6075c8244c7f5eca1d55ddab6721df1032f72081ffc3109686f9f235f",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Bordering.ilean",
+          "bytes": 21916,
+          "sha256": "de3b00451a13026205c1bd40aa47395e55acceddd8f788fa43e91571be6b1bd0"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Bordering.olean",
+          "bytes": 2802896,
+          "sha256": "e1a35bc7f02783faf38e2a83d58bf6236c700018802dea2bfabf4dcaa5f86a06"
+        }
+      },
+      "publicCacheOleanSha256": "e1a35bc7f02783faf38e2a83d58bf6236c700018802dea2bfabf4dcaa5f86a06",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Interlacing",
+      "source": "compact/src/Lib/GLn/SchurModule/Interlacing.lean",
+      "sourceSha256": "0c2e5c51fccdf31071eac497d26a9856633c5864ad6a30bc7b369442f7ff15f5",
+      "setupSha256": "2240bcb7247fb70b3b6abe0db5d3bf97f4ccc45a00f0b69950946fd2987310f4",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Interlacing.ilean",
+          "bytes": 21286,
+          "sha256": "f259118d449b81ec1401924677cc8d35e4e1c92a475cdc97977e764dfeddc430"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/Interlacing.olean",
+          "bytes": 3305904,
+          "sha256": "c116e23af38dfff2767c86d53cc60e400a6f4ef4727effea9bb4d6a2d5e026e8"
+        }
+      },
+      "publicCacheOleanSha256": "e3c70729f81720e209223a630e34a9406b80a185bc7e30b050082f32fc2309ce",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.CasimirBound",
+      "source": "compact/src/Lib/DiscreteSeries/Rigidity/CasimirBound.lean",
+      "sourceSha256": "8af354161df30797962a2d630449fe62062e6705e48bd31ba69789e30b2ff31e",
+      "setupSha256": "cc370ba276bc6722b150a53189088a496b5ae062c78fc6df5a6794d4466d7756",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Rigidity/CasimirBound.ilean",
+          "bytes": 33513,
+          "sha256": "2d9144b4e3e4dd8059c5285ce0ea44fa5b46270ad130a4101625c76fb9f72b3a"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Rigidity/CasimirBound.olean",
+          "bytes": 2829512,
+          "sha256": "668e16c33fc2962be6df57d088595f98726a6b5132291f4b1b9bf5b340a513cc"
+        }
+      },
+      "publicCacheOleanSha256": "668e16c33fc2962be6df57d088595f98726a6b5132291f4b1b9bf5b340a513cc",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GLn.SchurModule.MinorBasis",
+      "source": "compact/src/Lib/GLn/SchurModule/MinorBasis.lean",
+      "sourceSha256": "017cabdc6f1d2c669571711a45d2b083ef7377098a15d7c777ba988034ca2f11",
+      "setupSha256": "54b299034725706c982fb0ea6d5024f2528f6e2c966c302881ad89fafd678ff3",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/MinorBasis.ilean",
+          "bytes": 18913,
+          "sha256": "067355aee5b6a5f2f6927a9a1423851a832ecc9c7f9e3c711b9cb60c79462c52"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/MinorBasis.olean",
+          "bytes": 1806984,
+          "sha256": "6e7b61c09563bc8079ae27d21229f2c46863005d5ffd14bbc489641f44703155"
+        }
+      },
+      "publicCacheOleanSha256": "c179f985c363a00f6deb5f631f898cc098114cb166d909fcff9dc8db1c0eb6e7",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.RightDerivatives",
+      "source": "compact/src/Lib/DiscreteSeries/FlenstedJensen/RightDerivatives.lean",
+      "sourceSha256": "6c268d32d0306e8b658fbe33365c7b44d7f9a62c20a8a58fe78b53643c150193",
+      "setupSha256": "5773e3438c4ce38e475b88a6a90c8fd5bfc50d9a71d454998197cc20d13055c4",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/FlenstedJensen/RightDerivatives.ilean",
+          "bytes": 22278,
+          "sha256": "a85e8db4f50fbabc1481d274869fc098dfda84b8fba37e18944d8cca29cf0fe8"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/FlenstedJensen/RightDerivatives.olean",
+          "bytes": 6162800,
+          "sha256": "e3a51ba3079817feb43a09257e9df56f66b7a8f804a72db209e347780e3bba27"
+        }
+      },
+      "publicCacheOleanSha256": "e3a51ba3079817feb43a09257e9df56f66b7a8f804a72db209e347780e3bba27",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.GLn.SchurModule.SchurMatrix",
+      "source": "compact/src/Lib/GLn/SchurModule/SchurMatrix.lean",
+      "sourceSha256": "48c92bbc0491137e1441a79ea03e84aa9dd0a3394f999848e9077630fb59a664",
+      "setupSha256": "7c0202d4a674a530b1f600ce7da6bbb4a86d3dbeb74de2a3b6ddb608e9cd4e74",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/SchurMatrix.ilean",
+          "bytes": 40390,
+          "sha256": "43e88efb96f1f85661d4b3e6961c20dcecd5e704166106cad72367ae2be0f6c2"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/SchurMatrix.olean",
+          "bytes": 3423088,
+          "sha256": "302134e94df88ec728bf6011e1406495bd926b02627a11df01a9bc18d3f9f203"
+        }
+      },
+      "publicCacheOleanSha256": "302134e94df88ec728bf6011e1406495bd926b02627a11df01a9bc18d3f9f203",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.HaarColumnChart",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/HaarColumnChart.lean",
+      "sourceSha256": "2c0700d07ec83a0508aee0bac416a38d5393a1a5dbe3ceff3fcb5960f3546203",
+      "setupSha256": "b2f1e17b8559cfa6f4019ef1e8689b56b9a84d52fec398950c178324a7d83e32",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/HaarColumnChart.ilean",
+          "bytes": 14803,
+          "sha256": "0f3b16402585f1883d93bc820fb49402aefeb24875861890534e4ba34af7effe"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/HaarColumnChart.olean",
+          "bytes": 1897552,
+          "sha256": "cde8764dbe291de7d481e263b39bc89f45acd59c499dbd64d07df1f9f1b125c8"
+        }
+      },
+      "publicCacheOleanSha256": "30f4be529327bd2b7d5548589995cdbd2d22ea7e82b95cf495817f602123f9aa",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.GLn.SchurModule.RationalRep",
+      "source": "compact/src/Lib/GLn/SchurModule/RationalRep.lean",
+      "sourceSha256": "fa8df733f5dff1e7eec24f97c2da0782e3a1c77a2ab1244dd748c64f85e39332",
+      "setupSha256": "83be43aa2abacf42aeaff8dd0768d13925c6127e239003ad51d4163aa4432e9e",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/RationalRep.ilean",
+          "bytes": 1533,
+          "sha256": "fca4ac62c7e6b5ea18cc8a57d122eb026187cef124d904816755d382423307ac"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/GLn/SchurModule/RationalRep.olean",
+          "bytes": 95800,
+          "sha256": "f5f441ba4ea9ab9b5787edca5d2573ce10f30d4d5cc9a1a6f6032d239a69f981"
+        }
+      },
+      "publicCacheOleanSha256": "f5f441ba4ea9ab9b5787edca5d2573ce10f30d4d5cc9a1a6f6032d239a69f981",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.SphereFibreIntegral",
+      "source": "compact/src/Lib/DiscreteSeries/Haar/SphereFibreIntegral.lean",
+      "sourceSha256": "4d8b17dd557fefec1b6d328b651c2c6e5744c3786139a542def53f637d8118ea",
+      "setupSha256": "f91b70b5a4d5174915d3558337e61c8ae573c5d658e301e4d80c92164223bd16",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/SphereFibreIntegral.ilean",
+          "bytes": 11831,
+          "sha256": "88223843a5439e4eaaaef59d62cc2b64d987b609f2cb270d05c2f47f24645dce"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/DiscreteSeries/Haar/SphereFibreIntegral.olean",
+          "bytes": 938928,
+          "sha256": "3e189464eb3732530170d884d14a6ed72e947c95720c5f286602f7db811d1161"
+        }
+      },
+      "publicCacheOleanSha256": "0a9eb12f5ba15440e13992b79afb7f75379b8af020b8822f587b260f13785afa",
+      "publicCacheBytesMatch": false
+    },
+    {
+      "module": "Lib.Weil.Construction.DataProduct",
+      "source": "compact/src/Lib/Weil/Construction/DataProduct.lean",
+      "sourceSha256": "8cc8bd2897149a9cdf37af478a2804fda7131255752556f72d7791c3fdbd6dc0",
+      "setupSha256": "b6de0886d9cf55b24a22682ddae3acbc37623d10ca4ca327b5f434b1bf5e05b0",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Weil/Construction/DataProduct.ilean",
+          "bytes": 23871,
+          "sha256": "e2f0584cd6405d4102b5fb614db23b304bf967efad1d1ca98f002fe6f3764675"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Weil/Construction/DataProduct.olean",
+          "bytes": 2309304,
+          "sha256": "0369aeba72d8f6d63453dae983e6a4d1bb74c136fa61eaa6b401e3ee9327bf23"
+        }
+      },
+      "publicCacheOleanSha256": "0369aeba72d8f6d63453dae983e6a4d1bb74c136fa61eaa6b401e3ee9327bf23",
+      "publicCacheBytesMatch": true
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.IwasawaIntegration",
+      "source": "compact/src/Lib/Adelic/QuotientMeasure/IwasawaIntegration.lean",
+      "sourceSha256": "ac32181f66dc842bfa048f378faa5e7583f83080e176f76e919b029a64ee15f4",
+      "setupSha256": "e76343097b86eba8380f05cfdcd98e983fbd69a522bfe15b4b339d73229e3ab1",
+      "artifacts": {
+        ".ilean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/IwasawaIntegration.ilean",
+          "bytes": 20151,
+          "sha256": "c326463a3b800c60ad81a4e2e8648159611d0e06b27cfdd69dfbacbc52934c3c"
+        },
+        ".olean": {
+          "path": "verified-lib/Lib/Adelic/QuotientMeasure/IwasawaIntegration.olean",
+          "bytes": 1104256,
+          "sha256": "c3f2d8e4a14721b72687c1fa03fdccb552f3acce9c76663c595ce5ee53d99abd"
+        }
+      },
+      "publicCacheOleanSha256": "c3f2d8e4a14721b72687c1fa03fdccb552f3acce9c76663c595ce5ee53d99abd",
+      "publicCacheBytesMatch": true
+    }
+  ]
+}

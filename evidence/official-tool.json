@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/leanprover/lean4/releases/download/v4.35.0/lean-4.35.0-windows.zip",
+  "archiveBytes": 902262322,
+  "sha256": "5fc033e93e1a7bc59c5ebf311103d2c9cd18d4b3eddda4ffa3414e8adb0ef79e",
+  "files": 17934,
+  "versions": {
+    "lean": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+    "lake": "Lake version 5.0.0-src+eb6cafb (Lean version 4.35.0)",
+    "leantar": "leantar 0.1.20"
+  }
+}
