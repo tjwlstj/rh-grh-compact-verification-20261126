@@ -9,7 +9,7 @@
 | 목표 명제 | Lean 4.35.0에서 RH와 디리클레 L함수의 우반평면·임계띠·원시 지표 정의를 각각 `rfl`로 대조했다. 직접 만든 목표 export의 SHA-256은 MIT 배포값과 일치했다. [Lean 원문](TargetEquivalence.lean) · [목표 해시](evidence/locally-built-challenge.json) |
 | 공개 캐시의 다섯 정리 | 공식 `con-leche`의 검증 모드에서 증명 쪽 선언 204,580개를 수락했다. 899.203초, 종료 코드 0. 검사기의 커밋·바이너리 해시·실제 인자·정리 이름을 보존했다. [실행 기록](evidence/cache-con-leche.json) · [캐시 파일 794개의 해시](evidence/oleans.csv) |
 | 음성 대조 | 미완성 목표 파일을 그대로 해답으로 넣자 기본 Comparator가 `sorryAx`를 지목하고 종료 코드 1로 거부했다. Windows 바깥쪽 격리는 네트워크 권한 없는 AppContainer를 사용했다. [영수증](evidence/five-goal-negative.json) · [오류 원문](evidence/five-goal-negative.err) |
-| 소스 직접 빌드 | 16:47 KST에 794개 중 400개가 종료 코드 0으로 컴파일됐다. 400개 모두 로컬 원장과 실파일의 SHA-256이 일치했다. 공개 캐시와 바이트가 같은 모듈은 337개였다. [400개 모듈의 실측 해시](evidence/direct-build-progress.json) · [재부팅용 200개 고정 체크포인트](source-build/public-checkpoint/checkpoint-manifest.json) |
+| 소스 직접 빌드 | 19:23 KST에 794개 중 600개가 종료 코드 0으로 컴파일됐다. 600개 모두 직접 읽은 소스와 산출물의 SHA-256이 로컬 원장과 일치했다. 공개 캐시와 바이트가 같은 모듈은 491개였다. [600개 모듈의 실측 해시](evidence/direct-build-progress.json) · [재부팅용 200개 고정 체크포인트](source-build/public-checkpoint/checkpoint-manifest.json) |
 | 서로 다른 중간 증명항 | `JointHarmonicUnique`의 보조정리 하나는 두 빌드의 타입이 같고 증명항이 달랐다. 해당 정리를 양쪽에서 각각 선택해 검사하자 독립 커널이 두 번 모두 2,777개 선언을 수락했다. [양쪽 검사 결과](evidence/joint-harmonic-checks.json) |
 | 소스 전체의 최종 판정 | 이 시점에는 직접 빌드한 `Main`의 다섯 정리별 `#print axioms`, 전체 해답 export, 그 입력에 대한 로컬 기본 Lean 커널 Comparator 판정이 대기 중이다. 허용 공리 설정은 `propext`, `Classical.choice`, `Quot.sound`다. |
 
