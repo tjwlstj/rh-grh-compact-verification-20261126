@@ -1,0 +1,463 @@
+{
+  "modules": 349,
+  "alreadyIdentical": 292,
+  "ledgerSnapshotSHA256": "1066c1d53c366a85b4f9ae568c8bdea12d0d730afd12f145a4f6f69a25cac4a1",
+  "unfinishedReceiptBytesExcluded": 0,
+  "bidirectionalPathModelExact": 56,
+  "different": [
+    {
+      "module": "Lib.Adelic.Adeles.AdeleTopology",
+      "localSHA256": "14b63bd31e68287811ccd2f159345b7b573c71c4615832d40c3d77752c47f492",
+      "publicSHA256": "5a5e56763763399bcce2d5800fd25c65cd11362057d895480ee1f9b9f1e4dfa9",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 38
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicModulus",
+      "localSHA256": "6ceafcd3d58cccc31bdaff19b1fdac9c427664cbbf9e8b6b5be46975b80519a9",
+      "publicSHA256": "805dafa6bfa501db0800b14c6c3b708c3b7916a7e1f3cea5031e13472c6c7d09",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Adelic.Adeles.IdeleHilbert90",
+      "localSHA256": "6de9a65598cca22dc754221c1a7fd2768a50a2485cac92adfd727de97ae7a1d3",
+      "publicSHA256": "bb2e64f5986579803d4d7c646162969b72295bfdbd23cef82254b18c9980f603",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Adelic.Cartan.ProjectiveModules",
+      "localSHA256": "7530fe2c284a64c199b91cbd9a0da5bc34e12ff2455d6ecee80cfaf11b0810f1",
+      "publicSHA256": "1e832616ba6c81b40f294fd49ca85ff416c1732c70e1e44cdcd5a46dbe8a0cf6",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 31
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.Petersson",
+      "localSHA256": "b204e5cc40c721957d4df92a28ab8b058769dd029c83682da9b60e1aa0297dc3",
+      "publicSHA256": "c5f919a15a789df909f1b0b8e2469efb20ece9d791ebb9d7a6ee2750ceea2cab",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.Adelic.Hecke.ClassMean",
+      "localSHA256": "dabeb6cb0a83bad7220f0e6be6973b0fb8dbde211f572cf88404b428e0dd8724",
+      "publicSHA256": "6dc96748d9c1970651dc637b305a2ecc2a0b0db7e06e954b51218b3c0f56a7c7",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Adelic.Hecke.HeckeBasic",
+      "localSHA256": "94ae1d83ce158374f5533855fa3aa9a4071479599f7cedf74ae19f6f42e61527",
+      "publicSHA256": "68f37b76f3170cb173d2e207047232726410a2d5748471f97d8bbf87abf75e29",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Packing",
+      "localSHA256": "6a71fbcadc415153e6e89b3679c149ec813d216cc3dc0a2a8269bf3e81a8ecac",
+      "publicSHA256": "56d9236f60b094595c6734c5baf7dbd7e0c69acb1e4a7a808c65cdfcad9578d1",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 50
+    },
+    {
+      "module": "Lib.Adelic.Reduction.FirstMinimum",
+      "localSHA256": "625d5a20f6c9aa133673ed737be05266d86b8eace6f1c6df6cc2e30938c208f1",
+      "publicSHA256": "0a8f8f3c5538b2e4c9eb62f665b29a27b0c01a79b8459fa327cb66658f3cec75",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Adelic.Transference.MassBasic",
+      "localSHA256": "93d55a6bcb2f2a3a5e97eedd0bc373beb8e040f652ba1bb64ded640667548b98",
+      "publicSHA256": "f279844f5b4fbc6bbae55345017998bebe1bd2ef570c11e069ad2d528776bf18",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Adelic.Unitary.CongruenceLevel",
+      "localSHA256": "c00f3473a6f733331753bd6b8132d5bfb77220270694731e8ca62c4c8c709552",
+      "publicSHA256": "1056d985aeafe304121b572da511a1ddeacb3efe1a5bec3b4cf7fd01fa77fce2",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Adelic.Witt.FrameAction",
+      "localSHA256": "1a6c87e154dfc34f8ea62b0485e77df76096ccc019cefd46b9d8aa6ef0e61521",
+      "publicSHA256": "d81a3033907bbaa22a000d873cb34da2d696a6673874dba1b41f9dd32df3810c",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Analytic.QuadraticTwist.ZeroFreeTwist",
+      "localSHA256": "44061548df511e9b8612b136edb1630821bd7f8864ecde5f6ce06c03311fc68b",
+      "publicSHA256": "537c572dea20402453de8651faf29f27859cb795eeaaa0361172d0baa130f61e",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.CM.KroneckerLimit.LogTheta",
+      "localSHA256": "00a046617b1acf9f4e81bd17d0481deb8018c3eea141e36ac068f0e50703dd9b",
+      "publicSHA256": "3fe765fda8cc07dec1db7c4951f173562d7c2d3d04a8f3a5bb53de6df43d4ff4",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IntegralParameter",
+      "localSHA256": "ad25450657605de888e107393ccef6f5dd3bd1d0e5042703bf905f6bda79c879",
+      "publicSHA256": "a172fa7e27235434d466e6afc13fc776b4a07db64426237da78a3457ee213011",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IsogenyIntegrality",
+      "localSHA256": "3955689a980bc9b515ff061c94d72f26a1b69b7934e7a2d9189df061bbacf206",
+      "publicSHA256": "f3ff4aadd2411aba5cb1dff2fbee5d3a86b4a10ef438bba4fe62cbf26e78262c",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 24
+    },
+    {
+      "module": "Lib.CM.Sigma.CurveTheta",
+      "localSHA256": "7c89201c34b952752b1d072104ac1c1816a9fa9c1d4d900f0a97ea97278ca4af",
+      "publicSHA256": "2c24db234a365badbd9e1227f40784b779c57ec83d2ef94ea9a5b0af1eaadc6a",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 64
+    },
+    {
+      "module": "Lib.CM.Sigma.SigmaFunction",
+      "localSHA256": "a02c0da5ec8aac1c2e760c7379b983b789be147d61731ebdc8b8cccd6c25555f",
+      "publicSHA256": "eb79bcd2bf2241506c6c96e4626afead14487882da0f5766adf61785a0eac58d",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.ClassField.Global.CMNorms",
+      "localSHA256": "0a9300bc8db6f843b5bc794426c3939ba47b22563537b504d427a6fba3b946eb",
+      "publicSHA256": "14840855317b24df1488a71abc21d4397ce701237310ceb81433ec43bf1a0815",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.EulerProduct",
+      "localSHA256": "c8632a2f0dd5b5af109903bf62d53f63b355fd2c655fd8a2ac07156e4f4ced5c",
+      "publicSHA256": "66bf6dbb16187dbbc27e434e9e591ba84ce36594b47fea84e005c5b4e08e50ee",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 23
+    },
+    {
+      "module": "Lib.ClassField.Local.ArtinMapAtPlace",
+      "localSHA256": "f24d3a39480f6463c18f76b5be6729292dc02b4d726d32e1485a601544153a51",
+      "publicSHA256": "a9f5e5b91343f8cd558c1c4f6fb9ac74419ffd3f3c2de56288c68dd090e9b985",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.ClassField.Places.AdeleNorm",
+      "localSHA256": "5585237cf01f4e3a61261b46c3d0a359d28c8dec4aca0d33ece4bf112c325399",
+      "publicSHA256": "9735d9c81950137b4f97d8b8784644fae9bdc9fd8efd33c7bd38b826da5543cc",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 34
+    },
+    {
+      "module": "Lib.Cohomology.Etale.TestRings",
+      "localSHA256": "ef7e258b2ac843cf7b28b1fb918bd1122eff169d99bc62fa3f1c48690e4cd966",
+      "publicSHA256": "3cb991b03ab0b1691b0cf0004e526c113f07e696acd7053dd58d79bfaf200956",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bruhat.BigCell",
+      "localSHA256": "947364caf816fa9ae2e62e4d33f19fdfbabbaec85648fbefdb706775c7c2d6b7",
+      "publicSHA256": "e1ca6e0a46e3d6aaf0c921e077282c5e5e5d46550144ec4e38c158d2fe056106",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 161
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.HaarColumnChart",
+      "localSHA256": "cde8764dbe291de7d481e263b39bc89f45acd59c499dbd64d07df1f9f1b125c8",
+      "publicSHA256": "30f4be529327bd2b7d5548589995cdbd2d22ea7e82b95cf495817f602123f9aa",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 28
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.SphereFibreIntegral",
+      "localSHA256": "3e189464eb3732530170d884d14a6ed72e947c95720c5f286602f7db811d1161",
+      "publicSHA256": "0a9eb12f5ba15440e13992b79afb7f75379b8af020b8822f587b260f13785afa",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.KernelFixes",
+      "localSHA256": "3c58fe74db0996223903b187621971be3c1116aa8ade1c20d5fc4a079d2296c6",
+      "publicSHA256": "8da642aa1c0cd1f73fdf78de81713a3dfaef7651e81e9dec09d2d2605e37dba2",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 23
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.FischerDecomposition",
+      "localSHA256": "616642d5edca401d74cdf6baf06bcb983406d0c0d1d33b3e32cc6cf1088f7e86",
+      "publicSHA256": "f9fd35da97b0ef393c9a426cec19a74c3ab760e29c4b3ae2194d4bc5d19494f0",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.JointHarmonicUnique",
+      "localSHA256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+      "publicSHA256": "ad517966c7b832d36652e148072572a2d48294480fd32955669286f8e2cd13f3",
+      "limitation": "unsupported header, multiple path locations, or alignment"
+    },
+    {
+      "module": "Lib.GLn.Branching.Branching",
+      "localSHA256": "8de15d09e3cc05a5ecba4d1d54df704ca3e6a5c40dc1624b01001790bf5e8b5f",
+      "publicSHA256": "253f3e14b77dfd2f7f068a7cedc1eb9a226d72be017864ea394504d5be20e9c4",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Hook",
+      "localSHA256": "38ae338ab28dd1ab4fde77ce3a5e26c5f5833a419915c068299103127eb5d520",
+      "publicSHA256": "f216d98e76b954154a54ccc10996047544908b9ac8dfc0c110ddcd58fbc35090",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Interlacing",
+      "localSHA256": "c116e23af38dfff2767c86d53cc60e400a6f4ef4727effea9bb4d6a2d5e026e8",
+      "publicSHA256": "e3c70729f81720e209223a630e34a9406b80a185bc7e30b050082f32fc2309ce",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.GLn.SchurModule.MinorBasis",
+      "localSHA256": "6e7b61c09563bc8079ae27d21229f2c46863005d5ffd14bbc489641f44703155",
+      "publicSHA256": "c179f985c363a00f6deb5f631f898cc098114cb166d909fcff9dc8db1c0eb6e7",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 23
+    },
+    {
+      "module": "Lib.GaloisRep.Pseudocharacter.FibreSum",
+      "localSHA256": "94b1bb6e007df23df5dedbfcfb8b3215b098d0ed97a7207d0250a7feae3480d9",
+      "publicSHA256": "97eb1047324c1d457dedf3115ee5a62c301677ab4f0e1bb6703df0fa21f0be9f",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 46
+    },
+    {
+      "module": "Lib.General.Algebra.AdicRingHomExt",
+      "localSHA256": "2929de9183ddd9176d5d9047d0db83c1c994bae62eca573a4279e3d956b5a82b",
+      "publicSHA256": "a55080fbacc92b9e3dd193248f32e599aa9881723c30ed2bcaec770159a730c5",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 19
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ColumnLattices",
+      "localSHA256": "e24f451bf9ba532c64093791066d16e4f8265399a2d36388fea9d03d9cddc16a",
+      "publicSHA256": "a8b36139e37d8b0e02cc2923e5052f68c2ad6360629d0e2e625e5434223694a1",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HaarUnique",
+      "localSHA256": "5fc5758043f3a309512edf7fbced2266d3610e685d357f14f4dda5891ccbf4da",
+      "publicSHA256": "6897ec35ce64c9f51125bcd6af977cf844d827878f5a700290529394887f0217",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HuaIntegral",
+      "localSHA256": "18cbb3a94199fc8072f06db47eb18cc58990a409ef7af9f77c973aed94cefaab",
+      "publicSHA256": "83fb551e0abc131388c92c59dac9e1be98aaaa3542882e392d6ef0d451b4ec46",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ValuedMatrix",
+      "localSHA256": "695fd0f418fbb25c6ca5260510ad120d6d3f4fa1e8e2436dc5a9718c6e9e5374",
+      "publicSHA256": "38f53728b28bb8c761099037b7be8b9d870df4f43e0594604b8ca11a33c4402a",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.LocalGL.Shintani.LabelCharacters",
+      "localSHA256": "06bf17698202cae1ec58b9b2b0894d79c4255babe315ac0332658a0f4a89c617",
+      "publicSHA256": "962e0f6fc9e1d965ef5c7661a7f7f026ea3a5ba4aa7306f0b54b379771bcc605",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.BdR",
+      "localSHA256": "bf8960e1732a7203e5238eaf19d65b2086192fae59b4260f73bfe509d395bee7",
+      "publicSHA256": "dd240f9ddc0a0fc52a0b739a63f9540988bb1e6a674c29068d3202a14ea06b97",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.SiegelWeil.SingularForms.AdaptedHom",
+      "localSHA256": "8be5ab6063097397a0ce6b78c90d3fd3b9cd659655eec354d38892433186290a",
+      "publicSHA256": "8ef8f3e7e93d74b0e14079cb03010350fa9f9a3e8f15de8d2fa48c81b7733f8b",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 27
+    },
+    {
+      "module": "Lib.Weil.CompactLift.BranchingPeriod",
+      "localSHA256": "6614ff132bb98388fbca5c3c3a00d701ac9b3ec3afe0c9d3c65b81c62e8db138",
+      "publicSHA256": "7b5c00fac2cbc3d8b12affbd34f4bbce6b10839917bca31f54a400a97c6dada6",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 73
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteMultiplier",
+      "localSHA256": "cb6fafbf47aacae992e9ee2649ea8c7f17b05dd95b6258cc139e62027a2232f1",
+      "publicSHA256": "601ea4241797441c19fb676edf91481a66536a84d049603f7f33241165a803de",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 28
+    },
+    {
+      "module": "Lib.Weil.DualPair.DatumLevel",
+      "localSHA256": "1f3a0f29550ff8bf8eb1ce5fd2a432ca4ab7c70d65d009afca08cf38cb3e49c4",
+      "publicSHA256": "c513e91291cf9667a1ead9c53c94eaaac12441a4a1899f867c88a26c4ad1054e",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Weil.DualPair.PairReal",
+      "localSHA256": "7002ab4e14d6d3cab901bd3cddf85397788e3725a55ebc215877626fc6a30de0",
+      "publicSHA256": "321fad6b3f0745e8724dd82c6aaed707aef281bb01b44aed4d7ac6b5458033b6",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 284
+    },
+    {
+      "module": "Lib.Weil.DualPair.PairSumNegation",
+      "localSHA256": "e4d627a6fccbef621f8609b4606c0877c44c160abc1e1e4665e5b29edebfa5ae",
+      "publicSHA256": "e8e9f2232253e1e099d7bcd1c508a357277a33743d8d5fbe9a011cda8d4e4216",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Weil.MixedModel.HyperbolicSplitting",
+      "localSHA256": "399305efa2e42a24702d50f09267591309bb3de666ba737d49bae8bd0b70546a",
+      "publicSHA256": "6e17fea6b88b83878caa0ad9e5e9cb450e5754ccd122cb209379787ac3e07c8e",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Weil.MixedModel.NameWeilAction",
+      "localSHA256": "287e8a47464aa02b4949f65e080e28ef87ed678896f65b65057ccb5f3ec7dc67",
+      "publicSHA256": "abe42d9e189ae38da47434573e29383a53e919316030ee24ff47d774633d216c",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 62
+    },
+    {
+      "module": "Lib.Weil.MixedModel.ZeroTerm",
+      "localSHA256": "c7199e6a0fa84f58f7afbe301208eb1c79ab603931059d1ca3289318a3d2c777",
+      "publicSHA256": "9fca2e693d3e34db90f913e9fd908355743626b26b6946d5be70cf797113d231",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 77
+    },
+    {
+      "module": "New.Core.ModuleIndex",
+      "localSHA256": "081b1c23453ea8dad9a0e2ec311db859e356bccfff88fa422a97a1dc4347970d",
+      "publicSHA256": "b65231f3bae8c799a4a5aee3b7a772f47043a3bb24914cab1383671bc33447fb",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "New.Data.Different",
+      "localSHA256": "d68e906bb78012a29c94855c6056fb7055d54c7a1de4d7da705b18acc6bbf1ad",
+      "publicSHA256": "78b06a2365be3ce9e0d6bba3ee610d670fbb88ba349932102837427e447c8e8a",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 39
+    },
+    {
+      "module": "New.DiscreteSeries.MinorExpansion",
+      "localSHA256": "a6383527cbc73c65a174a17f214929fa4d6d4fd84b7cd300b3188ae79283d55c",
+      "publicSHA256": "e8986e957564ec413b049a92b50f61fbc3a9f36c7a515d4f66c6fa4e6471dc2c",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "New.DiscreteSeries.RestrictionLemma",
+      "localSHA256": "31a5c7bb2c6fc1ce0d1a37aa2752efc790786109f56cae85faddd1942ad043af",
+      "publicSHA256": "b6de67cb0efe8a8a234a940d9e54a0094b8fb5b6027130c3a77d4ada059596cc",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "New.TwistedHecke.ClassMeans",
+      "localSHA256": "91e461c6a6f51eaabb17d3936f6f3320e1daaef2b7bd44d7ad54a27ad4112a9a",
+      "publicSHA256": "55f7294ac6e9b17e41019233b9e58e0b3665cf2a78aad7f24711e5a5fb80ee7b",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "New.TwistedHecke.Counting",
+      "localSHA256": "8f0237034a7afcb76aeaec584f892e985c3016426e90b070d3d4ef5bf9482467",
+      "publicSHA256": "523a416c2165501a7efe8435224de8d6037758b18669cd3a775cc7050ee9cbe3",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "New.TwistedHecke.DeepFormCost",
+      "localSHA256": "99dc43d3076d937e477e52b3e5e30da4dbd312f218f8964befce8dbf275ebd66",
+      "publicSHA256": "220bc4c511b5bfeb435613464075c518de34ed296f8413fe1833ac7b20847882",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    }
+  ]
+}

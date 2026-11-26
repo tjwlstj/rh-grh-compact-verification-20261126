@@ -1,0 +1,125 @@
+{
+  "module": "Lib.DiscreteSeries.Theta.JointHarmonicUnique",
+  "local": {
+    "file": "source-build/verified-lib/Lib/DiscreteSeries/Theta/JointHarmonicUnique.olean",
+    "bytes": 13621024,
+    "sha256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4"
+  },
+  "cache": {
+    "file": "cached-data/data/lib/Lib/DiscreteSeries/Theta/JointHarmonicUnique.olean",
+    "bytes": 13618256,
+    "sha256": "ad517966c7b832d36652e148072572a2d48294480fd32955669286f8e2cd13f3"
+  },
+  "headerFirst88Equal": true,
+  "firstDataDifference": 12537656,
+  "dataStart": 96,
+  "nulTerminatedLeanSourcePathSuffixCounts": [
+    0,
+    0
+  ],
+  "moduleDataRootOffsets": [
+    13620968,
+    13618200
+  ],
+  "moduleDataFieldsEqualByRelocatedObjectContent": {
+    "imports": true,
+    "constNames": true,
+    "constants": false,
+    "extraConstNames": true,
+    "entries": true
+  },
+  "sameDeclarationNamesInSameOrder": 69,
+  "typesEqualByRelocatedObjectContent": 69,
+  "differentConstantRecords": [
+    {
+      "name": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+      "constantInfoTag": 2,
+      "constantValFieldsEqual": [
+        true,
+        true,
+        true
+      ],
+      "kindFieldsEqual": [
+        true,
+        false,
+        true
+      ],
+      "normalizedProofExprEqual": false,
+      "normalizedDifferenceExamples": [
+        {
+          "normalExprChildIndices": "111111111111111111111222222222210",
+          "local": {
+            "head": "Int.Internal.Linear.Poly.add",
+            "applicationArity": 2
+          },
+          "cache": {
+            "head": "Int.Internal.Linear.Poly.num",
+            "applicationArity": 0
+          }
+        },
+        {
+          "normalExprChildIndices": "1111111111111111111112222222221110",
+          "local": {
+            "head": "Int.Internal.Linear.Poly.num",
+            "applicationArity": 0
+          },
+          "cache": {
+            "head": "Int.Internal.Linear.Poly.add",
+            "applicationArity": 2
+          }
+        },
+        {
+          "normalExprChildIndices": "1111111111111111111112222222222210",
+          "local": {
+            "head": "Int.Internal.Linear.Poly.num",
+            "applicationArity": 0
+          },
+          "cache": {
+            "head": "Int.Internal.Linear.Poly.add",
+            "applicationArity": 2
+          }
+        },
+        {
+          "normalExprChildIndices": "11111111111111101111111112222222110",
+          "local": {
+            "head": "Int.Internal.Linear.Poly.add",
+            "applicationArity": 2
+          },
+          "cache": {
+            "head": "Int.Internal.Linear.Poly.num",
+            "applicationArity": 0
+          }
+        }
+      ]
+    }
+  ],
+  "sourcePathOnlyReconstruction": false,
+  "proofWindowFromOppositeFileWithRelocation": {
+    "localToCache": {
+      "sourceWindow": [
+        12537648,
+        12567376
+      ],
+      "donorWindow": [
+        12537648,
+        12564608
+      ],
+      "donorBytes": 26960,
+      "relocatedWordsOutsideWindow": 41922,
+      "byteExact": true
+    },
+    "cacheToLocal": {
+      "sourceWindow": [
+        12537648,
+        12564608
+      ],
+      "donorWindow": [
+        12537648,
+        12567376
+      ],
+      "donorBytes": 29728,
+      "relocatedWordsOutsideWindow": 41922,
+      "byteExact": true
+    }
+  }
+}

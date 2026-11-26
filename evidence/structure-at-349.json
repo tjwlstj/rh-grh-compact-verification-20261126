@@ -1,0 +1,49 @@
+{
+  "scope": "public .olean, serialized object fields, no execution or kernel check",
+  "orderForPairs": [
+    "local",
+    "cache"
+  ],
+  "modules": [
+    {
+      "module": "Lib.DiscreteSeries.Theta.JointHarmonicUnique",
+      "status": "compared",
+      "bytesLocalCache": [
+        13621024,
+        13618256
+      ],
+      "sha256LocalCache": [
+        "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+        "ad517966c7b832d36652e148072572a2d48294480fd32955669286f8e2cd13f3"
+      ],
+      "fileBytesEqual": false,
+      "headerFirst88Equal": true,
+      "moduleRootOffsetsLocalCache": [
+        13620968,
+        13618200
+      ],
+      "firstBodyDifferenceAfterHeaderAndRootSlot": 12537656,
+      "rootFieldsDifferent": [
+        "constants"
+      ],
+      "declarationsLocalCache": [
+        69,
+        69
+      ],
+      "nameSequenceEqual": true,
+      "uniqueToLocal": [],
+      "uniqueToCache": [],
+      "commonTypesEqual": 69,
+      "changedCommonRecords": [
+        {
+          "name": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+          "localKind": "theorem",
+          "cacheKind": "theorem",
+          "fields": [
+            "value"
+          ]
+        }
+      ]
+    }
+  ]
+}
