@@ -1,0 +1,4 @@
+# Preserve the bytes referenced by the audit receipts on every checkout.
+*.lean -text
+evidence/** -text
+source-build/public-checkpoint/** -text
