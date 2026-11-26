@@ -1,0 +1,20 @@
+{
+  "exit": 0,
+  "lean": "4.35.0",
+  "sourceSHA256": "3a5ef6a3a22d725675271e64155e21fdf971272b23b0ef63670b541094c27b8b",
+  "importSourceSHA256": "2c82bf09ecc6ab9810f456a8e6ab15c79460c19d31c33abec2612d8667240ec5",
+  "importOleanSHA256": "d1743d8b9b548afafa03b16a0a9cc40fd49f663be512a9b13f2b58d36c81cd64",
+  "importModule": "New.Endgame.PrimeError",
+  "appContainer": true,
+  "checkedConclusions": [
+    "'Chesi.ProjectWeights.zero_weight' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Chesi.ProjectWeights.doubled_weight' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "warnings": [
+    "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+    "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+    "Unused tactic linter: `<;>` should be replaced with `;` or be removed.",
+    "Unused tactic linter: `<;>` should be replaced with `;` or be removed."
+  ],
+  "firstAttempt": "The ZMod equality did not reduce with the inferred classical decision instance. The accepted source uses a Nat.ModEq witness."
+}

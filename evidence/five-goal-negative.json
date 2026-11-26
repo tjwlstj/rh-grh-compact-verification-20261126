@@ -1,0 +1,10 @@
+{
+  "label": "five-goal-negative",
+  "started_utc": "2026-11-26T04:07:56.446402+00:00",
+  "ended_utc": "2026-11-26T04:08:19.847832+00:00",
+  "exit": 1,
+  "job_peak_bytes": 810799104,
+  "goal_sha256": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694",
+  "same_bytes_separate_paths": true,
+  "observed_expected_rejection": true
+}

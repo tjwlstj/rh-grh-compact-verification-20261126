@@ -1,0 +1,4 @@
+con-leche: stats: phases: parse 128.1s (index 0.7s), check 714.7s
+con-leche: stats: check (one worker): 714.326s wall, 1 worker, 204580 records, busy 714.040s (99.9%)
+con-leche: stats: phases: parse 843.4s (index 0.2s), check 47.3s
+con-leche: stats: check (one worker): 46.813s wall, 1 worker, 52169 records, busy 46.762s (99.8%)

@@ -1,0 +1,50 @@
+{
+  "source": {
+    "grh": {
+      "srcModules": 803,
+      "reachableFromMain": 803,
+      "physicalSourceLines": 477124,
+      "statementsSha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf"
+    },
+    "grh-compact": {
+      "srcModules": 794,
+      "reachableFromMain": 794,
+      "physicalSourceLines": 112827,
+      "statementsSha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf"
+    }
+  },
+  "externalLogs": {
+    "compact-build.log": {
+      "sha256": "b0fa9194600469b2730947dff34d7f32b7bfea445af4482e321f6ba41255e8b9",
+      "bytes": 186575
+    },
+    "compact-axioms.log": {
+      "sha256": "b60d35c22c66934c0ad0b96ac7f33b08b06cd4012e119da75563c6c8d6bd1769",
+      "bytes": 1252
+    },
+    "compact-lake-comparator-paranoid-remote.log": {
+      "sha256": "d4ec5069774b0dc38e910adfd57b3ead6f04ed7e5c704d2ddc1df6b3e0fd6cd2",
+      "bytes": 199379
+    },
+    "compact-lake-comparator-paranoid-local.log": {
+      "sha256": "e261c4380e56bdf3d880f5ef9787429f8a1f3941d964dc126c27a5f541a64eb0",
+      "bytes": 166718
+    },
+    "compact-standalone-lean-default-kernel.log": {
+      "sha256": "53a796717a7daa1ba1eb93afd8d7f7d67993ca2e4f7487db97a35ccdbd51c5cb",
+      "bytes": 857
+    },
+    "compact-standalone-con-leche-compare.log": {
+      "sha256": "408e1f693e0c9d66e87ec4c0dbc8037eef9cb24b381b0754ad97cc8330ef6568",
+      "bytes": 2539
+    },
+    "explicit-statements.out": {
+      "sha256": "0e887a8805d86342bc4f8f6b5861d46cfc0db4220338664d23a3ffd7c8157a4d",
+      "bytes": 7580
+    },
+    "compact-export-timeline.txt": {
+      "sha256": "53bd05ceac6d0aa8bea88da9b05a7d56b941d14d1bbf3940fa09803b5af970d0",
+      "bytes": 158
+    }
+  }
+}

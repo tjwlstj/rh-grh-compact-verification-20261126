@@ -1,0 +1,119 @@
+{
+  "modules": 84,
+  "alreadyIdentical": 70,
+  "bidirectionalPathModelExact": 14,
+  "different": [
+    {
+      "module": "Lib.Adelic.Adeles.AdeleTopology",
+      "localSHA256": "14b63bd31e68287811ccd2f159345b7b573c71c4615832d40c3d77752c47f492",
+      "publicSHA256": "5a5e56763763399bcce2d5800fd25c65cd11362057d895480ee1f9b9f1e4dfa9",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 38
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicModulus",
+      "localSHA256": "6ceafcd3d58cccc31bdaff19b1fdac9c427664cbbf9e8b6b5be46975b80519a9",
+      "publicSHA256": "805dafa6bfa501db0800b14c6c3b708c3b7916a7e1f3cea5031e13472c6c7d09",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Adelic.Hecke.HeckeBasic",
+      "localSHA256": "94ae1d83ce158374f5533855fa3aa9a4071479599f7cedf74ae19f6f42e61527",
+      "publicSHA256": "68f37b76f3170cb173d2e207047232726410a2d5748471f97d8bbf87abf75e29",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Packing",
+      "localSHA256": "6a71fbcadc415153e6e89b3679c149ec813d216cc3dc0a2a8269bf3e81a8ecac",
+      "publicSHA256": "56d9236f60b094595c6734c5baf7dbd7e0c69acb1e4a7a808c65cdfcad9578d1",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 50
+    },
+    {
+      "module": "Lib.Adelic.Witt.FrameAction",
+      "localSHA256": "1a6c87e154dfc34f8ea62b0485e77df76096ccc019cefd46b9d8aa6ef0e61521",
+      "publicSHA256": "d81a3033907bbaa22a000d873cb34da2d696a6673874dba1b41f9dd32df3810c",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 12
+    },
+    {
+      "module": "Lib.Analytic.QuadraticTwist.ZeroFreeTwist",
+      "localSHA256": "44061548df511e9b8612b136edb1630821bd7f8864ecde5f6ce06c03311fc68b",
+      "publicSHA256": "537c572dea20402453de8651faf29f27859cb795eeaaa0361172d0baa130f61e",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.CM.Sigma.CurveTheta",
+      "localSHA256": "7c89201c34b952752b1d072104ac1c1816a9fa9c1d4d900f0a97ea97278ca4af",
+      "publicSHA256": "2c24db234a365badbd9e1227f40784b779c57ec83d2ef94ea9a5b0af1eaadc6a",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 64
+    },
+    {
+      "module": "Lib.CM.Sigma.SigmaFunction",
+      "localSHA256": "a02c0da5ec8aac1c2e760c7379b983b789be147d61731ebdc8b8cccd6c25555f",
+      "publicSHA256": "eb79bcd2bf2241506c6c96e4626afead14487882da0f5766adf61785a0eac58d",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.EulerProduct",
+      "localSHA256": "c8632a2f0dd5b5af109903bf62d53f63b355fd2c655fd8a2ac07156e4f4ced5c",
+      "publicSHA256": "66bf6dbb16187dbbc27e434e9e591ba84ce36594b47fea84e005c5b4e08e50ee",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 23
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ColumnLattices",
+      "localSHA256": "e24f451bf9ba532c64093791066d16e4f8265399a2d36388fea9d03d9cddc16a",
+      "publicSHA256": "a8b36139e37d8b0e02cc2923e5052f68c2ad6360629d0e2e625e5434223694a1",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 20
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HaarUnique",
+      "localSHA256": "5fc5758043f3a309512edf7fbced2266d3610e685d357f14f4dda5891ccbf4da",
+      "publicSHA256": "6897ec35ce64c9f51125bcd6af977cf844d827878f5a700290529394887f0217",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HuaIntegral",
+      "localSHA256": "18cbb3a94199fc8072f06db47eb18cc58990a409ef7af9f77c973aed94cefaab",
+      "publicSHA256": "83fb551e0abc131388c92c59dac9e1be98aaaa3542882e392d6ef0d451b4ec46",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 22
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ValuedMatrix",
+      "localSHA256": "695fd0f418fbb25c6ca5260510ad120d6d3f4fa1e8e2436dc5a9718c6e9e5374",
+      "publicSHA256": "38f53728b28bb8c761099037b7be8b9d870df4f43e0594604b8ca11a33c4402a",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    },
+    {
+      "module": "Lib.LocalGL.Shintani.LabelCharacters",
+      "localSHA256": "06bf17698202cae1ec58b9b2b0894d79c4255babe315ac0332658a0f4a89c617",
+      "publicSHA256": "962e0f6fc9e1d965ef5c7661a7f7f026ea3a5ba4aa7306f0b54b379771bcc605",
+      "forwardExact": true,
+      "reverseExact": true,
+      "relocatedWords": 13
+    }
+  ]
+}

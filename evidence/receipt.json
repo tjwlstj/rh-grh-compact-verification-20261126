@@ -1,0 +1,19 @@
+{
+ "build_exit_code": 0,
+ "build_roots": {},
+ "candidate_head": "1053c8dddfb0a168e8a60ac437d06f665fd012df",
+ "candidate_tree": "500889cc47e2316c2939dafd8f2392b69a045a3d",
+ "input_fingerprint": "7da0596fd9865e4089432b38eb965923ea65a65d8cefd253cf24f3fb4511a026",
+ "lakefile_sha256": "4c3deb95a62f6eb0a8b04d391ed843253c8a960c9279b251a8bde1c37bdb0a88",
+ "manifest_sha256": "1390a02c1729c30db51ee0b19ea7199a129ed899ac571a48956da719573590ae",
+ "map_key": "grh-lean/grh-compact/maps/6bfd8c4976809a0413edcd15264ead72c245572289cd48a9f2f929f7abfa9a8b.jsonl",
+ "map_sha256": "6bfd8c4976809a0413edcd15264ead72c245572289cd48a9f2f929f7abfa9a8b",
+ "module_manifest_bytes": 58094,
+ "module_manifest_key": "grh-lean/grh-compact/module-manifests/74e325354bd43971531dbe5202ad9dfa3faa5d18ee34f65dcf2f1f0da0399981.jsonl.gz",
+ "module_manifest_sha256": "74e325354bd43971531dbe5202ad9dfa3faa5d18ee34f65dcf2f1f0da0399981",
+ "project": "grh-compact",
+ "repository": "leanprover-community/riemann-hypothesis",
+ "schema": 1,
+ "source_tree": "b834f80c6399db99d54ce171ba541c4a95a4f90f",
+ "toolchain": "leanprover/lean4:v4.35.0"
+}

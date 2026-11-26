@@ -1,0 +1,13 @@
+{
+  "release": "Lean 4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "sourceSha256": "c50859810de93d710227b0a1c9e34fcb2700400251465115df8761b2785ebf63",
+  "isolation": "Windows AppContainer",
+  "maxJobBytes": 4014596096,
+  "exit": 0,
+  "output": [
+    "'Chesi.PrimeWeight.primes_and_residues' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Chesi.PrimeWeight.two_weights' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "priorAttempt": "3 GiB job hit limit reading toolchain olean; 6 GiB retry accepted"
+}

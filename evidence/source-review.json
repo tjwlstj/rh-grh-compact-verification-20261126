@@ -1,0 +1,43 @@
+{
+  "revision": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "edition": "grh-compact",
+  "sourceModules": 794,
+  "mainClosure": 794,
+  "sourceBytes": 7420187,
+  "physicalLines": 112827,
+  "externalImports": [
+    "Mathlib"
+  ],
+  "activeMatches": [],
+  "setOptions": {
+    "synthInstance.maxHeartbeats": 9,
+    "backward.isDefEq.respectTransparency": 30,
+    "synthInstance.maxSize": 5,
+    "warning.simp.varHead": 1
+  },
+  "attributes": {
+    "fun_prop": 110,
+    "simp": 697,
+    "local": 101,
+    "simps": 81,
+    "instance_reducible": 9,
+    "ext": 11,
+    "grind": 15,
+    "elab_as_elim": 4,
+    "reducible": 6,
+    "irreducible": 16,
+    "to_additive": 32,
+    "push_cast": 1,
+    "aesop": 1,
+    "induction_eliminator": 1,
+    "reassoc": 5,
+    "scoped": 2,
+    "mk_iff": 5,
+    "match_pattern": 1,
+    "gcongr": 1,
+    "implicit_reducible": 2,
+    "instance": 1,
+    "congr": 2,
+    "bound": 1
+  }
+}

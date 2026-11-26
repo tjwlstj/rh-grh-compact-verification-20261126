@@ -1,0 +1,16 @@
+{
+  "leanVersion": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "sourceSHA256": "fe91a22bba68bcdc27ef8d0ba81edb7d5e1ef47c45fb45db19bf8fb483a9c219",
+  "statementsOleanSHA256": "276862513aa705db19a1ecf2f694d37ddc2eb3a4c6c5d25fb6a625ea6ca0f414",
+  "command": "lean -j1 TargetEquivalence.lean",
+  "exit": 0,
+  "appContainer": true,
+  "peakJobBytes": 8511324160,
+  "output": [
+    "'auditRH' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'auditHalfPlane' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'auditStrip' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'auditPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}
