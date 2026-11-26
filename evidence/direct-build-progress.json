@@ -1,0 +1,2412 @@
+{
+  "sourceCommit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "total": 794,
+  "completed": 400,
+  "lastCompletionUtc": "2026-11-26T07:47:05.719+00:00",
+  "snapshotRawPrefixSha256": "4978da33d13f0d92747803c2f9308c56f7bcaee7a7f5823f36712d5b9cc2bf24",
+  "matchingPublicBytes": 337,
+  "differentPublicBytes": 63,
+  "sourceMainCompiledAtCutoff": false,
+  "modules": [
+    {
+      "module": "Statements",
+      "sourceSha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf",
+      "oleanSha256": "276862513aa705db19a1ecf2f694d37ddc2eb3a4c6c5d25fb6a625ea6ca0f414",
+      "cacheOleanSha256": "276862513aa705db19a1ecf2f694d37ddc2eb3a4c6c5d25fb6a625ea6ca0f414"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.Base",
+      "sourceSha256": "088ce908d2db1b76eb757d39cd377002e1c9659897281f7bd7fe7ee1690bfac0",
+      "oleanSha256": "3500f0737e9e84945cf10945a8bb6e3a8463fe49595be456bf374e4dd4f07812",
+      "cacheOleanSha256": "3500f0737e9e84945cf10945a8bb6e3a8463fe49595be456bf374e4dd4f07812"
+    },
+    {
+      "module": "Lib.General.Analysis.ZpowSum",
+      "sourceSha256": "274eb047f6235bee9ea6a93f6ad954e386f6567bb89426db16ada49a4b45f9c0",
+      "oleanSha256": "e3da50c4b4d68d5c49c1eb71364c533c392f758a4c3f48c483f391a579ce428f",
+      "cacheOleanSha256": "e3da50c4b4d68d5c49c1eb71364c533c392f758a4c3f48c483f391a579ce428f"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.CoprimeValuation",
+      "sourceSha256": "a76a861eb0cfe6607c6c7fc7e4ca2643c237f93a0a8ee4ed41213075d966f82c",
+      "oleanSha256": "eb27d210c3055d634f0e5cabfbd76209693bb3ea51b933f083234c1b46345747",
+      "cacheOleanSha256": "eb27d210c3055d634f0e5cabfbd76209693bb3ea51b933f083234c1b46345747"
+    },
+    {
+      "module": "Lib.General.NumberTheory.Embeddings",
+      "sourceSha256": "0945e883ed33775d845c489f2d2837df6d52aeb1b5efc411d27636a544694831",
+      "oleanSha256": "4ee66c88d23f0e2bc51ce360e5823a4e0f0f3e16a30c16571a379759a8e53a04",
+      "cacheOleanSha256": "4ee66c88d23f0e2bc51ce360e5823a4e0f0f3e16a30c16571a379759a8e53a04"
+    },
+    {
+      "module": "Lib.General.NumberTheory.QuadField",
+      "sourceSha256": "887033d385afdfdcc1a7bfd5d554289f97cae230d1398ddbd991b544cf29f34a",
+      "oleanSha256": "99fa6d4987b1fc3ef258d7374e2e38464933f86ec7f114faaa16e040d4f1209a",
+      "cacheOleanSha256": "99fa6d4987b1fc3ef258d7374e2e38464933f86ec7f114faaa16e040d4f1209a"
+    },
+    {
+      "module": "Lib.General.NumberTheory.QuadFieldSplitting",
+      "sourceSha256": "5064ce6c01c23ff8fa34edbfff0b2d7a575d207572cd24bd1f974dd0551806f8",
+      "oleanSha256": "c10aee3e925883eebf6faab7e004112952912e98cffabfaa1ecf96f3dacd53fe",
+      "cacheOleanSha256": "c10aee3e925883eebf6faab7e004112952912e98cffabfaa1ecf96f3dacd53fe"
+    },
+    {
+      "module": "Lib.Analytic.Landau.PolarLandau",
+      "sourceSha256": "e35bde1b697d2574c802a39830eef54e6bddc34d44ecd644aebc0cc99d83107e",
+      "oleanSha256": "b103d6ccf033427d9217976437246342c3dab141b75eb4df1d4c3f1b04d468de",
+      "cacheOleanSha256": "b103d6ccf033427d9217976437246342c3dab141b75eb4df1d4c3f1b04d468de"
+    },
+    {
+      "module": "New.Endgame.PrimeError",
+      "sourceSha256": "2c82bf09ecc6ab9810f456a8e6ab15c79460c19d31c33abec2612d8667240ec5",
+      "oleanSha256": "d1743d8b9b548afafa03b16a0a9cc40fd49f663be512a9b13f2b58d36c81cd64",
+      "cacheOleanSha256": "d1743d8b9b548afafa03b16a0a9cc40fd49f663be512a9b13f2b58d36c81cd64"
+    },
+    {
+      "module": "Lib.General.Analysis.OstrowskiTaussky",
+      "sourceSha256": "60c2f52a8e35a50d7e9aa83c3a18c7b01e311c421d6ac9d1a09a74d872ad5bc0",
+      "oleanSha256": "cc6d8f22e8cf1c0a35090c9ef7a64565689ab119de50a1e872fa326565fed3b6",
+      "cacheOleanSha256": "cc6d8f22e8cf1c0a35090c9ef7a64565689ab119de50a1e872fa326565fed3b6"
+    },
+    {
+      "module": "Lib.General.NumberTheory.ProcyclicImage",
+      "sourceSha256": "869e2411ce30555bbdbfe9d99363917349442197f162cfba713677e9e6215272",
+      "oleanSha256": "7564d367b4151a6deb984d798b8ecb9348a459e9a93d4ee6c3bf5458d1b76554",
+      "cacheOleanSha256": "7564d367b4151a6deb984d798b8ecb9348a459e9a93d4ee6c3bf5458d1b76554"
+    },
+    {
+      "module": "Lib.General.NumberTheory.ClassNumberBound",
+      "sourceSha256": "8a2d6810be2617a980cbf0f0ef28367c208ac3051aa374ddebc364655424ea9d",
+      "oleanSha256": "1af84a86184af5bf8d8470ecbc486255752b721108020c077fc5039bd282582a",
+      "cacheOleanSha256": "1af84a86184af5bf8d8470ecbc486255752b721108020c077fc5039bd282582a"
+    },
+    {
+      "module": "Lib.General.Groups.ValuationPair",
+      "sourceSha256": "22c95428b903e84f75ac1edae98f5622576047bb052f5061e83d6b181db8dbe2",
+      "oleanSha256": "718051b52238e1d3b0eea73bb76d36d9623b5c71a2c63c168601d33958c38aec",
+      "cacheOleanSha256": "718051b52238e1d3b0eea73bb76d36d9623b5c71a2c63c168601d33958c38aec"
+    },
+    {
+      "module": "Lib.General.Algebra.SumOverUnits",
+      "sourceSha256": "0e87abc8f3ea7c2882381845dfd5aef6fcaa8b96d36ee11a524845a2b9be606b",
+      "oleanSha256": "709d25ef700e6b00bb67f92b85e2e1af2c406446e9730a745b7964e86caa5ab9",
+      "cacheOleanSha256": "709d25ef700e6b00bb67f92b85e2e1af2c406446e9730a745b7964e86caa5ab9"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ValuedMatrix",
+      "sourceSha256": "d1c39373337ca27b8e9e096e0e1bd1ef0ef41f1f380b2ef5f5714d16ad4e463d",
+      "oleanSha256": "695fd0f418fbb25c6ca5260510ad120d6d3f4fa1e8e2436dc5a9718c6e9e5374",
+      "cacheOleanSha256": "38f53728b28bb8c761099037b7be8b9d870df4f43e0594604b8ca11a33c4402a"
+    },
+    {
+      "module": "Lib.General.NumberTheory.ZeroSymmetry",
+      "sourceSha256": "d7bacd5f82387d50694a9b34eba97b444cc89cf7c394acb8c2c92add3fb65fb7",
+      "oleanSha256": "6f21b0f2c1ca59cae6eae51d9f6db6d2c29797686660b2f28bf2aecacf508880",
+      "cacheOleanSha256": "6f21b0f2c1ca59cae6eae51d9f6db6d2c29797686660b2f28bf2aecacf508880"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleTopology",
+      "sourceSha256": "26442c0cbebc8739ee887c09b7f1b4fba559c0408388bc83eddf82700109025c",
+      "oleanSha256": "14b63bd31e68287811ccd2f159345b7b573c71c4615832d40c3d77752c47f492",
+      "cacheOleanSha256": "5a5e56763763399bcce2d5800fd25c65cd11362057d895480ee1f9b9f1e4dfa9"
+    },
+    {
+      "module": "Lib.Analytic.PolyaVinogradov.PolyaVinogradov",
+      "sourceSha256": "f09dcb4b767a77cc4dc4a0aeb0ac67d114b0b74651dea8f39eeb94b1da4c6f4d",
+      "oleanSha256": "88bd4c5041ae70c39acf8b796bbb0e7ddbf3712dee59240bf09a66bf63f51f76",
+      "cacheOleanSha256": "88bd4c5041ae70c39acf8b796bbb0e7ddbf3712dee59240bf09a66bf63f51f76"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleIdempotent",
+      "sourceSha256": "d937a1fee37f33b7c01c7c17fda0090b08196cd3a7218897f374465092345259",
+      "oleanSha256": "52a82dd23e8d3a6b733b06ee039497beade69a6532dac4765f9f1c07ec028d6e",
+      "cacheOleanSha256": "52a82dd23e8d3a6b733b06ee039497beade69a6532dac4765f9f1c07ec028d6e"
+    },
+    {
+      "module": "Lib.Analytic.DirichletTheta.MellinTheta",
+      "sourceSha256": "76028215fc90cc79b7f830cfc3a887ba9a836d3f03f13a4b243c4ef6160dc648",
+      "oleanSha256": "4cc89bf1fe3670398eb65f691f3b64b123c61004b9aa3a4e2aad25bb17fadf74",
+      "cacheOleanSha256": "4cc89bf1fe3670398eb65f691f3b64b123c61004b9aa3a4e2aad25bb17fadf74"
+    },
+    {
+      "module": "Lib.GaloisRep.Hilbert90.TameDescent",
+      "sourceSha256": "51eef55dbabc7558f6c96ef61823ead7256c34e0db0cbbf079e6d599c85b6a8b",
+      "oleanSha256": "e7b8aad6e47a543a3adb0f2e2d6d1e471108cf34e3dd0d1173509e0416640465",
+      "cacheOleanSha256": "e7b8aad6e47a543a3adb0f2e2d6d1e471108cf34e3dd0d1173509e0416640465"
+    },
+    {
+      "module": "Lib.Analytic.Primes.AuxiliaryPrimes",
+      "sourceSha256": "1fcab6011bad8451e0e196550619c173e7de1f68cdad481dd98aaec64467cb5a",
+      "oleanSha256": "9a18ec16fc8a20c2461c4dea294b3a99b2d7d0188ac35d13024a0ba509a84853",
+      "cacheOleanSha256": "9a18ec16fc8a20c2461c4dea294b3a99b2d7d0188ac35d13024a0ba509a84853"
+    },
+    {
+      "module": "Lib.Analytic.QuadraticTwist.ZeroFreeTwist",
+      "sourceSha256": "6813c98ba4f2072b5fe66a0e6dc206f040cd091ea8932707aa9eed1ce2dff91b",
+      "oleanSha256": "44061548df511e9b8612b136edb1630821bd7f8864ecde5f6ce06c03311fc68b",
+      "cacheOleanSha256": "537c572dea20402453de8651faf29f27859cb795eeaaa0361172d0baa130f61e"
+    },
+    {
+      "module": "Lib.GaloisRep.Hilbert90.UnitaryHilbert90",
+      "sourceSha256": "734ba96a8572f7b0d1d3362bcbf8a7ac9b614012f4164d1b36873ce4c33d3d49",
+      "oleanSha256": "dde80753077d98099d92c4848dcda15aca2f3aa38c387e6da7f06d018e8f7aaf",
+      "cacheOleanSha256": "dde80753077d98099d92c4848dcda15aca2f3aa38c387e6da7f06d018e8f7aaf"
+    },
+    {
+      "module": "New.Endgame.OneSidedCriterion",
+      "sourceSha256": "a36c9c112b0455f6e4d16a3b2c115cd33e2860b9bba5543082b91c0364ccb502",
+      "oleanSha256": "c3393bab8aa7f1d0d463ec9b9376c15846004651045887659f0a81048ba053ec",
+      "cacheOleanSha256": "c3393bab8aa7f1d0d463ec9b9376c15846004651045887659f0a81048ba053ec"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ExtendColumns",
+      "sourceSha256": "736ca00c12bfca33f370bf1e788138bc76557dd253620fc2a5c96d4af0d57b4a",
+      "oleanSha256": "1fd8cf5066248b891f6dadda7b03312f5bc5f7663710ae9ff615261ba78330c2",
+      "cacheOleanSha256": "1fd8cf5066248b891f6dadda7b03312f5bc5f7663710ae9ff615261ba78330c2"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.AdelicRingDefs",
+      "sourceSha256": "97b8db9d90dc31a00ccdcd11314d30bffb871b01bc49155d2d41f25ea807f917",
+      "oleanSha256": "1685abb34ebc01c31d0ade8b785c887f9fd0ed2e033790c07963d30643e34bb0",
+      "cacheOleanSha256": "1685abb34ebc01c31d0ade8b785c887f9fd0ed2e033790c07963d30643e34bb0"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.PartialDerivComm",
+      "sourceSha256": "effa5bc48125912ca488f2924b1575e2ec940dba8182a3b3b58a61db86935828",
+      "oleanSha256": "a02c318071b3427c4c10f832777d5fc48a4179216827ab8bb65a0ae52912ff1c",
+      "cacheOleanSha256": "a02c318071b3427c4c10f832777d5fc48a4179216827ab8bb65a0ae52912ff1c"
+    },
+    {
+      "module": "Lib.Adelic.Hecke.HeckeBasic",
+      "sourceSha256": "e4e8e953c1b04bddfa148506b51860c454490cb2f86f343c09b6ecfd04d3b44e",
+      "oleanSha256": "94ae1d83ce158374f5533855fa3aa9a4071479599f7cedf74ae19f6f42e61527",
+      "cacheOleanSha256": "68f37b76f3170cb173d2e207047232726410a2d5748471f97d8bbf87abf75e29"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.ContinuousCocycles",
+      "sourceSha256": "bbcdf16020e70d05e78283d68ac2306e23ab9d11bd1b123f5ca3e4984fbbc829",
+      "oleanSha256": "25c879fee37ca2f994c411768d9964436bd5ab87cb04ea6e82bb84579d8613ce",
+      "cacheOleanSha256": "25c879fee37ca2f994c411768d9964436bd5ab87cb04ea6e82bb84579d8613ce"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ColumnLattices",
+      "sourceSha256": "d9bf1ce5f40dab9458eb97de29243227e27e80de41318626d9ffd68184a29db9",
+      "oleanSha256": "e24f451bf9ba532c64093791066d16e4f8265399a2d36388fea9d03d9cddc16a",
+      "cacheOleanSha256": "a8b36139e37d8b0e02cc2923e5052f68c2ad6360629d0e2e625e5434223694a1"
+    },
+    {
+      "module": "Lib.ClassField.Places.GaloisDefs",
+      "sourceSha256": "f53cc1570f814b99eae324570e180d0b19ef5210b83421b1388e2f09c9707f1c",
+      "oleanSha256": "cdc7991b93d3c80f1fe136b29388657f5a2e12d3ddb41c2adeec9efae0060f63",
+      "cacheOleanSha256": "cdc7991b93d3c80f1fe136b29388657f5a2e12d3ddb41c2adeec9efae0060f63"
+    },
+    {
+      "module": "Lib.Adelic.Witt.FrameAction",
+      "sourceSha256": "ba41d42e4bc620fa71a716b022146989c7e50d598bddfb1c2a3fc9b4e692a9b4",
+      "oleanSha256": "1a6c87e154dfc34f8ea62b0485e77df76096ccc019cefd46b9d8aa6ef0e61521",
+      "cacheOleanSha256": "d81a3033907bbaa22a000d873cb34da2d696a6673874dba1b41f9dd32df3810c"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bruhat.EichlerMaps",
+      "sourceSha256": "c410f4dacc5f6cdc78aed601578ad8fb26ab063f480e51999eda578a3b94e49d",
+      "oleanSha256": "c11085c9d89016e23b3a9a6b971ac0142727077d6c7c1970ab6eb4c23899da3f",
+      "cacheOleanSha256": "c11085c9d89016e23b3a9a6b971ac0142727077d6c7c1970ab6eb4c23899da3f"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CyclicClass",
+      "sourceSha256": "bee05fbf8fe2df61a985446bbdf51baabd3ce3958901351bebd3bc633da3e61f",
+      "oleanSha256": "b9cf882de4c1bc66551206fda534229d086cc9f9aaf9857926060f970eb4b872",
+      "cacheOleanSha256": "b9cf882de4c1bc66551206fda534229d086cc9f9aaf9857926060f970eb4b872"
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.NonUnitalUnits",
+      "sourceSha256": "0e499c6e0565a23ba998efabb5a827f9823c82c95749753033c8f05d48a08b6d",
+      "oleanSha256": "284d5b0134c4de1b81686dc412eaa737617cc6ccafd96f9ca9661e0ceb4cb494",
+      "cacheOleanSha256": "284d5b0134c4de1b81686dc412eaa737617cc6ccafd96f9ca9661e0ceb4cb494"
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.EulerProduct",
+      "sourceSha256": "c96e72c730f8fb959eeba2bffb77fbeb7ed46c3851db5a995909bf806de82ff5",
+      "oleanSha256": "c8632a2f0dd5b5af109903bf62d53f63b355fd2c655fd8a2ac07156e4f4ced5c",
+      "cacheOleanSha256": "66bf6dbb16187dbbc27e434e9e591ba84ce36594b47fea84e005c5b4e08e50ee"
+    },
+    {
+      "module": "Lib.General.Measure.SubgroupIntegral",
+      "sourceSha256": "50192e04dc47ec43885e5a56717730ed37b76a27aa68cb1e6afe3190e50285bf",
+      "oleanSha256": "6429b03263a560ef8adfd34890b9ddaca822ccbe7971d8494e155dc9530c0183",
+      "cacheOleanSha256": "6429b03263a560ef8adfd34890b9ddaca822ccbe7971d8494e155dc9530c0183"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicAbs",
+      "sourceSha256": "ab2f5f3ce518d1b68b1e898b2a1e9e665386b905853a582ab3821c8670fb1153",
+      "oleanSha256": "0f9ddb711e1d9899329ea609e8015690f28eea5d6472e9cb2566d44dc4c94945",
+      "cacheOleanSha256": "0f9ddb711e1d9899329ea609e8015690f28eea5d6472e9cb2566d44dc4c94945"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdditiveCharDefs",
+      "sourceSha256": "f062ef5481e25895a32a8c07bbba1d33469ff4e5c9f001aa2036601e956c8739",
+      "oleanSha256": "ad04b66f9e2394482b04c9bf983872b7fabdd731fdd129c73817d4c87289548d",
+      "cacheOleanSha256": "ad04b66f9e2394482b04c9bf983872b7fabdd731fdd129c73817d4c87289548d"
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceDefs",
+      "sourceSha256": "5ff03523c26d8a195f3cd3e0f63a2205612e39848d8de67842ad119bbdf772f9",
+      "oleanSha256": "455dd220e3c97fdbb295de03fdb01cf52fbb113dd4baefc19e01a477d7cbbaed",
+      "cacheOleanSha256": "455dd220e3c97fdbb295de03fdb01cf52fbb113dd4baefc19e01a477d7cbbaed"
+    },
+    {
+      "module": "Lib.Weil.Construction.SubmoduleNormedSpace",
+      "sourceSha256": "d86234b290e2d5b4cfb0e3f2cb123e2ad2300144a87d7cd38a57192c9b1c5e4b",
+      "oleanSha256": "e1ef5a2fb8a08733a720d910562f658768bbda82ad009ccbad9611df0042c091",
+      "cacheOleanSha256": "e1ef5a2fb8a08733a720d910562f658768bbda82ad009ccbad9611df0042c091"
+    },
+    {
+      "module": "Lib.DiscreteSeries.CuspKernel.CircleMean",
+      "sourceSha256": "4166b285a82e484a4e677b1ebfbae4c73f275be25dae40a16a3561e7d1f51894",
+      "oleanSha256": "50394f587e3028cd453d09401a59004d6c7143144cb80b9eb12434bd77ebc6d4",
+      "cacheOleanSha256": "50394f587e3028cd453d09401a59004d6c7143144cb80b9eb12434bd77ebc6d4"
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.PeriodicMean",
+      "sourceSha256": "0c781771cba2152407cd9060aac2eca2ef434699436db8c34941d997c0114623",
+      "oleanSha256": "75ea7c699e71aa044e16ef2256395059ab855f36bb0e3d6837fecee4c985c4d8",
+      "cacheOleanSha256": "75ea7c699e71aa044e16ef2256395059ab855f36bb0e3d6837fecee4c985c4d8"
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Packing",
+      "sourceSha256": "cdfaa465242a389591c7df80c1590197f0207d236fe644133dcddc9cc6f5eb3f",
+      "oleanSha256": "6a71fbcadc415153e6e89b3679c149ec813d216cc3dc0a2a8269bf3e81a8ecac",
+      "cacheOleanSha256": "56d9236f60b094595c6734c5baf7dbd7e0c69acb1e4a7a808c65cdfcad9578d1"
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.Unimodular",
+      "sourceSha256": "127de79128c2ebcc4ea46595fdab3c44a49d90375d21451173e520376d1522df",
+      "oleanSha256": "d45cac08df5511e7da012d21fb016a6cdaa300fbc35b0b20af30ec88a8a0765f",
+      "cacheOleanSha256": "d45cac08df5511e7da012d21fb016a6cdaa300fbc35b0b20af30ec88a8a0765f"
+    },
+    {
+      "module": "Lib.General.Analysis.FundamentalDomain",
+      "sourceSha256": "a073b04f9445347ee7c9945d9b4d35f3d6980d848251f2c044b512883415bc7a",
+      "oleanSha256": "3fb2de4fe842ec6d32a664851ab55975108664b0747d09278952ed0973e85839",
+      "cacheOleanSha256": "3fb2de4fe842ec6d32a664851ab55975108664b0747d09278952ed0973e85839"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.RationalPoints",
+      "sourceSha256": "43cf26fe830b5ea3a16e626630109967ffe55f9052f18414bf1ebb1d095d9002",
+      "oleanSha256": "3f987fcea8e69a8b3e7b8f8d265f3678d705d54fffe1eade037504a36e05b93b",
+      "cacheOleanSha256": "3f987fcea8e69a8b3e7b8f8d265f3678d705d54fffe1eade037504a36e05b93b"
+    },
+    {
+      "module": "Lib.General.Measure.HaarModulus",
+      "sourceSha256": "7a8f166f6f369becdb52b7bd4a42e531edf8949d77dcb2aa663a00b00df716bd",
+      "oleanSha256": "29a53515cf88e0e5ab09ee6c77f2838dbccb22e0b76e7939bfaa8024399de31e",
+      "cacheOleanSha256": "29a53515cf88e0e5ab09ee6c77f2838dbccb22e0b76e7939bfaa8024399de31e"
+    },
+    {
+      "module": "Lib.General.Algebra.GeneralisedIndex",
+      "sourceSha256": "40c56751a9d708bfbe4363a19b842297284dc8ecdba3318fbb135f364e652e46",
+      "oleanSha256": "fb4e5bb71cf31700d6cc3971ea51f21af15f2de063cbb65541ce35eae4f76e0d",
+      "cacheOleanSha256": "fb4e5bb71cf31700d6cc3971ea51f21af15f2de063cbb65541ce35eae4f76e0d"
+    },
+    {
+      "module": "Lib.Weil.DualPair.Kronecker",
+      "sourceSha256": "281e2dd5be2ab5768f08b7b9f49f70b3caac62786fdb0130e4e97043811a5cb6",
+      "oleanSha256": "3f9aef4f10674f05262dc31b86aa44adef157a29f7874030c186ee68dfa24ee8",
+      "cacheOleanSha256": "3f9aef4f10674f05262dc31b86aa44adef157a29f7874030c186ee68dfa24ee8"
+    },
+    {
+      "module": "Lib.Weil.GaussSum.LocalHomUnit",
+      "sourceSha256": "2301602e1fc66d3d804739de4c7c7ec2a6ffb866bdc901b3842033c9867407ca",
+      "oleanSha256": "45ba91377abdd9d4bcf523c17f542c02af41048afd31ad7632dc06845b15bde6",
+      "cacheOleanSha256": "45ba91377abdd9d4bcf523c17f542c02af41048afd31ad7632dc06845b15bde6"
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceGram",
+      "sourceSha256": "c333547d403bd391b42bbb09907d36bf454c8111e34dc4a97b80083fffcc4155",
+      "oleanSha256": "7bc065e16d604d0c0309ecf9dc52e1a8115e10a4da20211a97c36d675f0ad6c8",
+      "cacheOleanSha256": "7bc065e16d604d0c0309ecf9dc52e1a8115e10a4da20211a97c36d675f0ad6c8"
+    },
+    {
+      "module": "Lib.Weil.Construction.GaussSumSign",
+      "sourceSha256": "cc90188cc673610da26d2e7f58ddfff1eb7cd339b5a2abf3151ec6a2c4f67d5c",
+      "oleanSha256": "55cda5ac71c473f7a163b0af3ca1fb6fd337f09f7197ad97d46a210093fe765d",
+      "cacheOleanSha256": "55cda5ac71c473f7a163b0af3ca1fb6fd337f09f7197ad97d46a210093fe765d"
+    },
+    {
+      "module": "Lib.General.Algebra.InertResidue",
+      "sourceSha256": "12dbd6e5365560a7709238da371731012fe09986105fc4e159fc15a049820804",
+      "oleanSha256": "c8be04b3de62f115cff5fa16535df5635104d5c455a020e9f9c291f642f8ecf5",
+      "cacheOleanSha256": "c8be04b3de62f115cff5fa16535df5635104d5c455a020e9f9c291f642f8ecf5"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdelicModulus",
+      "sourceSha256": "8b18ab07440d5ea882c5a69c282474791d85442cf9d28a3d5fb657dc693f1a90",
+      "oleanSha256": "6ceafcd3d58cccc31bdaff19b1fdac9c427664cbbf9e8b6b5be46975b80519a9",
+      "cacheOleanSha256": "805dafa6bfa501db0800b14c6c3b708c3b7916a7e1f3cea5031e13472c6c7d09"
+    },
+    {
+      "module": "Lib.Adelic.Witt.SpaceOperations",
+      "sourceSha256": "02653ee4ad5e610a40f35f11fa8829347f1bd6c4bc004cb938cf08f6a9b223da",
+      "oleanSha256": "dad0ef5a2729d5bc267306872cf201df50191131ebc724c062ae52e085692aab",
+      "cacheOleanSha256": "dad0ef5a2729d5bc267306872cf201df50191131ebc724c062ae52e085692aab"
+    },
+    {
+      "module": "Lib.General.Combinatorics.Average",
+      "sourceSha256": "d583fc86c8a6da707eb7cfe85c84013d5449b2f2f24bfc17dbe4699b86d47003",
+      "oleanSha256": "b5dc0d77e043dafb793659c20ecefb2ec494f3ef60eb14e7abf741966cc9bc91",
+      "cacheOleanSha256": "b5dc0d77e043dafb793659c20ecefb2ec494f3ef60eb14e7abf741966cc9bc91"
+    },
+    {
+      "module": "Lib.General.Algebra.ZerosCostDegree",
+      "sourceSha256": "7b1da2a0e936a1afa3e1fc6f766c814861e3afb4d65510d0dc2e091fc37c5435",
+      "oleanSha256": "77849c748a27f136d9640415138c370e750150b1e8000fb61609874fcf65847e",
+      "cacheOleanSha256": "77849c748a27f136d9640415138c370e750150b1e8000fb61609874fcf65847e"
+    },
+    {
+      "module": "Lib.General.Groups.VirtualCharacters",
+      "sourceSha256": "98589b41a505d075cf11b98c8a4774f6b1fc73cfae5d1fd6c18f7c31bb7ec1cd",
+      "oleanSha256": "3016c2e22f1736c44f3bfe3144216854c1cfde21c45c195c25a16d6b815d5bf4",
+      "cacheOleanSha256": "3016c2e22f1736c44f3bfe3144216854c1cfde21c45c195c25a16d6b815d5bf4"
+    },
+    {
+      "module": "Lib.General.Analysis.HolomorphicIntegral",
+      "sourceSha256": "993f648fa6d0db7f6a3f987f033cb131a4cdc89045a3c7e6d03073c5e9bd80cd",
+      "oleanSha256": "9ad618f587e512268bf3686f62dab802979a4b04c2f00810589ef12402da2dc9",
+      "cacheOleanSha256": "9ad618f587e512268bf3686f62dab802979a4b04c2f00810589ef12402da2dc9"
+    },
+    {
+      "module": "Lib.General.Groups.CentralProjections",
+      "sourceSha256": "b285e1cc29b2e81058e19629ab14100b8d66bfdf79bfc21dc05be3f71515ef51",
+      "oleanSha256": "3380c95e4e6fcf1dc37afd113e9ebb8476d2fedee48b8a91d86f25ba6018fb35",
+      "cacheOleanSha256": "3380c95e4e6fcf1dc37afd113e9ebb8476d2fedee48b8a91d86f25ba6018fb35"
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.LieExponential",
+      "sourceSha256": "ff9069d68b5db748943d106e463e4bcddccf8677baf63b6aee0e653ccc2f5549",
+      "oleanSha256": "eed1c2dc6a86c5be708c448906e4ce4fcfa144341662057c49ffc104a74a571e",
+      "cacheOleanSha256": "eed1c2dc6a86c5be708c448906e4ce4fcfa144341662057c49ffc104a74a571e"
+    },
+    {
+      "module": "Lib.General.Groups.IrreducibleCharacters",
+      "sourceSha256": "99da2f14958b11981ab272ad080812f9d19cc42c64b178d2d76465efda5d68c0",
+      "oleanSha256": "0056267e48aeec6996e9b62cb2157c4f12d76eea24a47f79900587f62e58fdd8",
+      "cacheOleanSha256": "0056267e48aeec6996e9b62cb2157c4f12d76eea24a47f79900587f62e58fdd8"
+    },
+    {
+      "module": "Lib.Shimura.ComplexTheta.CanonicalMultiplier",
+      "sourceSha256": "7e821103085e1c051428a07399fa37cf2e73768468cb983f2463f051a866ef00",
+      "oleanSha256": "9813a4d0535254252de7b919eb4fa5ba7e73efd5a987f68c326ce196659cde2f",
+      "cacheOleanSha256": "9813a4d0535254252de7b919eb4fa5ba7e73efd5a987f68c326ce196659cde2f"
+    },
+    {
+      "module": "Lib.LocalGL.Green.MackeyFormula",
+      "sourceSha256": "f87352e5fcf4800a4287d333bb7bcc7d1b4438c92a05bb73766a484f30d84b2c",
+      "oleanSha256": "882f73f01430d9511b66211713f3ceb88f7c202b1138465462655c6421b8ff50",
+      "cacheOleanSha256": "882f73f01430d9511b66211713f3ceb88f7c202b1138465462655c6421b8ff50"
+    },
+    {
+      "module": "Lib.Shimura.ComplexTheta.ThetaDimension",
+      "sourceSha256": "7162af9c374d1c7bcccea2f8e4429618c66bc2bbbaf87b376e1320c73090d1f0",
+      "oleanSha256": "d7f07cdd0a30efba5210dcf05502c268d98cc2692a82316d239f9c32c4cc3d01",
+      "cacheOleanSha256": "d7f07cdd0a30efba5210dcf05502c268d98cc2692a82316d239f9c32c4cc3d01"
+    },
+    {
+      "module": "Lib.LocalGL.Green.InductionMean",
+      "sourceSha256": "74f3b3d0eef09cb64eb6dd28d34226a1a11d16eddaac6161e2b2f77df128155b",
+      "oleanSha256": "139a9e586467bd6e575d4f92ce09ddb9972bc5eab77c9add5cc6aa9a1724c05d",
+      "cacheOleanSha256": "139a9e586467bd6e575d4f92ce09ddb9972bc5eab77c9add5cc6aa9a1724c05d"
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalFunction",
+      "sourceSha256": "8ff35bc7d68bdbdbb18fa717d14fbcc1bba450af0bcf5a4a74da3ac4a1744ef4",
+      "oleanSha256": "a94aff897797c86bd486151cc460acb18c2e1d7e5441715a7f73027cd99026ab",
+      "cacheOleanSha256": "a94aff897797c86bd486151cc460acb18c2e1d7e5441715a7f73027cd99026ab"
+    },
+    {
+      "module": "Lib.LocalGL.Green.FrobeniusOrbits",
+      "sourceSha256": "fa7b978b23fb4c559f1955e3cd1e3ca3240d06f0347506851aee5ae13ff59d5b",
+      "oleanSha256": "64cb8a0c4c5be31d13ca3f2470870a948b9d38101c0073c1887b6addb9e3c52d",
+      "cacheOleanSha256": "64cb8a0c4c5be31d13ca3f2470870a948b9d38101c0073c1887b6addb9e3c52d"
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalSupport",
+      "sourceSha256": "5d04a6d04220b11282df3e3e633a7129b45cb313863b4c2affcaa6422c00c2eb",
+      "oleanSha256": "000c010c5cfe4dc94208626bca827465a5b35c1cb5d49d25fdb8d5acea88ac6c",
+      "cacheOleanSha256": "000c010c5cfe4dc94208626bca827465a5b35c1cb5d49d25fdb8d5acea88ac6c"
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalAtScalars",
+      "sourceSha256": "3c8bcfaa718d45c7dc9878817ed2db7f73914d43d38c4ff5f646a48e6d80c23b",
+      "oleanSha256": "edf4ba31d2a694547e95ecb42e88daa6e1372f510f9faddd88d88507f8d2862b",
+      "cacheOleanSha256": "edf4ba31d2a694547e95ecb42e88daa6e1372f510f9faddd88d88507f8d2862b"
+    },
+    {
+      "module": "Lib.LocalGL.Green.CuspidalInnerProduct",
+      "sourceSha256": "1e287cafa89bce8d58485b6affb4da26329e47a67cabd35aefda75d41202f718",
+      "oleanSha256": "563e77bcfd75ba07d334f73799f441f3af6800e10157f1f6e0ce0b9b85c83618",
+      "cacheOleanSha256": "563e77bcfd75ba07d334f73799f441f3af6800e10157f1f6e0ce0b9b85c83618"
+    },
+    {
+      "module": "Lib.LocalGL.Green.GreenTau",
+      "sourceSha256": "2d585de4c77bea8d1359c4bc0b5eb84ccbfcbb66acfc31f2d75fdc1eda7369b4",
+      "oleanSha256": "7feb7b789e240c18b5a4ba5e3cdd5be502bf6443df790dce4cdaf3f2041d03f1",
+      "cacheOleanSha256": "7feb7b789e240c18b5a4ba5e3cdd5be502bf6443df790dce4cdaf3f2041d03f1"
+    },
+    {
+      "module": "Lib.General.Algebra.FaithfulChar",
+      "sourceSha256": "017bdd657e2f348e3a0a4b784f864fd8b515a0e666599cadc4166b3999fdf4c5",
+      "oleanSha256": "2f191090463f2e1a1c92e44cdf323f022f61f755487cf732bd7ff9c879edb805",
+      "cacheOleanSha256": "2f191090463f2e1a1c92e44cdf323f022f61f755487cf732bd7ff9c879edb805"
+    },
+    {
+      "module": "Lib.LocalGL.Green.LabelDegree",
+      "sourceSha256": "bd76d36fcf0638580f058f415212e67bf65728f17b1a3b863284bea4dab3e394",
+      "oleanSha256": "978543b734e9f29fb8f90ea833fa5feefeac0274eb5d1b8aa51792b2fb0c239c",
+      "cacheOleanSha256": "978543b734e9f29fb8f90ea833fa5feefeac0274eb5d1b8aa51792b2fb0c239c"
+    },
+    {
+      "module": "Lib.LocalGL.Shintani.LabelCharacters",
+      "sourceSha256": "2a043e37414f0d9044478f06367def09b5505f4de8dc936882a9fa77f6759cd4",
+      "oleanSha256": "06bf17698202cae1ec58b9b2b0894d79c4255babe315ac0332658a0f4a89c617",
+      "cacheOleanSha256": "962e0f6fc9e1d965ef5c7661a7f7f026ea3a5ba4aa7306f0b54b379771bcc605"
+    },
+    {
+      "module": "Lib.LocalGL.Green.LabelIdempotents",
+      "sourceSha256": "184c331b6f0ec1c679a6a9e72f2d9827bdb585ee4b5d13ec5eb46cb5b614d3a3",
+      "oleanSha256": "df7def15e393d29b36ba12aef289896e308a8336334288ae42679513e1d9b232",
+      "cacheOleanSha256": "df7def15e393d29b36ba12aef289896e308a8336334288ae42679513e1d9b232"
+    },
+    {
+      "module": "Lib.General.Groups.CentralConvolution",
+      "sourceSha256": "3bc801a4a432ba4d64d6eb82cda96ca007a6c4b005754a7d3fb3a192b33ce6e8",
+      "oleanSha256": "8cb14b18bc929008728ef708a079de2949f7b42929fbfa2afbdb5762cfcde14b",
+      "cacheOleanSha256": "8cb14b18bc929008728ef708a079de2949f7b42929fbfa2afbdb5762cfcde14b"
+    },
+    {
+      "module": "New.Trace.BadShare",
+      "sourceSha256": "ad3d8e9ae6d0904baabb18a0542f8ad5a1ef9d8b407f6f4690a44d43f03bea1f",
+      "oleanSha256": "471157ea6308a5d2933e0e2253f121d3cf7b537045e13b918847802d0a64983f",
+      "cacheOleanSha256": "471157ea6308a5d2933e0e2253f121d3cf7b537045e13b918847802d0a64983f"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HaarUnique",
+      "sourceSha256": "affd1f487d630aac0dd74faf56e3260bcc0775f1316401e885b528715b747c6b",
+      "oleanSha256": "5fc5758043f3a309512edf7fbced2266d3610e685d357f14f4dda5891ccbf4da",
+      "cacheOleanSha256": "6897ec35ce64c9f51125bcd6af977cf844d827878f5a700290529394887f0217"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.HuaIntegral",
+      "sourceSha256": "f8cafa22d25ddd7c36adfff0aaac075a57a305d905199ba30c3924c4127b1faf",
+      "oleanSha256": "18cbb3a94199fc8072f06db47eb18cc58990a409ef7af9f77c973aed94cefaab",
+      "cacheOleanSha256": "83fb551e0abc131388c92c59dac9e1be98aaaa3542882e392d6ef0d451b4ec46"
+    },
+    {
+      "module": "Lib.CM.Sigma.SigmaFunction",
+      "sourceSha256": "40893ba4cc49a85bf77e76383e8b32bec494b5e0dd505f1879a276583f836549",
+      "oleanSha256": "a02c0da5ec8aac1c2e760c7379b983b789be147d61731ebdc8b8cccd6c25555f",
+      "cacheOleanSha256": "eb79bcd2bf2241506c6c96e4626afead14487882da0f5766adf61785a0eac58d"
+    },
+    {
+      "module": "Lib.CM.Sigma.CurveTheta",
+      "sourceSha256": "13d07e5b621c1ed48d311fce218aae5fc68120e4229f14fbfa39e914cac4ef8e",
+      "oleanSha256": "7c89201c34b952752b1d072104ac1c1816a9fa9c1d4d900f0a97ea97278ca4af",
+      "cacheOleanSha256": "2c24db234a365badbd9e1227f40784b779c57ec83d2ef94ea9a5b0af1eaadc6a"
+    },
+    {
+      "module": "Lib.General.Algebra.AdicRingHomExt",
+      "sourceSha256": "20f4cfe385cb2c9bc5133f4af47be62995a545e8ea634a1c691e8604735e2b8f",
+      "oleanSha256": "2929de9183ddd9176d5d9047d0db83c1c994bae62eca573a4279e3d956b5a82b",
+      "cacheOleanSha256": "a55080fbacc92b9e3dd193248f32e599aa9881723c30ed2bcaec770159a730c5"
+    },
+    {
+      "module": "Lib.CM.Sigma.PadicSeriesDefs",
+      "sourceSha256": "ba0cec3813e7f88f2fa77c36ee196a49616c7becb19b647cc9a5c770282808a2",
+      "oleanSha256": "c91a6be754f0f2d6f239a6b947f056c954157f532aca1be54fb8b724b8b2c286",
+      "cacheOleanSha256": "c91a6be754f0f2d6f239a6b947f056c954157f532aca1be54fb8b724b8b2c286"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.SubmersionZero",
+      "sourceSha256": "56d9a5eacc82f7d85593a9374ca895a3592ab1477556ca2a28ef4dff4ba06362",
+      "oleanSha256": "48770f61792efbc01d8af29f5e8108b1842055f6e1ca9e6782a4f91716965c76",
+      "cacheOleanSha256": "48770f61792efbc01d8af29f5e8108b1842055f6e1ca9e6782a4f91716965c76"
+    },
+    {
+      "module": "Lib.General.Algebra.JetChainRule",
+      "sourceSha256": "e96bf447368fa10681de7a2c940d9c264034318e0d197bd1dcf01256fb27adb8",
+      "oleanSha256": "d8765e97a28c208eb2f58249500020b37b4bed8691370c98ff18a67fc2a83dad",
+      "cacheOleanSha256": "d8765e97a28c208eb2f58249500020b37b4bed8691370c98ff18a67fc2a83dad"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.CommonEigenvectors",
+      "sourceSha256": "853500f39eb3ea52825e9631397c415be3b41224c71bf3d473ad27ddb9c9b019",
+      "oleanSha256": "487a22b4e825798f86a6dab65e2bea929115f96fcfd0ab649087f5fb0c94770c",
+      "cacheOleanSha256": "487a22b4e825798f86a6dab65e2bea929115f96fcfd0ab649087f5fb0c94770c"
+    },
+    {
+      "module": "Lib.General.Algebra.DepthBounds",
+      "sourceSha256": "ae64389702c81ce4f54246d05d017fcc67072288a5262ebda637a08385f50b59",
+      "oleanSha256": "17cd8adf8a8644c8501054c153220809b47803583df403cde197dddca17824af",
+      "cacheOleanSha256": "17cd8adf8a8644c8501054c153220809b47803583df403cde197dddca17824af"
+    },
+    {
+      "module": "Lib.General.Algebra.RingActions",
+      "sourceSha256": "8777e71d155b9a9c0fe08584818e3aac2cfb313c6a6edd7cf95a84780306f181",
+      "oleanSha256": "ee265f44adaf6ccbd46964f15035557f57ce3eb49fc18ad2ab8cab202f620d35",
+      "cacheOleanSha256": "ee265f44adaf6ccbd46964f15035557f57ce3eb49fc18ad2ab8cab202f620d35"
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalDefs",
+      "sourceSha256": "dbf83d0db0fefb3a69e391ccb1d911c9caf3a69b2a9e5a5363c60b4f58bb2c05",
+      "oleanSha256": "7195441985265a998b1403d1cb1c0a041b40d9af7d63293ec9e61a39d82fd8f5",
+      "cacheOleanSha256": "7195441985265a998b1403d1cb1c0a041b40d9af7d63293ec9e61a39d82fd8f5"
+    },
+    {
+      "module": "Lib.General.Algebra.SuccessiveApprox",
+      "sourceSha256": "0f9c7d24e2180f32f0e08aae11a08e2fa155ee5115afea534caede47e0a43d29",
+      "oleanSha256": "09599b7a63aa20c7c9ab7cca8b386bc40fc9947fe1be9270b758c37381633fbb",
+      "cacheOleanSha256": "09599b7a63aa20c7c9ab7cca8b386bc40fc9947fe1be9270b758c37381633fbb"
+    },
+    {
+      "module": "Lib.ClassField.Places.ProfiniteGalois",
+      "sourceSha256": "310121091d9142271a41b71905dfe43e93cb9c303441b6101dd5fe5c6f543512",
+      "oleanSha256": "ce5fc4a77500e0c00f26b7344bca150d98f808da5bd4bd430eca3ede103a459a",
+      "cacheOleanSha256": "ce5fc4a77500e0c00f26b7344bca150d98f808da5bd4bd430eca3ede103a459a"
+    },
+    {
+      "module": "Lib.General.Groups.RatModInt",
+      "sourceSha256": "cac46706cc82aa278a4f2792314c635459ade59d2d989670efb542e4d2c11de9",
+      "oleanSha256": "5bb65fa325b2b36bf8acbe0a6ba2dfb876c160a80baba0947b3bbfaa9c464be8",
+      "cacheOleanSha256": "5bb65fa325b2b36bf8acbe0a6ba2dfb876c160a80baba0947b3bbfaa9c464be8"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.CpIntegers",
+      "sourceSha256": "6abe17561e8f3ebfba9081d9d1e0f815271c782f6ac7e90107f4ab3bc4d35e68",
+      "oleanSha256": "d915f7b0f904bfa4e73678247802d06dca9ff515fc8bdb98396fc8274362aae1",
+      "cacheOleanSha256": "d915f7b0f904bfa4e73678247802d06dca9ff515fc8bdb98396fc8274362aae1"
+    },
+    {
+      "module": "Lib.General.Groups.ArtinDefs",
+      "sourceSha256": "4cb8a808a851c11caadf63f2009e3595f7b9ae43c6b29e58c94f913ea7364b9b",
+      "oleanSha256": "7f80ab5ccf81abf7e06ba7d9b1238ad52a33fe85151ff7d67de32f53759bc039",
+      "cacheOleanSha256": "7f80ab5ccf81abf7e06ba7d9b1238ad52a33fe85151ff7d67de32f53759bc039"
+    },
+    {
+      "module": "Lib.ClassField.Places.CyclotomicCharacter",
+      "sourceSha256": "0a4c46b37868d88898c88e00beeec6fbe57958009ab7c77c1d26650270141193",
+      "oleanSha256": "3d0eadf70e887d2dbd4005d285e0488225e8cb4371edf1f65d9e5bca77aca1d4",
+      "cacheOleanSha256": "3d0eadf70e887d2dbd4005d285e0488225e8cb4371edf1f65d9e5bca77aca1d4"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.Ainf",
+      "sourceSha256": "b9c0cd1508c84d3bbfea09ec034861dfcf2c06e06cf035d511476d22c5039a16",
+      "oleanSha256": "feb160df0ba43795ca4df98cfe3c2e8a1baf455db06ea2133040fe18ef2d90be",
+      "cacheOleanSha256": "feb160df0ba43795ca4df98cfe3c2e8a1baf455db06ea2133040fe18ef2d90be"
+    },
+    {
+      "module": "Lib.ClassField.Places.Places",
+      "sourceSha256": "4eb3c93d72f83ec7a2ac45488c7c047e30ccb7d1383404941b46711a0b1d5e3f",
+      "oleanSha256": "02e4ba9a54b920c876f340a137d1f60fd500646d78c39aeb899ddc19218d6654",
+      "cacheOleanSha256": "02e4ba9a54b920c876f340a137d1f60fd500646d78c39aeb899ddc19218d6654"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.ThetaKernel",
+      "sourceSha256": "729f4f16ee1cdf06e0129cf23cd53cd95e9bcf2e7ececc8a2b366c11ada409e6",
+      "oleanSha256": "61e8d6f5184021a83444ca9235b4e5c1d938dadf509000afcc2e7886a92a63be",
+      "cacheOleanSha256": "61e8d6f5184021a83444ca9235b4e5c1d938dadf509000afcc2e7886a92a63be"
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalFrobenius",
+      "sourceSha256": "0df8fcce5bdef6791804fcbc64c323eaa5b7b0a20c861a085618e4d162b8ff6a",
+      "oleanSha256": "ac973e35508cf4a3f6cb980efd0d808519258751b4d2ba8a695dd8734264b891",
+      "cacheOleanSha256": "ac973e35508cf4a3f6cb980efd0d808519258751b4d2ba8a695dd8734264b891"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.AmaxStructure",
+      "sourceSha256": "c00ffe73f254eecccf8414c4ff56a2aa7334d6669eec8a234c07f7c5c3a0e855",
+      "oleanSha256": "42c92577bbbf27143f3130fe15f2c8dfe6e37939470e7021087fb838fd03f367",
+      "cacheOleanSha256": "42c92577bbbf27143f3130fe15f2c8dfe6e37939470e7021087fb838fd03f367"
+    },
+    {
+      "module": "Lib.ClassField.Places.LocalExtension",
+      "sourceSha256": "025448c43511c9f708869f57abcca1b2e8dd386a332fd05c96ddaf08427be45b",
+      "oleanSha256": "5592a123308bb8b5b16c976124bfa031932080419202721b607e3a64c0e86bd2",
+      "cacheOleanSha256": "5592a123308bb8b5b16c976124bfa031932080419202721b607e3a64c0e86bd2"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.BdRPlus",
+      "sourceSha256": "edf85c9b43a2fd45542b6ea32f9630414eb453899122bbcfcb8a55d8290151fd",
+      "oleanSha256": "f62b18d0eff4f8fb5643c24ee30a1ef466f7624286cabe27a39c577ddcb9ba83",
+      "cacheOleanSha256": "f62b18d0eff4f8fb5643c24ee30a1ef466f7624286cabe27a39c577ddcb9ba83"
+    },
+    {
+      "module": "Lib.ClassField.Places.UnramifiedCharacters",
+      "sourceSha256": "b8e55562be22fa2641622bf963a57b784ca10ed79ef1a5f0cd2e748652bec900",
+      "oleanSha256": "a6750a483ffc94e66fd96407e47971f1a472be280e6fb854ad6f9725c9930943",
+      "cacheOleanSha256": "a6750a483ffc94e66fd96407e47971f1a472be280e6fb854ad6f9725c9930943"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.BdR",
+      "sourceSha256": "123685b6fe4abd81560b30149063f03101f605c8a924fe96e8fcdc92d3799c83",
+      "oleanSha256": "bf8960e1732a7203e5238eaf19d65b2086192fae59b4260f73bfe509d395bee7",
+      "cacheOleanSha256": "dd240f9ddc0a0fc52a0b739a63f9540988bb1e6a674c29068d3202a14ea06b97"
+    },
+    {
+      "module": "Lib.ClassField.Places.PadicDecomposition",
+      "sourceSha256": "e524930294bf62ca3e4ef42c51f580ae08bf1cfac628e28ee2404f82050e5dcd",
+      "oleanSha256": "435d610be1ea03668530eb22540987cac170cf27c7772674509e3137916fc582",
+      "cacheOleanSha256": "435d610be1ea03668530eb22540987cac170cf27c7772674509e3137916fc582"
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.Defs",
+      "sourceSha256": "600802a0fd9d8dd5d69f80f1f193d563d04c3bd6a3e116a1721c929e60bcee45",
+      "oleanSha256": "4fd4666085623089be78def8f30588a1aa1a4c8cc0870f9ebcf6986ec78bce68",
+      "cacheOleanSha256": "4fd4666085623089be78def8f30588a1aa1a4c8cc0870f9ebcf6986ec78bce68"
+    },
+    {
+      "module": "Lib.Adelic.Hecke.ClassMean",
+      "sourceSha256": "bb2743f55506fc616cad65c42d32c30105c6e81bbed080fcf13a1076c2a093d0",
+      "oleanSha256": "dabeb6cb0a83bad7220f0e6be6973b0fb8dbde211f572cf88404b428e0dd8724",
+      "cacheOleanSha256": "6dc96748d9c1970651dc637b305a2ecc2a0b0db7e06e954b51218b3c0f56a7c7"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.LocalComponents",
+      "sourceSha256": "87495110e5f65ce3dfe6027e77215a92c96ceaab018b58f2a2d27b245738f6f1",
+      "oleanSha256": "9186a3402189a37464951642c040b54c81bbe3d20b0295b0cc91f7254ff53e55",
+      "cacheOleanSha256": "9186a3402189a37464951642c040b54c81bbe3d20b0295b0cc91f7254ff53e55"
+    },
+    {
+      "module": "Lib.General.Groups.CompactMean",
+      "sourceSha256": "d0e26213e533f130aa8d8043d85acd736c416efb41be87ac3dd2064a4be493c9",
+      "oleanSha256": "c90317c301522035e5d4f008efb91ea30654f31c5603d9db585a2a65cafed4aa",
+      "cacheOleanSha256": "c90317c301522035e5d4f008efb91ea30654f31c5603d9db585a2a65cafed4aa"
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IntegralParameter",
+      "sourceSha256": "8cee4e42232d40ab299d6b9181201fd412ea71b7e3aa0e68c40946b5aa7d0cb1",
+      "oleanSha256": "ad25450657605de888e107393ccef6f5dd3bd1d0e5042703bf905f6bda79c879",
+      "cacheOleanSha256": "a172fa7e27235434d466e6afc13fc776b4a07db64426237da78a3457ee213011"
+    },
+    {
+      "module": "Lib.Adelic.Unitary.CongruenceLevel",
+      "sourceSha256": "a7f33e3355ec55ae89a3ab93818c10206c4c5aa97397763bb4127e5f720d9dea",
+      "oleanSha256": "c00f3473a6f733331753bd6b8132d5bfb77220270694731e8ca62c4c8c709552",
+      "cacheOleanSha256": "1056d985aeafe304121b572da511a1ddeacb3efe1a5bec3b4cf7fd01fa77fce2"
+    },
+    {
+      "module": "Lib.CM.LocalHeight.IsogenyIntegrality",
+      "sourceSha256": "d719756796124ae8c0b9afc734339e85d517e539243bb366199b043acbf7c7c6",
+      "oleanSha256": "3955689a980bc9b515ff061c94d72f26a1b69b7934e7a2d9189df061bbacf206",
+      "cacheOleanSha256": "f3ff4aadd2411aba5cb1dff2fbee5d3a86b4a10ef438bba4fe62cbf26e78262c"
+    },
+    {
+      "module": "Lib.Weil.Unramified.HeckeGL",
+      "sourceSha256": "b0ca397465b8f1ea1b0729e453d96fbf726c5de0e29c28f641ec8b0234b5e60c",
+      "oleanSha256": "cbc6fd0375bc90a00b6aaf6ce05f40ae7d4867bbdf7bfc9d4b370cf81451eb62",
+      "cacheOleanSha256": "cbc6fd0375bc90a00b6aaf6ce05f40ae7d4867bbdf7bfc9d4b370cf81451eb62"
+    },
+    {
+      "module": "Lib.CM.MainTheorem.ConjugateCurve",
+      "sourceSha256": "dffab810a709a4239e0690f44ea0ce20a89fc983b97f7eb30fcb288768ac932a",
+      "oleanSha256": "b6fdd433039d2f4fe452dad130404ac26914000d3b330baa50ae2760b5b3e3d4",
+      "cacheOleanSha256": "b6fdd433039d2f4fe452dad130404ac26914000d3b330baa50ae2760b5b3e3d4"
+    },
+    {
+      "module": "Lib.Weil.Unramified.SphericalHecke",
+      "sourceSha256": "91a6858fe5ef41632dae343607447773fdfd355b57296e71ec0ed1ccb81746b4",
+      "oleanSha256": "ef504636be84d9d7f64bcb91c17e6bad5839ec872753162f6471497afa8d2e50",
+      "cacheOleanSha256": "ef504636be84d9d7f64bcb91c17e6bad5839ec872753162f6471497afa8d2e50"
+    },
+    {
+      "module": "Lib.CM.KroneckerLimit.LogTheta",
+      "sourceSha256": "dec722d275d9f214833fba6581c890917eca643b0ca962b8e76d23b0f43792db",
+      "oleanSha256": "00a046617b1acf9f4e81bd17d0481deb8018c3eea141e36ac068f0e50703dd9b",
+      "cacheOleanSha256": "3fe765fda8cc07dec1db7c4951f173562d7c2d3d04a8f3a5bb53de6df43d4ff4"
+    },
+    {
+      "module": "Lib.GaloisRep.Main.LocalEmbedding",
+      "sourceSha256": "a29734aa4db88961d0ddb22eb5fd246f530077bebda2917829456d603df16c0a",
+      "oleanSha256": "81cca569302c0eae26b3284c42bf028e24e32d0df7671ee28eaf11bfbad82fc6",
+      "cacheOleanSha256": "81cca569302c0eae26b3284c42bf028e24e32d0df7671ee28eaf11bfbad82fc6"
+    },
+    {
+      "module": "New.Data.Different",
+      "sourceSha256": "0c42bf4cf5ddb40bffdd0831519a0334a7c9ac1926abfeb446774cebb4179480",
+      "oleanSha256": "d68e906bb78012a29c94855c6056fb7055d54c7a1de4d7da705b18acc6bbf1ad",
+      "cacheOleanSha256": "78b06a2365be3ce9e0d6bba3ee610d670fbb88ba349932102837427e447c8e8a"
+    },
+    {
+      "module": "Lib.CM.Genus.QuadraticZeta",
+      "sourceSha256": "f2eafaf8b973f83bece511840e623745b9560dd991840931e28a4051de605478",
+      "oleanSha256": "d58533824c743eeec34e1e3f4c1ec6a47d3d875fb392ea6d1114cd65c67d8366",
+      "cacheOleanSha256": "d58533824c743eeec34e1e3f4c1ec6a47d3d875fb392ea6d1114cd65c67d8366"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterDefs",
+      "sourceSha256": "7f53dc7f655fbe625662f42b156a6585b781b99e323fd1a70de98a6ea87f84c7",
+      "oleanSha256": "d2dfb07d698edad74d672bb1d0e69f2113ea034e674c578b4a6d7a488be19875",
+      "cacheOleanSha256": "d2dfb07d698edad74d672bb1d0e69f2113ea034e674c578b4a6d7a488be19875"
+    },
+    {
+      "module": "Lib.CM.FormalGroup.FormalHeight",
+      "sourceSha256": "f503a05248222528b6565644414e6298e8f2c9be6193e9baa7fc1dfca4ee3c04",
+      "oleanSha256": "45ad5e4e7298e12a761792678e2f57880e8f34efadd63de944f4352c64d44e69",
+      "cacheOleanSha256": "45ad5e4e7298e12a761792678e2f57880e8f34efadd63de944f4352c64d44e69"
+    },
+    {
+      "module": "Lib.General.NumberTheory.UpsilonValues",
+      "sourceSha256": "bf7e1f8e131ce7c7d7ddfc11beb6b60db6eb1352e63efe81aaab5ef3726d8d95",
+      "oleanSha256": "a7fcc7a68ff0111cabdc81c847996ea2a76a111e26abb1cc7bd2c930c5cdabcd",
+      "cacheOleanSha256": "a7fcc7a68ff0111cabdc81c847996ea2a76a111e26abb1cc7bd2c930c5cdabcd"
+    },
+    {
+      "module": "New.Curve.FormalParameter",
+      "sourceSha256": "93aaff31b57f46425ec88f59f5a9cff0f6b59cdf33ed2ec00978128d27c706f2",
+      "oleanSha256": "222594547c35ffb3199fca6975769d1983db3172209f3edc1b8eadd450665eab",
+      "cacheOleanSha256": "222594547c35ffb3199fca6975769d1983db3172209f3edc1b8eadd450665eab"
+    },
+    {
+      "module": "Lib.GaloisRep.BaseChange.OrbitClassSum",
+      "sourceSha256": "107fe2f107bcc862c55ecaecfde253614fb17a0b8eb5b1711d4f587647694e2e",
+      "oleanSha256": "280d268f93c565d93c2da3d54daa274bd31a90fb52bd89fb352187743e3b4975",
+      "cacheOleanSha256": "280d268f93c565d93c2da3d54daa274bd31a90fb52bd89fb352187743e3b4975"
+    },
+    {
+      "module": "Lib.Adelic.Reduction.MinkowskiSecond",
+      "sourceSha256": "a60fcd39e5b15a779402e2614a11a6a0d9258e57519c61613ff9027e03f059a4",
+      "oleanSha256": "d0cbe49957fe66bf084b202d241de37817ce2b0f220e7753634c6d2e3f958e65",
+      "cacheOleanSha256": "d0cbe49957fe66bf084b202d241de37817ce2b0f220e7753634c6d2e3f958e65"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.IdeleHilbert90",
+      "sourceSha256": "717b9af80cde3c76b93a3f97cc1736879d86afdb8f2b3278f619254632e7dd81",
+      "oleanSha256": "6de9a65598cca22dc754221c1a7fd2768a50a2485cac92adfd727de97ae7a1d3",
+      "cacheOleanSha256": "bb2e64f5986579803d4d7c646162969b72295bfdbd23cef82254b18c9980f603"
+    },
+    {
+      "module": "Lib.Adelic.Unitary.SpaceBasic",
+      "sourceSha256": "d742d5ac099f9603cc08b717b5aa19cb7e2316ae9b5fa6b1ee7599ca3aeda3bf",
+      "oleanSha256": "b200b66734a490f133bfad326e23219f3347ee8f02a2bb7b4237e5facddef77e",
+      "cacheOleanSha256": "b200b66734a490f133bfad326e23219f3347ee8f02a2bb7b4237e5facddef77e"
+    },
+    {
+      "module": "Lib.ClassField.Places.AdeleNorm",
+      "sourceSha256": "dd9d668f01647e908686690c684d2cefe39a04618ed5a894f8a78cb59c97f656",
+      "oleanSha256": "5585237cf01f4e3a61261b46c3d0a359d28c8dec4aca0d33ece4bf112c325399",
+      "cacheOleanSha256": "9735d9c81950137b4f97d8b8784644fae9bdc9fd8efd33c7bd38b826da5543cc"
+    },
+    {
+      "module": "Lib.Adelic.Reduction.FirstMinimum",
+      "sourceSha256": "f1e0eb9668aee6f23f7ed115d132371257d5ddd1858d9ee93d3a812db29ce877",
+      "oleanSha256": "625d5a20f6c9aa133673ed737be05266d86b8eace6f1c6df6cc2e30938c208f1",
+      "cacheOleanSha256": "0a8f8f3c5538b2e4c9eb62f665b29a27b0c01a79b8459fa327cb66658f3cec75"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.NormAbsValue",
+      "sourceSha256": "99448f5bbbadd97c92297b64105aecf8d60014e8c9564a59dafd29fff8a6ff9d",
+      "oleanSha256": "44405528bbc3fc8e32489c77aa02b3dbee035a321951d25a7704d6ca9464f75c",
+      "cacheOleanSha256": "44405528bbc3fc8e32489c77aa02b3dbee035a321951d25a7704d6ca9464f75c"
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.IdelicThetaSum",
+      "sourceSha256": "87843f06b72abf77508da434093ca104eba58bfbf1fe94700333cf8dcde37f8c",
+      "oleanSha256": "9ead9e02486521620c603ab39753b2144d7ca9de6f2418189e9579050c215cf1",
+      "cacheOleanSha256": "9ead9e02486521620c603ab39753b2144d7ca9de6f2418189e9579050c215cf1"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdditiveCharBasic",
+      "sourceSha256": "caa94f0b547ca5e84f4b05f8684ed8a1618954bdc7e3e2f46661fb74e63d3506",
+      "oleanSha256": "87476794fe41e6b559085b07c839714425535940718eb57ab71d0e8c2edd9ce5",
+      "cacheOleanSha256": "87476794fe41e6b559085b07c839714425535940718eb57ab71d0e8c2edd9ce5"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.AdeleSelfDual",
+      "sourceSha256": "6a7b62b45e8609636a73a72534007fec451ccca5798e6a6c47c0292c3b5096a0",
+      "oleanSha256": "63b4d38f0705a2cc46712796441c75a18a9d7c5c8d7afaf94dc02db6dea8fd31",
+      "cacheOleanSha256": "63b4d38f0705a2cc46712796441c75a18a9d7c5c8d7afaf94dc02db6dea8fd31"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.DiscreteUnits",
+      "sourceSha256": "6cc5b3cfd9f5039890b6145c92409171ea1d33848ceaa2e0143bfc9a92656b79",
+      "oleanSha256": "6cf9369876fe43bb05239b5d7fc1b0fc786fb54e479b3f2d6d8a9761c2ac183c",
+      "cacheOleanSha256": "6cf9369876fe43bb05239b5d7fc1b0fc786fb54e479b3f2d6d8a9761c2ac183c"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.MatrixApprox",
+      "sourceSha256": "4c186c05466887a8cda93fc0d3a090055f8e337b9164398904a66cd02d8585ee",
+      "oleanSha256": "440dcad37abb52bb2782807aed58076e7d56b90055f463a544f302e22448f362",
+      "cacheOleanSha256": "440dcad37abb52bb2782807aed58076e7d56b90055f463a544f302e22448f362"
+    },
+    {
+      "module": "Lib.Adelic.Cartan.ProjectiveModules",
+      "sourceSha256": "c4096db00be269f80f9826dd6423a25ed02ddb406f4b61af8a212e353c34942b",
+      "oleanSha256": "7530fe2c284a64c199b91cbd9a0da5bc34e12ff2455d6ecee80cfaf11b0810f1",
+      "cacheOleanSha256": "1e832616ba6c81b40f294fd49ca85ff416c1732c70e1e44cdcd5a46dbe8a0cf6"
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.HeckeContinuation",
+      "sourceSha256": "43fe559e90288e938493af0a0ff7c98f642f87196d94f8c8e6490c7bc88cb4dd",
+      "oleanSha256": "c89779176f289504de5b45089082a8263d735061d194620351d1e484ca6f1ed0",
+      "cacheOleanSha256": "c89779176f289504de5b45089082a8263d735061d194620351d1e484ca6f1ed0"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CupProduct",
+      "sourceSha256": "25424eff9f1c7571fd7036e93d8e0fb9c44e9a9b30e1a80bf3abccb7bc834e5c",
+      "oleanSha256": "874e84404c0598dc1e70ed551725affda128e1d388e103efdc2532c5c6931ed9",
+      "cacheOleanSha256": "874e84404c0598dc1e70ed551725affda128e1d388e103efdc2532c5c6931ed9"
+    },
+    {
+      "module": "Lib.ClassField.GreenbergWiles.ExtendCharacter",
+      "sourceSha256": "1207b3a864daaa4062bb0fb3187f8ec53235d2b225eb4a0caabe4b702d8b3f92",
+      "oleanSha256": "4d97285c803731a41529d97c79624e133f5ee66b47f04fc1ee7f8f7f3bd924e1",
+      "cacheOleanSha256": "4d97285c803731a41529d97c79624e133f5ee66b47f04fc1ee7f8f7f3bd924e1"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.SylowReduction",
+      "sourceSha256": "afdabcd6f5d577eb533a1d5c52ad79f2a0740a4fcbbad4f1e2175a67e88f6909",
+      "oleanSha256": "83083dbf5e42f8c3fe4e9fc6691c52cadb87fed4dcee24cb9b7176d7a8589756",
+      "cacheOleanSha256": "83083dbf5e42f8c3fe4e9fc6691c52cadb87fed4dcee24cb9b7176d7a8589756"
+    },
+    {
+      "module": "Lib.ClassField.GaloisCohomology.CyclicNorm",
+      "sourceSha256": "a808490bca899fb10dc0e09a71cf418fe748690db22e92fcbd0ec148f9d9ef48",
+      "oleanSha256": "13576a7dae7e9d798958920a5f3dee7e4eaaca11409d76011fb7fddb805362b0",
+      "cacheOleanSha256": "13576a7dae7e9d798958920a5f3dee7e4eaaca11409d76011fb7fddb805362b0"
+    },
+    {
+      "module": "Lib.ClassField.Places.TameInertia",
+      "sourceSha256": "b8e49136c2210240fb9ddf3096cec0678fd69c4576f5469deb854e5bd5e37f96",
+      "oleanSha256": "ea8ac349a99382fdb673de706c60ae931f1d6b8adc2b86a105a9085d88b1fbd6",
+      "cacheOleanSha256": "ea8ac349a99382fdb673de706c60ae931f1d6b8adc2b86a105a9085d88b1fbd6"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterLevels",
+      "sourceSha256": "34a501ac4e75620b3b08050745bd453501ff4ec7c72a0a1f3354fe23d131952d",
+      "oleanSha256": "00c4c7e0bec4c5ff69725cd43334dd43fdb09d3349d48271ca853a5660aa4490",
+      "cacheOleanSha256": "00c4c7e0bec4c5ff69725cd43334dd43fdb09d3349d48271ca853a5660aa4490"
+    },
+    {
+      "module": "Lib.ClassField.Places.FrobeniusOnRoots",
+      "sourceSha256": "273af2dd784f5577ee20ea15b3830e5609afd363b9d160a866e82c17a824480e",
+      "oleanSha256": "ca62f10bc086d0291b3f64ceae058f089203eb9389587659c4880bfb27781767",
+      "cacheOleanSha256": "ca62f10bc086d0291b3f64ceae058f089203eb9389587659c4880bfb27781767"
+    },
+    {
+      "module": "Lib.ClassField.Places.DecompositionLocal",
+      "sourceSha256": "338ea2cc1f24b32f133607153b438901f3d79ca335768d05b43982a13eaa4801",
+      "oleanSha256": "6fb2af0317370d0225cce7af08df28cf7a0d67fd18e211e42bd12ee9fc9843aa",
+      "cacheOleanSha256": "6fb2af0317370d0225cce7af08df28cf7a0d67fd18e211e42bd12ee9fc9843aa"
+    },
+    {
+      "module": "Lib.ClassField.LocalDuality.RealPlaceSymbols",
+      "sourceSha256": "c9dcc1285fb29fee202a18ade51525b1e9728dc77d70726d14d514cb442caca5",
+      "oleanSha256": "939430a3e9d37940c55ebcc1d174693195225ceff8dd7d5e3e903d4627ea5e5e",
+      "cacheOleanSha256": "939430a3e9d37940c55ebcc1d174693195225ceff8dd7d5e3e903d4627ea5e5e"
+    },
+    {
+      "module": "Lib.ClassField.Local.ArtinMapAtPlace",
+      "sourceSha256": "24ebccd8e39f668a7147c8b0bd4f1c554f4690b79e3d50e9e346ce1041cab764",
+      "oleanSha256": "f24d3a39480f6463c18f76b5be6729292dc02b4d726d32e1485a601544153a51",
+      "cacheOleanSha256": "a9f5e5b91343f8cd558c1c4f6fb9ac74419ffd3f3c2de56288c68dd090e9b985"
+    },
+    {
+      "module": "Lib.ClassField.Global.AlbertBrauerHasseNoether",
+      "sourceSha256": "f052acecfd9e7bd98569781871baab25d049f6c0621605caed37583b509257b8",
+      "oleanSha256": "3ed48b394cee640115a06b8e7a9aa6be60c83530ee2445e23bda12ce07aeda57",
+      "cacheOleanSha256": "3ed48b394cee640115a06b8e7a9aa6be60c83530ee2445e23bda12ce07aeda57"
+    },
+    {
+      "module": "Lib.ClassField.Global.ArtinReciprocity",
+      "sourceSha256": "1a214d3be9ff953bfe3f99027703c6c037487bcfb98cc80762d7fa19147ce180",
+      "oleanSha256": "7e96bed196250f631b132c38ac94861fb903347621dd369d44deecfe0942cd9f",
+      "cacheOleanSha256": "7e96bed196250f631b132c38ac94861fb903347621dd369d44deecfe0942cd9f"
+    },
+    {
+      "module": "Lib.ClassField.Global.NormTheorems",
+      "sourceSha256": "9a7bdc64d5e3d321703deff721d888320472acba690029aa385e5603905a3749",
+      "oleanSha256": "7aa09b92da69900045fd1a8ca864db58b529a111f2f5bb622fce8523beb99c2e",
+      "cacheOleanSha256": "7aa09b92da69900045fd1a8ca864db58b529a111f2f5bb622fce8523beb99c2e"
+    },
+    {
+      "module": "Lib.ClassField.Global.CMNorms",
+      "sourceSha256": "12e7372bbbb4a5b5e5ad7a2eb07d5e8ee8186236b4799b5e9ba7da0c472ff5b2",
+      "oleanSha256": "0a9300bc8db6f843b5bc794426c3939ba47b22563537b504d427a6fba3b946eb",
+      "cacheOleanSha256": "14840855317b24df1488a71abc21d4397ce701237310ceb81433ec43bf1a0815"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.SplittingCharExists",
+      "sourceSha256": "50cfa3689b27e2bb02c1c3ac8652046647c043ce804d4a0962103987f28d8c5e",
+      "oleanSha256": "1149a97ab8e7a03db195c14f7bd3bbd34a1d8957196212e7fe405eb562097755",
+      "cacheOleanSha256": "1149a97ab8e7a03db195c14f7bd3bbd34a1d8957196212e7fe405eb562097755"
+    },
+    {
+      "module": "New.Data.WeilDataOfE",
+      "sourceSha256": "acf2e73fbc547069829ef28638a31c195f8c9e0edd7adf239456a733511a7d9d",
+      "oleanSha256": "90d3a3d0ed5000f24e6b08eb910de00d64b7503975296abd02449dbd7e3cadda",
+      "cacheOleanSha256": "90d3a3d0ed5000f24e6b08eb910de00d64b7503975296abd02449dbd7e3cadda"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharacterConjugates",
+      "sourceSha256": "334f7e4bcdd98eea93f49753a9561b852118612fc4a2a842a2a9671eae4fb1b2",
+      "oleanSha256": "380e43b4b190b90487b5f9d34423ed740770690b019680bbb5c84c1343eb623a",
+      "cacheOleanSha256": "380e43b4b190b90487b5f9d34423ed740770690b019680bbb5c84c1343eb623a"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.UnitaryNorm",
+      "sourceSha256": "37f6f7862951c329a45ab3d3b660bd7b1fbde308cbd54905585842f68b479039",
+      "oleanSha256": "d98f42af1c1e0e74664f9c2231878e50c8c5b2711011874b2c0246dc0e4967e8",
+      "cacheOleanSha256": "d98f42af1c1e0e74664f9c2231878e50c8c5b2711011874b2c0246dc0e4967e8"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.SkewCoordinates",
+      "sourceSha256": "4ac7bd96d0c8008179c223310509a1eb842203114d7ead10339f0a79b0419036",
+      "oleanSha256": "9569803981d9f96163b4ca52482be42d1a78c222e795065243bfdb9afa63d530",
+      "cacheOleanSha256": "9569803981d9f96163b4ca52482be42d1a78c222e795065243bfdb9afa63d530"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.LogDerivative",
+      "sourceSha256": "1d6dc5a30b7e0709076145d04c4f249fa9a21c1fe57635eb4b46df0086bc4671",
+      "oleanSha256": "283987e0802f1bb5f5923f1e956c35f59960e4bb15b997264c012c8eefab207c",
+      "cacheOleanSha256": "283987e0802f1bb5f5923f1e956c35f59960e4bb15b997264c012c8eefab207c"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.CompactDualMeasure",
+      "sourceSha256": "f0149a7f00e6278244e6bd8ca6f91ca2e3f8fe6e986397cf5055da14411823ef",
+      "oleanSha256": "45fe0b061f6350e9a9c01b769627a09347b48abec6632ccf4b922134c5814658",
+      "cacheOleanSha256": "45fe0b061f6350e9a9c01b769627a09347b48abec6632ccf4b922134c5814658"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.RepresentationDefs",
+      "sourceSha256": "bc4bf60f77624f2586a3022314159e5ed83bc5a110a97fb9fa0502a3ac19bd8c",
+      "oleanSha256": "f82c2edb1945ce38fa0a8d223c8e1504fd4c7dd3289c398d6272b47af8a497a7",
+      "cacheOleanSha256": "f82c2edb1945ce38fa0a8d223c8e1504fd4c7dd3289c398d6272b47af8a497a7"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.OscillatorDefs",
+      "sourceSha256": "c59ad46fd9e4a20e36badc644ab1216cac0c236028b70c4679c5667c3eab645b",
+      "oleanSha256": "13e482607bd10598f1345d9e807bc8a05c7cd5d180cb7352ca3f6a03fbb9e845",
+      "cacheOleanSha256": "13e482607bd10598f1345d9e807bc8a05c7cd5d180cb7352ca3f6a03fbb9e845"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ElementOfMatrix",
+      "sourceSha256": "baa5b765dbf4f76c11da0827757c5f3f614b1db0e8d64bb98228ce29b017f9fb",
+      "oleanSha256": "df0405ddef1736849962f51e6c799df4d08fd1b3680f1c68caf1d31ad547fa28",
+      "cacheOleanSha256": "df0405ddef1736849962f51e6c799df4d08fd1b3680f1c68caf1d31ad547fa28"
+    },
+    {
+      "module": "Lib.Weil.Construction.AdelicHeisenberg",
+      "sourceSha256": "4af219a9392d0eab9d73debb00a5e9aa2bb6de0e3abefc86528515be2f4a0d80",
+      "oleanSha256": "77275e4dcd5a67f9fa26d452629850df58a314d2b4ef97fff616cc01ba7fae40",
+      "cacheOleanSha256": "77275e4dcd5a67f9fa26d452629850df58a314d2b4ef97fff616cc01ba7fae40"
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteHeisenberg",
+      "sourceSha256": "17e43924a24aa8e4bdf302c0f5ae7b5897a2e8e658e407ea8545938051aae6df",
+      "oleanSha256": "f5ecb19036fcce68e9c85cc77d3153e1c9f2500a6163af943a6736adbf4e21f4",
+      "cacheOleanSha256": "f5ecb19036fcce68e9c85cc77d3153e1c9f2500a6163af943a6736adbf4e21f4"
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteVacuum",
+      "sourceSha256": "63a20fe8d685c02dbbde7f90797807f15927dc5849cd997c4b1b4fb182eaf6eb",
+      "oleanSha256": "92eb7e4959e704d3161d781d714fe6c99c9db84d03ce67d270d509a2095d6f66",
+      "cacheOleanSha256": "92eb7e4959e704d3161d781d714fe6c99c9db84d03ce67d270d509a2095d6f66"
+    },
+    {
+      "module": "Lib.Weil.Construction.FiniteMultiplier",
+      "sourceSha256": "fa414c7871bf74ab5233d90d64cfe54e0b56ce7524e74ed2059afffc64e9e5c5",
+      "oleanSha256": "cb6fafbf47aacae992e9ee2649ea8c7f17b05dd95b6258cc139e62027a2232f1",
+      "cacheOleanSha256": "601ea4241797441c19fb676edf91481a66536a84d049603f7f33241165a803de"
+    },
+    {
+      "module": "Lib.Weil.Construction.Model",
+      "sourceSha256": "f7da4641ca1fca57e81a4f0937f441a013266024fdd66262d36753a321311035",
+      "oleanSha256": "ae07b88f30aa86e5c802a776a31aa025a1262a31de87af400305c4ffc633420e",
+      "cacheOleanSha256": "ae07b88f30aa86e5c802a776a31aa025a1262a31de87af400305c4ffc633420e"
+    },
+    {
+      "module": "Lib.Weil.Fock.FockVacuum",
+      "sourceSha256": "80439f7ce84cb6cee9f5e27d29fc08db4fd9bb483b92744c99e991ab51579aae",
+      "oleanSha256": "de6ed28bdd6f39ed09142cc3822ecca12401b40f89a42c41b906e10524a97edd",
+      "cacheOleanSha256": "de6ed28bdd6f39ed09142cc3822ecca12401b40f89a42c41b906e10524a97edd"
+    },
+    {
+      "module": "Lib.Weil.Construction.WeilOperators",
+      "sourceSha256": "a4853fc19e1521a80535c957684dc3b0f07c6818fa6e6e5c3ab3b933f60ad702",
+      "oleanSha256": "e49dc64c5411c8cbf429bb7b3a839ef8493d1a9fe97d445667413c4e269ae571",
+      "cacheOleanSha256": "e49dc64c5411c8cbf429bb7b3a839ef8493d1a9fe97d445667413c4e269ae571"
+    },
+    {
+      "module": "Lib.Shimura.GoodReduction.ThetaOrthogonality",
+      "sourceSha256": "7274234164f763d7e90a374f8fc3fb03386789a771e2aa25cb6e39b851bc4acf",
+      "oleanSha256": "6927077c8b9e06ebb52f5c898c97e089225094dd24f83078afd01d3bd2132c8b",
+      "cacheOleanSha256": "6927077c8b9e06ebb52f5c898c97e089225094dd24f83078afd01d3bd2132c8b"
+    },
+    {
+      "module": "Lib.Weil.Construction.OrthogonalSum",
+      "sourceSha256": "8b15158627f0c9d80e9e6ddcebce42ebaf96678e110d7cb692b31fb61e886b6d",
+      "oleanSha256": "fbaf180f5be08ab5ad86c577dd49ea85a507d9154b6b42809dc037e791625f7f",
+      "cacheOleanSha256": "fbaf180f5be08ab5ad86c577dd49ea85a507d9154b6b42809dc037e791625f7f"
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.Frames",
+      "sourceSha256": "f6d561b6a89562534f0fd67ab535e18c65a3e97109acb32b9999e215556c3f4f",
+      "oleanSha256": "8d5e2c0577f48117f707fad58f9328dd023a1b8acc656960f2c7f9582312631f",
+      "cacheOleanSha256": "8d5e2c0577f48117f707fad58f9328dd023a1b8acc656960f2c7f9582312631f"
+    },
+    {
+      "module": "Lib.Weil.Fock.FockAction",
+      "sourceSha256": "2a65b2cc7b11db5c48e3a66fea352d36ab19a9da31d8a3c8fc271482724f387c",
+      "oleanSha256": "750c1019a4a46475f9af73e4e3cb61c99c228125c73728227de2eea7907a0b1e",
+      "cacheOleanSha256": "750c1019a4a46475f9af73e4e3cb61c99c228125c73728227de2eea7907a0b1e"
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.ModuliPoint",
+      "sourceSha256": "b1566cba6d06b6d0d3526625926a4f141d18b14c08de78da82a07d3b547ec664",
+      "oleanSha256": "df95e84e7d0dea3e27a580afabf71cdd990fabd39a21064e63ad213e75c337e4",
+      "cacheOleanSha256": "df95e84e7d0dea3e27a580afabf71cdd990fabd39a21064e63ad213e75c337e4"
+    },
+    {
+      "module": "Lib.Weil.Fock.FockTensor",
+      "sourceSha256": "22f11f332f22db293b9643d8a42a910456d95d5967a290b088856b3d45bea226",
+      "oleanSha256": "fcbd8583ece3f1e685b701938b8e606e7834062da381edaac08437c1d00f8f2a",
+      "cacheOleanSha256": "fcbd8583ece3f1e685b701938b8e606e7834062da381edaac08437c1d00f8f2a"
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.PeriodLattice",
+      "sourceSha256": "855d75f665eeb36ae3090e506f494829320df12f89035d8047f6ae96e7836267",
+      "oleanSha256": "a59f000699156d1e5affc90a7dcdc3f3dc047bd15b83222e09b49efe68e34b24",
+      "cacheOleanSha256": "a59f000699156d1e5affc90a7dcdc3f3dc047bd15b83222e09b49efe68e34b24"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.AdelicSum",
+      "sourceSha256": "8b791de852fd29823158b3454336b65973eec9b068acf776b5859ea3716ab1a6",
+      "oleanSha256": "24af67c9117e4caa1663c4634d346885565b6702c89bae52af4b06d96f5a2b2e",
+      "cacheOleanSha256": "24af67c9117e4caa1663c4634d346885565b6702c89bae52af4b06d96f5a2b2e"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Nabla",
+      "sourceSha256": "ac4f290219fc31ae443ba70793b59fc3431855dd1d3bf6187ec0e08c98950be4",
+      "oleanSha256": "8fb5bb61182aa4309279abecd08387690d001261f3314ef53b015bb3c3438a38",
+      "cacheOleanSha256": "8fb5bb61182aa4309279abecd08387690d001261f3314ef53b015bb3c3438a38"
+    },
+    {
+      "module": "Lib.Weil.Construction.ThetaFunctional",
+      "sourceSha256": "151f2d1e91e837b6f948dcaa8e3085087f34416b0e2dbf78931a4dcea8c681e2",
+      "oleanSha256": "df92e21991f1e3d65725c16593db93e86caeea8824cfcd927f37f226f41b309e",
+      "cacheOleanSha256": "df92e21991f1e3d65725c16593db93e86caeea8824cfcd927f37f226f41b309e"
+    },
+    {
+      "module": "Lib.Weil.Fock.MixedFockModel",
+      "sourceSha256": "60c1840cfbbbe5e75e85fef1f91fe11cfa50cfd28f3944c4c7a11f94b28221ce",
+      "oleanSha256": "381062e1d717376ded7493204559c90d4e64fbd3df66db935b377e1ad8b977f9",
+      "cacheOleanSha256": "381062e1d717376ded7493204559c90d4e64fbd3df66db935b377e1ad8b977f9"
+    },
+    {
+      "module": "Lib.Weil.Construction.PairDefs",
+      "sourceSha256": "1ed64744e780cc29fcf8fa447d26e7d5e3711caac250441464c871e95d2bd5d7",
+      "oleanSha256": "adfe40b60e63ece985b6b1b9c83720edcbb3b23014e3da4586496e73d18aa8d4",
+      "cacheOleanSha256": "adfe40b60e63ece985b6b1b9c83720edcbb3b23014e3da4586496e73d18aa8d4"
+    },
+    {
+      "module": "Lib.Weil.Fock.FockHarmonicCoeff",
+      "sourceSha256": "e1cf27539b1ebc4fbef2704d78894e8a5ff392b370e2cd237081ef5fc503e183",
+      "oleanSha256": "3b598dce7ee88d06820d653301d54f36fb6a9266731123c95f15c1c3543cb9a7",
+      "cacheOleanSha256": "3b598dce7ee88d06820d653301d54f36fb6a9266731123c95f15c1c3543cb9a7"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.SplittingCharOnU1",
+      "sourceSha256": "ad1f8c68934da4520159ca8d69a4a93312ea3d639081e5531fdea59414699d22",
+      "oleanSha256": "3554914d50eae4847e1c1309f6e66842a4f896012680afb1dabdcd5dfd9f9535",
+      "cacheOleanSha256": "3554914d50eae4847e1c1309f6e66842a4f896012680afb1dabdcd5dfd9f9535"
+    },
+    {
+      "module": "Lib.Weil.Construction.Projections",
+      "sourceSha256": "13567f52ca623253f4b2ab2009f3a25bbe7df50ebd0696677519ae5393c7d45f",
+      "oleanSha256": "9f3f815c5d61717ba1acef1654181b084deefb954a8a4fe394eb23aa5d6ba904",
+      "cacheOleanSha256": "9f3f815c5d61717ba1acef1654181b084deefb954a8a4fe394eb23aa5d6ba904"
+    },
+    {
+      "module": "Lib.ClassField.HeckeL.AutCharLFunction",
+      "sourceSha256": "6761a20f7e408e8e4aa2dba6fe862d5816bcec6d479f5cdaa478a6511760f4e6",
+      "oleanSha256": "40ac2d0ff0e71aec0156fa5f61a297bc6272d5966e34f7229e22b569d287c9dd",
+      "cacheOleanSha256": "40ac2d0ff0e71aec0156fa5f61a297bc6272d5966e34f7229e22b569d287c9dd"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.Names",
+      "sourceSha256": "e8a2b0b235841df48d48bf76ba194dd014e8587ac0bc85e14d6b46766386e83d",
+      "oleanSha256": "1d261e620695b881201ce0e3f3f938cad4e306719c428580f47bfdcfc513dfd6",
+      "cacheOleanSha256": "1d261e620695b881201ce0e3f3f938cad4e306719c428580f47bfdcfc513dfd6"
+    },
+    {
+      "module": "Lib.Weil.Fock.RealData",
+      "sourceSha256": "625cf840e6b927acc045c6c6633a64878399d813fccda472fe6df6d345af85d4",
+      "oleanSha256": "97ff7a2687c65ad7907c30d0516c654466671d7c53a296da029767aa7142ef18",
+      "cacheOleanSha256": "97ff7a2687c65ad7907c30d0516c654466671d7c53a296da029767aa7142ef18"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Bordering",
+      "sourceSha256": "60bcf2a96774d57e2446789d74a8aec4753e5bf6d058dcb9d0272e2501d6fdf6",
+      "oleanSha256": "e1a35bc7f02783faf38e2a83d58bf6236c700018802dea2bfabf4dcaa5f86a06",
+      "cacheOleanSha256": "e1a35bc7f02783faf38e2a83d58bf6236c700018802dea2bfabf4dcaa5f86a06"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Interlacing",
+      "sourceSha256": "0c2e5c51fccdf31071eac497d26a9856633c5864ad6a30bc7b369442f7ff15f5",
+      "oleanSha256": "c116e23af38dfff2767c86d53cc60e400a6f4ef4727effea9bb4d6a2d5e026e8",
+      "cacheOleanSha256": "e3c70729f81720e209223a630e34a9406b80a185bc7e30b050082f32fc2309ce"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.CasimirBound",
+      "sourceSha256": "8af354161df30797962a2d630449fe62062e6705e48bd31ba69789e30b2ff31e",
+      "oleanSha256": "668e16c33fc2962be6df57d088595f98726a6b5132291f4b1b9bf5b340a513cc",
+      "cacheOleanSha256": "668e16c33fc2962be6df57d088595f98726a6b5132291f4b1b9bf5b340a513cc"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.MinorBasis",
+      "sourceSha256": "017cabdc6f1d2c669571711a45d2b083ef7377098a15d7c777ba988034ca2f11",
+      "oleanSha256": "6e7b61c09563bc8079ae27d21229f2c46863005d5ffd14bbc489641f44703155",
+      "cacheOleanSha256": "c179f985c363a00f6deb5f631f898cc098114cb166d909fcff9dc8db1c0eb6e7"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.RightDerivatives",
+      "sourceSha256": "6c268d32d0306e8b658fbe33365c7b44d7f9a62c20a8a58fe78b53643c150193",
+      "oleanSha256": "e3a51ba3079817feb43a09257e9df56f66b7a8f804a72db209e347780e3bba27",
+      "cacheOleanSha256": "e3a51ba3079817feb43a09257e9df56f66b7a8f804a72db209e347780e3bba27"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.SchurMatrix",
+      "sourceSha256": "48c92bbc0491137e1441a79ea03e84aa9dd0a3394f999848e9077630fb59a664",
+      "oleanSha256": "302134e94df88ec728bf6011e1406495bd926b02627a11df01a9bc18d3f9f203",
+      "cacheOleanSha256": "302134e94df88ec728bf6011e1406495bd926b02627a11df01a9bc18d3f9f203"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.HaarColumnChart",
+      "sourceSha256": "2c0700d07ec83a0508aee0bac416a38d5393a1a5dbe3ceff3fcb5960f3546203",
+      "oleanSha256": "cde8764dbe291de7d481e263b39bc89f45acd59c499dbd64d07df1f9f1b125c8",
+      "cacheOleanSha256": "30f4be529327bd2b7d5548589995cdbd2d22ea7e82b95cf495817f602123f9aa"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.RationalRep",
+      "sourceSha256": "fa8df733f5dff1e7eec24f97c2da0782e3a1c77a2ab1244dd748c64f85e39332",
+      "oleanSha256": "f5f441ba4ea9ab9b5787edca5d2573ce10f30d4d5cc9a1a6f6032d239a69f981",
+      "cacheOleanSha256": "f5f441ba4ea9ab9b5787edca5d2573ce10f30d4d5cc9a1a6f6032d239a69f981"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.SphereFibreIntegral",
+      "sourceSha256": "4d8b17dd557fefec1b6d328b651c2c6e5744c3786139a542def53f637d8118ea",
+      "oleanSha256": "3e189464eb3732530170d884d14a6ed72e947c95720c5f286602f7db811d1161",
+      "cacheOleanSha256": "0a9eb12f5ba15440e13992b79afb7f75379b8af020b8822f587b260f13785afa"
+    },
+    {
+      "module": "Lib.Weil.Construction.DataProduct",
+      "sourceSha256": "8cc8bd2897149a9cdf37af478a2804fda7131255752556f72d7791c3fdbd6dc0",
+      "oleanSha256": "0369aeba72d8f6d63453dae983e6a4d1bb74c136fa61eaa6b401e3ee9327bf23",
+      "cacheOleanSha256": "0369aeba72d8f6d63453dae983e6a4d1bb74c136fa61eaa6b401e3ee9327bf23"
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.IwasawaIntegration",
+      "sourceSha256": "ac32181f66dc842bfa048f378faa5e7583f83080e176f76e919b029a64ee15f4",
+      "oleanSha256": "c3f2d8e4a14721b72687c1fa03fdccb552f3acce9c76663c595ce5ee53d99abd",
+      "cacheOleanSha256": "c3f2d8e4a14721b72687c1fa03fdccb552f3acce9c76663c595ce5ee53d99abd"
+    },
+    {
+      "module": "Lib.Weil.Fock.EntireTheta",
+      "sourceSha256": "b78a38b96f203d407cbbe9c8996cc08bebcdd04d33d7ed90eb3c86b00305c75d",
+      "oleanSha256": "de1f0d4a2f9954d080a852c199a79b5f4931ac002b76f4af6f206089e80e6964",
+      "cacheOleanSha256": "de1f0d4a2f9954d080a852c199a79b5f4931ac002b76f4af6f206089e80e6964"
+    },
+    {
+      "module": "Lib.Adelic.QuotientMeasure.CocompactIntegrable",
+      "sourceSha256": "6330f6fabb6ef701c425d9a451ab9ef591988149a596d5241e557d315e457ac0",
+      "oleanSha256": "3429b31045179680e436f98dfd4ff6f8e75a976af7bdde25677ce6747609d21f",
+      "cacheOleanSha256": "3429b31045179680e436f98dfd4ff6f8e75a976af7bdde25677ce6747609d21f"
+    },
+    {
+      "module": "Lib.Weil.Construction.FinitePart",
+      "sourceSha256": "930f7ea9338ee167c617638aa9b45c91479513486cf611a8eb538ddf5bb57e5c",
+      "oleanSha256": "82ef4abcf170e113e7a7efc7d7cffd2a284541cf808976ce60e71043c39980bb",
+      "cacheOleanSha256": "82ef4abcf170e113e7a7efc7d7cffd2a284541cf808976ce60e71043c39980bb"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.HaarMass",
+      "sourceSha256": "0bead5c18d586c15a020a7add39ec66c49e1f45f715e5f12642db442038e3b0f",
+      "oleanSha256": "ade61bdef4dec578ed7fd33a1e495d976b7662268cbeba0aa2c9561654ca45f1",
+      "cacheOleanSha256": "ade61bdef4dec578ed7fd33a1e495d976b7662268cbeba0aa2c9561654ca45f1"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.NameWeilAction",
+      "sourceSha256": "6419d604c28590237b790638c7bd63e378cfc02c174be26f2c1d7ddd67b2f871",
+      "oleanSha256": "287e8a47464aa02b4949f65e080e28ef87ed678896f65b65057ccb5f3ec7dc67",
+      "cacheOleanSha256": "abe42d9e189ae38da47434573e29383a53e919316030ee24ff47d774633d216c"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.ExpSurjective",
+      "sourceSha256": "af5e4c0ed15dea7c86d1250c368441a2cf7c56d7ff1b0f1b21c2f20c42237dde",
+      "oleanSha256": "15e2ba2b90cbd9ee8d007994fd2e6b5640b9835289c99afafd43c84b5c24ee9f",
+      "cacheOleanSha256": "15e2ba2b90cbd9ee8d007994fd2e6b5640b9835289c99afafd43c84b5c24ee9f"
+    },
+    {
+      "module": "Lib.Weil.Construction.ConjugateJetDefs",
+      "sourceSha256": "7f7fbb37e4d36844fe1203106d43181c93338c3bfc900f7bb0429a255d81e7e1",
+      "oleanSha256": "31fcd071d9b389b25591cb0963d6b78ded6e6be6b439e7f73715124aed283bdb",
+      "cacheOleanSha256": "31fcd071d9b389b25591cb0963d6b78ded6e6be6b439e7f73715124aed283bdb"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Holomorphic.MinorEquivariance",
+      "sourceSha256": "12b574b25ad6182b89feb916b59741be2d1c02456a787180076d49860f383524",
+      "oleanSha256": "64ed6097e60d5ecbf6078dd36e9ab2570ecbe173c9a99e5de4229bdb77c02dd9",
+      "cacheOleanSha256": "64ed6097e60d5ecbf6078dd36e9ab2570ecbe173c9a99e5de4229bdb77c02dd9"
+    },
+    {
+      "module": "Lib.Weil.Construction.FockThetaFunctions",
+      "sourceSha256": "7eff89318135a5aa948d08d19d80ba22a53d2aef24a88f63b38df96eb80f3f80",
+      "oleanSha256": "2c2aebc12014dc5d052d3f3e25c2cb3efbafb6633f4005365cc5c12cac1d1eb5",
+      "cacheOleanSha256": "2c2aebc12014dc5d052d3f3e25c2cb3efbafb6633f4005365cc5c12cac1d1eb5"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.FlenstedJensenInvariance",
+      "sourceSha256": "c463a3d6e8cb65b8b42398cbe0ab47bc09ea532c095d7a2396e9ac265b5c1db6",
+      "oleanSha256": "0bf8ce98c3b045c1a4f7b4ac075628e3319ef87187de8803c37dda45aebfb3d6",
+      "cacheOleanSha256": "0bf8ce98c3b045c1a4f7b4ac075628e3319ef87187de8803c37dda45aebfb3d6"
+    },
+    {
+      "module": "New.Curve.PeriodDefs",
+      "sourceSha256": "854903bde75a3a2a64d2341947f6768438e9cae73399e8d4fc29c1a598a203ea",
+      "oleanSha256": "efd12082a9a297d216fe445059022618235444a91240409a924b01f06eaa0d41",
+      "cacheOleanSha256": "efd12082a9a297d216fe445059022618235444a91240409a924b01f06eaa0d41"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.PsiSmooth",
+      "sourceSha256": "5c26f0efb8b48babbb2ef323e1b2f087653581d2a7f865c01bee4afe4daee905",
+      "oleanSha256": "6e9750017b5ab1d442a81c604357730895ee76a91c4af619866fea3cc812fdfa",
+      "cacheOleanSha256": "6e9750017b5ab1d442a81c604357730895ee76a91c4af619866fea3cc812fdfa"
+    },
+    {
+      "module": "New.Curve.ThetaProducts",
+      "sourceSha256": "a463945a6dd53778ae6eb6b60ab81e4e7f1d64d3107d000a3bea6d7c70ad4363",
+      "oleanSha256": "69e6fa6ce162b9f9d0835b01a97bbbad59c8bafcff2b802acaf58ba3d5e0c7a2",
+      "cacheOleanSha256": "69e6fa6ce162b9f9d0835b01a97bbbad59c8bafcff2b802acaf58ba3d5e0c7a2"
+    },
+    {
+      "module": "New.Curve.TightFrameExists",
+      "sourceSha256": "298372609bc10b8b11ef6ad128ddef94f07ca2e13cf81a570d9520e179ddc9a2",
+      "oleanSha256": "3933b5c62a97302928e546225902f40e50bc03fa6bdc1e5fe08b74e69e216888",
+      "cacheOleanSha256": "3933b5c62a97302928e546225902f40e50bc03fa6bdc1e5fe08b74e69e216888"
+    },
+    {
+      "module": "New.Curve.FrameSections",
+      "sourceSha256": "06191cdd2d06a5e2361eae02cc36b743da20a7fb4da0c0b53bd479e7956c08af",
+      "oleanSha256": "e44955580764aa1263b28e7b6fa191c45ae0ad8be9785fdda6d80ad5836787f0",
+      "cacheOleanSha256": "e44955580764aa1263b28e7b6fa191c45ae0ad8be9785fdda6d80ad5836787f0"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.SmoothMatrices",
+      "sourceSha256": "783035fe6f9a18612855072f03ec6eba49bf9e2243c6c1611de78eb00950dec4",
+      "oleanSha256": "f57573097adf8e1c445abf697278423f65ea30b7baf7a1fd7fc91d680f8a8647",
+      "cacheOleanSha256": "f57573097adf8e1c445abf697278423f65ea30b7baf7a1fd7fc91d680f8a8647"
+    },
+    {
+      "module": "New.Curve.ConjugateGenerator",
+      "sourceSha256": "8754ee8c00f4610b32331adb1c70dd6d38bddaf03a805d3f0f75c420e1a8ba31",
+      "oleanSha256": "62ebee567d20a86f3ca091c2c7c4e99458ce4ad4a5e20dc4e353ec36bed772da",
+      "cacheOleanSha256": "62ebee567d20a86f3ca091c2c7c4e99458ce4ad4a5e20dc4e353ec36bed772da"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.CasimirOnPsi",
+      "sourceSha256": "cefa8614dd106f8e4cd7e3fae89fcb6917d28e8c564fc890df2f89fad51df1e3",
+      "oleanSha256": "05dfb1096d0438232fcf60c3717a26560869123c4579d54f4a06bbf473428295",
+      "cacheOleanSha256": "05dfb1096d0438232fcf60c3717a26560869123c4579d54f4a06bbf473428295"
+    },
+    {
+      "module": "New.Data.AdmissibleData",
+      "sourceSha256": "2ef88d7adf999522b500ecc860cc41cc7551fe91386e86ad6c0a4ee1f1c294b2",
+      "oleanSha256": "b3cdad2a80187e9ec4e8d056b8707dfc3c9d38fa4b4a89b40deae5dfad6fb57e",
+      "cacheOleanSha256": "b3cdad2a80187e9ec4e8d056b8707dfc3c9d38fa4b4a89b40deae5dfad6fb57e"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.HighestVectors",
+      "sourceSha256": "70e086a066e3c641b8e5ee0c103215c7edb86ad5fafd6df7dcf116564a7f1422",
+      "oleanSha256": "057098d054ad8b1ce61337bee8e17659bb6d8d1e4fdfc4a5df0dae0803e70759",
+      "cacheOleanSha256": "057098d054ad8b1ce61337bee8e17659bb6d8d1e4fdfc4a5df0dae0803e70759"
+    },
+    {
+      "module": "New.Data.Magnitudes",
+      "sourceSha256": "8734252446cfa1053d5f24b34af1e68540d9fae72c2388d02773d25ecc165977",
+      "oleanSha256": "5b5d66f3c6ccf2f1083d1eb597824cbb25be71442804e5b4c2d30705a820a245",
+      "cacheOleanSha256": "5b5d66f3c6ccf2f1083d1eb597824cbb25be71442804e5b4c2d30705a820a245"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.CasimirGrowth",
+      "sourceSha256": "e1e19cf70b39ef26a1a75f825e54c6f3ad8573c7e7e59db052ee66f028336032",
+      "oleanSha256": "1093015c56854fb2249df7d70056f27833f24556c8a9f78bef027f5dba3e2b33",
+      "cacheOleanSha256": "1093015c56854fb2249df7d70056f27833f24556c8a9f78bef027f5dba3e2b33"
+    },
+    {
+      "module": "New.Data.Weights",
+      "sourceSha256": "a0a612c8087850119a9f9d1595d5b932256ae57436322ea684adda5af93afd85",
+      "oleanSha256": "affd9ac1c06250b44ed9122d3f6142ebc3a357debd8b2ea5dfafbd5958759813",
+      "cacheOleanSha256": "affd9ac1c06250b44ed9122d3f6142ebc3a357debd8b2ea5dfafbd5958759813"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.AnalyticVectors",
+      "sourceSha256": "88e123adaa80471f8370119fa792b5ed7a66625b6363d59d3d65f17244eea18a",
+      "oleanSha256": "4b51018c6cbddfaef43e2c9643e62a85bcc7348a30a5afe4361b9f8830b11b3a",
+      "cacheOleanSha256": "4b51018c6cbddfaef43e2c9643e62a85bcc7348a30a5afe4361b9f8830b11b3a"
+    },
+    {
+      "module": "New.Seesaw.IndexTypes",
+      "sourceSha256": "253caeea644439a7de32d2fd95030b82a1d0326034af04e22d486b920eda6b9b",
+      "oleanSha256": "423d40f7df9e2ab44157fa9b434dfff6e173b716f5485796ca229ff4adc76de1",
+      "cacheOleanSha256": "423d40f7df9e2ab44157fa9b434dfff6e173b716f5485796ca229ff4adc76de1"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Holomorphic.HolomorphicExtension",
+      "sourceSha256": "6574c989d41baf2bbdecf0cebf331fe54508f8e40cf9dce922742c5bc1f1d709",
+      "oleanSha256": "136aa153f434bb2a35eb109748b9be6e46cf6b5c205d8a173e9a56cf469bd510",
+      "cacheOleanSha256": "136aa153f434bb2a35eb109748b9be6e46cf6b5c205d8a173e9a56cf469bd510"
+    },
+    {
+      "module": "New.Data.DataExist",
+      "sourceSha256": "2bec9ae60fca331a0f6de1181a3d0f8bd2910cda0d8bad79a70dad3eaf02fc1f",
+      "oleanSha256": "95159339bb4a35ade428eef65e45cc6589285f67fbccfc72e8e3bd0dc8200623",
+      "cacheOleanSha256": "95159339bb4a35ade428eef65e45cc6589285f67fbccfc72e8e3bd0dc8200623"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.PsiBasic",
+      "sourceSha256": "2d1f1318b35d224b04c0434e1eb24a656a59d2aaf6591c73a3ca2d2b59862e3a",
+      "oleanSha256": "0ef60243c61268024b0765861a8370bdbd80c5cf9d8747403c98aa7bc646b05f",
+      "cacheOleanSha256": "0ef60243c61268024b0765861a8370bdbd80c5cf9d8747403c98aa7bc646b05f"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.BlockDiagonalDet",
+      "sourceSha256": "ed1ae90ee9fa3d1e2f51896bdefb12767e38e696021baad0a6cf06664abeaf08",
+      "oleanSha256": "beff424ef8f71a8968c973463cf102ec88a8afe999bc1defb21ffdf4e530c40b",
+      "cacheOleanSha256": "beff424ef8f71a8968c973463cf102ec88a8afe999bc1defb21ffdf4e530c40b"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.KTypeProjection",
+      "sourceSha256": "656951106025cad3a34237ea7decf2b3f58c47934fea0ef96bee38d01fffbbe9",
+      "oleanSha256": "722e12ce3bb63882ed9073d972fabbbdf2b2a63060e643b683acab7fca3e1398",
+      "cacheOleanSha256": "722e12ce3bb63882ed9073d972fabbbdf2b2a63060e643b683acab7fca3e1398"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.PsiDecay",
+      "sourceSha256": "b32784930c64ec39d8421c3cdb8ce2a0ee7b50a317b4b34a2606f4a6f97da81e",
+      "oleanSha256": "d104ca4e1887986a56bc22c458f763846fb11516de214232f7b6033799261ab5",
+      "cacheOleanSha256": "d104ca4e1887986a56bc22c458f763846fb11516de214232f7b6033799261ab5"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Haar.RegularRepL2",
+      "sourceSha256": "a7e1da211c5fcf973825b99a23eb4c09d50ac366aa558930c54093768156852f",
+      "oleanSha256": "a9321764bc4236f4feaf09cfd78f99ed072f7337bd961444dad99f5356f28119",
+      "cacheOleanSha256": "a9321764bc4236f4feaf09cfd78f99ed072f7337bd961444dad99f5356f28119"
+    },
+    {
+      "module": "Lib.DiscreteSeries.CuspKernel.BumpConvolution",
+      "sourceSha256": "b7d6bcb704df753f7da16769f1d4e6d1069f9d64c084776ff074633b080a7b42",
+      "oleanSha256": "5413bb1529bfe42763ed122c4ff7874254fb803fa14a9c7339ecc55044a84407",
+      "cacheOleanSha256": "5413bb1529bfe42763ed122c4ff7874254fb803fa14a9c7339ecc55044a84407"
+    },
+    {
+      "module": "Lib.Adelic.Reduction.MahlerForms",
+      "sourceSha256": "606500317ee25daaae1d6ee7b03e3d2c0511d996511c3c7c85ced45d1a91f1ad",
+      "oleanSha256": "94dcc585a7bdfecc4e527a9f0b3bede1d225b2b3ca780f3a434c4ead3573bb88",
+      "cacheOleanSha256": "94dcc585a7bdfecc4e527a9f0b3bede1d225b2b3ca780f3a434c4ead3573bb88"
+    },
+    {
+      "module": "Lib.DiscreteSeries.CuspKernel.SchurOrthogonality",
+      "sourceSha256": "6c10aaaa04f22875ac1cc2d651da237d7f103b2523fc8c23d8d54c8766e42b71",
+      "oleanSha256": "2bb846a8517a5c1dcba0be9b252e2a2bc124a48caf3fcb33c0d2a34109a6ee73",
+      "cacheOleanSha256": "2bb846a8517a5c1dcba0be9b252e2a2bc124a48caf3fcb33c0d2a34109a6ee73"
+    },
+    {
+      "module": "Lib.Adelic.Reduction.Defs",
+      "sourceSha256": "7883213bd1f8aabc5d17122be245902c1891cde3c52bfcafb186bd200cfc1670",
+      "oleanSha256": "39863901feb2f23ee70795996ad47b7b33a049efdd4e57c7401917ef5335ffa4",
+      "cacheOleanSha256": "39863901feb2f23ee70795996ad47b7b33a049efdd4e57c7401917ef5335ffa4"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Rigidity.KernelFixes",
+      "sourceSha256": "c552a4a1687b279ca342c367ac5a8e7b39eb71896f9739f1a8e5546eeec0253b",
+      "oleanSha256": "3c58fe74db0996223903b187621971be3c1116aa8ade1c20d5fc4a079d2296c6",
+      "cacheOleanSha256": "8da642aa1c0cd1f73fdf78de81713a3dfaef7651e81e9dec09d2d2605e37dba2"
+    },
+    {
+      "module": "Lib.DiscreteSeries.FlenstedJensen.TailBounds",
+      "sourceSha256": "53a4d1263a04f7518fe58d0f75d20f9d985978c9c27ec13d404850e71db06842",
+      "oleanSha256": "ef28b29b102923bce860bacf82a56f41cd2ad1fcb662895cf39df8ad44827fec",
+      "cacheOleanSha256": "ef28b29b102923bce860bacf82a56f41cd2ad1fcb662895cf39df8ad44827fec"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.FramedCoefficient",
+      "sourceSha256": "8f5a665107ab66fcb08b7434900926e6077f8942a433f9026b26dae1e6b8a9ce",
+      "oleanSha256": "6ea2a081651e317ff11b8299b065c44ad8b129cb242b1e58bc58e23237246786",
+      "cacheOleanSha256": "6ea2a081651e317ff11b8299b065c44ad8b129cb242b1e58bc58e23237246786"
+    },
+    {
+      "module": "Lib.Adelic.Transference.MassBasic",
+      "sourceSha256": "b390d12f6e3fae76321621458e51bd3cdd69b64862b02954869e4855d7a78e40",
+      "oleanSha256": "93d55a6bcb2f2a3a5e97eedd0bc373beb8e040f652ba1bb64ded640667548b98",
+      "cacheOleanSha256": "f279844f5b4fbc6bbae55345017998bebe1bd2ef570c11e069ad2d528776bf18"
+    },
+    {
+      "module": "New.DiscreteSeries.MinorExpansion",
+      "sourceSha256": "b61d7d91b02f3ae744a2155e16762c3a79795f0f024df25b286b21aa36522507",
+      "oleanSha256": "a6383527cbc73c65a174a17f214929fa4d6d4fd84b7cd300b3188ae79283d55c",
+      "cacheOleanSha256": "e8986e957564ec413b049a92b50f61fbc3a9f36c7a515d4f66c6fa4e6471dc2c"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.Definite",
+      "sourceSha256": "6bc719b4834fd07c60fa49ca934b0bee0e6160ccb3fa45e8c8f3dd512278bafc",
+      "oleanSha256": "c31542f7221ae04e862ceb9ee1ed7e0a0665c8f1419aa20e7e3845def4447674",
+      "cacheOleanSha256": "c31542f7221ae04e862ceb9ee1ed7e0a0665c8f1419aa20e7e3845def4447674"
+    },
+    {
+      "module": "New.DiscreteSeries.GaussianShape",
+      "sourceSha256": "64a20e10ea82a99ae03fe4215f0b885cf36cf4b935f523761fe3866476bafdb5",
+      "oleanSha256": "e6795d638884949c4d37f6e66f195f90060d12596915c4668f6b0ff48770346e",
+      "cacheOleanSha256": "e6795d638884949c4d37f6e66f195f90060d12596915c4668f6b0ff48770346e"
+    },
+    {
+      "module": "New.DiscreteSeries.TwoFactorSetup",
+      "sourceSha256": "885dd1b6da08367b6242f59842c724f423365ced00d76ca9d11827421394d560",
+      "oleanSha256": "de33ea2f4a6dcf25d3fc391bcb536eceb56e4acaa778bda297200d8e4af993d7",
+      "cacheOleanSha256": "de33ea2f4a6dcf25d3fc391bcb536eceb56e4acaa778bda297200d8e4af993d7"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.RealConvolution",
+      "sourceSha256": "2316be9dd2b390b6a36138e3a460538ae03471daf44d724207237506f3fc0b89",
+      "oleanSha256": "4fbd07846a6120e4ee7c69f3a44ce9e87bceb271dacf287644baf9976b762e01",
+      "cacheOleanSha256": "4fbd07846a6120e4ee7c69f3a44ce9e87bceb271dacf287644baf9976b762e01"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.Petersson",
+      "sourceSha256": "b3ae9aa3ccaf509055b27320b47312338f577c756a7e29fe837ce69f0ea859b5",
+      "oleanSha256": "b204e5cc40c721957d4df92a28ab8b058769dd029c83682da9b60e1aa0297dc3",
+      "cacheOleanSha256": "c5f919a15a789df909f1b0b8e2469efb20ece9d791ebb9d7a6ee2750ceea2cab"
+    },
+    {
+      "module": "Lib.Weil.DualPair.Lift",
+      "sourceSha256": "4465520b4519aeb2d97dcd0ad2f4c2ebcb982a282e765cfd0e6b0b5b911ffaf7",
+      "oleanSha256": "66aa47be22be1bc8a76bcb368fbd62271466f67a1bee66f4e3a5fb064baf2196",
+      "cacheOleanSha256": "66aa47be22be1bc8a76bcb368fbd62271466f67a1bee66f4e3a5fb064baf2196"
+    },
+    {
+      "module": "Lib.Adelic.Witt.MaximalCompact",
+      "sourceSha256": "86e69add720d2afe6d97e2f0c0c86fb92a568ac81dbdb8d983811588b7ea42b6",
+      "oleanSha256": "3d265cf4f92dc6726c00f2693d3b943dd11111bd1617e9f631fbc9f6dc91787a",
+      "cacheOleanSha256": "3d265cf4f92dc6726c00f2693d3b943dd11111bd1617e9f631fbc9f6dc91787a"
+    },
+    {
+      "module": "Lib.General.Algebra.LatticeComplement",
+      "sourceSha256": "ad64efc7f5ec0a8ba577809cdd67d7f70cb53c7fdcb1132d54e3cea7b6654eb0",
+      "oleanSha256": "17099829c0ec3601c10ed365e2ed4e8c2ffd506b9dd8952a3f7c061defa4c078",
+      "cacheOleanSha256": "17099829c0ec3601c10ed365e2ed4e8c2ffd506b9dd8952a3f7c061defa4c078"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.NameModulus",
+      "sourceSha256": "70c436118c6dbbe52a4517207344829b005c62877a7f4b0699faf1008cf59804",
+      "oleanSha256": "5bd6c412361ef26fa7dc5cacacc708eba25145647046bead504cc4e90fe19c64",
+      "cacheOleanSha256": "5bd6c412361ef26fa7dc5cacacc708eba25145647046bead504cc4e90fe19c64"
+    },
+    {
+      "module": "Lib.Adelic.Landherr.WeakApprox",
+      "sourceSha256": "5061800207d9f6d2e042d70fe4e0b7fbca9442fa707e795deda920749048a098",
+      "oleanSha256": "8075de8f07c5c72ab84ce5b65d6f9567bf737fce22a0cb4397b68bdf7f4afe19",
+      "cacheOleanSha256": "8075de8f07c5c72ab84ce5b65d6f9567bf737fce22a0cb4397b68bdf7f4afe19"
+    },
+    {
+      "module": "Lib.Weil.Fock.OscillatorPair",
+      "sourceSha256": "405ba5f3f36b229700fa6288d12d17a2c0a631ce25100bdff5c2c38d3c7ed164",
+      "oleanSha256": "7af26f0ae3027596a02858033a5f2605582775728065ded71cd19c6c56235d6e",
+      "cacheOleanSha256": "7af26f0ae3027596a02858033a5f2605582775728065ded71cd19c6c56235d6e"
+    },
+    {
+      "module": "Lib.Adelic.Landherr.SumOfTwoSquares",
+      "sourceSha256": "16f48be7d906c54f9c7a3d85bb8e257f52d4c06345a44efc2e51f4f423ff0654",
+      "oleanSha256": "fd94cbc89304d71a37a8f1ab0e4bf54212f48a9d99ad9ec272f91551aea60446",
+      "cacheOleanSha256": "fd94cbc89304d71a37a8f1ab0e4bf54212f48a9d99ad9ec272f91551aea60446"
+    },
+    {
+      "module": "Lib.Adelic.Landherr.Landherr",
+      "sourceSha256": "9f152b95049c7d1b4190b4bfab49c5d349cf3b789dec3541f142e07538f6f535",
+      "oleanSha256": "3f1673e5e66c4c4c0f609c459845ff80fc4392833732583eb2f8bfa0db2dfdfd",
+      "cacheOleanSha256": "3f1673e5e66c4c4c0f609c459845ff80fc4392833732583eb2f8bfa0db2dfdfd"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.HyperbolicSpace",
+      "sourceSha256": "066aa0859a19bb9d9895e133b5baa7def72800772b1f07b4bc9f47f2fba447d5",
+      "oleanSha256": "767b54610c64e515ced43a0b45fdb284c9edcf35375764654b4a60f4d754de6c",
+      "cacheOleanSha256": "767b54610c64e515ced43a0b45fdb284c9edcf35375764654b4a60f4d754de6c"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.ZeroTerm",
+      "sourceSha256": "8f6b4a6749a65fa36a8041414c677c2719ebfd214e7b37e665a78eab79242c48",
+      "oleanSha256": "c7199e6a0fa84f58f7afbe301208eb1c79ab603931059d1ca3289318a3d2c777",
+      "cacheOleanSha256": "9fca2e693d3e34db90f913e9fd908355743626b26b6946d5be70cf797113d231"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.MixedModelIntegrable",
+      "sourceSha256": "05e03deddf677fb7dd3f4dbf77306dc4073bed87004fa2ac03ad08c8d10ee76e",
+      "oleanSha256": "7db0a58bea551645b3f23e51cc65507ec6bb401deaa17f50b1616a07f5cf5b87",
+      "cacheOleanSha256": "7db0a58bea551645b3f23e51cc65507ec6bb401deaa17f50b1616a07f5cf5b87"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.ZeroTermLaw",
+      "sourceSha256": "0f819328cf2718767462de263f1db390bba008a6e25a39b03bf08860a2716ec7",
+      "oleanSha256": "3017f4e10447ac7f397222c56f44ec320778fd59c961c6a7d0cccc95a45d3a77",
+      "cacheOleanSha256": "3017f4e10447ac7f397222c56f44ec320778fd59c961c6a7d0cccc95a45d3a77"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.HyperbolicSplitting",
+      "sourceSha256": "89248b301f9c937c61ff5c6beecfde300af3dc6f374736b151576a8608d5cc67",
+      "oleanSha256": "399305efa2e42a24702d50f09267591309bb3de666ba737d49bae8bd0b70546a",
+      "cacheOleanSha256": "6e17fea6b88b83878caa0ad9e5e9cb450e5754ccd122cb209379787ac3e07c8e"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.AdaptedSplitting",
+      "sourceSha256": "0ea127aeabfe7383bdaeab7717ff62ea786829acfd6f851ac5e35e5315281e5c",
+      "oleanSha256": "d51f87dfc8130412fba6f78419ede831170213c627bac0931f2a4d1d44df2d36",
+      "cacheOleanSha256": "d51f87dfc8130412fba6f78419ede831170213c627bac0931f2a4d1d44df2d36"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.FischerDecomposition",
+      "sourceSha256": "759030e2f77b251c1e61ec876f75e0d380b79f187bc48c81dc440318a6ba028b",
+      "oleanSha256": "616642d5edca401d74cdf6baf06bcb983406d0c0d1d33b3e32cc6cf1088f7e86",
+      "cacheOleanSha256": "f9fd35da97b0ef393c9a426cec19a74c3ab760e29c4b3ae2194d4bc5d19494f0"
+    },
+    {
+      "module": "Lib.Weil.DualPair.PairSplitting",
+      "sourceSha256": "b22db2404ac812cf8eefb01c9e677ab58dace9c3f7ed4effdd1fafb27a1d9dab",
+      "oleanSha256": "8fdebf464f9329316789a2fd59a74e746ac72e8f2500c76d82e8a1b15336e7c0",
+      "cacheOleanSha256": "8fdebf464f9329316789a2fd59a74e746ac72e8f2500c76d82e8a1b15336e7c0"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.JointHarmonicUnique",
+      "sourceSha256": "e60f83a30eb88d37f83045f315f1b8cbb45db758d2285348794fcf270c72c340",
+      "oleanSha256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+      "cacheOleanSha256": "ad517966c7b832d36652e148072572a2d48294480fd32955669286f8e2cd13f3"
+    },
+    {
+      "module": "Lib.Weil.DualPair.PairReal",
+      "sourceSha256": "e13dccb7870ef6d4032504a570c7c2b30f8cf346131f2d2e2c828f8845ecebc8",
+      "oleanSha256": "7002ab4e14d6d3cab901bd3cddf85397788e3725a55ebc215877626fc6a30de0",
+      "cacheOleanSha256": "321fad6b3f0745e8724dd82c6aaed707aef281bb01b44aed4d7ac6b5458033b6"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.HoweArgument",
+      "sourceSha256": "bbb4ec3cd685756a697f6d885fe1c35965cc6780fb6661a4e9f37633b44a4227",
+      "oleanSha256": "1ddbdf5c75d7b7eca4919d7c357cee0320500ba08dac74e770a51511c591bf43",
+      "cacheOleanSha256": "1ddbdf5c75d7b7eca4919d7c357cee0320500ba08dac74e770a51511c591bf43"
+    },
+    {
+      "module": "Lib.Weil.DualPair.DescentsVanishDef",
+      "sourceSha256": "13ad2fe521610962ea20df0b327ac0af15736883e427a6685e80b60a1d8df184",
+      "oleanSha256": "75f59260e5d313e4d8545d0cb2fa873e904a1c7d8c9d21ce65f8df5b599f7aef",
+      "cacheOleanSha256": "75f59260e5d313e4d8545d0cb2fa873e904a1c7d8c9d21ce65f8df5b599f7aef"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.OneSidedPoisson",
+      "sourceSha256": "5935d40f7b0174b8030bf8b3520e93cb0168ad17f54e680c4ec4e00e2c451e90",
+      "oleanSha256": "216f065a50d91567977146497c961a8d0b79473b45f87ed62177a7cb77683855",
+      "cacheOleanSha256": "216f065a50d91567977146497c961a8d0b79473b45f87ed62177a7cb77683855"
+    },
+    {
+      "module": "Lib.Weil.DualPair.KernelDecay",
+      "sourceSha256": "cf8e7a6871abe483016fbd19eda71a5f8a0a8fba3ca7974d4a6e4a009693ef74",
+      "oleanSha256": "4c8caa3ef07129b0a3eb3f1307763f05c087123c37ab3fa9f05033cde864ef73",
+      "cacheOleanSha256": "4c8caa3ef07129b0a3eb3f1307763f05c087123c37ab3fa9f05033cde864ef73"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Hook",
+      "sourceSha256": "4b042094b39475e2bcd2e0c18d48e4073710f4aaff8a92ff296eb5b1daad8ce1",
+      "oleanSha256": "38ae338ab28dd1ab4fde77ce3a5e26c5f5833a419915c068299103127eb5d520",
+      "cacheOleanSha256": "f216d98e76b954154a54ccc10996047544908b9ac8dfc0c110ddcd58fbc35090"
+    },
+    {
+      "module": "Lib.Weil.DualPair.ModularDataDecay",
+      "sourceSha256": "d94b54219f5ef2a959c35d5c4b076904473366bf3962fa21dd428e7bd5a335ea",
+      "oleanSha256": "dc799c1ade69308345d700f107d4b6efb88a8812cfca2e3aecdee0ae19712152",
+      "cacheOleanSha256": "dc799c1ade69308345d700f107d4b6efb88a8812cfca2e3aecdee0ae19712152"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.Gram",
+      "sourceSha256": "7619e7c67e1ed7ba7259438586a5c63d7be87a0f41a1730a8356ede7e1ae0f03",
+      "oleanSha256": "786071d5a1ee58694f3f3fc373b79d365312353c4ec4dbc7b64c5e81db3b8e46",
+      "cacheOleanSha256": "786071d5a1ee58694f3f3fc373b79d365312353c4ec4dbc7b64c5e81db3b8e46"
+    },
+    {
+      "module": "New.DiscreteSeries.RestrictionLemma",
+      "sourceSha256": "50635174918b93aae48c7d3cf3db53e4d22a1909dd9db0b79d5673a6b4169f2e",
+      "oleanSha256": "31a5c7bb2c6fc1ce0d1a37aa2752efc790786109f56cae85faddd1942ad043af",
+      "cacheOleanSha256": "b6de67cb0efe8a8a234a940d9e54a0094b8fb5b6027130c3a77d4ada059596cc"
+    },
+    {
+      "module": "Lib.GLn.Branching.BranchingVector",
+      "sourceSha256": "0d63c294c9ba6edfab02f75a8b6b853b50c9aaeddb3556c754031c00939bf0b5",
+      "oleanSha256": "81bf602dbbe82dedc22adca20c767b70e798bbb1d8797f2464a7afa0279b2ab5",
+      "cacheOleanSha256": "81bf602dbbe82dedc22adca20c767b70e798bbb1d8797f2464a7afa0279b2ab5"
+    },
+    {
+      "module": "Lib.Weil.Periods.DegreeAndUnipotent",
+      "sourceSha256": "db5d7306c7d696d83a033f5b8191c652077b85f79817b2b3e796a262db34f682",
+      "oleanSha256": "90bb17fb801c264249b0fcf707044fc06a235b6966f990c68fc5602ad590fefe",
+      "cacheOleanSha256": "90bb17fb801c264249b0fcf707044fc06a235b6966f990c68fc5602ad590fefe"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.DeltaForms",
+      "sourceSha256": "c95b7fcd2c4a5adf5835a60543e682a32d66ca68c531d6e7a18740df9264951e",
+      "oleanSha256": "525cea5578c25811099c4ceee2e7811bba7da73790af5d741591ab5e89cf6f7f",
+      "cacheOleanSha256": "525cea5578c25811099c4ceee2e7811bba7da73790af5d741591ab5e89cf6f7f"
+    },
+    {
+      "module": "New.Seesaw.LatticeAndTorsionDefs",
+      "sourceSha256": "3a668094055f286f35369303277f5ce0a2760c833bc7876713db06f0cf9d8351",
+      "oleanSha256": "5fc3cd30a46b5e97c0cafd91712d18d8bbd72dbad30317acee126f14f9e31787",
+      "cacheOleanSha256": "5fc3cd30a46b5e97c0cafd91712d18d8bbd72dbad30317acee126f14f9e31787"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.HeckePolyEval",
+      "sourceSha256": "1aa5d1cd38ce4497b6978cd9e6ed1c3bb3f1e08ed490e4c5daa4744a65ac8115",
+      "oleanSha256": "781dbf5d77411e5ff2d693c34755429ba3738f13ff4c7cfd2b1124fab3aa41b5",
+      "cacheOleanSha256": "781dbf5d77411e5ff2d693c34755429ba3738f13ff4c7cfd2b1124fab3aa41b5"
+    },
+    {
+      "module": "New.Seesaw.FramesForY",
+      "sourceSha256": "6020f8d0087f6951cc599945e64b7b8df3f5c12cdf718d1d8f689657aa18995d",
+      "oleanSha256": "3fe79e2ec2d93cc1fee0bbac77487962e65e09988182117c29816e695d23707f",
+      "cacheOleanSha256": "3fe79e2ec2d93cc1fee0bbac77487962e65e09988182117c29816e695d23707f"
+    },
+    {
+      "module": "Lib.General.Topology.LocalDefs",
+      "sourceSha256": "a6d8b3ffb1f0ae4ca7204372b6b8345baeb504a35fc6c7ff41bdb166464dceb4",
+      "oleanSha256": "30c53f4d03eea746a416c1da0b24d57742a2ec125f607f214a125d196c7aa925",
+      "cacheOleanSha256": "30c53f4d03eea746a416c1da0b24d57742a2ec125f607f214a125d196c7aa925"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.JointHarmonicExists",
+      "sourceSha256": "eae6a565cdf7eb07a540460799fd0aaf144e1a3449ea3881483dc8fe9bc82067",
+      "oleanSha256": "fc0c00d6838b18b48616181ab15f12da22eb4d66dfd183c85a9bb0b84646460e",
+      "cacheOleanSha256": "fc0c00d6838b18b48616181ab15f12da22eb4d66dfd183c85a9bb0b84646460e"
+    },
+    {
+      "module": "Lib.General.NumberTheory.LocalProduct",
+      "sourceSha256": "29be185585177f83a4617d89297c56a0eaa4a53b3baf209b9554fb6579c1f99b",
+      "oleanSha256": "afe580992da5b51e0635133f1d26570cd17a0ede9f510a89a15257b2febc42a9",
+      "cacheOleanSha256": "afe580992da5b51e0635133f1d26570cd17a0ede9f510a89a15257b2febc42a9"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Theta.LocalThetaCorrespondence",
+      "sourceSha256": "d8a38c9d642b947fbf289e9a8f147223a23fcb1a41751a6a5df57bb5f578ac84",
+      "oleanSha256": "41aea33cd5befb5cae6cf77aaf7edf31c8370ca0e27a231bc99d223c92e7eab1",
+      "cacheOleanSha256": "41aea33cd5befb5cae6cf77aaf7edf31c8370ca0e27a231bc99d223c92e7eab1"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.PartnerAlgebra",
+      "sourceSha256": "9a0e35da4b27b5c35fcd95a739bfcee66bc1ce57b957bc234d981afaafc6f7b6",
+      "oleanSha256": "0ac9213ec09bcaaf0a5ba2978a0de27fd9f2348c1cbe7873b6f13399ef509d53",
+      "cacheOleanSha256": "0ac9213ec09bcaaf0a5ba2978a0de27fd9f2348c1cbe7873b6f13399ef509d53"
+    },
+    {
+      "module": "Lib.SiegelWeil.Mass.TorusMajorant",
+      "sourceSha256": "9664c71b26081daed348218f22caf66bd4796e8f632716d5c277dbc1b258ef8d",
+      "oleanSha256": "76df3de434f5ca11d6430dc29da1201e50614bb63682342832cebecd76d67b62",
+      "cacheOleanSha256": "76df3de434f5ca11d6430dc29da1201e50614bb63682342832cebecd76d67b62"
+    },
+    {
+      "module": "Lib.Weil.GaussSum.ShearInvariance",
+      "sourceSha256": "f6b253384b2e16ccd72bae38b54dfbfbd5f1d2f87475fe73d1b7b8e9200b516f",
+      "oleanSha256": "0ecc9aa3cd48ad3ff68d37a11e739ddbe498a683bf4a7b701ba0de41def44bc5",
+      "cacheOleanSha256": "0ecc9aa3cd48ad3ff68d37a11e739ddbe498a683bf4a7b701ba0de41def44bc5"
+    },
+    {
+      "module": "Lib.SiegelWeil.SingularForms.AdaptedHom",
+      "sourceSha256": "9c65d6f987e5743df8ec7a2d27213c84da8d92e019876ba5da944e2ccbed13df",
+      "oleanSha256": "8be5ab6063097397a0ce6b78c90d3fd3b9cd659655eec354d38892433186290a",
+      "cacheOleanSha256": "8ef8f3e7e93d74b0e14079cb03010350fa9f9a3e8f15de8d2fa48c81b7733f8b"
+    },
+    {
+      "module": "New.Rows.SemiInvariantNorm",
+      "sourceSha256": "dcaaa0b647ec9ef9da334eda3b71c7ca10cf8a12749132b74199a2107cea27e9",
+      "oleanSha256": "8f0fa65e470aad4deefc75cd6010012a8e81617e05c73ee9fdda8f205c4672a0",
+      "cacheOleanSha256": "8f0fa65e470aad4deefc75cd6010012a8e81617e05c73ee9fdda8f205c4672a0"
+    },
+    {
+      "module": "Lib.Weil.DualPair.FourierCoefficient",
+      "sourceSha256": "8019ee8a03c41a150f89f3521900e8a4b303d1927394d56b0a530bcab0fe9b31",
+      "oleanSha256": "5b6a18f8a30f7fc0438745b6ab1e7efb336fc1ac6ebc869c793513ac20091ec4",
+      "cacheOleanSha256": "5b6a18f8a30f7fc0438745b6ab1e7efb336fc1ac6ebc869c793513ac20091ec4"
+    },
+    {
+      "module": "Lib.Shimura.HeckeTower.GroupRingOperators",
+      "sourceSha256": "8c01d599f4713f9708dfc8aa35f55316f9c537e6d6a9526775c28319ac0b5a18",
+      "oleanSha256": "095fd927193c43a203eff1a8be36364b4d2a6c3ccfb9035b241fad6b94426a2f",
+      "cacheOleanSha256": "095fd927193c43a203eff1a8be36364b4d2a6c3ccfb9035b241fad6b94426a2f"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.CuspStep",
+      "sourceSha256": "450170120ec13b1762b507a5afca78918ab75169b925af52caeac11cff52df65",
+      "oleanSha256": "9164b72d981edce31c104f16f1555616133f1e979b69df300829a35d49b3cfba",
+      "cacheOleanSha256": "9164b72d981edce31c104f16f1555616133f1e979b69df300829a35d49b3cfba"
+    },
+    {
+      "module": "Lib.Shimura.TraceFormula.TraceFormula",
+      "sourceSha256": "00294febded50e8c2d644d0315bc898d3ccb59754dc8d48d85ba76c00219ac3a",
+      "oleanSha256": "762f2a17e5a2d7877c4ad3487441462e2a4ec9863a883de1f430364e7be51bc8",
+      "cacheOleanSha256": "762f2a17e5a2d7877c4ad3487441462e2a4ec9863a883de1f430364e7be51bc8"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.ReproducingKernel",
+      "sourceSha256": "a80c8ca490371bc5a3f054606c7fdfb8279a1308b1d33380aa4401f8300c8ff3",
+      "oleanSha256": "ddd10e2d51140964c82fc2277edd965452b94d89c1950aefd03187060dd180fd",
+      "cacheOleanSha256": "ddd10e2d51140964c82fc2277edd965452b94d89c1950aefd03187060dd180fd"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bruhat.FloorGroups",
+      "sourceSha256": "373fbbaecb2ebf6803f51aa891ed0b61aa809bda6ebb94825c42654e027efcb9",
+      "oleanSha256": "bb337e38a7b3052212aced24fea71f54a44eb38b1c1a4cd0c3c5af5776d874ed",
+      "cacheOleanSha256": "bb337e38a7b3052212aced24fea71f54a44eb38b1c1a4cd0c3c5af5776d874ed"
+    },
+    {
+      "module": "Lib.Weil.Lift.Edge",
+      "sourceSha256": "e7235677adb98d0ef98ec4fd1eda0e1a65deac45b2d23399e0aa8af449540240",
+      "oleanSha256": "37cf28206b49e743cb7f81e176b4f0f711430ec412baeb58ed3aa6193d5df226",
+      "cacheOleanSha256": "37cf28206b49e743cb7f81e176b4f0f711430ec412baeb58ed3aa6193d5df226"
+    },
+    {
+      "module": "Lib.Adelic.Poincare.BesselSubgroup",
+      "sourceSha256": "562dd83da62a6c7e161354c40cde3576d50454e2a5d1edd72d214d382c052049",
+      "oleanSha256": "e249be5838d2b7fb8a30bc88a8800ec3ea6864d85fbb872ffec8657f7f15ae5e",
+      "cacheOleanSha256": "e249be5838d2b7fb8a30bc88a8800ec3ea6864d85fbb872ffec8657f7f15ae5e"
+    },
+    {
+      "module": "New.Exchange.GridParameters",
+      "sourceSha256": "5382aba5b0d49efba4eb8b4ccff8d2a760974bc6fba8709123ffa791a6a90170",
+      "oleanSha256": "3ef11008c0fd0ef480959fed9f3005d02bdd7af0151968fe81f29925c75dba5f",
+      "cacheOleanSha256": "3ef11008c0fd0ef480959fed9f3005d02bdd7af0151968fe81f29925c75dba5f"
+    },
+    {
+      "module": "Lib.General.Measure.Place",
+      "sourceSha256": "27cb775f14d23b6b075e5adf295751dea97e888f65a8f18044c8d8fb39d92f14",
+      "oleanSha256": "96e12194bbbdf9f5b0afc21ecf783d5ca19597d0dc7345f37f084f9ff6be1663",
+      "cacheOleanSha256": "96e12194bbbdf9f5b0afc21ecf783d5ca19597d0dc7345f37f084f9ff6be1663"
+    },
+    {
+      "module": "New.Curve.LiveSum",
+      "sourceSha256": "3255b78f09a05c00b117bcac1bda8629ce5053a5eeec418f27ca22a625511abf",
+      "oleanSha256": "34251bb4c318a902053fc354e259f3ce97073866aba0012a064b11488cea9f86",
+      "cacheOleanSha256": "34251bb4c318a902053fc354e259f3ce97073866aba0012a064b11488cea9f86"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bruhat.BigCell",
+      "sourceSha256": "0a4b542e3e160da262c0fe3870d39dfd0b38fa5c667c2e02cd106a0a09516d72",
+      "oleanSha256": "947364caf816fa9ae2e62e4d33f19fdfbabbaec85648fbefdb706775c7c2d6b7",
+      "cacheOleanSha256": "e1ca6e0a46e3d6aaf0c921e077282c5e5e5d46550144ec4e38c158d2fe056106"
+    },
+    {
+      "module": "New.Curve.DepthPairs",
+      "sourceSha256": "af32f40b23f3cfc207363edee3e15f1fc654d028de6b8f35f810ba02d1c81e4f",
+      "oleanSha256": "4f8db8d2d9b3e2aae113e46f62348d61ec8f28518a43d996822af4bc3241ddd3",
+      "cacheOleanSha256": "4f8db8d2d9b3e2aae113e46f62348d61ec8f28518a43d996822af4bc3241ddd3"
+    },
+    {
+      "module": "Lib.Adelic.Poincare.MiddleGroupEmbedding",
+      "sourceSha256": "0eea6bd7e0f24af35aad2465bf608015e84d9a53fad7297ebedf17b3e7a20078",
+      "oleanSha256": "0b5ad4d8cc8939ea629c13fecb1cf4dd39aa927d4507418f97fe8178efde6e31",
+      "cacheOleanSha256": "0b5ad4d8cc8939ea629c13fecb1cf4dd39aa927d4507418f97fe8178efde6e31"
+    },
+    {
+      "module": "New.Exchange.LValueRatio",
+      "sourceSha256": "3874dba797f823b1c427d03b093ccc588e38c1bdd563030723d79f67edc4297f",
+      "oleanSha256": "cf233e2bcd8fe0a81381d4a6e6f7a23d5cfa0a48247f3907699d946e5186cbc1",
+      "cacheOleanSha256": "cf233e2bcd8fe0a81381d4a6e6f7a23d5cfa0a48247f3907699d946e5186cbc1"
+    },
+    {
+      "module": "New.Exchange.BlockPartners",
+      "sourceSha256": "862881445db5160a7bd4804bab8b109105bbf98413314c791c66e3e549670760",
+      "oleanSha256": "54982b4c721f1637cb43d6d3e50e5cfa095ec70cad2ebc3179c0be6f7727038e",
+      "cacheOleanSha256": "54982b4c721f1637cb43d6d3e50e5cfa095ec70cad2ebc3179c0be6f7727038e"
+    },
+    {
+      "module": "Lib.GLn.Branching.Branching",
+      "sourceSha256": "30bec6110b4b23a264f048bd40c882cf47650741c0882d23f59d5e6febd301b6",
+      "oleanSha256": "8de15d09e3cc05a5ecba4d1d54df704ca3e6a5c40dc1624b01001790bf5e8b5f",
+      "cacheOleanSha256": "253f3e14b77dfd2f7f068a7cedc1eb9a226d72be017864ea394504d5be20e9c4"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.RapidSections",
+      "sourceSha256": "4d7ae591395c9af072cedfd6d74591afd85863168f309d8b02898b0dd3432027",
+      "oleanSha256": "499e7eaaf987bd3c761ff915984aef2a1844c12aeb5ec12a08112a70f3555e94",
+      "cacheOleanSha256": "499e7eaaf987bd3c761ff915984aef2a1844c12aeb5ec12a08112a70f3555e94"
+    },
+    {
+      "module": "Lib.GLn.Dual.MixedCartan",
+      "sourceSha256": "f7eef6d799b1387a1d5cbe152502b8ee83c72085c889d5493161ad74f78132f6",
+      "oleanSha256": "5025352d38ba031a218aa1e77573868a53d66ddcf3fcd3f6c12107ad254d8943",
+      "cacheOleanSha256": "5025352d38ba031a218aa1e77573868a53d66ddcf3fcd3f6c12107ad254d8943"
+    },
+    {
+      "module": "New.Exchange.TriangleNorms",
+      "sourceSha256": "3e0e8fbd919a4522c4b8b9210204eb7bd35f7fe80429aefdb8d11e64811f0fd1",
+      "oleanSha256": "9c5f384c9e836313b584d98a5c4195add9cdc3a80a4cc3ad206d4a7d557cb562",
+      "cacheOleanSha256": "9c5f384c9e836313b584d98a5c4195add9cdc3a80a4cc3ad206d4a7d557cb562"
+    },
+    {
+      "module": "Lib.General.LinearAlgebra.BlockMatrices",
+      "sourceSha256": "24eaee575bd07c0f09a72d24482131b0c3ed5f230d9f977df91939a70f0172e0",
+      "oleanSha256": "48e751f9805308ca97921cbfc9c74f99b09d1b27c86bf09560c46235528c460a",
+      "cacheOleanSha256": "48e751f9805308ca97921cbfc9c74f99b09d1b27c86bf09560c46235528c460a"
+    },
+    {
+      "module": "Lib.GaloisRep.BaseChange.BaseChangePlaces",
+      "sourceSha256": "f53063bc419ddc55b2817742bf2c83299369452119aa4254128a5d2be429092a",
+      "oleanSha256": "087e46b32a4f1217281eea880e265e76a6ffa77999050985707f06570338af49",
+      "cacheOleanSha256": "087e46b32a4f1217281eea880e265e76a6ffa77999050985707f06570338af49"
+    },
+    {
+      "module": "Lib.GLn.Dual.ClassSum",
+      "sourceSha256": "42d3ebb76cdedefbcd58a10425414b0ba7883188b987e3196c23af53955ddd91",
+      "oleanSha256": "679b31d8a86d383d8ead54e935de95b574e74915a93babcc9626954820c58a67",
+      "cacheOleanSha256": "679b31d8a86d383d8ead54e935de95b574e74915a93babcc9626954820c58a67"
+    },
+    {
+      "module": "New.Filling.EichlerFlag",
+      "sourceSha256": "d4a1e65ceef02bd1fe17c0ff1dc7a1eee0731694a08f87fd2f5f74b029bd1d25",
+      "oleanSha256": "bcf592536f370d91e843a823e85e552b8eaf308c925d77585c6aa19007c6ee73",
+      "cacheOleanSha256": "bcf592536f370d91e843a823e85e552b8eaf308c925d77585c6aa19007c6ee73"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.WeightRepBasic",
+      "sourceSha256": "633d0144aeed88afb0098c1e837a3917c68bee2eab5fc2942eaae80c1372b129",
+      "oleanSha256": "978cd9599acfd39944a721f10b9abe8831cefd6f531ab0818b064ff44ba3ad82",
+      "cacheOleanSha256": "978cd9599acfd39944a721f10b9abe8831cefd6f531ab0818b064ff44ba3ad82"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Character.LaurentAlternants",
+      "sourceSha256": "b2417d6e6a1f18144972dacc2ba0329165accc6412a98fdcc846b245a0651f06",
+      "oleanSha256": "9a611e7d3f63839ecf1e90d3f630f9437ac1aebebe45e8442ded11b5e990533b",
+      "cacheOleanSha256": "9a611e7d3f63839ecf1e90d3f630f9437ac1aebebe45e8442ded11b5e990533b"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.ClassReps",
+      "sourceSha256": "f7d1f427cdfb5910a33379028e775cd8a2f41dc2eba7dcfb7f319b9af23606f5",
+      "oleanSha256": "1e433fd087b6a15f3433221849346406b62b6b45ac939db36eeefd7f18184ec0",
+      "cacheOleanSha256": "1e433fd087b6a15f3433221849346406b62b6b45ac939db36eeefd7f18184ec0"
+    },
+    {
+      "module": "Lib.Cohomology.Etale.Defs",
+      "sourceSha256": "7763cf35401bb1b5ad3f848c3e3c7408ad1a0c3ed03d80e726224afee2cb8918",
+      "oleanSha256": "360efbb44bbf925b4bd07455d01407fb23c25917c2a225a7d912591bf14c4415",
+      "cacheOleanSha256": "360efbb44bbf925b4bd07455d01407fb23c25917c2a225a7d912591bf14c4415"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.SmoothFormPairing",
+      "sourceSha256": "773de04463b4c8c44474d42c0dbb0903c1b2b318c876632e36bd702f064d26cc",
+      "oleanSha256": "02f01f8c7e7ba9b872b3cf0c491130f4e46a9d9514639f55aa1f48724fc2a591",
+      "cacheOleanSha256": "02f01f8c7e7ba9b872b3cf0c491130f4e46a9d9514639f55aa1f48724fc2a591"
+    },
+    {
+      "module": "Lib.Cohomology.Etale.TestCohomology",
+      "sourceSha256": "903bb8de507fe57885dbbd88ea63c1af9179f80f0e7ae4da605104f92cdc87a6",
+      "oleanSha256": "064dc9acb1bbdb9d64e43c0c13f7997990a8576800bf3351101ce38b2ed03f5a",
+      "cacheOleanSha256": "064dc9acb1bbdb9d64e43c0c13f7997990a8576800bf3351101ce38b2ed03f5a"
+    },
+    {
+      "module": "Lib.Weil.Unramified.UniformiserScalar",
+      "sourceSha256": "e62039a0a2cbda8ff2f5359e30262ce62665d55b82e89fa06e0e78da4a2a97f3",
+      "oleanSha256": "6f1ad5344acc9780009ab473ddaa78212376e6f7fb963bb7fc779efc205ece8d",
+      "cacheOleanSha256": "6f1ad5344acc9780009ab473ddaa78212376e6f7fb963bb7fc779efc205ece8d"
+    },
+    {
+      "module": "Lib.Cohomology.Etale.TestRings",
+      "sourceSha256": "eae2e4e6e1f6a1f74a922ad9d87eec24403314879d890d127711e8a9d678a4e1",
+      "oleanSha256": "ef7e258b2ac843cf7b28b1fb918bd1122eff169d99bc62fa3f1c48690e4cd966",
+      "cacheOleanSha256": "3cb991b03ab0b1691b0cf0004e526c113f07e696acd7053dd58d79bfaf200956"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Holomorphic.HolomorphicMinor",
+      "sourceSha256": "c72c5964ca1b06c178e8cb97de8a3e9e0f1fa22c792d066e72d1edaefe074531",
+      "oleanSha256": "35e09829e3566a181d168005558575a0a4f1b52a4bf49472725ec765eef8b36d",
+      "cacheOleanSha256": "35e09829e3566a181d168005558575a0a4f1b52a4bf49472725ec765eef8b36d"
+    },
+    {
+      "module": "New.Core.ModuleIndex",
+      "sourceSha256": "dd3174cad977b01f88c1a6cb67b45d08a218cde372d6675d91c558d2889eeb99",
+      "oleanSha256": "081b1c23453ea8dad9a0e2ec311db859e356bccfff88fa422a97a1dc4347970d",
+      "cacheOleanSha256": "b65231f3bae8c799a4a5aee3b7a772f47043a3bb24914cab1383671bc33447fb"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Holomorphic.HolomorphicChamber",
+      "sourceSha256": "ac00f78a94131cc8d11a3d0f5f161dbac9320a8f93fbc5eb2146da8bec510729",
+      "oleanSha256": "15bd89ad5d188803681742b8df14899e667e899ca275ab44b0ac43e522dd2fef",
+      "cacheOleanSha256": "15bd89ad5d188803681742b8df14899e667e899ca275ab44b0ac43e522dd2fef"
+    },
+    {
+      "module": "New.TwistedHecke.InterlacingCone",
+      "sourceSha256": "2132d9ed1f59071c66301fb8f3d738e66ce564193df6eb0621e757a372cf5f05",
+      "oleanSha256": "5deb918790c98268da7319fb1b77f6f71cabcf50a5a805d219636a0a1c803992",
+      "cacheOleanSha256": "5deb918790c98268da7319fb1b77f6f71cabcf50a5a805d219636a0a1c803992"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.LevelForms",
+      "sourceSha256": "370aefe782b51ed2262685d7fde6432ee7c278f2f2525711fb0e260614e6f499",
+      "oleanSha256": "fd5d2431f1ed5967c5dc0c5036bd531d2ef61a75179ecc08159948f1976cde4b",
+      "cacheOleanSha256": "fd5d2431f1ed5967c5dc0c5036bd531d2ef61a75179ecc08159948f1976cde4b"
+    },
+    {
+      "module": "New.TwistedHecke.TwistingData",
+      "sourceSha256": "3f79229bcc51acde02bceb2a3c5e74034be5f97e81331379db33c6221dfc829f",
+      "oleanSha256": "22bf0c2b4008b7ea526cb38f50e7a35b1cbf921057e82189e6003d38754e6aec",
+      "cacheOleanSha256": "22bf0c2b4008b7ea526cb38f50e7a35b1cbf921057e82189e6003d38754e6aec"
+    },
+    {
+      "module": "Lib.General.Algebra.JetRename",
+      "sourceSha256": "cbdcfb787f71cf31e85cf5933ab95f25c96ca8c9da7146d3a1c9a32c9fec5fed",
+      "oleanSha256": "be62ae0db97de43a7698e1f5420fc7979ddaed9a2ac4a283c600948e3f9ab84e",
+      "cacheOleanSha256": "be62ae0db97de43a7698e1f5420fc7979ddaed9a2ac4a283c600948e3f9ab84e"
+    },
+    {
+      "module": "New.TwistedHecke.DeepFormCost",
+      "sourceSha256": "296ced59c03f03401b3f676c1e7c6958f125c0a7444a505c41983387254ad6a9",
+      "oleanSha256": "99dc43d3076d937e477e52b3e5e30da4dbd312f218f8964befce8dbf275ebd66",
+      "cacheOleanSha256": "220bc4c511b5bfeb435613464075c518de34ed296f8413fe1833ac7b20847882"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.SchurContinuous",
+      "sourceSha256": "3022d41b000273f871efb28980d07fde259f957ca935a6638940908a75cc17c1",
+      "oleanSha256": "572d60801b0e509e119aaadddd8a9ac8894b38f26d00fba3ab1c7d9d4f70f77b",
+      "cacheOleanSha256": "572d60801b0e509e119aaadddd8a9ac8894b38f26d00fba3ab1c7d9d4f70f77b"
+    },
+    {
+      "module": "New.TwistedHecke.ClassMeans",
+      "sourceSha256": "e7cbc2a34d1415cbf174160f0bd3954a8f15b95e75e2408331349bf78604d9f4",
+      "oleanSha256": "91e461c6a6f51eaabb17d3936f6f3320e1daaef2b7bd44d7ad54a27ad4112a9a",
+      "cacheOleanSha256": "55f7294ac6e9b17e41019233b9e58e0b3665cf2a78aad7f24711e5a5fb80ee7b"
+    },
+    {
+      "module": "Lib.GLn.SchurModule.SchurOrthogonality",
+      "sourceSha256": "16a53419fa554e0f102cd953d16c5fa568fa3db0c4395e8a9a5ee38d24643964",
+      "oleanSha256": "6f43f4e5fa96d3ee1a412b94dbfddcf1808532c21991469b004e075e36068ba0",
+      "cacheOleanSha256": "6f43f4e5fa96d3ee1a412b94dbfddcf1808532c21991469b004e075e36068ba0"
+    },
+    {
+      "module": "New.TwistedHecke.RootLemma",
+      "sourceSha256": "d6e0a9587cbda221418991d28b3b712ab02252d41fec4254ff1626932e61ce01",
+      "oleanSha256": "29c64658f6dd4fbdf1a3c6b005456dc90944f1e5ab0baca66e4431e7631345eb",
+      "cacheOleanSha256": "29c64658f6dd4fbdf1a3c6b005456dc90944f1e5ab0baca66e4431e7631345eb"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.WeightParameter",
+      "sourceSha256": "5dd8277481757a305ca0f2faf85089fd0e76053e151a513051daa10a62b0450f",
+      "oleanSha256": "1f3374b6c555f4a2d86fc1f21c40ce602318b9aa41480469000f99930072a5bb",
+      "cacheOleanSha256": "1f3374b6c555f4a2d86fc1f21c40ce602318b9aa41480469000f99930072a5bb"
+    },
+    {
+      "module": "New.TwistedHecke.FrobeniusFactors",
+      "sourceSha256": "4fdf0c2f1743c1364e32841e7ec0b7142124a445a58eb4bd881029f84abaa336",
+      "oleanSha256": "ec529f03dd1bcbc883ba85d268bce439663f73b8b8470dbde608d418447b9819",
+      "cacheOleanSha256": "ec529f03dd1bcbc883ba85d268bce439663f73b8b8470dbde608d418447b9819"
+    },
+    {
+      "module": "Lib.Adelic.CuspForms.AlgebraicForms",
+      "sourceSha256": "02ff8f0a19963f8a6867336d2f527bf8662222ea2d305e819e74bb004748eed6",
+      "oleanSha256": "01995e2cac23566705416304a205fc60ddd8e5034011a21784b8fc3eb0b0f439",
+      "cacheOleanSha256": "01995e2cac23566705416304a205fc60ddd8e5034011a21784b8fc3eb0b0f439"
+    },
+    {
+      "module": "New.TwistedHecke.Counting",
+      "sourceSha256": "4f53c209c08f8c7d9229b11c308bbef45ef508c5f6e2e26a83de69f78ea010e4",
+      "oleanSha256": "8f0237034a7afcb76aeaec584f892e985c3016426e90b070d3d4ef5bf9482467",
+      "cacheOleanSha256": "523a416c2165501a7efe8435224de8d6037758b18669cd3a775cc7050ee9cbe3"
+    },
+    {
+      "module": "Lib.Weil.DualPair.DatumLevel",
+      "sourceSha256": "b0f3e3804091a16ca03e30d43f977579d262ebb95f5e6a94b51a10a9142ae537",
+      "oleanSha256": "1f3a0f29550ff8bf8eb1ce5fd2a432ca4ab7c70d65d009afca08cf38cb3e49c4",
+      "cacheOleanSha256": "c513e91291cf9667a1ead9c53c94eaaac12441a4a1899f867c88a26c4ad1054e"
+    },
+    {
+      "module": "Lib.GaloisRep.Pseudocharacter.SemisimpleReps",
+      "sourceSha256": "2e44bbcf60329c3feddad86c401023173a6b42ec360d04fafc5c6b8ad305e5bf",
+      "oleanSha256": "04d61baaaabf3929353f799261a44007ad37b8fd3b6eb635de7097842b965c1b",
+      "cacheOleanSha256": "04d61baaaabf3929353f799261a44007ad37b8fd3b6eb635de7097842b965c1b"
+    },
+    {
+      "module": "Lib.Weil.CompactLift.BranchingPeriod",
+      "sourceSha256": "fb450af350a74e39a49c5a8b46d5e8aa8a0b3b5e2127b233d56b4a4352bd65ee",
+      "oleanSha256": "6614ff132bb98388fbca5c3c3a00d701ac9b3ec3afe0c9d3c65b81c62e8db138",
+      "cacheOleanSha256": "7b5c00fac2cbc3d8b12affbd34f4bbce6b10839917bca31f54a400a97c6dada6"
+    },
+    {
+      "module": "Lib.GaloisRep.Pseudocharacter.FibreSum",
+      "sourceSha256": "b9c2193a121707a427c4b78220cfd411dfc1516a7e90c16453cc8d1039166215",
+      "oleanSha256": "94b1bb6e007df23df5dedbfcfb8b3215b098d0ed97a7207d0250a7feae3480d9",
+      "cacheOleanSha256": "97eb1047324c1d457dedf3115ee5a62c301677ab4f0e1bb6703df0fa21f0be9f"
+    },
+    {
+      "module": "Lib.Adelic.Adeles.ExtensionByZero",
+      "sourceSha256": "e13dd7a9f5f7cffd811f2b2f5f71ee07b291eee366570555fcc0093467119a4a",
+      "oleanSha256": "7effc4d4ab6a6230796d7c89d3b6699cc1581ec64f3714ced5f098da7ff377d4",
+      "cacheOleanSha256": "7effc4d4ab6a6230796d7c89d3b6699cc1581ec64f3714ced5f098da7ff377d4"
+    },
+    {
+      "module": "Lib.General.Groups.CyclicSubrep",
+      "sourceSha256": "b6dc3dc6cf943451dd5220aff720257fa2a5c0649f1117ceba007ac8c8e70718",
+      "oleanSha256": "eea10fcf51e63cb19a6aab484e970b14bd9a430ec7be958d62638f5be46e940d",
+      "cacheOleanSha256": "eea10fcf51e63cb19a6aab484e970b14bd9a430ec7be958d62638f5be46e940d"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.LineParabolic",
+      "sourceSha256": "7f8b4fb9435fe0f19d117140b4acaf3cd0d1947e81a3a3cb2ae845cde17d97b3",
+      "oleanSha256": "e61a5d9a595c235e7de302ab629ba773cf48154e70ec342c46e2f14a0a26a449",
+      "cacheOleanSha256": "e61a5d9a595c235e7de302ab629ba773cf48154e70ec342c46e2f14a0a26a449"
+    },
+    {
+      "module": "Lib.LocalGL.Iwahori.IwahoriConjugation",
+      "sourceSha256": "e63e7ffb9dd8a34108e566cd173eee4e8935d28ad5647aad274ed123d81bac65",
+      "oleanSha256": "01830c88cc2357ea43eb75fcf2d1801ea515d569944006e8132b53f4573d47cf",
+      "cacheOleanSha256": "01830c88cc2357ea43eb75fcf2d1801ea515d569944006e8132b53f4573d47cf"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.CharOfDet",
+      "sourceSha256": "2fbd0187d008ea5a833d6762e2e0391f077dc96c65fec8519a476a6f565a383a",
+      "oleanSha256": "0d502fe5e3cd3aed72436612b1660674b37620b2069e2c37f45a48d316d94a6a",
+      "cacheOleanSha256": "0d502fe5e3cd3aed72436612b1660674b37620b2069e2c37f45a48d316d94a6a"
+    },
+    {
+      "module": "Lib.General.Algebra.FittingDuality",
+      "sourceSha256": "8ea92ea0d4bfc5480224e5cb014322ef5308a849734c9c8771641428bbe59d28",
+      "oleanSha256": "1b7a01b3b39f356c9749826ab37132ea320ddc24c1a81a02cc80238546390daf",
+      "cacheOleanSha256": "1b7a01b3b39f356c9749826ab37132ea320ddc24c1a81a02cc80238546390daf"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.LocalCharacters",
+      "sourceSha256": "cdffe1bab729433dc8d9b29bfcd48fb80fd4c178ca22011bffef12cefd4f2321",
+      "oleanSha256": "3cd07a401c1d6844d2977e6e4f4f9a28ae1701ab6764994cb62c3906c7ceeb9c",
+      "cacheOleanSha256": "3cd07a401c1d6844d2977e6e4f4f9a28ae1701ab6764994cb62c3906c7ceeb9c"
+    },
+    {
+      "module": "Lib.General.NumberTheory.StableLattice",
+      "sourceSha256": "42132354db0345a12d8ea94770f378b079f6a138f4b84e11f949b1ead082ea69",
+      "oleanSha256": "6fd74de55ed6b704d4fb60e3b26fdbec1cf2352889d3042454004beae6e50a93",
+      "cacheOleanSha256": "6fd74de55ed6b704d4fb60e3b26fdbec1cf2352889d3042454004beae6e50a93"
+    },
+    {
+      "module": "Lib.Weil.DualPair.PairSumNegation",
+      "sourceSha256": "e82195f3656162e83052e6c5ce4bed39d098cd68cffe9d4817e4d9f73dcfe69b",
+      "oleanSha256": "e4d627a6fccbef621f8609b4606c0877c44c160abc1e1e4665e5b29edebfa5ae",
+      "cacheOleanSha256": "e8e9f2232253e1e099d7bcd1c508a357277a33743d8d5fbe9a011cda8d4e4216"
+    },
+    {
+      "module": "Lib.ClassField.Places.CyclotomicRamification",
+      "sourceSha256": "e3b8ce086302a2816a7ef697a94e9ec40c20e74e1ddc64ab0308df140ebbb1d4",
+      "oleanSha256": "62e63c49725824c49642fe2f3aae416a0d9c2bbd212309866443b2af638cddea",
+      "cacheOleanSha256": "62e63c49725824c49642fe2f3aae416a0d9c2bbd212309866443b2af638cddea"
+    },
+    {
+      "module": "Lib.Weil.DualPair.TwoLineTerms",
+      "sourceSha256": "aae60a088b3a3b0d2e99160a489f13836614baf6a85af1986d16ada61d8827cc",
+      "oleanSha256": "660af6e41d59a607c71edc92d23c34c972baf059231e86defcd5d89489cf723a",
+      "cacheOleanSha256": "ea1aa800424426e66d76f98455adefde007517d084a293a41145ca40ca54854e"
+    },
+    {
+      "module": "Lib.PadicHodge.TateSen.NearOne",
+      "sourceSha256": "eabf8361037a3e01f8294fde952af3a67fb1730df36892da08630c885bc89f79",
+      "oleanSha256": "de7a4ec62cd6b7899f73fc495253a597e1647b2cc48062d421edc28a223d58b9",
+      "cacheOleanSha256": "de7a4ec62cd6b7899f73fc495253a597e1647b2cc48062d421edc28a223d58b9"
+    },
+    {
+      "module": "Lib.Weil.DualPair.ThetaIntegralLaws",
+      "sourceSha256": "08ee0a86fc3a74011e5a7faddb347f6174dcaa9e8bf478514a0eefe28a1a64d7",
+      "oleanSha256": "1c9a8f48018bb724365197621bfc352139566ba342160604db5be9aac6dc7492",
+      "cacheOleanSha256": "1c9a8f48018bb724365197621bfc352139566ba342160604db5be9aac6dc7492"
+    },
+    {
+      "module": "Lib.PadicHodge.TateSen.DeRhamFiltration",
+      "sourceSha256": "b49b734ba40499a73db1795336ccf7fe2ebe7b540763913a59da46c24cc41fd4",
+      "oleanSha256": "feabccee1ebf132fe30407484ae55870d7ce976e974fd1e83b422044f15fd5ac",
+      "cacheOleanSha256": "feabccee1ebf132fe30407484ae55870d7ce976e974fd1e83b422044f15fd5ac"
+    },
+    {
+      "module": "Lib.ClassField.HeckeCharacter.LevelModulus",
+      "sourceSha256": "a263d2c1a0ae6d1bc3dc4c4b655fec24070b524cb7ba38ad1a3cb5c6130baa67",
+      "oleanSha256": "4d3e5d3a5ddcfb4644a562203404023fe9b12f3c04188347a973ec3bb74752e4",
+      "cacheOleanSha256": "4d3e5d3a5ddcfb4644a562203404023fe9b12f3c04188347a973ec3bb74752e4"
+    },
+    {
+      "module": "Lib.PadicHodge.WachKisin.HodgeFrame",
+      "sourceSha256": "5c58064149096ee5c37d5b0d1d30f1fd39a95e13740594f3414ff9677986ff54",
+      "oleanSha256": "a1ac482f9ef500b91c3ec740ae1443036a18a038f2078db8c5001b2ae12b2921",
+      "cacheOleanSha256": "a1ac482f9ef500b91c3ec740ae1443036a18a038f2078db8c5001b2ae12b2921"
+    },
+    {
+      "module": "Lib.Weil.Lift.Staircase",
+      "sourceSha256": "322bd0a3c1c9ce28b7b8002f050079087f7a72f4c30f3f336d526ca63188de69",
+      "oleanSha256": "cdf2130721f3b7073782711a91b7685c90af5e4ddb87b369e18c93aed4e36ba1",
+      "cacheOleanSha256": "cdf2130721f3b7073782711a91b7685c90af5e4ddb87b369e18c93aed4e36ba1"
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.HodgeTateFrame",
+      "sourceSha256": "68c6cb2acc1c3bef3c7073675371bc4854b047382c0fb29a425988744b378b13",
+      "oleanSha256": "18372e40bb40f1159d8b0ea8c887fca013ab9e3865f64b8fecbb2f1e56b4705e",
+      "cacheOleanSha256": "74769fa95da69738d4f438e54ac0a9b6d11579648c070c8fdd541d79f7541315"
+    },
+    {
+      "module": "New.Seesaw.NamesAtSplitLevel",
+      "sourceSha256": "86e1264b2fb003840b4d7beeb952b646c7718dc9d14e1d77bf497e005ecb08f0",
+      "oleanSha256": "e166ffdc9b8fdd01fe783cc8af67231839bfdb75dfbaee077d60e00fdca3ba24",
+      "cacheOleanSha256": "90e71e0a70ea61bea0815dabd53d7e1320b777d5f4722e8e27be40a3b685424e"
+    },
+    {
+      "module": "Lib.PadicHodge.Limit.LimitDefs",
+      "sourceSha256": "0cf8d6c2d53a974eaa13539e398226790054796fa072b6fb767404d6a4b2f484",
+      "oleanSha256": "f126449966f29bec2fef238d8d33fbc54a8ebb71534af4814f4ff5a6172fcbc5",
+      "cacheOleanSha256": "f126449966f29bec2fef238d8d33fbc54a8ebb71534af4814f4ff5a6172fcbc5"
+    },
+    {
+      "module": "New.Seesaw.IntegralAway",
+      "sourceSha256": "75f937dbc0a2d9442d94143fa98faa4e0e4b86080dcba0147c8853849fcaec3e",
+      "oleanSha256": "4be0aab5d657e85c57a690ec52cc075321a557345a728bf172558c68eca160ed",
+      "cacheOleanSha256": "4be0aab5d657e85c57a690ec52cc075321a557345a728bf172558c68eca160ed"
+    },
+    {
+      "module": "Lib.PadicHodge.Crystalline.Jumps",
+      "sourceSha256": "54ae6d75da1a7e1cee4eb14dd26da5346d9affec034104f7d1f577d46013f620",
+      "oleanSha256": "e71100bdeb1f76c9bc4f86b0de2ea9ebdc62fd647af148b98ccd071734594244",
+      "cacheOleanSha256": "e71100bdeb1f76c9bc4f86b0de2ea9ebdc62fd647af148b98ccd071734594244"
+    },
+    {
+      "module": "New.Seesaw.AdmissibleComb",
+      "sourceSha256": "c322fb6d6ff69bda38c4ae3da7869deb64a39c998d4930643128a46958279506",
+      "oleanSha256": "f1509a112a64db94977104e49b4c7e2932f341a136c8ced6e5c01cb266fd14c7",
+      "cacheOleanSha256": "f1509a112a64db94977104e49b4c7e2932f341a136c8ced6e5c01cb266fd14c7"
+    },
+    {
+      "module": "Lib.PadicHodge.WachKisin.ChartScalars",
+      "sourceSha256": "040e3a5861d09dca0f746dd5e470fef46f791ad19d0db3c757ef5113ecfb334b",
+      "oleanSha256": "ea77436c60b4f63cc9abbebcac699dfec98f09a09dda8029e2ca1fc88925578d",
+      "cacheOleanSha256": "ea77436c60b4f63cc9abbebcac699dfec98f09a09dda8029e2ca1fc88925578d"
+    },
+    {
+      "module": "New.Rows.PartnerCut",
+      "sourceSha256": "88cbcd4fd80f0f5767cc4a6859213373dcb801f274633b1520d47be0475e88ab",
+      "oleanSha256": "411509441d8c94d40addf28620455c6d3b778781099e9df258c358ea4f24a599",
+      "cacheOleanSha256": "411509441d8c94d40addf28620455c6d3b778781099e9df258c358ea4f24a599"
+    },
+    {
+      "module": "Lib.PadicHodge.WachKisin.PeriodMatrixBasis",
+      "sourceSha256": "348b56924edc915bf491044705413019f115a10bd1a92413c145c59a1b09ed1f",
+      "oleanSha256": "ee1c8e82c2873cef89fdc4b42f15b3532e586ea55a2600fc68288b88b1de00d2",
+      "cacheOleanSha256": "ee1c8e82c2873cef89fdc4b42f15b3532e586ea55a2600fc68288b88b1de00d2"
+    },
+    {
+      "module": "New.Rows.StackedDeterminants",
+      "sourceSha256": "51157e26a5ebc559ecbe211284a5b71ed05bc8e51b3e9d4e8b3bebb95092969a",
+      "oleanSha256": "c21160c01cf993680948ed76061fe765505cab375bdd7a94e168e71a8cde9fdd",
+      "cacheOleanSha256": "c21160c01cf993680948ed76061fe765505cab375bdd7a94e168e71a8cde9fdd"
+    },
+    {
+      "module": "Lib.PadicHodge.WachKisin.PeriodMatrixFrame",
+      "sourceSha256": "efb70e6889dd5d08098c73869874637ad07e649e7547701c5d5553b2716faf95",
+      "oleanSha256": "5972e6aecf851fe427e57b264777c3f4a331dd0f37d10bd868ee886bb7892ed0",
+      "cacheOleanSha256": "5972e6aecf851fe427e57b264777c3f4a331dd0f37d10bd868ee886bb7892ed0"
+    },
+    {
+      "module": "New.Curve.IntegralVacuum",
+      "sourceSha256": "456764c994729f94ba0f623a36fea34c9ce22120e3af4b3aa9e7ee13d1559ec2",
+      "oleanSha256": "3bbe23c0a06e3bb3a15470eea9e68022f4f5e30620783de0579447dedc4e42e8",
+      "cacheOleanSha256": "3bbe23c0a06e3bb3a15470eea9e68022f4f5e30620783de0579447dedc4e42e8"
+    },
+    {
+      "module": "Lib.PadicHodge.PeriodRings.FundamentalKernel",
+      "sourceSha256": "61a1e90010caed456e26ad1116855b9bb42f7ea2e357986d0b7ab09dfa744a03",
+      "oleanSha256": "302934121402dba02fa31268fe435dc8cb9bbcf200f9744dfd68f40c70204394",
+      "cacheOleanSha256": "302934121402dba02fa31268fe435dc8cb9bbcf200f9744dfd68f40c70204394"
+    },
+    {
+      "module": "Lib.Shimura.IntegralModel.NeatLevel",
+      "sourceSha256": "0a78c3c4edc494e29be8cac4e2315dd90a8d108903e4f142c773d0bde8e723ef",
+      "oleanSha256": "baa411d54454c51ed1d309d519ecac24611a001a7d5b9bfda431c3e8368e9abb",
+      "cacheOleanSha256": "baa411d54454c51ed1d309d519ecac24611a001a7d5b9bfda431c3e8368e9abb"
+    },
+    {
+      "module": "Lib.Shimura.ThetaModuli.CutOutIdeals",
+      "sourceSha256": "c85a3747c1ffa1111c0abdcffa4fcd20631411e514f3b5560262ec9771fff72a",
+      "oleanSha256": "b248747f256f832bfd8365964a84971857f664ac1c08a8a02db1d53784020083",
+      "cacheOleanSha256": "b248747f256f832bfd8365964a84971857f664ac1c08a8a02db1d53784020083"
+    },
+    {
+      "module": "Lib.Weil.Lift.Arrow",
+      "sourceSha256": "4a8734083475bab38f08cde9be5eaddd72e1455f704f3b00bebf2bca94638f2f",
+      "oleanSha256": "73dbb2623a82273d22cae5b9476152edb96d7fdcbc5757dc64e216f98e54e983",
+      "cacheOleanSha256": "73dbb2623a82273d22cae5b9476152edb96d7fdcbc5757dc64e216f98e54e983"
+    },
+    {
+      "module": "Lib.General.Geometry.ReducedClosure",
+      "sourceSha256": "2837f94b3d26e569f78cff265ed73de6daa4cd2d29e23573dd6e7f6a8fa97616",
+      "oleanSha256": "8df66fc20568c28a6598466d813b406891fc03c68196b776f398daa1c48f599e",
+      "cacheOleanSha256": "8df66fc20568c28a6598466d813b406891fc03c68196b776f398daa1c48f599e"
+    },
+    {
+      "module": "Lib.Weil.Unramified.HeckeTransfer",
+      "sourceSha256": "bbf839dad8296ca0c2073b233e9fa38b3f0a5f8722d0222b3cb4351cbfbf6fa8",
+      "oleanSha256": "b5e47c9fd986167bea64418a7bfe77f4a268600a91e9a57efa45fc55efb61638",
+      "cacheOleanSha256": "b5e47c9fd986167bea64418a7bfe77f4a268600a91e9a57efa45fc55efb61638"
+    },
+    {
+      "module": "Lib.General.Geometry.PointFunctions",
+      "sourceSha256": "55286d85c1c1eedb215651d6d9aac94e13c33323a788a706e9d6c28b6a46dfd7",
+      "oleanSha256": "e28a85ef656e561339519554702c8cb8c4c5791b1e5913106366505a14e5c4c8",
+      "cacheOleanSha256": "03794515c2e5960b4732fb5c32c7f5e348d03abae3a487ee43e8dc8cbbaf651b"
+    },
+    {
+      "module": "Lib.SiegelWeil.Formula.ZeroTermHeight",
+      "sourceSha256": "66af5f1844f499ae7f92f3341cab8c1dd468003a9b2372b11a76afb064b83701",
+      "oleanSha256": "d553fb1712c62135acdd51c9c8b2ee8d80f8dd69e7cff5052128cd312578c1fd",
+      "cacheOleanSha256": "d553fb1712c62135acdd51c9c8b2ee8d80f8dd69e7cff5052128cd312578c1fd"
+    },
+    {
+      "module": "Lib.General.Geometry.ProjectiveSpace",
+      "sourceSha256": "588b6b7785bb9a4f19ce9b10ed1b2940cd39ca2d6b605e0f7a028b1f39bd1495",
+      "oleanSha256": "fd0b1be9063387f83e4a2a41b6ab41536f42e2c2e1d19d8f8b5dcb4f1e014de3",
+      "cacheOleanSha256": "fd0b1be9063387f83e4a2a41b6ab41536f42e2c2e1d19d8f8b5dcb4f1e014de3"
+    },
+    {
+      "module": "Lib.SiegelWeil.Formula.SiegelSets",
+      "sourceSha256": "0b995fae8e8d71f1b879498647b68bb45c572cf4942d744af749342838f72553",
+      "oleanSha256": "c2e12b063a8a1280f588707aab505a98e120eb10e3136c0c60f6766614609af8",
+      "cacheOleanSha256": "c2e12b063a8a1280f588707aab505a98e120eb10e3136c0c60f6766614609af8"
+    },
+    {
+      "module": "Lib.SiegelWeil.SingularForms.SingularForms",
+      "sourceSha256": "2cd8867139fa9f4a835bc619a980ffa1a8f70b75acea78876364cf192015f2c3",
+      "oleanSha256": "839c5b0e8505a1933b8571d532a0034c8ba87ce56499b405f3b751dcae00863a",
+      "cacheOleanSha256": "839c5b0e8505a1933b8571d532a0034c8ba87ce56499b405f3b751dcae00863a"
+    },
+    {
+      "module": "Lib.SiegelWeil.StrongApproximation.EqualRankConstant",
+      "sourceSha256": "b77a7c0cb3a74c688d33f6a08870f68e2e62c0eb5f20c1c8373fdab9a6529eb7",
+      "oleanSha256": "a26e3ea5f8e7c02fd7ab59a4c688992cb77e242af10d44b976301cbd8a4d6222",
+      "cacheOleanSha256": "a26e3ea5f8e7c02fd7ab59a4c688992cb77e242af10d44b976301cbd8a4d6222"
+    },
+    {
+      "module": "Lib.Weil.MixedModel.EquivariantCoefficients",
+      "sourceSha256": "b9ee21cc8656470e149ac3fd93ec12d7fd36204f5e3a5485f62eec5bc2e33b2d",
+      "oleanSha256": "a0ad0fd4b9c7d0b30079086723e3f2c1596a87c110c2117201f73301c8b65cd8",
+      "cacheOleanSha256": "6dffa26a0192c808b6bc767040270c52c94639270363c0b7228bbae00ef50797"
+    },
+    {
+      "module": "Lib.SiegelWeil.Formula.SiegelWeilFormula",
+      "sourceSha256": "6a09236266b19b255544e7fd1dc3b57e66e03e328fb83d4ebfda9c708a2b9cae",
+      "oleanSha256": "72be322988b9b565f0d0f16d1249a9b4c7ed4a0af58f8162de226781550cd85c",
+      "cacheOleanSha256": "72be322988b9b565f0d0f16d1249a9b4c7ed4a0af58f8162de226781550cd85c"
+    },
+    {
+      "module": "Lib.General.Geometry.TensorPowers",
+      "sourceSha256": "4326891b06b0d98c4fc6e515a657735600d7a3cd52b8ee422a530adecdd66a74",
+      "oleanSha256": "18b65aacffc700d27eaaecca3f93288d032745da43324657bfd8525c3d6d18ca",
+      "cacheOleanSha256": "18b65aacffc700d27eaaecca3f93288d032745da43324657bfd8525c3d6d18ca"
+    },
+    {
+      "module": "New.Data.ChosenPlaceLevels",
+      "sourceSha256": "e02dfb885b9ba634cd48eeccca9c654dc5a3ab9d3d5b46e72fb9e1f4e670d42f",
+      "oleanSha256": "cdc9ad117ba50190e23733e5a2bf7a30901c2871521d340b1a68c46d2318b426",
+      "cacheOleanSha256": "cdc9ad117ba50190e23733e5a2bf7a30901c2871521d340b1a68c46d2318b426"
+    },
+    {
+      "module": "Lib.Shimura.AbelianScheme.KernelRing",
+      "sourceSha256": "2661a3efa798cdffe3ca33c7fc162b59a263289ec715eabec0b66220917a10eb",
+      "oleanSha256": "3a4bf20f488a1e5064f39b5c399346794d94c6e70103d1eda39f7ccaf7717f2b",
+      "cacheOleanSha256": "3a4bf20f488a1e5064f39b5c399346794d94c6e70103d1eda39f7ccaf7717f2b"
+    },
+    {
+      "module": "New.Columns.ColumnDefs",
+      "sourceSha256": "6b5f211b4f484f6114ad13f7c40c076d79d0f54c2217685f1bb29fcacf3b535f",
+      "oleanSha256": "6dd4acf62de5eb349aa76d6ba4d614d132d2d09990e3c9b21bcaf10c0affed38",
+      "cacheOleanSha256": "6dd4acf62de5eb349aa76d6ba4d614d132d2d09990e3c9b21bcaf10c0affed38"
+    },
+    {
+      "module": "Lib.Shimura.IntegralModel.GroupBaseChange",
+      "sourceSha256": "f2ebd3a875139d0439e315ca80792a993e3046a675b1f5b5d8da3b6a62d1f4e2",
+      "oleanSha256": "ff5fdd4aabc102963b837cb9608500b4c0c0fbcf98f55df4ae4139aa7fa4d979",
+      "cacheOleanSha256": "ff5fdd4aabc102963b837cb9608500b4c0c0fbcf98f55df4ae4139aa7fa4d979"
+    },
+    {
+      "module": "New.Trace.GoodIdempotent",
+      "sourceSha256": "7126a589a9d8d8d2b1dba97136385716020ecf42256d6d98da473d1dfb5c0a91",
+      "oleanSha256": "e9ffe94ddd8ca15fcaa498f73c52a124564a02369e8fd27582a072e692c064dc",
+      "cacheOleanSha256": "e9ffe94ddd8ca15fcaa498f73c52a124564a02369e8fd27582a072e692c064dc"
+    },
+    {
+      "module": "Lib.Shimura.AbelianScheme.TangentCoords",
+      "sourceSha256": "8b0ca2218f6ee4407505fdd6a1e1db4c01be9c8cb25ecb7fe0a02b7f07640dfd",
+      "oleanSha256": "fe86acc79dfa178dbb44f9f298c04b81d27e8564e43e0a86535c6ad933e85297",
+      "cacheOleanSha256": "fe86acc79dfa178dbb44f9f298c04b81d27e8564e43e0a86535c6ad933e85297"
+    },
+    {
+      "module": "New.Exchange.SteepParameters",
+      "sourceSha256": "9731761bfe6117f7e94a54c132883bc4bdf946c565a0554934e762f7ac2630f8",
+      "oleanSha256": "d6b3477d265be47c9dd4f1b4382d37eea9f6b7e1e0086c9539431aad3e40c508",
+      "cacheOleanSha256": "d6b3477d265be47c9dd4f1b4382d37eea9f6b7e1e0086c9539431aad3e40c508"
+    },
+    {
+      "module": "Lib.Shimura.Uniformisation.HolomorphicFamily",
+      "sourceSha256": "84688886c00c80967128e8ca70c1bc5a9f86e2c358a8c1fb740c81a14213d7a9",
+      "oleanSha256": "f13582b55ea6cdeb600df517446d972ee66691b103b8537641546af8a2c8f138",
+      "cacheOleanSha256": "f13582b55ea6cdeb600df517446d972ee66691b103b8537641546af8a2c8f138"
+    },
+    {
+      "module": "Lib.DiscreteSeries.Bessel.UnipotentCoords",
+      "sourceSha256": "7b3aad91b14b80c1531540b99e700ec801e7c9eb933a523201f1975bb2b5449d",
+      "oleanSha256": "ebc6c61c26c42c436765157f9baae03f82855c493d4ea7995dd1ab897c7c2ed5",
+      "cacheOleanSha256": "ebc6c61c26c42c436765157f9baae03f82855c493d4ea7995dd1ab897c7c2ed5"
+    },
+    {
+      "module": "Lib.General.Geometry.SeparatingPoints",
+      "sourceSha256": "cefa62a87580a18ad9f7da5707ecaab23b5aeae04688483f942de8c3a3206aea",
+      "oleanSha256": "4e33a72b5854b0421e4301005e0fac1593f6857a5d37eef9580329dba9ebf027",
+      "cacheOleanSha256": "4e33a72b5854b0421e4301005e0fac1593f6857a5d37eef9580329dba9ebf027"
+    },
+    {
+      "module": "Lib.DiscreteSeries.CuspKernel.BesselSchurBound",
+      "sourceSha256": "4bfc31b68ae66b8431c01de1e1e3024d3099d7d416aaef86c21dc4a3fe2ab96b",
+      "oleanSha256": "be49bbe853519a61a15b88a11c473b69202336f95fa6a9b5db4d40ddf6899210",
+      "cacheOleanSha256": "be49bbe853519a61a15b88a11c473b69202336f95fa6a9b5db4d40ddf6899210"
+    },
+    {
+      "module": "Lib.Shimura.AbelianScheme.Specialisation",
+      "sourceSha256": "bfcd7e37f55e926137e7e0628b4a84fb89c4ce1ca376e08a946598abbfcc8a68",
+      "oleanSha256": "26e4e091cd17b6e45d499cd6ae4d68d7bd557b05a97bc7779ae69e700c7f529b",
+      "cacheOleanSha256": "059db7d9ad40f197112547817a94d62ad337e6be5f7b89320d3437ffa7f34a7b"
+    },
+    {
+      "module": "Lib.Weil.Periods.FiniteBesselGroup",
+      "sourceSha256": "5d0aa15ecaf0254ed8c95280685e684dd32dbb7f9262d255fbde2cd177f16379",
+      "oleanSha256": "e542f7f60e3daeadc79b8cdb6c2fc1813eb16e4f6a27a7e2c777f8477d4ad24d",
+      "cacheOleanSha256": "e542f7f60e3daeadc79b8cdb6c2fc1813eb16e4f6a27a7e2c777f8477d4ad24d"
+    },
+    {
+      "module": "Lib.General.Algebra.TangentNakayama",
+      "sourceSha256": "0344bec8f0b27ef9b645b0d34457fcb4630c5545abe9fe7fb956ae39859cf4c4",
+      "oleanSha256": "92bee1a53a8c78737f9eaaa9d7ff1b9dbdc37ddb32f03f1242a466ac0888760d",
+      "cacheOleanSha256": "92bee1a53a8c78737f9eaaa9d7ff1b9dbdc37ddb32f03f1242a466ac0888760d"
+    },
+    {
+      "module": "Lib.Weil.Periods.DegreeOfT",
+      "sourceSha256": "ec527eab502a9e0e6953d6723b2ce2aa755361eb3a434fe6955c16f532f939bd",
+      "oleanSha256": "5eccc79eb4964e4d297a8479d5c9b33818632018bccc979f4b287e4824a80da6",
+      "cacheOleanSha256": "5eccc79eb4964e4d297a8479d5c9b33818632018bccc979f4b287e4824a80da6"
+    },
+    {
+      "module": "Lib.General.Geometry.ConstantFunctions",
+      "sourceSha256": "a9a065e48de9a23d35b9905a04f8a8619359b79165ddbb8cb71a1eaef6c0efe0",
+      "oleanSha256": "8b4d05fd0c4ee4a4ba7e4af78efd27dc0ace5693abb6f7bb0375f2cb54603ed2",
+      "cacheOleanSha256": "8b4d05fd0c4ee4a4ba7e4af78efd27dc0ace5693abb6f7bb0375f2cb54603ed2"
+    },
+    {
+      "module": "Lib.General.Groups.IndexOfProduct",
+      "sourceSha256": "ca14127e8ab6742392ed4b23a2b3bf98f392e735705eb00719efd34b2fcc4ce4",
+      "oleanSha256": "da7fb04f7bf7d8c9c970c298d0af4744b9b491f38a5b290bcd496c5024a06f12",
+      "cacheOleanSha256": "da7fb04f7bf7d8c9c970c298d0af4744b9b491f38a5b290bcd496c5024a06f12"
+    }
+  ]
+}
