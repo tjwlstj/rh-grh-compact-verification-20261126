@@ -1,0 +1,1 @@
+{"commonNames": 209643, "equalKinds": 209643, "equalTypes": 209643, "equalDeclarations": 209642, "onlyMIT": 0, "onlyLocal": 0, "changed": [{"name": ["HCParam", "HasGap", "two_mul_lowestKType_sub_vacuumWeight", "_proof_1_4"], "kinds": ["thm", "thm"], "unequalTopLevelFields": ["value"]}]}

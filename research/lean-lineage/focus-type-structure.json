@@ -1,0 +1,52 @@
+{
+  "constant": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+  "kind": "theorem",
+  "moduleSha256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+  "kernelTypeGraphFile": "focus-type-dag.json",
+  "kernelTypeGraphSha256": "931e705e0a06181cbf33616e9cb341e46d06ef69233c6d991104c311798c7310",
+  "kernelTypeGraphBytes": 19103,
+  "serializedReachableObjects": 283,
+  "forallBinders": [
+    {
+      "binder": "R",
+      "typeHead": {
+        "head": "sort",
+        "applicationArity": 0
+      }
+    },
+    {
+      "binder": "ε",
+      "typeHead": {
+        "head": "forall",
+        "applicationArity": 0
+      }
+    },
+    {
+      "binder": "l",
+      "typeHead": {
+        "head": "HCParam",
+        "applicationArity": 2
+      }
+    },
+    {
+      "binder": "r",
+      "typeHead": {
+        "head": "bound variable 2",
+        "applicationArity": 0
+      }
+    }
+  ],
+  "bodyHeadAfterForalls": {
+    "head": "Eq",
+    "applicationArity": 3
+  },
+  "directFocusCallersWithinSourceModule": [
+    {
+      "name": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+      "fields": [
+        "value"
+      ]
+    }
+  ],
+  "sourceModuleDeclarationsChecked": 69
+}

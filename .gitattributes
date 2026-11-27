@@ -2,3 +2,8 @@
 *.lean -text
 evidence/** -text
 source-build/public-checkpoint/** -text
+research/** -text
+# Preserve the final blank line in source and documents covered by audit receipts.
+research/raw-lineage/*.md whitespace=cr-at-eol,-blank-at-eof
+research/control/licenses/LICENSE whitespace=cr-at-eol,-blank-at-eof
+research/reference/compare_exports.py whitespace=cr-at-eol,-blank-at-eof

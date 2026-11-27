@@ -1,0 +1,1610 @@
+{
+  "rawBytes": 5172278111,
+  "rawSha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6",
+  "lines": 94888295,
+  "nameRecords": 1356766,
+  "expressionRecords": 93313671,
+  "levelRecords": 13274,
+  "declarationKinds": {
+    "inductive": 2419,
+    "constructor": 2639,
+    "recursor": 2421,
+    "quot": 4,
+    "def": 36489,
+    "thm": 165589,
+    "axiom": 3,
+    "opaque": 79
+  },
+  "expressionKinds": {
+    "sort": 617,
+    "bvar": 713,
+    "forallE": 2337464,
+    "const": 614897,
+    "app": 85466319,
+    "lam": 4260565,
+    "proj": 20736,
+    "natVal": 10476,
+    "letE": 601404,
+    "strVal": 480
+  },
+  "earlyNames": 5119,
+  "unresolvedNamesAtEOF": 0,
+  "changedAssumptions": 0,
+  "watched": {
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4": {
+      "line": 29546252,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 28545808,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 28549015,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "6f8d74fdb8fb58d0529a92f92eaea7f166fc3af5088a83be633d9035a54f165e",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": true,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": true,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": []
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight": {
+      "line": 29549378,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 28550683,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 28552133,
+          "exprTypeValueRules": true,
+          "onlyTypes": true,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": true,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": true,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "9a6244794f415ca4dc663eba55236cf9ebdc1bbcc0ad5a2bbc813b5d68717fc0",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "riemannHypothesis": {
+      "line": 94883554,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 93308970,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93308973,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "1deff3b79ffc4799d5078204028f324dec91f92eed47b0da1a6e00a69c61be98",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "riemannHypothesis",
+          "kind": "thm",
+          "declarationLine": 94883554,
+          "field": "value",
+          "rootExpr": 93308973,
+          "referenceExpr": 93308972,
+          "referenceLine": 94883552,
+          "referenceForm": "const",
+          "to": "New.grh"
+        },
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "riemannZeta_eq_zero_re": {
+      "line": 94883557,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 6356737,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93308974,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": true
+        }
+      },
+      "recordSha256": "b9a3d31779696260484c82c379ad5004f45dc9e671d0df43bd88836ed35654cc",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "riemannZeta_eq_zero_re",
+          "kind": "thm",
+          "declarationLine": 94883557,
+          "field": "value",
+          "rootExpr": 93308974,
+          "referenceExpr": 93308974,
+          "referenceLine": 94883556,
+          "referenceForm": "const",
+          "to": "riemannHypothesis"
+        },
+        {
+          "from": "riemannHypothesis",
+          "kind": "thm",
+          "declarationLine": 94883554,
+          "field": "value",
+          "rootExpr": 93308973,
+          "referenceExpr": 93308972,
+          "referenceLine": 94883552,
+          "referenceForm": "const",
+          "to": "New.grh"
+        },
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "line": 94883559,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 6356736,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93308972,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "5b3671e4f25bd64a9685cafd6b4395c868527a680a3435a68ed629fa06054d22",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "LFunction_ne_zero_of_half_lt_re",
+          "kind": "thm",
+          "declarationLine": 94883559,
+          "field": "value",
+          "rootExpr": 93308972,
+          "referenceExpr": 93308972,
+          "referenceLine": 94883552,
+          "referenceForm": "const",
+          "to": "New.grh"
+        },
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "LFunction_eq_zero_re": {
+      "line": 94888247,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 93313634,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93313644,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "5f9f84c1cb3f7a0e3f5f12d83e3eb111643096e2c9d5c7b426e7976a2e538a26",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "LFunction_eq_zero_re",
+          "kind": "thm",
+          "declarationLine": 94888247,
+          "field": "value",
+          "rootExpr": 93313644,
+          "referenceExpr": 93308972,
+          "referenceLine": 94883552,
+          "referenceForm": "const",
+          "to": "New.grh"
+        },
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "line": 94888281,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 93313656,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93313664,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "c139dfb0f9ab4e42edc332fa91639e14054c986fe534dc30c134a0027029afc7",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "LFunction_eq_zero_re_of_isPrimitive",
+          "kind": "thm",
+          "declarationLine": 94888281,
+          "field": "value",
+          "rootExpr": 93313664,
+          "referenceExpr": 93313657,
+          "referenceLine": 94888273,
+          "referenceForm": "const",
+          "to": "LFunction_eq_zero_re"
+        },
+        {
+          "from": "LFunction_eq_zero_re",
+          "kind": "thm",
+          "declarationLine": 94888247,
+          "field": "value",
+          "rootExpr": 93313644,
+          "referenceExpr": 93308972,
+          "referenceLine": 94883552,
+          "referenceForm": "const",
+          "to": "New.grh"
+        },
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "New.grh": {
+      "line": 94883548,
+      "kind": "thm",
+      "fields": {
+        "type": {
+          "ie": 6356736,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        },
+        "value": {
+          "ie": 93308969,
+          "exprTypeValueRules": true,
+          "onlyTypes": false,
+          "onlyBodies": true,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": true,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "8cec82c30baa0a691d54ad66b61e64d4b4ae3c8d5c6c10bde66e2e4894666a3a",
+      "policies": {
+        "exprTypeValueRules": true,
+        "onlyTypes": false,
+        "onlyBodies": true,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": true
+      },
+      "witness": [
+        {
+          "from": "New.grh",
+          "kind": "thm",
+          "declarationLine": 94883548,
+          "field": "value",
+          "rootExpr": 93308969,
+          "referenceExpr": 93308906,
+          "referenceLine": 94883484,
+          "referenceForm": "const",
+          "to": "eventually_primeError_le_rpow"
+        },
+        {
+          "from": "eventually_primeError_le_rpow",
+          "kind": "thm",
+          "declarationLine": 94881495,
+          "field": "value",
+          "rootExpr": 93306922,
+          "referenceExpr": 93306632,
+          "referenceLine": 94881204,
+          "referenceForm": "const",
+          "to": "star_inequality"
+        },
+        {
+          "from": "star_inequality",
+          "kind": "thm",
+          "declarationLine": 94876085,
+          "field": "value",
+          "rootExpr": 93301530,
+          "referenceExpr": 46431392,
+          "referenceLine": 47566003,
+          "referenceForm": "const",
+          "to": "Data.IndexLe"
+        },
+        {
+          "from": "Data.IndexLe",
+          "kind": "def",
+          "declarationLine": 30980252,
+          "field": "value",
+          "rootExpr": 29974534,
+          "referenceExpr": 29974402,
+          "referenceLine": 30980119,
+          "referenceForm": "const",
+          "to": "Data.Θ"
+        },
+        {
+          "from": "Data.Θ",
+          "kind": "def",
+          "declarationLine": 30979501,
+          "field": "value",
+          "rootExpr": 29973799,
+          "referenceExpr": 29973786,
+          "referenceLine": 30979487,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel"
+        },
+        {
+          "from": "Data.iotaAtLevel",
+          "kind": "def",
+          "declarationLine": 30979383,
+          "field": "value",
+          "rootExpr": 29973682,
+          "referenceExpr": 29973675,
+          "referenceLine": 30979375,
+          "referenceForm": "const",
+          "to": "Data.iotaAtLevel._proof_3"
+        },
+        {
+          "from": "Data.iotaAtLevel._proof_3",
+          "kind": "thm",
+          "declarationLine": 30979055,
+          "field": "value",
+          "rootExpr": 29973355,
+          "referenceExpr": 29972930,
+          "referenceLine": 30978620,
+          "referenceForm": "const",
+          "to": "Data.algFormRep_iota"
+        },
+        {
+          "from": "Data.algFormRep_iota",
+          "kind": "thm",
+          "declarationLine": 30973284,
+          "field": "value",
+          "rootExpr": 29967604,
+          "referenceExpr": 29955756,
+          "referenceLine": 30961397,
+          "referenceForm": "const",
+          "to": "Data.isArrow_datumY"
+        },
+        {
+          "from": "Data.isArrow_datumY",
+          "kind": "thm",
+          "declarationLine": 30784988,
+          "field": "value",
+          "rootExpr": 29781173,
+          "referenceExpr": 29781065,
+          "referenceLine": 30784879,
+          "referenceForm": "const",
+          "to": "ParamsCorrespond.isEdge_jointHarmonic"
+        },
+        {
+          "from": "ParamsCorrespond.isEdge_jointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30415678,
+          "field": "value",
+          "rootExpr": 29412453,
+          "referenceExpr": 29412392,
+          "referenceLine": 30415612,
+          "referenceForm": "const",
+          "to": "isEdge_of_isJointHarmonic"
+        },
+        {
+          "from": "isEdge_of_isJointHarmonic",
+          "kind": "thm",
+          "declarationLine": 30082171,
+          "field": "value",
+          "rootExpr": 29081234,
+          "referenceExpr": 29075442,
+          "referenceLine": 30076376,
+          "referenceForm": "const",
+          "to": "isHalfEdge_of_oscillatorPair"
+        },
+        {
+          "from": "isHalfEdge_of_oscillatorPair",
+          "kind": "thm",
+          "declarationLine": 29854403,
+          "field": "value",
+          "rootExpr": 28856308,
+          "referenceExpr": 28856204,
+          "referenceLine": 29854298,
+          "referenceForm": "const",
+          "to": "OscillatorPair.exists_bump_integratedRep_eq"
+        },
+        {
+          "from": "OscillatorPair.exists_bump_integratedRep_eq",
+          "kind": "thm",
+          "declarationLine": 29815611,
+          "field": "value",
+          "rootExpr": 28817577,
+          "referenceExpr": 28809544,
+          "referenceLine": 29807552,
+          "referenceForm": "const",
+          "to": "IsJointHarmonic.howe_argument"
+        },
+        {
+          "from": "IsJointHarmonic.howe_argument",
+          "kind": "thm",
+          "declarationLine": 29792572,
+          "field": "value",
+          "rootExpr": 28794692,
+          "referenceExpr": 28751241,
+          "referenceLine": 29748699,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "kind": "thm",
+          "declarationLine": 29651092,
+          "field": "value",
+          "rootExpr": 28653779,
+          "referenceExpr": 28653614,
+          "referenceLine": 29650926,
+          "referenceForm": "const",
+          "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11"
+        },
+        {
+          "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "kind": "thm",
+          "declarationLine": 29650719,
+          "field": "value",
+          "rootExpr": 28653417,
+          "referenceExpr": 28649080,
+          "referenceLine": 29646381,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight"
+        },
+        {
+          "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "kind": "thm",
+          "declarationLine": 29549378,
+          "field": "value",
+          "rootExpr": 28552133,
+          "referenceExpr": 28551941,
+          "referenceLine": 29549185,
+          "referenceForm": "const",
+          "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        }
+      ]
+    },
+    "Nat": {
+      "line": 337,
+      "kind": "inductive",
+      "fields": {
+        "type": {
+          "ie": 223,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "f3bcb09cb74c8021bc07f1ed5a9e33056c8b1931f0b66f7d6b97517a9a4db531",
+      "policies": {
+        "exprTypeValueRules": false,
+        "onlyTypes": false,
+        "onlyBodies": false,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": false
+      },
+      "witness": null
+    },
+    "Classical.choice": {
+      "line": 45311,
+      "kind": "axiom",
+      "fields": {
+        "type": {
+          "ie": 39115,
+          "exprTypeValueRules": false,
+          "onlyTypes": false,
+          "onlyBodies": false,
+          "theoremAndOpaqueBodiesSealed": false,
+          "leanConstantInfoGetUsedConstantsAsSet": false,
+          "directHelper": false,
+          "directRiemannHypothesis": false
+        }
+      },
+      "recordSha256": "ba91edd368f4107133710e957f314201ad88dbbe1d21972e0f6f2dd4f1348b95",
+      "policies": {
+        "exprTypeValueRules": false,
+        "onlyTypes": false,
+        "onlyBodies": false,
+        "theoremAndOpaqueBodiesSealed": false,
+        "leanConstantInfoGetUsedConstantsAsSet": false
+      },
+      "witness": null
+    }
+  },
+  "passes": [
+    {
+      "changedAssumptions": 1,
+      "positiveNamesAnyPolicy": 142
+    },
+    {
+      "changedAssumptions": 1,
+      "positiveNamesAnyPolicy": 149
+    },
+    {
+      "changedAssumptions": 0,
+      "positiveNamesAnyPolicy": 159
+    }
+  ],
+  "target": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+  "roots": [
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive"
+  ],
+  "inputFile": "solution-comparator.ndjson",
+  "controls": {
+    "actualTheoremWithProof": true,
+    "root2ValueExplicitlyReferencesRoot1": true,
+    "natAndChoiceHaveNoHelperLineage": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_lean": "4.35.0",
+  "schema_source_sha256": "2e839d4ac1ef1992cfe09c489a97928ad8f8eaea3925bc76b511c6bf85e1b8aa",
+  "method": "Domain-separated SHA-256 structural Merkle hashes; ID-independent, includes binder names, flags and ordered fields. Declaration fields are compared using canonical JSON; references to other constants keep their names.",
+  "checker_script_sha256": "6f071cdee00d5a22461eed5b8b31e83c5ad5e2860d9c8f258ac358018c6181c1",
+  "utc": "2026-11-27T01:59:11.569286+00:00",
+  "left": {
+    "filename": "a.ndjson",
+    "bytes": 1015118,
+    "sha256": "e48debaf4efddfa62386a473fbd0a33af0d7d4ebfbf440727063bfc4a80ca96d",
+    "records": 18426,
+    "names_including_anonymous": 3004,
+    "levels_including_zero": 26,
+    "expressions": 14926,
+    "declarations_by_kind": {
+      "axiom": 3,
+      "constructor": 66,
+      "def": 273,
+      "inductive": 53,
+      "quot": 4,
+      "recursor": 55,
+      "thm": 138
+    },
+    "declarations": 592,
+    "name_sequence_digest": "fbae387f4cc56c3f0c2fb646860d6eb5fd7a15cd2523f0f4950fb4e418375fdf",
+    "elapsed_seconds": 0.265
+  },
+  "right": {
+    "filename": "b.ndjson",
+    "bytes": 1015118,
+    "sha256": "829f7c1871bb205113b2d0e1234350a1dd1084b833b4fb05c2366d9bf5c63570",
+    "records": 18426,
+    "names_including_anonymous": 3004,
+    "levels_including_zero": 26,
+    "expressions": 14926,
+    "declarations_by_kind": {
+      "axiom": 3,
+      "constructor": 66,
+      "def": 273,
+      "inductive": 53,
+      "quot": 4,
+      "recursor": 55,
+      "thm": 138
+    },
+    "declarations": 592,
+    "name_sequence_digest": "fbae387f4cc56c3f0c2fb646860d6eb5fd7a15cd2523f0f4950fb4e418375fdf",
+    "elapsed_seconds": 0.219
+  },
+  "self_comparisons": [
+    {
+      "side": "left",
+      "common_identical": 592
+    },
+    {
+      "side": "right",
+      "common_identical": 592
+    }
+  ],
+  "left_only": [],
+  "right_only": [],
+  "different": [
+    {
+      "components": [
+        "witness"
+      ],
+      "kinds": [
+        "thm",
+        "thm"
+      ],
+      "fields": [
+        {
+          "field": "value",
+          "left": "1d930a7144eb3de9e0415fcf6575d71bbd66a9f66ad50dbf2889d1420db122dc",
+          "right": "d4b282d73c66f8e056fc6bdeb65377b7001dafe9132d8b030b3d9138c0acdebc"
+        }
+      ]
+    }
+  ],
+  "common": 592,
+  "common_identical": 591
+}

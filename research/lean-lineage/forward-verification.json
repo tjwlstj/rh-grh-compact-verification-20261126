@@ -1,0 +1,7 @@
+{
+  "checkedPathAndDistanceQueries": 104,
+  "method": "independent forward breadth-first search",
+  "archivedGraphVertices": 207763,
+  "rawSha256": "bc289fce795875fb987520105611a1d4bc169c213bf788942b93fd58d3dec2d8",
+  "allMatched": true
+}

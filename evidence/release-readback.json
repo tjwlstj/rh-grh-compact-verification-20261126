@@ -1,0 +1,22 @@
+{
+  "checkedUtc": "2026-11-27T02:00:24.924022+00:00",
+  "anonymous": true,
+  "items": [
+    {
+      "asset": "challenge-comparator.ndjson.gz",
+      "url": "https://github.com/tjwlstj/rh-grh-compact-verification-20261126/releases/download/compact-replay-20261127/challenge-comparator.ndjson.gz",
+      "downloadedBytes": 57743576,
+      "downloadSha256": "3c437812e50b53045a1392ad8fdd3bd500591276d483bb1eb7a5beb80f95c9e4",
+      "restoredBytes": 354827875,
+      "restoredSha256": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694"
+    },
+    {
+      "asset": "solution-comparator.ndjson.gz",
+      "url": "https://github.com/tjwlstj/rh-grh-compact-verification-20261126/releases/download/compact-replay-20261127/solution-comparator.ndjson.gz",
+      "downloadedBytes": 812911198,
+      "downloadSha256": "8d5ac16126ab7a3c986cab7c3d4003c1714850221dfc8ecae89b5030307f6362",
+      "restoredBytes": 5172278111,
+      "restoredSha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6"
+    }
+  ]
+}

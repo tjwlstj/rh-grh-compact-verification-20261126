@@ -1,0 +1,50 @@
+{
+  "byteComparedToOriginalResearchExecution": true,
+  "files": [
+    {
+      "name": "Lineage.lean",
+      "bytes": 4265,
+      "sha256": "8d92b02b597a53933e0e13d8419dbeea4b658d08dcda265e6b370fdca48b5dba"
+    },
+    {
+      "name": "graph.ndjson.gz",
+      "bytes": 17542573,
+      "sha256": "94ebaa3c0f7996e309ff078e5c51d1ab386aea2bef4535c7aabfcd50058edfff"
+    },
+    {
+      "name": "result.json",
+      "bytes": 103522,
+      "sha256": "8211ad48f2e38fc4fbd7c979b9331d75ff5680da7d58000e74ebcd5bab9b80fa"
+    },
+    {
+      "name": "portable-receipt.json",
+      "bytes": 1742,
+      "sha256": "ea4c2378f9003ef69b39e009b9a6d065c2304b817622274b2d70baac12d20d14"
+    },
+    {
+      "name": "forward-verification.json",
+      "bytes": 246,
+      "sha256": "4e5e8b7d4701346ff3c9da7c549751b7cdeb2c24becc631eb2531209f0735c16"
+    },
+    {
+      "name": "focus-type.txt",
+      "bytes": 433,
+      "sha256": "2eeb7c14df996cb9bdc06d6b103a7a2978013d5652cd95eda64884168b769345"
+    },
+    {
+      "name": "focus-type-dag.json",
+      "bytes": 19103,
+      "sha256": "931e705e0a06181cbf33616e9cb341e46d06ef69233c6d991104c311798c7310"
+    },
+    {
+      "name": "focus-type-structure.json",
+      "bytes": 1252,
+      "sha256": "dc277aded544c872ddfcff0cc2acd7e4e6187a65124f211685d46f73a689cb70"
+    },
+    {
+      "name": "lineage-v1.out",
+      "bytes": 46,
+      "sha256": "24644cfcc61636a8182f9e2eed414f6387a6cba2c4238f521e310ffbf0403ed7"
+    }
+  ]
+}

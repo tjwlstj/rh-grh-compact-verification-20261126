@@ -1,0 +1,409 @@
+{
+  "audited_utc": "2026-11-27T01:54:15.401136+00:00",
+  "versions": {
+    "producer_lean": "4.35.0 eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+    "export_header": {
+      "exporter": {
+        "name": "lean4export",
+        "version": "3.1.0"
+      },
+      "format": {
+        "version": "3.1.0"
+      },
+      "lean": {
+        "githash": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+        "version": "4.35.0"
+      }
+    },
+    "checker_lean": "4.36.0 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+    "lake": "5.0.0-src+611c117"
+  },
+  "windows_release_sha256": {
+    "4.35.0": "5fc033e93e1a7bc59c5ebf311103d2c9cd18d4b3eddda4ffa3414e8adb0ef79e",
+    "4.36.0": "5af5f955df6cfe37082d71c56c7d47fe620faa9f59e14b917b43976c08dc676b"
+  },
+  "tool_sha256": {
+    "4.35.0": {
+      "lean": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea",
+      "leanexport": "bda24bb3fafaf299ba472f944942d6293294b76559fafc9f166badd7c0f981b3"
+    },
+    "4.36.0": {
+      "lake": "fd15d19aedd70272e2b405bd4f26ce936a9198b9748996dd0bcddcdde0423218",
+      "leanchecker": "51f6b4098bb0d5b4a4de5c5f8501fac0c53d7236137b3f32d56b7e2717d05853"
+    }
+  },
+  "source_sha256": {
+    "src/a/Solution.lean": "754ea28e61df51f71740aae3bd3e28135574aaa4a656b9357895afa3042e2f5d",
+    "src/b/Solution.lean": "1f0769a4e2203f2c6b63296cd88b7bcad783393928e4b1b3111c02525f70cdad",
+    "src/challenge/Challenge.lean": "2c99537cac979c3cd8d20bc46db7e9a58c5ed05f94f3a77fd716531264ddf33b",
+    "src/equality/Equality.lean": "15fbe70704ac41f882ec97adfd0d5b238c2a367a0190a5af79da229f4318c361"
+  },
+  "config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "theorem_names": [
+      "witness",
+      "result"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "external_kernels": {}
+  },
+  "config_sha256": "734a2bab3d67ac2f60e09a857316a709d5e8a2d865033222eebe9f8aa99bf622",
+  "roots": [
+    "Quot",
+    "Quot.mk",
+    "Quot.lift",
+    "Quot.ind",
+    "witness",
+    "result",
+    "propext",
+    "Quot.sound",
+    "Classical.choice",
+    "Nat.add",
+    "Nat.sub",
+    "Nat.mul",
+    "Nat.pow",
+    "Nat.gcd",
+    "Nat.div",
+    "Nat.mod",
+    "Nat.beq",
+    "Nat.ble",
+    "Nat.land",
+    "Nat.lor",
+    "Nat.xor",
+    "Nat.shiftLeft",
+    "Nat.shiftRight",
+    "String.ofList",
+    "Char.ofNat",
+    "List",
+    "eagerReduce",
+    "Nat",
+    "String",
+    "String.mk",
+    "Char",
+    "optParam",
+    "autoParam",
+    "semiOutParam",
+    "outParam"
+  ],
+  "exports": {
+    "a": {
+      "bytes": 1015118,
+      "sha256": "e48debaf4efddfa62386a473fbd0a33af0d7d4ebfbf440727063bfc4a80ca96d",
+      "records": 18426
+    },
+    "b": {
+      "bytes": 1015118,
+      "sha256": "829f7c1871bb205113b2d0e1234350a1dd1084b833b4fb05c2366d9bf5c63570",
+      "records": 18426
+    },
+    "challenge": {
+      "bytes": 1018100,
+      "sha256": "353f3424d46153d1b24a8144c3ca2d11b9a903bf1842499f93882af67c1a8094",
+      "records": 18511
+    }
+  },
+  "byte_difference": {
+    "A_B_lengths_equal": true,
+    "file_byte_offsets_zero_based": [
+      6646
+    ],
+    "record_number_one_based": 127,
+    "raw_record_A": "{\"ie\":90,\"lam\":{\"binderInfo\":\"default\",\"body\":2,\"name\":22,\"type\":2}}",
+    "raw_record_B": "{\"ie\":90,\"lam\":{\"binderInfo\":\"default\",\"body\":1,\"name\":22,\"type\":2}}",
+    "byte_in_A": "2",
+    "byte_in_B": "1"
+  },
+  "runs": {
+    "compile-a": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/lean.exe",
+        "-j1",
+        "-R",
+        "src/a",
+        "-o",
+        "work/a/Solution.olean",
+        "src/a/Solution.lean"
+      ],
+      "cwd": "work/a",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 467603456,
+      "exit": 0,
+      "print_axioms_stdout": [
+        "'witness' does not depend on any axioms",
+        "'result' does not depend on any axioms"
+      ]
+    },
+    "compile-b": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/lean.exe",
+        "-j1",
+        "-R",
+        "src/b",
+        "-o",
+        "work/b/Solution.olean",
+        "src/b/Solution.lean"
+      ],
+      "cwd": "work/b",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 467640320,
+      "exit": 0,
+      "print_axioms_stdout": [
+        "'witness' does not depend on any axioms",
+        "'result' does not depend on any axioms"
+      ]
+    },
+    "compile-challenge": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/lean.exe",
+        "-j1",
+        "-R",
+        "src/challenge",
+        "-o",
+        "work/challenge/Challenge.olean",
+        "src/challenge/Challenge.lean"
+      ],
+      "cwd": "work/challenge",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 467730432,
+      "exit": 0,
+      "print_axioms_stdout": [
+        "'witness' depends on axioms: [sorryAx]",
+        "'result' depends on axioms: [sorryAx]"
+      ]
+    },
+    "compile-equality": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/lean.exe",
+        "-j1",
+        "-R",
+        "src/equality",
+        "-o",
+        "work/equality/Equality.olean",
+        "src/equality/Equality.lean"
+      ],
+      "cwd": "work/equality",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 467841024,
+      "exit": 0,
+      "print_axioms_stdout": [
+        "'pointwise_proofs_equal' does not depend on any axioms",
+        "'witness_bodies_equal' does not depend on any axioms"
+      ]
+    },
+    "export-a": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/leanexport.exe",
+        "Solution",
+        "--",
+        "Quot",
+        "Quot.mk",
+        "Quot.lift",
+        "Quot.ind",
+        "witness",
+        "result",
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "Nat.add",
+        "Nat.sub",
+        "Nat.mul",
+        "Nat.pow",
+        "Nat.gcd",
+        "Nat.div",
+        "Nat.mod",
+        "Nat.beq",
+        "Nat.ble",
+        "Nat.land",
+        "Nat.lor",
+        "Nat.xor",
+        "Nat.shiftLeft",
+        "Nat.shiftRight",
+        "String.ofList",
+        "Char.ofNat",
+        "List",
+        "eagerReduce",
+        "Nat",
+        "String",
+        "String.mk",
+        "Char",
+        "optParam",
+        "autoParam",
+        "semiOutParam",
+        "outParam"
+      ],
+      "cwd": "work/a",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 783093760,
+      "exit": 0
+    },
+    "export-b": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/leanexport.exe",
+        "Solution",
+        "--",
+        "Quot",
+        "Quot.mk",
+        "Quot.lift",
+        "Quot.ind",
+        "witness",
+        "result",
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "Nat.add",
+        "Nat.sub",
+        "Nat.mul",
+        "Nat.pow",
+        "Nat.gcd",
+        "Nat.div",
+        "Nat.mod",
+        "Nat.beq",
+        "Nat.ble",
+        "Nat.land",
+        "Nat.lor",
+        "Nat.xor",
+        "Nat.shiftLeft",
+        "Nat.shiftRight",
+        "String.ofList",
+        "Char.ofNat",
+        "List",
+        "eagerReduce",
+        "Nat",
+        "String",
+        "String.mk",
+        "Char",
+        "optParam",
+        "autoParam",
+        "semiOutParam",
+        "outParam"
+      ],
+      "cwd": "work/b",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 782454784,
+      "exit": 0
+    },
+    "export-challenge": {
+      "argv_with_normalized_paths": [
+        "LEAN435_BIN/leanexport.exe",
+        "Challenge",
+        "--",
+        "Quot",
+        "Quot.mk",
+        "Quot.lift",
+        "Quot.ind",
+        "witness",
+        "result",
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "Nat.add",
+        "Nat.sub",
+        "Nat.mul",
+        "Nat.pow",
+        "Nat.gcd",
+        "Nat.div",
+        "Nat.mod",
+        "Nat.beq",
+        "Nat.ble",
+        "Nat.land",
+        "Nat.lor",
+        "Nat.xor",
+        "Nat.shiftLeft",
+        "Nat.shiftRight",
+        "String.ofList",
+        "Char.ofNat",
+        "List",
+        "eagerReduce",
+        "Nat",
+        "String",
+        "String.mk",
+        "Char",
+        "optParam",
+        "autoParam",
+        "semiOutParam",
+        "outParam"
+      ],
+      "cwd": "work/challenge",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 783126528,
+      "exit": 0
+    },
+    "compare-a": {
+      "argv_with_normalized_paths": [
+        "LEAN436_BIN/lake.exe",
+        "comparator",
+        "--inadvisably-no-sandbox",
+        "--config",
+        "comparator.json",
+        "--challenge-from-export",
+        "exports/challenge.ndjson",
+        "--solution-from-export",
+        "exports/a.ndjson"
+      ],
+      "cwd": "work/compare",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 50876416,
+      "exit": 0,
+      "stdout": [
+        "Running Lean default kernel on solution",
+        "Lean default kernel accepts the solution",
+        "Your solution is okay!"
+      ],
+      "stderr": [
+        "WARNING: Sandbox disabled, this run is not trustworthy."
+      ]
+    },
+    "compare-b": {
+      "argv_with_normalized_paths": [
+        "LEAN436_BIN/lake.exe",
+        "comparator",
+        "--inadvisably-no-sandbox",
+        "--config",
+        "comparator.json",
+        "--challenge-from-export",
+        "exports/challenge.ndjson",
+        "--solution-from-export",
+        "exports/b.ndjson"
+      ],
+      "cwd": "work/compare",
+      "network_capabilities": 0,
+      "app_container": true,
+      "job_limit_gib": 2,
+      "peak_job_bytes": 50798592,
+      "exit": 0,
+      "stdout": [
+        "Running Lean default kernel on solution",
+        "Lean default kernel accepts the solution",
+        "Your solution is okay!"
+      ],
+      "stderr": [
+        "WARNING: Sandbox disabled, this run is not trustworthy."
+      ]
+    }
+  },
+  "preliminary_path_error": {
+    "exit": 1,
+    "detail": "Initial relative input path was resolved from the child work directory. The final invocations passed fully resolved paths; normalized above."
+  }
+}

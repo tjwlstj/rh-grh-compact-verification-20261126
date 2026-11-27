@@ -1,0 +1,86 @@
+{
+  "schema_lean": "4.35.0",
+  "schema_source_sha256": "2e839d4ac1ef1992cfe09c489a97928ad8f8eaea3925bc76b511c6bf85e1b8aa",
+  "method": "Domain-separated SHA-256 structural Merkle hashes; ID-independent, includes binder names, flags and ordered fields. Declaration fields are compared using canonical JSON; references to other constants keep their names.",
+  "checker_script_sha256": "6f071cdee00d5a22461eed5b8b31e83c5ad5e2860d9c8f258ac358018c6181c1",
+  "utc": "2026-11-27T03:27:48.555818+00:00",
+  "left": {
+    "filename": "compact-solution.ndjson",
+    "bytes": 5172274528,
+    "sha256": "ab7b4223b9bd748a1aa68bdb63afb6d6264121fc834aadba7ba3d3796c32115b",
+    "records": 94888225,
+    "names_including_anonymous": 1356767,
+    "levels_including_zero": 13275,
+    "expressions": 93313601,
+    "declarations_by_kind": {
+      "axiom": 3,
+      "constructor": 2639,
+      "def": 36489,
+      "inductive": 2419,
+      "opaque": 79,
+      "quot": 4,
+      "recursor": 2421,
+      "thm": 165589
+    },
+    "declarations": 209643,
+    "name_sequence_digest": "2320763f49ec5776caeeda5a22f5c0482ef6c6672a7f43b2b9e63f940f61fab9",
+    "elapsed_seconds": 478.125
+  },
+  "right": {
+    "filename": "solution-comparator.ndjson",
+    "bytes": 5172278111,
+    "sha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6",
+    "records": 94888295,
+    "names_including_anonymous": 1356767,
+    "levels_including_zero": 13275,
+    "expressions": 93313671,
+    "declarations_by_kind": {
+      "axiom": 3,
+      "constructor": 2639,
+      "def": 36489,
+      "inductive": 2419,
+      "opaque": 79,
+      "quot": 4,
+      "recursor": 2421,
+      "thm": 165589
+    },
+    "declarations": 209643,
+    "name_sequence_digest": "2320763f49ec5776caeeda5a22f5c0482ef6c6672a7f43b2b9e63f940f61fab9",
+    "elapsed_seconds": 471.891
+  },
+  "self_comparisons": [
+    {
+      "side": "left",
+      "common_identical": 209643
+    },
+    {
+      "side": "right",
+      "common_identical": 209643
+    }
+  ],
+  "left_only": [],
+  "right_only": [],
+  "different": [
+    {
+      "components": [
+        "HCParam",
+        "HasGap",
+        "two_mul_lowestKType_sub_vacuumWeight",
+        "_proof_1_4"
+      ],
+      "kinds": [
+        "thm",
+        "thm"
+      ],
+      "fields": [
+        {
+          "field": "value",
+          "left": "f5f6711019aef0f9613b3d470ce0fd5cfdd49050bb325863130c88190c591ad7",
+          "right": "e4499ea975d44d2e279174645284fe527c3e4b26c4854e90ace21e01208cace4"
+        }
+      ]
+    }
+  ],
+  "common": 209643,
+  "common_identical": 209642
+}

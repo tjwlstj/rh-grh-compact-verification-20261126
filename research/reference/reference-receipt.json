@@ -1,0 +1,12 @@
+{
+  "url": "https://math.mit.edu/~drew/shortgrh/compact-solution.ndjson.zst",
+  "publicChecksums": "https://math.mit.edu/~drew/shortgrh/exports.sha256",
+  "compressedBytes": 664051500,
+  "compressedSha256": "d558294b0c2c659b76118cc8af8aa24c42464a22e1c0180440fa46997a4518c3",
+  "rawBytes": 5172274528,
+  "rawSha256": "ab7b4223b9bd748a1aa68bdb63afb6d6264121fc834aadba7ba3d3796c32115b",
+  "matchesPublishedRawSha256": true,
+  "decoder": "Microsoft Windows archiveint.dll/libarchive 3.8.9",
+  "decoderAuthenticode": "Valid (Microsoft Windows)",
+  "decoderSha256": "24c23d001e869bc7e7a3011c49555e4d1fcc0f650d59b3b78eeca5fbc120d665"
+}

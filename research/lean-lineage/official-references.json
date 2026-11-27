@@ -1,0 +1,33 @@
+{
+  "toolchain": "v4.35.0",
+  "commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "files": [
+    {
+      "path": "src/Lean/Util/FoldConsts.lean",
+      "upstream": "https://raw.githubusercontent.com/leanprover/lean4/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Util/FoldConsts.lean",
+      "github": "https://github.com/leanprover/lean4/blob/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Util/FoldConsts.lean",
+      "releasedFileSha256": "bc3748d1faae55d11cc0fcf3e9d74935c01187c499d36ceadffcb0df46bbfbf3",
+      "githubFileSha256": "bc3748d1faae55d11cc0fcf3e9d74935c01187c499d36ceadffcb0df46bbfbf3",
+      "byteIdentical": true,
+      "equalAfterCRLFNormalization": true
+    },
+    {
+      "path": "src/Lean/Declaration.lean",
+      "upstream": "https://raw.githubusercontent.com/leanprover/lean4/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Declaration.lean",
+      "github": "https://github.com/leanprover/lean4/blob/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Declaration.lean",
+      "releasedFileSha256": "1cf2f06d848086f165b3df0afe494924ae26aaea248d5e0135d5efc2d588948f",
+      "githubFileSha256": "1cf2f06d848086f165b3df0afe494924ae26aaea248d5e0135d5efc2d588948f",
+      "byteIdentical": true,
+      "equalAfterCRLFNormalization": true
+    },
+    {
+      "path": "src/Lean/Util/CollectAxioms.lean",
+      "upstream": "https://raw.githubusercontent.com/leanprover/lean4/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Util/CollectAxioms.lean",
+      "github": "https://github.com/leanprover/lean4/blob/eb6cafb7290e8bd5f2937522d8d804f58f02bafc/src/Lean/Util/CollectAxioms.lean",
+      "releasedFileSha256": "64f340d42f18c51ee83527f03fa69cc26415dd71dcf7fe71031b7760be90007d",
+      "githubFileSha256": "64f340d42f18c51ee83527f03fa69cc26415dd71dcf7fe71031b7760be90007d",
+      "byteIdentical": true,
+      "equalAfterCRLFNormalization": true
+    }
+  ]
+}

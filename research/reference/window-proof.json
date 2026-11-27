@@ -1,0 +1,340 @@
+{
+  "scope": "Raw export prefix, first differing record through first following named theorem, and tail sizes only.",
+  "coordinates": "Zero-based byte offsets/end-exclusive; one-based NDJSON lines.",
+  "inputs": {
+    "reference": {
+      "sha256": "ab7b4223b9bd748a1aa68bdb63afb6d6264121fc834aadba7ba3d3796c32115b",
+      "bytes": 5172274528,
+      "records": 94888225
+    },
+    "local": {
+      "sha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6",
+      "bytes": 5172278111,
+      "records": 94888295
+    }
+  },
+  "commonPrefix": {
+    "bytes": 1609052714,
+    "sha256": "507747b97d1c7fd23c5879e385a449aa75adb50455221ae2100cb747edd8fbfd",
+    "completeRecords": 29545452,
+    "firstDifferingRecordStart": 1609052700,
+    "firstDifferingRecordLine": 29545453,
+    "firstDifferingByteWithinRecord": 14,
+    "firstDifferingByteHex": {
+      "reference": "31",
+      "local": "32"
+    }
+  },
+  "windows": {
+    "reference": {
+      "firstChangedRecord": {
+        "app": {
+          "arg": 1529,
+          "fn": 28546961
+        },
+        "ie": 28548217
+      },
+      "firstNamedDeclaration": {
+        "thm": {
+          "all": [
+            856794
+          ],
+          "levelParams": [],
+          "name": 856794,
+          "type": 28545808,
+          "value": 28548934
+        }
+      },
+      "declarationStart": 1609095149,
+      "declarationLine": 29546171,
+      "declarationEnd": 1609095238,
+      "declarationRowSha256": "2420ad1681f2e0fc5395707f6291d1b5b4d712103f6701e5e4a9703373b5fd89",
+      "recordsFromChangedRowThroughDeclaration": 719,
+      "bytesFromChangedRowThroughDeclaration": 42538,
+      "bytesFromFirstDifferingByteThroughDeclaration": 42524,
+      "windowSha256FromRowStart": "2077789b353b01935e9e69806814ecb79dd860a05605f51f05fa3d1bc4c4afd0",
+      "recordKinds": {
+        "expr.app": 599,
+        "expr.lam": 15,
+        "expr.letE": 104,
+        "thm": 1
+      },
+      "windowExprsReachableFromProofValue": 718,
+      "windowExprsTotal": 718,
+      "proofValueChildPathToFirstChangedExpr": [
+        28548934,
+        28548933,
+        28548932,
+        28548931,
+        28548930,
+        28548929,
+        28548928,
+        28548927,
+        28548926,
+        28548925,
+        28548924,
+        28548923,
+        28548922,
+        28548921,
+        28548920,
+        28548919,
+        28548559,
+        28548558,
+        28548557,
+        28548556,
+        28548555,
+        28548554,
+        28548553,
+        28548409,
+        28548408,
+        28548407,
+        28548406,
+        28548405,
+        28548404,
+        28548403,
+        28548402,
+        28548401,
+        28548400,
+        28548399,
+        28548398,
+        28548397,
+        28548396,
+        28548395,
+        28548394,
+        28548393,
+        28548392,
+        28548391,
+        28548390,
+        28548389,
+        28548388,
+        28548387,
+        28548386,
+        28548385,
+        28548384,
+        28548383,
+        28548382,
+        28548381,
+        28548380,
+        28548379,
+        28548378,
+        28548377,
+        28548376,
+        28548375,
+        28548374,
+        28548304,
+        28548220,
+        28548219,
+        28548218,
+        28548217
+      ],
+      "followingBytes": 3563179290,
+      "followingRecords": 65342054
+    },
+    "local": {
+      "firstChangedRecord": {
+        "app": {
+          "arg": 23351804,
+          "fn": 1395912
+        },
+        "ie": 28548217
+      },
+      "firstNamedDeclaration": {
+        "thm": {
+          "all": [
+            856794
+          ],
+          "levelParams": [],
+          "name": 856794,
+          "type": 28545808,
+          "value": 28549015
+        }
+      },
+      "declarationStart": 1609099275,
+      "declarationLine": 29546252,
+      "declarationEnd": 1609099364,
+      "declarationRowSha256": "6f8d74fdb8fb58d0529a92f92eaea7f166fc3af5088a83be633d9035a54f165e",
+      "recordsFromChangedRowThroughDeclaration": 800,
+      "bytesFromChangedRowThroughDeclaration": 46664,
+      "bytesFromFirstDifferingByteThroughDeclaration": 46650,
+      "windowSha256FromRowStart": "0efb5d567e44740a95521ed79f3bc7f6f3d6a7e8fd4fe19694d0b85afc2f6c43",
+      "recordKinds": {
+        "expr.app": 680,
+        "expr.lam": 15,
+        "expr.letE": 104,
+        "thm": 1
+      },
+      "windowExprsReachableFromProofValue": 799,
+      "windowExprsTotal": 799,
+      "proofValueChildPathToFirstChangedExpr": [
+        28549015,
+        28549014,
+        28549013,
+        28549012,
+        28549011,
+        28549010,
+        28549009,
+        28549008,
+        28549007,
+        28549006,
+        28549005,
+        28549004,
+        28549003,
+        28549002,
+        28549001,
+        28549000,
+        28548574,
+        28548573,
+        28548572,
+        28548571,
+        28548570,
+        28548569,
+        28548568,
+        28548567,
+        28548566,
+        28548565,
+        28548564,
+        28548563,
+        28548562,
+        28548561,
+        28548560,
+        28548559,
+        28548558,
+        28548217
+      ],
+      "followingBytes": 3563178747,
+      "followingRecords": 65342043
+    }
+  },
+  "differentThmFields": [
+    "value"
+  ],
+  "theoremNameFromPrefix": {
+    "text": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+    "components": [
+      {
+        "id": 794781,
+        "parent": 0,
+        "component": "HCParam",
+        "offset": 1331028594,
+        "line": 24471507
+      },
+      {
+        "id": 806809,
+        "parent": 794781,
+        "component": "HasGap",
+        "offset": 1376330864,
+        "line": 25296862
+      },
+      {
+        "id": 856789,
+        "parent": 806809,
+        "component": "two_mul_lowestKType_sub_vacuumWeight",
+        "offset": 1608911816,
+        "line": 29542934
+      },
+      {
+        "id": 856794,
+        "parent": 856789,
+        "component": "_proof_1_4",
+        "offset": 1608916198,
+        "line": 29543005
+      }
+    ]
+  },
+  "theoremTypeFromPrefix": {
+    "root": {
+      "offset": 1608918413,
+      "end": 1608918504,
+      "row": {
+        "forallE": {
+          "binderInfo": "implicit",
+          "body": 28545807,
+          "name": 2044,
+          "type": 223
+        },
+        "ie": 28545808
+      },
+      "line": 29543044
+    },
+    "foralls": [
+      {
+        "ie": 28545808,
+        "domain": 223,
+        "body": 28545807
+      },
+      {
+        "ie": 28545807,
+        "domain": 11697867,
+        "body": 28545806
+      },
+      {
+        "ie": 28545806,
+        "domain": 24498023,
+        "body": 28545805
+      },
+      {
+        "ie": 28545805,
+        "domain": 13,
+        "body": 28545804
+      }
+    ],
+    "conclusionApps": [
+      {
+        "ie": 28545804,
+        "fn": 28545796,
+        "arg": 28545803
+      },
+      {
+        "ie": 28545796,
+        "fn": 27908333,
+        "arg": 28545795
+      },
+      {
+        "ie": 27908333,
+        "fn": 2238,
+        "arg": 667351
+      }
+    ],
+    "head": {
+      "expression": {
+        "offset": 177354,
+        "end": 177395,
+        "row": {
+          "const": {
+            "name": 1,
+            "us": [
+              12
+            ]
+          },
+          "ie": 2238
+        },
+        "line": 2949
+      },
+      "name": {
+        "text": "Eq",
+        "components": [
+          {
+            "id": 1,
+            "parent": 0,
+            "component": "Eq",
+            "offset": 173,
+            "line": 2
+          }
+        ]
+      }
+    },
+    "equalityArguments": [
+      667351,
+      28545795,
+      28545803
+    ]
+  },
+  "deltaLocalMinusReference": {
+    "recordsFromChangedRowThroughDeclaration": 81,
+    "bytesFromChangedRowThroughDeclaration": 4126,
+    "followingBytes": -543,
+    "followingRecords": -11,
+    "totalBytes": 3583,
+    "totalRecords": 70
+  }
+}

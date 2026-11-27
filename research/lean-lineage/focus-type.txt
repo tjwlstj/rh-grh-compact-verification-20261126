@@ -1,0 +1,7 @@
+∀ {R : Type} {ε : R → ℤˣ} {l : HCParam ε} (r : R),
+  (fun x =>
+      ((if ↑(ε r) = ↑(ε x) then 0 else if l x < l r then 1 else 0) -
+          if ↑(ε r) = ↑(ε x) then 0 else if l r < l x then 1 else 0) -
+        ((if ↑(ε r) = ↑(ε x) then if l x < l r then 1 else 0 else 0) -
+          if ↑(ε r) = ↑(ε x) then if l r < l x then 1 else 0 else 0)) =
+    fun j => ↑(ε r) * ↑(ε j) * (l j - l r).sign

@@ -1,0 +1,18 @@
+{
+  "sharedPrefixBytes": 1609052714,
+  "sharedSuffixBytes": 4,
+  "firstUnequalRecordLocal": {
+    "app": {
+      "arg": 23351804,
+      "fn": 1395912
+    },
+    "ie": 28548217
+  },
+  "firstUnequalRecordReference": {
+    "app": {
+      "arg": 1529,
+      "fn": 28546961
+    },
+    "ie": 28548217
+  }
+}

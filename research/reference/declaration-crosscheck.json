@@ -1,0 +1,45 @@
+{
+  "method": "Read-only independent SQLite EXCEPT on full (name, kind, canonical fields) tuples in each direction, quick_check of both committed indexes, and direct retrieval of target fields.",
+  "index_integrity": {
+    "MIT": "ok",
+    "local": "ok"
+  },
+  "declaration_names_match": true,
+  "different_tuple_count_each_direction": 1,
+  "changed_theorem_components": [
+    "HCParam",
+    "HasGap",
+    "two_mul_lowestKType_sub_vacuumWeight",
+    "_proof_1_4"
+  ],
+  "changed_field": "value",
+  "same_type_sha256": "b93bb0439e7e9110fceeee269e5c9c271f943400e2420be11fb4f2f8e3f7de1a",
+  "MIT_value_sha256": "f5f6711019aef0f9613b3d470ce0fd5cfdd49050bb325863130c88190c591ad7",
+  "local_value_sha256": "e4499ea975d44d2e279174645284fe527c3e4b26c4854e90ace21e01208cace4",
+  "five_target_records_identical": {
+    "riemannHypothesis": {
+      "type": "937c2134ad22e002b8c5abfa4c1b2611f9af1d9e58cd1e86fd1362869ce17089",
+      "value": "c27731a90460afded2407c5f9f8e639c807591f1a529ae6478e850eae247ec23"
+    },
+    "riemannZeta_eq_zero_re": {
+      "type": "f6b1f1efe2f47ff74ebc541b796b4c9bf2499c28105c1485a2361c8fdad395a7",
+      "value": "4778eb46df90a93a7caad9b5ffdeb912c6a924f7bc67443af2219056782d1c6c"
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "type": "e6f9d2290bdcfd1d570d7df5eb0a0826015efcc7a1ced18231e5bfc7996fbe2b",
+      "value": "c81de5c84e6140363999ee5d2cdef54643245d0166d423d82d7f389c3fcedb49"
+    },
+    "LFunction_eq_zero_re": {
+      "type": "bb11032c72bd41b12fd9f92a409a763116660f1de593d5e807fc831de8d3b619",
+      "value": "18bf62ade2de0325fdd2a0117e3de3e0140e9f4f00e9afe9789daed5e7cf4049"
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "type": "86ca12ca33a08450af41338276dd18acb452d591ce81fb347632a5d595114f2d",
+      "value": "f541824a937c844a5e3e73a0025e5b6c325f533661be9bf6d5f18c854a2e2505"
+    }
+  },
+  "elapsed_seconds_including_both_indexes_and_joins": 956.023326,
+  "exit": 0,
+  "start": "2026-11-27T12:11:52.5561208+09:00",
+  "end": "2026-11-27T12:27:48.5794465+09:00"
+}

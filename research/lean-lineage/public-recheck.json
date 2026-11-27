@@ -1,0 +1,100 @@
+{
+  "utcCompleted": "2026-11-27T03:18:42.616804+00:00",
+  "pythonVersion": "3.11.9",
+  "workingDirectory": "research/lean-lineage",
+  "newLeanExtractionRunForPackaging": false,
+  "tests": [
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "replay.py"
+      ],
+      "exit": 0,
+      "stdout": {
+        "graphSha256": "bc289fce795875fb987520105611a1d4bc169c213bf788942b93fd58d3dec2d8",
+        "graphVertices": 207763,
+        "bidirectionalQueries": 104,
+        "referenceMatched": true,
+        "shortest": {
+          "riemannHypothesis": 13,
+          "riemannZeta_eq_zero_re": 14,
+          "LFunction_ne_zero_of_half_lt_re": 13,
+          "LFunction_eq_zero_re": 13,
+          "LFunction_eq_zero_re_of_isPrimitive": 14
+        }
+      },
+      "stdoutSha256": "9999cad5a505fb8b8058cff628f6fefed967f8e54ba99209b6ba61acb69dffbf"
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "replay.py",
+        "--graph",
+        "<previous-source-run>/lineage-graph-v1.ndjson",
+        "--measure-only"
+      ],
+      "exit": 0,
+      "stdout": {
+        "graphSha256": "bc289fce795875fb987520105611a1d4bc169c213bf788942b93fd58d3dec2d8",
+        "graphVertices": 207763,
+        "bidirectionalQueries": 104,
+        "referenceMatched": false,
+        "shortest": {
+          "riemannHypothesis": 13,
+          "riemannZeta_eq_zero_re": 14,
+          "LFunction_ne_zero_of_half_lt_re": 13,
+          "LFunction_eq_zero_re": 13,
+          "LFunction_eq_zero_re_of_isPrimitive": 14
+        }
+      },
+      "stdoutSha256": "1b9cd06f38dcf9a858f2b58e341cf92239fd3eab249abe7532cfc62945cade7d"
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "test_replay.py"
+      ],
+      "exit": 0,
+      "stdout": null,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "type_dag.py",
+        "--olean",
+        "<directly-built-library>/Lib/DiscreteSeries/Theta/JointHarmonicUnique.olean"
+      ],
+      "exit": 0,
+      "stdout": {
+        "moduleBytes": 13621024,
+        "verifiedTypeDagSha256": "931e705e0a06181cbf33616e9cb341e46d06ef69233c6d991104c311798c7310",
+        "directCallers": [
+          {
+            "name": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fields": [
+              "value"
+            ]
+          }
+        ]
+      },
+      "stdoutSha256": "4f6055ce58d07b1787246de898057edfeaf7677a83f0aca88d48e683afbacdd7"
+    }
+  ]
+}

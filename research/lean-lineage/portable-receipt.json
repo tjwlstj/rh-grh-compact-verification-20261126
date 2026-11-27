@@ -1,0 +1,52 @@
+{
+  "version": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "sourceGit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "workingDirectory": "source-build/scratch",
+  "leanArgv": [
+    "source-build/lean-4.35.0-windows/bin/lean.exe",
+    "-j1",
+    "--tstack=400000",
+    "source-build/setup/LineageFinal.lean"
+  ],
+  "invocationFromProjectRoot": [
+    "py",
+    "-3",
+    "-I",
+    "-B",
+    "-X",
+    "utf8",
+    "notes/proof-lineage/launch.py"
+  ],
+  "directImports": [
+    "Main"
+  ],
+  "toolSha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea",
+  "sourceSha256": "8d92b02b597a53933e0e13d8419dbeea4b658d08dcda265e6b370fdca48b5dba",
+  "mainOleanSha256": "d760206c26b86d657b8012d5aa742a829217c19861933338db27d8ff23761b2e",
+  "focusOleanSha256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+  "graphRawSha256": "bc289fce795875fb987520105611a1d4bc169c213bf788942b93fd58d3dec2d8",
+  "graphArchiveSha256": "94ebaa3c0f7996e309ff078e5c51d1ab386aea2bef4535c7aabfcd50058edfff",
+  "job": {
+    "isolation": {
+      "pid": 22372,
+      "appContainer": 1
+    },
+    "jobExit": {
+      "exit": 0,
+      "minimumAvailablePhysical": 10963509248,
+      "minimumAvailableCommit": 14666145792,
+      "jobTotalProcesses": 2,
+      "jobActiveProcesses": 0
+    },
+    "peakJobBytes": 11299364864
+  },
+  "capabilitiesCount": 0,
+  "jobCapGiB": 15,
+  "utcStart": "2026-11-27T01:55:10.271614+00:00",
+  "freePhysicalBefore": 20043210752,
+  "freeCommitBefore": 27354935296,
+  "minFreePhysicalGiBDuring": 2,
+  "minFreeCommitGiBDuring": 3,
+  "sourceBuiltLocally": true,
+  "publicProjectOleanLoaded": false
+}

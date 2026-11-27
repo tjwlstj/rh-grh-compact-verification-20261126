@@ -1,0 +1,18 @@
+{
+  "unmodified_declarations": 592,
+  "renumbered_ids": {
+    "in": 3003,
+    "il": 24,
+    "ie": 14925
+  },
+  "renumbered_common_identical": 592,
+  "inductive_negative_changed_fields": [
+    "isUnsafe",
+    "rules[0].rhs"
+  ],
+  "rejected_malformed": [
+    "unknown_record",
+    "forward_expr",
+    "unknown_declaration_field"
+  ]
+}

@@ -1,0 +1,3580 @@
+{
+  "format": 1,
+  "sourceGit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "toolVersion": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "mainOleanSha256": "d760206c26b86d657b8012d5aa742a829217c19861933338db27d8ff23761b2e",
+  "focusSourceModuleOleanSha256": "5bed4c44eda5e7e797137cae4a9943deb4d3f559bbcadc15b42b69df3d5f57b4",
+  "leanSourceSha256": "8d92b02b597a53933e0e13d8419dbeea4b658d08dcda265e6b370fdca48b5dba",
+  "toolExeSha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea",
+  "graphSha256": "bc289fce795875fb987520105611a1d4bc169c213bf788942b93fd58d3dec2d8",
+  "graphBytes": 76561497,
+  "graphVertices": 207763,
+  "fields": [
+    "type",
+    "value",
+    "inductiveConstructors",
+    "mutualInductives",
+    "constructorInductive",
+    "recursorInductives",
+    "recursorRuleConstructors",
+    "recursorRuleRhs",
+    "mutualValues"
+  ],
+  "fieldOccurrences": {
+    "type": 4165018,
+    "value": 7933105,
+    "inductiveConstructors": 2639,
+    "mutualInductives": 2419,
+    "constructorInductive": 2639,
+    "recursorInductives": 545,
+    "recursorRuleConstructors": 751,
+    "recursorRuleRhs": 13555,
+    "mutualValues": 202153
+  },
+  "displayNameCollisionsBeyondFirst": 0,
+  "kinds": {
+    "theorem": 165588,
+    "definition": 36486,
+    "inductive": 2419,
+    "constructor": 2639,
+    "recursor": 545,
+    "quotientPrimitive": 4,
+    "axiom": 3,
+    "opaque": 79
+  },
+  "seedCount": 14,
+  "focusName": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+  "focusKind": "theorem",
+  "focusType": {
+    "prettyText": "∀ {R : Type} {ε : R → ℤˣ} {l : HCParam ε} (r : R),\n  (fun x =>\n      ((if ↑(ε r) = ↑(ε x) then 0 else if l x < l r then 1 else 0) -\n          if ↑(ε r) = ↑(ε x) then 0 else if l r < l x then 1 else 0) -\n        ((if ↑(ε r) = ↑(ε x) then if l x < l r then 1 else 0 else 0) -\n          if ↑(ε r) = ↑(ε x) then if l r < l x then 1 else 0 else 0)) =\n    fun j => ↑(ε r) * ↑(ε j) * (l j - l r).sign",
+    "utf8FileBytes": 433,
+    "sha256": "2eeb7c14df996cb9bdc06d6b103a7a2978013d5652cd95eda64884168b769345",
+    "directTypeReferences": [
+      "Units",
+      "Int",
+      "Int.instMonoid",
+      "HCParam",
+      "Eq",
+      "HSub.hSub",
+      "instHSub",
+      "SubNegMonoid.toSub",
+      "SubtractionMonoid.toSubNegMonoid",
+      "SubtractionCommMonoid.toSubtractionMonoid",
+      "AddCommGroup.toDivisionAddCommMonoid",
+      "Int.instAddCommGroup",
+      "ite",
+      "Units.val",
+      "Int.instDecidableEq",
+      "OfNat.ofNat",
+      "Zero.toOfNat0",
+      "AddZero.toZero",
+      "AddZeroClass.toAddZero",
+      "AddMonoid.toAddZeroClass",
+      "AddMonoidWithOne.toAddMonoid",
+      "AddGroupWithOne.toAddMonoidWithOne",
+      "Ring.toAddGroupWithOne",
+      "Int.instRing",
+      "LT.lt",
+      "Int.instLTInt",
+      "Int.decLt",
+      "One.toOfNat1",
+      "AddMonoidWithOne.toOne",
+      "HMul.hMul",
+      "instHMul",
+      "Int.instMul",
+      "Int.sign",
+      "Int.instSub"
+    ]
+  },
+  "run": {
+    "isolation": {
+      "pid": 22372,
+      "appContainer": 1
+    },
+    "jobExit": {
+      "exit": 0,
+      "minimumAvailablePhysical": 10963509248,
+      "minimumAvailableCommit": 14666145792,
+      "jobTotalProcesses": 2,
+      "jobActiveProcesses": 0
+    },
+    "peakJobBytes": 11299364864
+  },
+  "literal": {
+    "riemannHypothesis": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "riemannZeta_eq_zero_re": {
+      "shortest": {
+        "length": 14,
+        "names": [
+          "riemannZeta_eq_zero_re",
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannZeta_eq_zero_re",
+            "fromId": 1,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "riemannHypothesis",
+            "toId": 0
+          },
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 14,
+        "names": [
+          "riemannZeta_eq_zero_re",
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannZeta_eq_zero_re",
+            "fromId": 1,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "riemannHypothesis",
+            "toId": 0
+          },
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "LFunction_ne_zero_of_half_lt_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_ne_zero_of_half_lt_re",
+            "fromId": 2,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "LFunction_ne_zero_of_half_lt_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_ne_zero_of_half_lt_re",
+            "fromId": 2,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_eq_zero_re": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "shortest": {
+        "length": 14,
+        "names": [
+          "LFunction_eq_zero_re_of_isPrimitive",
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re_of_isPrimitive",
+            "fromId": 4,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "LFunction_eq_zero_re",
+            "toId": 3
+          },
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 14,
+        "names": [
+          "LFunction_eq_zero_re_of_isPrimitive",
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re_of_isPrimitive",
+            "fromId": 4,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "LFunction_eq_zero_re",
+            "toId": 3
+          },
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight": {
+      "shortest": {
+        "length": 1,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 1,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "Nat.add_comm": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "RiemannHypothesis": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "RiemannZetaZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "DirichletLNonvanishingRightOfHalf": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "DirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "PrimitiveDirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4": {
+      "shortest": {
+        "length": 0,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": []
+      },
+      "firstType": null,
+      "firstValue": null
+    }
+  },
+  "structural": {
+    "riemannHypothesis": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "riemannZeta_eq_zero_re": {
+      "shortest": {
+        "length": 14,
+        "names": [
+          "riemannZeta_eq_zero_re",
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannZeta_eq_zero_re",
+            "fromId": 1,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "riemannHypothesis",
+            "toId": 0
+          },
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 14,
+        "names": [
+          "riemannZeta_eq_zero_re",
+          "riemannHypothesis",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "riemannZeta_eq_zero_re",
+            "fromId": 1,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "riemannHypothesis",
+            "toId": 0
+          },
+          {
+            "from": "riemannHypothesis",
+            "fromId": 0,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "LFunction_ne_zero_of_half_lt_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_ne_zero_of_half_lt_re",
+            "fromId": 2,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "LFunction_ne_zero_of_half_lt_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_ne_zero_of_half_lt_re",
+            "fromId": 2,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_eq_zero_re": {
+      "shortest": {
+        "length": 13,
+        "names": [
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 13,
+        "names": [
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "shortest": {
+        "length": 14,
+        "names": [
+          "LFunction_eq_zero_re_of_isPrimitive",
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re_of_isPrimitive",
+            "fromId": 4,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "LFunction_eq_zero_re",
+            "toId": 3
+          },
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 14,
+        "names": [
+          "LFunction_eq_zero_re_of_isPrimitive",
+          "LFunction_eq_zero_re",
+          "New.grh",
+          "eventually_primeError_le_rpow",
+          "star_inequality",
+          "Data.integral_forms_long",
+          "Data.heightLe_volume_rows",
+          "Data.crude_rows",
+          "Data.gridPeriod_eq_endPeriod",
+          "exists_lift_ofAlgForm_eq_smul",
+          "IsMatch.unique",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg",
+          "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "LFunction_eq_zero_re_of_isPrimitive",
+            "fromId": 4,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "LFunction_eq_zero_re",
+            "toId": 3
+          },
+          {
+            "from": "LFunction_eq_zero_re",
+            "fromId": 3,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "New.grh",
+            "toId": 15
+          },
+          {
+            "from": "New.grh",
+            "fromId": 15,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "eventually_primeError_le_rpow",
+            "toId": 413
+          },
+          {
+            "from": "eventually_primeError_le_rpow",
+            "fromId": 413,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "star_inequality",
+            "toId": 1782
+          },
+          {
+            "from": "star_inequality",
+            "fromId": 1782,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.integral_forms_long",
+            "toId": 4927
+          },
+          {
+            "from": "Data.integral_forms_long",
+            "fromId": 4927,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.heightLe_volume_rows",
+            "toId": 10657
+          },
+          {
+            "from": "Data.heightLe_volume_rows",
+            "fromId": 10657,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.crude_rows",
+            "toId": 19892
+          },
+          {
+            "from": "Data.crude_rows",
+            "fromId": 19892,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "Data.gridPeriod_eq_endPeriod",
+            "toId": 34366
+          },
+          {
+            "from": "Data.gridPeriod_eq_endPeriod",
+            "fromId": 34366,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "exists_lift_ofAlgForm_eq_smul",
+            "toId": 53277
+          },
+          {
+            "from": "exists_lift_ofAlgForm_eq_smul",
+            "fromId": 53277,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.unique",
+            "toId": 72252
+          },
+          {
+            "from": "IsMatch.unique",
+            "fromId": 72252,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "toId": 93529
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg",
+            "fromId": 93529,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "toId": 112860
+          },
+          {
+            "from": "IsMatch.sign_mul_lowestKType_sub_nonneg._proof_1_11",
+            "fromId": 112860,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "toId": 5
+          },
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight": {
+      "shortest": {
+        "length": 1,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      },
+      "firstType": null,
+      "firstValue": {
+        "length": 1,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": [
+          {
+            "from": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+            "fromId": 5,
+            "kind": "theorem",
+            "fields": [
+              "value"
+            ],
+            "to": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4",
+            "toId": 6
+          }
+        ]
+      }
+    },
+    "Nat.add_comm": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "RiemannHypothesis": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "RiemannZetaZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "DirichletLNonvanishingRightOfHalf": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "DirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "PrimitiveDirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null,
+      "firstValue": null
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4": {
+      "shortest": {
+        "length": 0,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": []
+      },
+      "firstType": null,
+      "firstValue": null
+    }
+  },
+  "typesOnly": {
+    "riemannHypothesis": {
+      "shortest": null,
+      "firstType": null
+    },
+    "riemannZeta_eq_zero_re": {
+      "shortest": null,
+      "firstType": null
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "shortest": null,
+      "firstType": null
+    },
+    "LFunction_eq_zero_re": {
+      "shortest": null,
+      "firstType": null
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "shortest": null,
+      "firstType": null
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight": {
+      "shortest": null,
+      "firstType": null
+    },
+    "Nat.add_comm": {
+      "shortest": null,
+      "firstType": null
+    },
+    "RiemannHypothesis": {
+      "shortest": null,
+      "firstType": null
+    },
+    "RiemannZetaZerosOnLine": {
+      "shortest": null,
+      "firstType": null
+    },
+    "DirichletLNonvanishingRightOfHalf": {
+      "shortest": null,
+      "firstType": null
+    },
+    "DirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null
+    },
+    "PrimitiveDirichletLZerosOnLine": {
+      "shortest": null,
+      "firstType": null
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4": {
+      "shortest": {
+        "length": 0,
+        "names": [
+          "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight._proof_1_4"
+        ],
+        "steps": []
+      },
+      "firstType": null
+    }
+  },
+  "directLiteralCallers": [
+    {
+      "name": "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight",
+      "id": 5,
+      "kind": "theorem",
+      "fields": [
+        "value"
+      ]
+    }
+  ],
+  "literalForwardCoverage": {
+    "riemannHypothesis": {
+      "vertices": 207741,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "riemannZeta_eq_zero_re": {
+      "vertices": 207742,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "LFunction_ne_zero_of_half_lt_re": {
+      "vertices": 207729,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "LFunction_eq_zero_re": {
+      "vertices": 207733,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "LFunction_eq_zero_re_of_isPrimitive": {
+      "vertices": 207735,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "HCParam.HasGap.two_mul_lowestKType_sub_vacuumWeight": {
+      "vertices": 7877,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "Nat.add_comm": {
+      "vertices": 47,
+      "axiomDeclarations": []
+    },
+    "RiemannHypothesis": {
+      "vertices": 52942,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "RiemannZetaZerosOnLine": {
+      "vertices": 52942,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "DirichletLNonvanishingRightOfHalf": {
+      "vertices": 53321,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "DirichletLZerosOnLine": {
+      "vertices": 53301,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "PrimitiveDirichletLZerosOnLine": {
+      "vertices": 53424,
+      "axiomDeclarations": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  },
+  "independentKnownDirectControl": {
+    "from": "riemannZeta_eq_zero_re",
+    "field": "value",
+    "to": "riemannHypothesis",
+    "observed": true
+  },
+  "archiveSha256": "94ebaa3c0f7996e309ff078e5c51d1ab386aea2bef4535c7aabfcd50058edfff"
+}
