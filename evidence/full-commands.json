@@ -1,0 +1,99 @@
+{
+  "main": {
+    "argv": [
+      "source-build/lean-4.35.0-windows/bin/lean.exe",
+      "-j1",
+      "--tstack=400000",
+      "-R",
+      "source-build/compact/src",
+      "--setup",
+      "source-build/setup/794-Main-1795740244073487800.json",
+      "-o",
+      "source-build/scratch/units/794-Main-1795740244073487800/Main.olean",
+      "-i",
+      "source-build/scratch/units/794-Main-1795740244073487800/Main.ilean",
+      "source-build/compact/src/Main.lean"
+    ],
+    "cwd": "source-build/compact",
+    "pathBase": "rh-reduced",
+    "memoryCapGiB": 12,
+    "networkCapabilities": 0
+  },
+  "printAxioms": {
+    "argv": [
+      "source-build/lean-4.35.0-windows/bin/lean.exe",
+      "-j1",
+      "source-build/compact/scripts/PrintAxioms.lean"
+    ],
+    "cwd": "source-build/compact",
+    "pathBase": "rh-reduced",
+    "memoryCapGiB": 12,
+    "networkCapabilities": 0
+  },
+  "solutionExport": {
+    "argv": [
+      "source-build/lean-4.35.0-windows/bin/leanexport.exe",
+      "Main",
+      "--",
+      "Quot",
+      "Quot.mk",
+      "Quot.lift",
+      "Quot.ind",
+      "riemannHypothesis",
+      "riemannZeta_eq_zero_re",
+      "LFunction_ne_zero_of_half_lt_re",
+      "LFunction_eq_zero_re",
+      "LFunction_eq_zero_re_of_isPrimitive",
+      "propext",
+      "Quot.sound",
+      "Classical.choice",
+      "Nat.add",
+      "Nat.sub",
+      "Nat.mul",
+      "Nat.pow",
+      "Nat.gcd",
+      "Nat.div",
+      "Nat.mod",
+      "Nat.beq",
+      "Nat.ble",
+      "Nat.land",
+      "Nat.lor",
+      "Nat.xor",
+      "Nat.shiftLeft",
+      "Nat.shiftRight",
+      "String.ofList",
+      "Char.ofNat",
+      "List",
+      "eagerReduce",
+      "Nat",
+      "String",
+      "String.mk",
+      "Char",
+      "optParam",
+      "autoParam",
+      "semiOutParam",
+      "outParam"
+    ],
+    "cwd": "source-build/compact",
+    "pathBase": "rh-reduced",
+    "memoryCapGiB": 16,
+    "networkCapabilities": 0
+  },
+  "defaultComparator": {
+    "argv": [
+      "runtime/readonly/lean-4.36.0-windows/bin/lake.exe",
+      "comparator",
+      "--inadvisably-no-sandbox",
+      "--config",
+      "runtime/readonly/five.json",
+      "--challenge-from-export",
+      "runtime/readonly/local/challenge.ndjson",
+      "--solution-from-export",
+      "runtime/readonly/local/compact-solution.ndjson"
+    ],
+    "cwd": "runtime/scratch",
+    "pathBase": "rh-reduced",
+    "memoryCapGiB": 12,
+    "networkCapabilities": 0
+  }
+}

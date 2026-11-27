@@ -1,0 +1,59 @@
+{
+  "source_commit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "sha256": {
+    "challenge": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694",
+    "compact-solution": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6"
+  },
+  "source_receipts": {
+    "challenge": "source-build\\receipts\\challenge-comparator-export.json",
+    "compact-solution": "source-build\\receipts\\solution-comparator-export.json"
+  },
+  "roots": [
+    "Quot",
+    "Quot.mk",
+    "Quot.lift",
+    "Quot.ind",
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive",
+    "propext",
+    "Quot.sound",
+    "Classical.choice",
+    "Nat.add",
+    "Nat.sub",
+    "Nat.mul",
+    "Nat.pow",
+    "Nat.gcd",
+    "Nat.div",
+    "Nat.mod",
+    "Nat.beq",
+    "Nat.ble",
+    "Nat.land",
+    "Nat.lor",
+    "Nat.xor",
+    "Nat.shiftLeft",
+    "Nat.shiftRight",
+    "String.ofList",
+    "Char.ofNat",
+    "List",
+    "eagerReduce",
+    "Nat",
+    "String",
+    "String.mk",
+    "Char",
+    "optParam",
+    "autoParam",
+    "semiOutParam",
+    "outParam"
+  ],
+  "build": {
+    "modules_verified_against_ledger": 794,
+    "ledger_sha256": "146c7f3bf8431eadeb76d9d8d1a62b450944b8fe9ef9a46318eb64f39f1f9dc0",
+    "main_olean_sha256": "d760206c26b86d657b8012d5aa742a829217c19861933338db27d8ff23761b2e",
+    "official_lean_zip_sha256": "5fc033e93e1a7bc59c5ebf311103d2c9cd18d4b3eddda4ffa3414e8adb0ef79e"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "source_repository": "https://github.com/lsernau/grh-lean",
+  "source_revision": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "edition": "grh-compact",
+  "source_lean": "4.35.0",
+  "source_mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "source_ledger": {
+    "modules_verified_against_ledger": 794,
+    "ledger_sha256": "146c7f3bf8431eadeb76d9d8d1a62b450944b8fe9ef9a46318eb64f39f1f9dc0",
+    "main_olean_sha256": "d760206c26b86d657b8012d5aa742a829217c19861933338db27d8ff23761b2e",
+    "official_lean_zip_sha256": "5fc033e93e1a7bc59c5ebf311103d2c9cd18d4b3eddda4ffa3414e8adb0ef79e"
+  },
+  "git_source_check": {
+    "commit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+    "tracked_lean_sources": 794,
+    "git_ls_tree_bytes_sha256": "166d4e34435f8f7f6afafc311da3c2553555c2b3bcecd0f460d8a5bc37f3beea"
+  },
+  "checker_version": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "lake_version": "Lake version 5.0.0-src+611c117 (Lean version 4.36.0)",
+  "checker_release_sha256": "5af5f955df6cfe37082d71c56c7d47fe620faa9f59e14b917b43976c08dc676b",
+  "lake_exe_sha256": "fd15d19aedd70272e2b405bd4f26ce936a9198b9748996dd0bcddcdde0423218",
+  "leanchecker_exe_sha256": "51f6b4098bb0d5b4a4de5c5f8501fac0c53d7236137b3f32d56b7e2717d05853",
+  "command_with_path_substitutions": [
+    "lake.exe",
+    "comparator",
+    "--inadvisably-no-sandbox",
+    "--config",
+    "<five.json>",
+    "--challenge-from-export",
+    "<challenge.ndjson>",
+    "--solution-from-export",
+    "<compact-solution.ndjson>"
+  ],
+  "isolation": {
+    "app_container": true,
+    "network_capabilities": 0,
+    "windows_job_limit_gib": 12,
+    "linux_bubblewrap_active": false
+  },
+  "five_json_sha256": "1f5ab8de19fb77298781966e4ca755fd1946e80234e56dd6f5386527fe6fea5d",
+  "config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Main",
+    "theorem_names": [
+      "riemannHypothesis",
+      "riemannZeta_eq_zero_re",
+      "LFunction_ne_zero_of_half_lt_re",
+      "LFunction_eq_zero_re",
+      "LFunction_eq_zero_re_of_isPrimitive"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "external_kernels": {}
+  },
+  "export_roots": [
+    "Quot",
+    "Quot.mk",
+    "Quot.lift",
+    "Quot.ind",
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive",
+    "propext",
+    "Quot.sound",
+    "Classical.choice",
+    "Nat.add",
+    "Nat.sub",
+    "Nat.mul",
+    "Nat.pow",
+    "Nat.gcd",
+    "Nat.div",
+    "Nat.mod",
+    "Nat.beq",
+    "Nat.ble",
+    "Nat.land",
+    "Nat.lor",
+    "Nat.xor",
+    "Nat.shiftLeft",
+    "Nat.shiftRight",
+    "String.ofList",
+    "Char.ofNat",
+    "List",
+    "eagerReduce",
+    "Nat",
+    "String",
+    "String.mk",
+    "Char",
+    "optParam",
+    "autoParam",
+    "semiOutParam",
+    "outParam"
+  ],
+  "inputs": {
+    "challenge": {
+      "locally_built_sha256": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694",
+      "bytes": 354827875,
+      "published_sha256": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694",
+      "matches_published_bytes": true,
+      "header": {
+        "meta": {
+          "exporter": {
+            "name": "lean4export",
+            "version": "3.1.0"
+          },
+          "format": {
+            "version": "3.1.0"
+          },
+          "lean": {
+            "githash": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+            "version": "4.35.0"
+          }
+        }
+      },
+      "source_export_command_exit": 0
+    },
+    "compact-solution": {
+      "locally_built_sha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6",
+      "bytes": 5172278111,
+      "published_sha256": "ab7b4223b9bd748a1aa68bdb63afb6d6264121fc834aadba7ba3d3796c32115b",
+      "matches_published_bytes": false,
+      "header": {
+        "meta": {
+          "exporter": {
+            "name": "lean4export",
+            "version": "3.1.0"
+          },
+          "format": {
+            "version": "3.1.0"
+          },
+          "lean": {
+            "githash": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+            "version": "4.35.0"
+          }
+        }
+      },
+      "source_export_command_exit": 0
+    }
+  },
+  "source_print_axioms_stdout": [
+    "'riemannHypothesis' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'riemannZeta_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'LFunction_ne_zero_of_half_lt_re' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'LFunction_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'LFunction_eq_zero_re_of_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "source_print_axioms_exit": 0,
+  "start_utc": "2026-11-27T00:53:30.253578+00:00",
+  "end_utc": "2026-11-27T01:47:26.406998+00:00",
+  "elapsed_seconds": 3236.15342,
+  "peak_job_bytes": 12740104192,
+  "official_comparator_exit": 0,
+  "supervisor_exit": 0,
+  "stdout": [
+    "Running Lean default kernel on solution",
+    "Lean default kernel accepts the solution",
+    "Your solution is okay!"
+  ],
+  "stderr": [
+    "WARNING: Sandbox disabled, this run is not trustworthy."
+  ],
+  "stdout_file_sha256": "2c8a1285153d2ac838ff12abeacdc41d7b18f822402289094c4e69a428118001",
+  "stderr_file_sha256": "f5116b885fb9675a2e3518a60a8f0540ad3b6bd72e6ca28a52db834ec4cccf96",
+  "accepted": true
+}

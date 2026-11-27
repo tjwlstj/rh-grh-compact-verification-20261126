@@ -1,6 +1,6 @@
 # 리만 가설·디리클레 GRH 축약판 검증 기록
 
-2026년 11월 27일, Luke Sernau의 `grh-compact` 소스 794개를 공식 Lean 4.35.0으로 모두 컴파일했다. **직접 만든 `Main`에서 다섯 정리는 각각 `propext`, `Classical.choice`, `Quot.sound` 세 공리에 의존했다.** 전날에는 공개 빌드 캐시를 독립 검사기로 읽어 다섯 정리를 모두 수락했다. 직접 빌드한 해답에 대한 기본 Lean 커널 Comparator 판정은 대기 중이다. [직접 빌드의 공리 출력](evidence/source-axioms.out) · [캐시 독립 검사 원출력](evidence/cache-con-leche.out) · [고정 소스](https://github.com/lsernau/grh-lean/tree/72fead102f663d5c7a407964a13dc0cf9d977207/grh-compact)
+**2026년 11월 27일 10시 47분 KST, 소스에서 직접 빌드한 축약판의 다섯 정리가 공식 Lake Comparator의 목표 대조와 기본 Lean 커널 재검사를 통과했다.** 대상은 Luke Sernau가 공개한 `grh-compact`로, 794개 모듈을 Lean 4.35.0으로 컴파일하고 Lean 4.36.0의 Comparator에서 검사했다. 다섯 정리 각각의 실제 공리 출력은 `propext`, `Classical.choice`, `Quot.sound`였다. [Comparator 원출력](evidence/comparator.out) · [공리 출력](evidence/source-axioms.out) · [고정 소스](https://github.com/lsernau/grh-lean/tree/72fead102f663d5c7a407964a13dc0cf9d977207/grh-compact)
 
 | 검사 | 이 PC에서 확인한 결과 |
 |---|---|
@@ -12,7 +12,9 @@
 | 소스 직접 빌드 | 11월 27일 09:44 KST에 `Main`까지 794개 모두 종료 코드 0으로 컴파일됐다. 794개 전체에서 직접 읽은 소스와 산출물의 SHA-256이 로컬 원장과 일치했다. 공개 캐시와 바이트가 같은 모듈은 645개였다. [모듈별 실측 해시](evidence/direct-build-progress.json) |
 | 서로 다른 중간 증명항 | `JointHarmonicUnique`의 보조정리 하나는 두 빌드의 타입이 같고 증명항이 달랐다. 해당 정리를 양쪽에서 각각 선택해 검사하자 독립 커널이 두 번 모두 2,777개 선언을 수락했다. [양쪽 검사 결과](evidence/joint-harmonic-checks.json) |
 | 직접 빌드한 다섯 정리의 공리 | `import Main` 뒤 목표별 `#print axioms` 실행이 종료 코드 0으로 끝났다. 다섯 줄 모두 같은 세 공리를 출력했다. [다섯 줄 원문](evidence/source-axioms.out) · [실행 영수증](evidence/source-axioms.json) |
-| 소스 전체의 최종 판정 | 직접 빌드한 전체 해답의 export와 기본 Lean 커널 Comparator 결과는 이 시점에 대기 중이다. |
+| 소스 전체의 최종 판정 | 독립 목표 5개, 허용 공리 3개, 공식 Comparator가 지정하는 루트 38개로 대조했다. 기본 커널 수락, 종료 코드 0, 53분 56.153초. 네트워크 권한이 없는 Windows AppContainer에서 실행했다. [명령·버전·격리·결과](evidence/comparator.json) · [표준 오류 원문](evidence/comparator.err) |
+
+직접 만든 목표 파일은 MIT 배포본과 SHA-256이 같다. 직접 만든 해답은 5,172,278,111바이트로 MIT 배포본보다 3,583바이트 크다. 위 판정은 이 PC에서 만든 해답에 대한 것이다. 다른 컴퓨터에서도 같은 입력을 재생할 수 있도록 목표·해답과 검산기를 공개했다. [재현용 파일](https://github.com/tjwlstj/rh-grh-compact-verification-20261126/releases/tag/compact-replay-20261127) · [재현 명령](재현-명령.md) · [입력별 SHA-256](evidence/comparator-inputs.json)
 
 [검증 보고서](축약판-검증.md)에는 원판과의 목표 대조, 도구 버전, MIT의 별도 실행 결과가 있다. [체시의 수학 노트](체시의-수학노트.md)는 세타 리프트로 얻은 격자 부피의 두 추정이 소수합의 오차를 어떻게 제한하는지 코드에서 따라간다. [실행한 예제](ProjectWeights.lean)는 같은 합동류의 두 소수에서 실제 가중치가 각각 0과 `2 * log 258721`이 되는 것을 확인한다.
 

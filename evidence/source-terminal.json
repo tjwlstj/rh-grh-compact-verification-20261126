@@ -1,0 +1,68 @@
+{
+  "utc": "2026-11-27T00:53:22+00:00",
+  "sourceGit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "tool": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "plannedModules": 794,
+  "acceptedModules": 794,
+  "ledgerEntries": 794,
+  "issues": [],
+  "sourceMainBuilt": true,
+  "challenge": {
+    "available": true,
+    "successfulJob": true,
+    "receiptMatchesFile": true,
+    "bytes": 354827875,
+    "sha256": "20eb99a04b40f6afe1b44931e7ee82b15208542517dc588ace9634acffc41694",
+    "matchesPublishedSHA": true,
+    "command": "commands\\challenge-comparator-export-1795665963117076000.log"
+  },
+  "solution": {
+    "available": true,
+    "successfulJob": true,
+    "receiptMatchesFile": true,
+    "bytes": 5172278111,
+    "sha256": "5a4ab2e2c6db4ca5ea3bafbe76157f8db5ab520e1eaacd5a13350eafad1e96f6",
+    "matchesPublishedSHA": false,
+    "command": "commands\\solution-comparator-export-1795740443923606700.log"
+  },
+  "axioms": {
+    "available": true,
+    "successfulJob": true,
+    "allFive": true,
+    "onlyPermittedAxioms": true,
+    "permittedAxioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "printed": {
+      "riemannHypothesis": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "riemannZeta_eq_zero_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_ne_zero_of_half_lt_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_eq_zero_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_eq_zero_re_of_isPrimitive": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "command": "commands\\axioms-1795740286659989000.log"
+  },
+  "endUtc": "2026-11-27T00:54:11+00:00"
+}
